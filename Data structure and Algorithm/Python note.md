@@ -225,3 +225,103 @@ rshift operator overloaded
 Invert operator overloaded
 -11
 ```
+## Keyword and its funcion
+
+#### Value keyword
+
+- `True`
+- `False`
+- `None`: None is used to define a null value or Null object in Python. It is not the same as an empty string, a False, or a zero. It is a data type of the class NoneType object. 
+
+#### Operator keyword
+
+- `and`
+- `or`
+- `not`
+- `is`: The “is keyword” is used to test whether two variables belong to the same object. The test will return True if the two objects are the same else it will return False even if the two objects are 100% equal.
+  - `is`比较的是两个内存地址，而`==`比较的单纯是内容是否一致
+- `in`: The in keyword in Python is a powerful operator used for membership testing and iteration. It helps determine whether an element exists within a given sequence, such as a list, tuple, string, set or dictionary.
+> **Example 1**: in Keyword with if Statement
+> ```py
+> a = ["php", "python", "java"]
+> 
+> if "php" in a:
+    print(True)
+> ```
+> ```text
+> TRUE
+> ```
+
+> **Example 2**: in keyword in a for loop
+> ```py
+> s = "GeeksforGeeks"
+> 
+>  for char in s:
+>    if char == 'f':
+>        break  
+>    print(char)
+> ```
+> ```text
+> G
+> e
+> e
+> k
+> s
+
+#### Control Flow Keywords
+
+- `if`
+- `else`
+- `elif`(if-elif Statement)(else if)
+- `for`
+- `while`
+- `break`
+- `continue`
+- `pass`: Examples situations where pass is used are empty functions, classes, loops or conditional blocks.
+- `try`&`except`&`finally`: 
+> **Example 1**:
+> ```py 
+> # code
+> def divide(x, y):
+>   try:
+>       # Floor Division : Gives only Fractional Part as Answer
+>       result = x // y
+>       print("Yeah ! Your answer is :", result)
+>   except Exception as e:
+>      # By this way we can know about the type of error occurring
+>       print("The error is: ",e)
+> divide(3, "GFG") 
+> divide(3,0)
+
+```text
+The error is:  unsupported operand type(s) for //: 'int' and 'str'
+The error is:  integer division or modulo by zero
+```
+
+  - Else Clause:
+  ```text
+  try:
+    # Some Code
+  except:
+    # Executed if error in the
+    # try block
+  else:
+    # execute if no exception
+  ```
+  - Finally Keyword:
+  ```text
+  try:
+    # Some Code
+  except:
+    # Executed if error in the
+    # try block
+  else:
+    # execute if no exception
+  finally:
+    # Some code .....(always executed)
+  ```
+- `raise`: 我不懂
+- `assert`: In simpler terms, we can say that assertion is the boolean expression that checks if the statement is True or False. If the statement is true then it does nothing and continues the execution, but if the statement is False then it stops the execution of the program and throws an error.
+- 
+
+

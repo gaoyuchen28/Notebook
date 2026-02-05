@@ -1,5 +1,4 @@
-x=2
-y=3
-print(x//y)
-print(x/y)
-print(x%y)
+a = 5
+
+if a % 2 != 0:
+    raise Exception("The number shouldn't be an odd integer")
