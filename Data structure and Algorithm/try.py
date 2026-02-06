@@ -1,4 +1,9 @@
-a = 5
+def my_generator(m):
+    if m==5:
+        yield 1
+        yield 2
 
-if a % 2 != 0:
-    raise Exception("The number shouldn't be an odd integer")
+g = my_generator(5)
+print(type(g))  
+print(my_generator(5)) 
+print(my_generator(5))
