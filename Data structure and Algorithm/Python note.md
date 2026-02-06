@@ -322,6 +322,234 @@ The error is:  integer division or modulo by zero
   ```
 - `raise`: 我不懂
 - `assert`: In simpler terms, we can say that assertion is the boolean expression that checks if the statement is True or False. If the statement is true then it does nothing and continues the execution, but if the statement is False then it stops the execution of the program and throws an error.
-- 
 
+#### Function and Class
 
+- `def`: The def keyword in Python is used to define a function
+    The below diagram shows the basic structure of a Python function, including its name, parameters, body, and **optional return value**.
+  
+  ![1](1.png)
+
+  - **Passing Function as an Argument**: you can pass functions as arguments to other functions, allowing you to call it inside that function.
+  ```py
+  def fun(func, arg):
+    return func(arg)
+  
+  def square(x):
+    return x ** 2
+  
+  res = fun(square, 5)
+  print(res)
+  ```
+  - **Using `*args`**： `*args` allows a function to accept a **variable number** of positional arguments, which are collected into a tuple(元组), making the function flexible to handle multiple inputs.
+  ```py
+  def fun(*args):
+    for arg in args:
+        print(arg)
+
+  fun(1, 2, 3, 4, 5)
+  ```
+
+  ```text
+  1
+  2
+  3
+  4
+  5
+  ```
+  - **Using `**kwargs`**: `**kwargs` lets a function accept any number of keyword arguments. These arguments are collected into a dictionary, with keys as argument names and values as their corresponding values.
+  ```py
+  def fun(**kwargs):
+    for k, val in kwargs.items():
+        print(f"{k}: {val}")
+
+  fun(name="Olivia", age=30, city="New York") 
+  ```
+
+  ```text
+  name: Olivia
+  age: 30
+  city: New York
+  ```
+
+  - Using `def` Inside a `Class`: Inside a class, functions are called methods. You define them using def just like regular functions, but they usually take self as the first parameter to access the object’s attributes and other methods.
+  ```py
+  class Person:
+    def __init__(self, name, age):
+        self.name = name  
+        self.age = age    
+    
+    def greet(self):
+        print(f"Name - {self.name} and Age - {self.age}.")
+
+  p1 = Person("Harry", 30)
+  p1.greet()
+  ```
+
+  ```text
+  Name - Harry and Age - 30.
+  ```
+
+- `return`: 
+  - Returning Multiple Values
+  - Returning a List from a Function
+  - Function Returning Another Function
+- `Lambda`(即时短函数): Lambda functions are small anonymous functions, meaning they do not have a defined name. In Python, lambda functions are created using the lambda keyword for short, simple operations. 
+  
+  ![2](2.png)
+
+  - **Using with Condition Checking**: 
+  ```py
+  check = lambda x: "Positive" if x > 0 else "Negative" if x < 0 else "Zero"
+  print(check(5))   
+  print(check(-3))  
+  print(check(0))
+  ```
+
+  - **Using with List Comprehension**: Lambda functions can be combined with list comprehensions to apply the **same operation** to multiple values in a compact way.
+  ```py
+  func = [lambda arg=x: arg * 10 for x in range(1, 5)]
+  for i in func:
+    print(i())
+  ```
+
+  ```
+  10
+  20
+  30
+  40
+  ```
+  - **Using for Returning Multiple Results**: Although a lambda can contain only one expression, it can still return multiple results by combining them into a tuple.
+  ```py
+  calc = lambda x, y: (x + y, x * y)
+  res = calc(3, 4)
+  print(res)
+  ```
+
+  - **Using with `filter()`**: 
+  ```py
+  c = [1, 2, 3, 4, 5, 6]
+  even = filter(lambda x: x % 2 == 0, c)
+  print(list(even))
+  ```
+  - **Using with `map()`**: map() function applies a lambda expression to each element of a list and returns a new list with the transformed values.
+  ```py
+  a = [1, 2, 3, 4]
+  double = map(lambda x: x * 2, a)
+  print(list(double))
+  ```
+  - **Using with `reduce()`**
+  ```py
+  from functools import reduce
+  a = [1, 2, 3, 4]
+  mul = reduce(lambda x, y: x * y, a)
+  print(mul)
+  ```
+- `yield`: In Python, yield keyword is used to create generators, which are special types of iterators that allow values to be produced lazily, one at a time, instead of returning them all at once. 
+  - **Generator functions and yield**：
+  ```py
+  def my_generator():
+    yield "Hello world!!"
+    yield "GeeksForGeeks"
+
+  g = my_generator()
+  print(type(g))  
+  print(next(g)) 
+  print(next(g))
+  ```
+
+  ```
+  <class 'generator'>
+  Hello world!!
+  GeeksForGeeks
+  ```
+
+  - **Generating an Infinite Sequence**: 
+  ```py
+  def infinite_sequence():
+    n = 0
+    while True:
+        yield n
+        n += 1
+
+  g = infinite_sequence()
+  for _ in range(10):
+    print(next(g), end=" ")
+  ```
+
+  ```
+  0 1 2 3 4 5 6 7 8 9 
+  ```
+
+  - **Extracting even numbers from list**: 
+  ```py
+  def fun(a):
+    for n in a:
+        if n % 2 == 0:
+            yield n
+
+  a = [1, 4, 5, 6, 7]
+  print(list(fun(a)))
+  ```
+  - **Using yield as a boolean expression**: 
+  ```py
+  def fun(text, keyword):
+    w = text.split()
+    for n in w:
+        if n == keyword:
+            yield True
+
+  txt = "geeks for geeks"
+  s = fun(txt, "geeks")
+  print(sum(s))
+  ```
+
+  ```text
+  2
+  ```
+
+- `class`: object is a specific instance of a class. It holds its own set of data (instance variables) and can invoke methods defined by its class. Multiple objects can be created from same class, each with its own unique attributes.
+  ```py
+  class Dog:
+    sound = "bark"
+
+  dog1 = Dog() # Creating object from class
+  print(dog1.sound) # Accessing the class
+  ```
+
+  - **Initiate Object with `__init__()`**: 
+  ```py
+  class Dog:
+    species = "Canine"  # Class attribute
+
+    def __init__(self, name, age):
+        self.name = name  # Instance attribute
+        self.age = age  # Instance attribute
+
+  # Creating an object of the Dog class
+  dog1 = Dog("Buddy", 3)
+
+  print(dog1.name)  
+  print(dog1.species)
+  ```
+
+  ```
+  Buddy
+  Canine
+  ```
+  - `__str__()` Method: `__str__` method in Python allows us to define a custom string representation of an object. 
+  ```py
+  class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"{self.name} is {self.age} years old."
+  dog1 = Dog("Buddy", 3)
+  dog2 = Dog("Charlie", 5)
+
+  print(dog1)  
+  print(dog2)
+  ```
+  
