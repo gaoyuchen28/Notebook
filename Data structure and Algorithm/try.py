@@ -1,11 +1,9 @@
-a = 15 # global variable
+a = [10, 20, 30]
 
-# function to change a global value
-def change():
-    # increment value of a by 5
-    b = a + 5
-    a = b
-    print(a)
+def fun():
+    a = [20, 30, 40]
 
 
-change()
+print("before", a)
+fun()
+print("after", a)

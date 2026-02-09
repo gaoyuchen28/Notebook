@@ -634,3 +634,97 @@ The error is:  integer division or modulo by zero
   ```
 
 #### Import and Module
+
+- `import`: In Python, modules help organize code into reusable files. They allow you to import and use functions, classes and variables from other scripts. The import statement is the most common way to bring external functionality into your Python program.
+  - **Importing built-in Module**：
+  ```py
+  import math
+  pie = math.pi
+  print("Value of pi:", pie)
+  ```
+  - **Importing External Modules**: To use external modules, we need to install them first, we can easily install any external module using pip command in the terminal, for example:
+  ```text
+  pip install module_name
+  ```
+  ```py
+  import pandas
+
+  # Create a simple DataFrame
+  data = {
+    "Name": ["Elon", "Trevor", "Swastik"],
+    "Age": [25, 30, 35]
+  }
+
+  df = pandas.DataFrame(data)
+  print(df)
+  ```
+  ```text
+        Name  Age
+  0     Elon   25
+  1   Trevor   30
+  2  Swastik   35
+  ```
+  - **Importing Specific Functions**: 
+  ```py
+  from math import pi
+  print(pi)
+  ```
+  - **Handling Import Errors in Python**:When importing a module that doesn’t exist or isn't installed, Python raises an ImportError. To prevent this, we can handle such cases using try-except blocks.
+  ```py
+  try:
+    import mathematics  # Incorrect module name
+    print(mathematics.pi)
+  except ImportError:
+    print("Module not found! Please check the module name or install it if necessary.")
+  ```
+
+- `from`: The from keyword in Python is mainly used for importing specific parts of a module rather than the entire module. It helps in making the code cleaner and more efficient by allowing us to access only the required functions, classes, or variables.
+
+#### Scope and Namespace
+
+- `Global`: The global keyword in Python allows a function to modify variables that are defined outside its scope, making them accessible globally. Without it, variables inside a function are treated as local by default. It's commonly used when we need to update the value of a global variable within a function, ensuring the changes persist outside the function.
+  - **Accessing global Variable From Inside a Function**: 
+  ```py
+  a = 15 # global variable
+
+  # function to change a global value
+  def change():
+    # increment value of a by 5
+    b = a + 5
+    a = b #这一步的存在让算法认为这整个函数里面的a都是local的，所以导致上一步无法正常进行了
+    print(a)
+
+
+  change()
+  ```
+  - **Global variables across Python modules**: 
+  
+  **Code 1: config.py for Storing Global Variables**
+  ```py
+  # config.py
+  x = 0
+  y = 0
+  z = "none"
+  ```
+  **Code 2: modify.py to Modify Global Variables**
+  ```py
+  # modify.py
+  import config
+  config.x = 1
+  config.y = 2
+  config.z = "geeksforgeeks"
+  ```
+  **Code 3: main.py to Access Modified Global Variables**
+  ```py
+  # main.py
+  import config
+  import modify
+
+  print(config.x)
+  print(config.y)
+  print(config.z)
+  ```
+  其实就是跨文件的调用
+
+  - **Global in Nested functions**: 
+  
