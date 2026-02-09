@@ -552,4 +552,85 @@ The error is:  integer division or modulo by zero
   print(dog1)  
   print(dog2)
   ```
+
+#### Context Management
+
+- `with`: The `with` statement in Python simplifies resource management by automatically handling setup and cleanup, ensuring files or connections close safely even if errors occur.
+  - **Safe File Handling**: 
+  ```py
+  with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)  # File closes automatically
+  ```
+  ```py
+  with open("example.txt", "w") as file:
+    file.write("Hello, Python with statement!")
+  ```
+  - **Context Managers and "with" statement**: 
+  ```py
+  class FileManager:
+    def __init__(self, filename, mode):
+        self.filename = filename
+        self.mode = mode
+
+    def __enter__(self):
+        self.file = open(self.filename, self.mode)
+        return self.file
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.file.close()
+
+  # using the custom context manager
+  with FileManager('example.txt', 'w') as file:
+    file.write('Hello, World!')
+  ```
+  （但其实我学到这里并不是很懂`open`和一个新的FileManager的区别）
+
+- `as`: as keyword in Python plays a important role in simplifying code, making it more readable and avoiding potential naming conflicts. It is mainly used to create **aliases**(别名) for modules, exceptions and file operations. This powerful feature reduces verbosity, helps in naming clarity and can be essential when multiple modules have similar names or when managing file operations.
+  - **Create Alias for the module**: 
+  ```py
+  # Import random module with alias
+  import random as geek
+
+  # Using random module with alias to generate random numbers
+  a = geek.randint(5, 10)
+  b = geek.randint(1, 5)
+
+  # Printing the generated random numbers
+  print(a,b)
+  ```
+  - **as with a file**
+  ```py
+  # Using 'as' keyword with 'open' function
+  with open('sample.txt') as geek:
   
+    # Reading text with alias
+    geek_read = geek.read()
+
+  # Printing the text read from the file
+  print("Text read with alias:")
+  print(geek_read)
+  ```
+  - **as in Except clause**: 
+  ```py
+  # Demonstrating 'as' keyword with exception handling
+
+  try:
+    import maths as mt
+  except ImportError as err:
+    print(err)
+
+  try:
+    # With statement with 'geek' alias
+    with open('geek.txt') as geek:
+        # Reading text with alias
+        geek_read = geek.read()
+
+    # Printing the read text
+    print("Reading alias:")
+    print(geek_read)
+  except FileNotFoundError as err2:
+    print('No file found')
+  ```
+
+#### Import and Module
