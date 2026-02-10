@@ -1,9 +1,7 @@
-a = [10, 20, 30]
+d = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
 
-def fun():
-    a = [20, 30, 40]
+# Accessing an element using key
+print(d['name'])
 
-
-print("before", a)
-fun()
-print("after", a)
+# Accessing a element using get
+print(d.get('names'))

@@ -727,4 +727,109 @@ The error is:  integer division or modulo by zero
   其实就是跨文件的调用
 
   - **Global in Nested functions**: 
+  ```py
+  def add():
+    x = 15
+    def change():
+        global x  # Declare x as global to modify it inside the nested function
+        x = 20
+    print("Before changing:", x)
+    print("Making change")
+    change()
+    print("After changing:", x)
+
+  add()
+  print("Value of x outside:", x)
+  ```
+  ```text
+  Before changing: 15
+  Making change
+  After changing: 15
+  Value of x outside: 20
+  ```
+
+- `nonlocal`: The nonlocal keyword in Python is used within nested functions to indicate that a variable refers to a previously bound variable in the **nearest enclosing but non-global scope**. This allows modification of variables in an outer function from within an inner function without making them global.
+
+#### Async Programming
+
+- `async`: async keyword in Python is used to define asynchronous functions, which allow tasks to run without blocking the execution of other code.
+- `await`
+
+## Data Types
+
+| data type | instances |
+|-----------|-----------|
+| Numeric   | int, float, complex(复数) |
+| Sequence Type | string, list, tuple |
+| Mapping Type | dict |
+| Boolean | bool |
+| Set Type | set, frozenset |
+| Binary Types | bytes, bytearray, memoryview |
+
+#### Numeric Data Types
+
+- **Integers**: value is represented by int class. It contains positive or negative whole numbers (without fractions or decimals). There is no limit to how long an integer value can be.
+- **Float**: value is represented by float class. It is a real number with a floating-point representation. It is specified by a decimal point. Optionally, character e or E followed by a positive or negative integer may be appended to specify scientific notation.
+- **Complex Numbers**: It is represented by a complex class. It is specified as (real part) + (imaginary part)j. For example - 2+3j
+
+#### Sequence Data Types
+
+- **String Data Type**: Strings in Python can be created using single quotes, double quotes or even triple quotes. We can access individual characters of a String using index.
+  ```py
+  s = 'Welcome to the Geeks World'
+  print(s)
+
+  # check data type 
+  print(type(s))
+
+  # access string with index
+  print(s[1])
+  print(s[2])
+  print(s[-1])
+  ```
+
+- **List Data Type**: Lists are similar to arrays found in other languages. They are an ordered and mutable collection of items. It is very flexible as items in a list do not need to be of the same type. Lists in Python can be created by just placing sequence inside the square brackets[].
+  > In order to access the list items refer to index number. In Python, negative sequence indexes represent positions from end of the array. Instead of having to compute offset as in List[len(List)-3], it is enough to just write List[-3]. Negative indexing means beginning from end, -1 refers to last item, -2 refers to second-last item, etc.
+
+- **Tuple Data Type**: Tuple is an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable. Tuples cannot be modified after it is created.
+  ```py
+  tup1 = (1, 2, 3, 4, 5)
+
+  # access tuple items
+  print(tup1[0])
+  print(tup1[-1])
+  print(tup1[-3])
+  ```
+
+#### Set Data Type
+
+In Python Data Types, Set is an unordered collection of data types that is iterable, mutable, and has no **duplicate elements**. The order of elements in a set is undefined though it may consist of various elements.
+
+- **Access Set Items**: Set items cannot be accessed by referring to an index, since sets are unordered the items have no index. But we can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the keyword in.
+  ```py
+  set1 = set(["Geeks", "For", "Geeks"]) #Duplicates are removed automatically
+  print(set1) 
+
+  # loop through set
+  for i in set1:
+   print(i, end=" ") #prints elements one by one
   
+  # check if item exist in set   
+  print("Geeks" in set1)
+  ```
+
+#### Dictionary Data Type
+
+A dictionary in Python is a collection of data values, used to store data values like a map, unlike other Python Data Types, a Dictionary holds a key: **value pair**. Key-value is provided in dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon : , whereas each key is separated by a ‘comma’.
+
+> In order to access items of a dictionary refer to its key name. Key can be used inside square brackets. Using get() method we can access dictionary elements.
+
+```py
+d = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
+
+# Accessing an element using key
+print(d['name'])
+
+# Accessing a element using get
+print(d.get(3))
+```
