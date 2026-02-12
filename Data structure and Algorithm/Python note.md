@@ -833,3 +833,131 @@ print(d['name'])
 # Accessing a element using get
 print(d.get(3))
 ```
+
+## Conditional statment
+
+#### `If` Conditional Statement
+
+#### `If` `else` Conditional Statement
+
+- **Short Hand if-else**: 
+  ```py
+  marks = 45
+  res = "Pass" if marks >= 40 else "Fail"
+  print(f"Result: {res}")
+  ```
+
+#### `elif` Statement
+
+Using elif statements makes our code more readable and efficient by eliminating the need for multiple nested if statements.
+
+#### Nested if..else Conditional Statement
+
+```py
+age = 70
+is_member = True
+
+if age >= 60:
+    if is_member:
+        print("30% senior discount!")
+    else:
+        print("20% senior discount.")
+else:
+    print("Not eligible for a senior discount.")
+```
+
+#### Ternary Conditional Statement
+
+A ternary conditional statement is a compact way to write an if-else condition in a single line. It’s sometimes called a "conditional expression.
+
+```py
+# Assign a value based on a condition
+age = 20
+s = "Adult" if age >= 18 else "Minor"
+print(s)
+```
+
+#### Match-Case Statement
+
+```py
+number = 2
+
+match number:
+    case 1:
+        print("One")
+    case 2 | 3:
+        print("Two or Three")
+    case _: # case _: =匹配所有剩余情况的默认分支（类似 default / else）
+        print("Other number")
+```
+
+## Loops
+
+#### For Loop
+
+```py
+li = ["geeks", "for", "geeks"]
+for x in li:
+    print(x)
+    
+tup = ("geeks", "for", "geeks")
+for x in tup:
+    print(x)
+    
+s = "abc"
+for x in s:
+    print(x)
+    
+d = dict({'x':123, 'y':354})
+for x in d:
+    print("%s  %d" % (x, d[x])) # 也可以用f-string来写
+    
+set1 = {10, 30, 20}
+for x in set1:
+    print(x)
+```
+
+```py
+li = ["geeks", "for", "geeks"]
+for index in range(len(li)):
+    print(li[index])
+```
+
+#### While Loop
+
+#### Nested Loops
+```py
+from __future__ import print_function
+for i in range(1, 5):
+    for j in range(i):
+        print(i, end=' ')
+    print()
+```
+
+#### Continue Statement
+
+```py
+for letter in 'geeksforgeeks':
+    if letter == 'e' or letter == 's':
+        continue
+    print('Current Letter :', letter)
+```
+
+#### Break Statement
+
+```py
+for letter in 'geeksforgeeks':
+    if letter == 'e' or letter == 's':
+        break
+
+print('Current Letter :', letter)
+```
+
+#### Pass Statement
+
+```py
+for letter in 'geeksforgeeks':
+    pass
+print('Last Letter :', letter)
+```
+
