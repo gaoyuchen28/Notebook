@@ -1,14 +1,10 @@
-# 假设你是一位出色的 AA 餐厅服务员，你的任务是计算每位顾客的应付金额。
+# 编写一个程序计算商店的利润/亏损额。
 
-# 输入顾客人数，并赋予total_friends变量。
-# 输入总发票数值，并分配给total_bill数值。
-# 在付款费用上加上20%的税，并计算最终付款费用均摊给付款额，然后打印。
-# 输入格式
+# 输入两个整数，分别为销售价格cost_price和成本价格selling_price。
+# 计算利润或亏损额（即“销售价格-成本价格”）。
+# 注意：负数意味着损失。
 
-# 两个整数
-
-total_friends=int(input())
-total_bill = int(input())
-total_bill = total_bill*(1+0.2)
-print(total_bill/total_friends)
+cost_price = int(input())
+selling_price = int(input())
+print(selling_price-cost_price)
 
