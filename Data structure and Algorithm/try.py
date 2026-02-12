@@ -1,10 +1,9 @@
-# 编写一个程序，按如下格式打印日期：
+# 编写一个程序，将分转换为秒。
 
-# 输入三个字符串，分别表示“日”、“月”、和“年”。
-# 以格式月/日/年打印日期。
+# 从输入获取一个整数，赋值给变量time_minutes。
+# 通过与60相乘将time_minutes转换为秒。(1分钟=60秒)。
+# 以秒为单位打印结果。
 
-day = input()
-month = input()
-year = input()
-print(f"{month}/{day}/{year}") 
+time_minutes = int(input())
+print(time_minutes*60)
 
