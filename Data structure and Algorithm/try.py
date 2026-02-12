@@ -1,9 +1,13 @@
-# 编写一个程序，将分转换为秒。
+# 编写一个程序：将N个巧克力均分给M个儿童。
 
-# 从输入获取一个整数，赋值给变量time_minutes。
-# 通过与60相乘将time_minutes转换为秒。(1分钟=60秒)。
-# 以秒为单位打印结果。
+# 从输入获取一个整数：巧克力数量，并将其分配给 chocolates 变量。
+# 从输入获取一个整数：孩子数量，并将其分配给 children 变量。
+# 计算每个孩子在除法后得到的巧克力数量并打印出来。
+# 计算剩余巧克力的数量并打印出来。
 
-time_minutes = int(input())
-print(time_minutes*60)
+chocolates = int(input())
 
+children = int(input())
+
+print(chocolates // children)
+print(chocolates % children)
