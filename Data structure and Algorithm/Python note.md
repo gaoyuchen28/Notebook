@@ -961,3 +961,327 @@ for letter in 'geeksforgeeks':
 print('Last Letter :', letter)
 ```
 
+# Function
+
+## Function Arguments
+
+#### Default(默认) Arguments
+
+```py
+def myFun(x, y=50):
+    print("x: ", x)
+    print("y: ", y)
+
+myFun(10)
+```
+
+```
+x:  10
+y:  50
+```
+
+#### Keyword(关键词) Arguments
+
+In keyword arguments, values are passed by explicitly specifying the parameter names, so the order doesn’t matter.
+```py
+def student(fname, lname):
+    print(fname, lname)
+
+student(fname='Geeks', lname='Practice')
+student(lname='Practice', fname='Geeks')
+```
+
+#### Positional Arguments
+
+In positional arguments, values are assigned to parameters based on their order in the function call.
+
+#### Arbitrary Arguments
+
+In Python Arbitrary Keyword Arguments, *args and **kwargs can pass a variable number of arguments to a function using special symbols. There are two special symbols:
+
+*args in Python (Non-Keyword Arguments)
+**kwargs in Python (Keyword Arguments)
+
+```py
+def myFun(*args, **kwargs):
+    print("Non-Keyword Arguments (*args):")
+    for arg in args:
+        print(arg)
+
+    print("\nKeyword Arguments (**kwargs):")
+    for key, value in kwargs.items():
+        print(f"{key} == {value}")
+
+# Function call with both types of arguments
+myFun('Hey', 'Welcome', first='Geeks', mid='for', last='Geeks')
+```
+
+```
+Non-Keyword Arguments (*args):
+Hey
+Welcome
+
+Keyword Arguments (**kwargs):
+first == Geeks
+mid == for
+last == Geeks
+```
+
+#### Pass by Reference and Pass by Value
+
+In Python, variables are references to objects. When we pass them to a function, the behavior depends on whether the object is mutable (like lists, dictionaries) or immutable (like integers, strings, tuples).
+
+Mutable objects: Changes inside the function affect the original object.
+Immutable objects: The original value remains unchanged.
+
+```py
+# Function modifies the first element of list
+def myFun(x):
+    x[0] = 20
+
+lst = [10, 11, 12, 13]
+myFun(lst)
+print(lst)   # list is modified
+
+# Function tries to modify an integer
+def myFun2(x):
+    x = 20
+
+a = 10
+myFun2(a)
+print(a)     # integer is not modified
+```
+
+#### Recursive(递归) Functions
+
+```py
+def factorial(n):
+    if n == 0:  
+        return 1
+    else:
+        return n * factorial(n - 1) 
+      
+print(factorial(4))
+```
+## Recursion
+
+#### Factorial Calculation
+
+```py
+def factorial(n):
+    if n == 0:  # Base case
+        return 1
+    else:       # Recursive case
+        return n * factorial(n - 1)
+
+print(factorial(5))
+```
+
+#### Fibonacci Sequence
+
+```py
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(10))
+```
+
+#### Types of Recursion in Python
+
+- **Tail Recursion**: The recursive call is the last thing the function does, so nothing happens after it returns. Some languages **can optimize this to work like a loop**, saving memory.
+- **Non-Tail Recursion**: The function does more work after the recursive call returns, so it can’t be optimized into a loop.
+
+```py
+def tail_fact(n, acc=1):
+    # Base case
+    if n == 0:
+        return acc
+    # Tail recursive call with an accumulator
+    else:
+        return tail_fact(n-1, acc * n)
+
+def nontail_fact(n):
+    # Base case
+    if n == 1:
+        return 1
+    # Non-tail recursive call because the multiplication happens after the call
+    else:
+        return n * nontail_fact(n-1)
+
+# Example usage
+print(tail_fact(5))  
+print(nontail_fact(5))
+```
+
+## Uses 'Self' as Default Argument
+
+In Python, when defining methods inside a class, first parameter is always self. It is not a keyword, but a naming convention that plays a key role in Python’s object-oriented programming. The self parameter represents instance of the class itself, allowing you to access and modify its attributes and methods.
+
+我们来看几个例子吧：
+
+```py
+class gfg:
+    def __init__(self, topic):
+        self._topic = topic  # Store parameter value in instance variable
+
+    def topic(self):
+        print("Topic:", self._topic)  # Access the renamed variable
+
+# Creating an instance of gfg
+ins = gfg("Python")
+
+# Calling the topic method
+ins.topic()
+```
+```
+Topic: Python
+```
+
+```py
+class Circle:
+    def __init__(self, r):
+        self.r = r
+
+    def area(self):
+        a = 3.14 * self.r ** 2
+        return a
+
+# Creating an instance of Circle
+ins = Circle(5)
+
+# Calling the area method
+print("Area of the circle:", ins.area())
+```
+```
+Area of the circle: 78.5
+```
+
+## First-Class Functions
+
+#### Assigning Functions to Variables
+
+```py
+def msg(name):
+    return f"Hello, {name}!"
+
+# Assigning the function to a variable
+f = msg
+
+# Calling the function using the variable
+print(f("Emma"))
+```
+
+#### Passing Functions as Arguments
+
+Functions can be passed as arguments to other functions, enabling higher-order functions.
+
+```py
+def msg(name):
+    return f"Hello, {name}!"
+
+def fun1(fun2, name):
+    return fun2(name)
+
+# Passing the msg function as an argument
+print(fun1(msg, "Alex"))
+```
+
+#### Returning Functions from Other Functions
+
+```py
+def fun1(msg):
+    def fun2():
+        return f"Message: {msg}"
+    return fun2
+
+# Getting the inner function
+func = fun1("Hello, World!")
+print(func())
+```
+
+#### Storing Functions in Data Structures
+
+```py
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+# Storing functions in a dictionary
+d = {
+    "add": add,
+    "subtract": subtract
+}
+
+# Calling functions from the dictionary
+print(d["add"](5, 3))       
+print(d["subtract"](5, 3))
+```
+
+## Map, Reduce and Filter Function
+
+#### Map
+
+- **Converting map object to a list**: By default, map() function returns a map object, which is an iterator. In many cases, we will need to convert this iterator to a list to work with the results directly.
+  ```py
+  # Custom function to be applied
+  # in map
+  def double(val):
+      return val * 2
+
+  # Let us apply double on every member
+  a = [1, 2, 3, 4]    
+  res = list(map(double, a))
+  print(res)
+  ```
+- **map() with lambda**: We can use a lambda function instead of a custom function with map() to make code shorter and easier. Let's see how to improve above code for better readability.
+  ```py
+  a = [1, 2, 3, 4]
+  res = list(map(lambda x: x ** 2, a))
+  print(res)
+  ```
+
+- **map() with multiple iterables**: We can use map() with multiple iterables if the function we are applying takes more than one argument.
+  ```py
+  a = [1, 2, 3]
+  b = [4, 5, 6]
+  res = map(lambda x, y: x + y, a, b)
+  print(list(res))
+  ```
+
+- **map() with 'string'**: 
+  ```py
+  fruits = ['apple', 'banana', 'cherry']
+  res = map(str.upper, fruits)
+  print(list(res))
+  ```
+  ```
+  ['APPLE', 'BANANA', 'CHERRY']
+  ```
+
+  ```py
+  words = ['apple', 'banana', 'cherry']
+  res = map(lambda s: s[0], words)
+  print(list(res))
+  ```
+  ```
+  ['a', 'b', 'c']
+  ```
+
+  ```py
+  s = ['  hello  ', '  world ', ' python  ']
+  res = map(str.strip, s)
+  print(list(res))
+  ```
+  ```
+  ['hello', 'world', 'python']
+  ```
+
+  
+
