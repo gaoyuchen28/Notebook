@@ -1,15 +1,10 @@
-# 编写一个程序: 判断学生是否通过、不通过考试，或输入的分数是否无效。
+# 写一个程序：判断一个数字是否是完全平方数。
 
-# 输入一个整数，存储在变量marks。
-# 检查分数是否小于0或大于100。如果是则打印 无效的分数。
-# 检查分数是否大于40。如果是，则打印 通过。
-# 否则，打印 失败。
-
-marks = int(input())
-if marks < 0 or marks > 100:
-    print("无效的分数")
-elif marks > 40:
-    print("通过")
+import math
+number = int(input())
+square_root = math.sqrt(number)
+if square_root % 1 == 0:
+    print("完全平方数")
 else:
-    print("失败")
+    print("非完全平方数")
     
