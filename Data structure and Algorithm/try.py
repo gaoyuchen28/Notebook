@@ -1,9 +1,10 @@
-def nameAge(name, age):
-    print("Hi, I am", name)
-    print("My age is ", age)
+# 获取分数输入marks。
+# 判断分数是否大于或等于40。
+# 如果它大于或等于40，打印 pass。
+# 否则，打印 fail。
 
-print("Case-1:")
-nameAge("Suraj", 27)
-
-print("\nCase-2:")
-nameAge(name="Suraj", age="27")
+marks = int(input())
+if marks >= 40:
+    print("pass")
+else:
+    print("fail")
