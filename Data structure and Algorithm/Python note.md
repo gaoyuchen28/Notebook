@@ -1283,5 +1283,145 @@ print(d["subtract"](5, 3))
   ['hello', 'world', 'python']
   ```
 
-  
+#### reduce
+
+reduce() function (from functools) applies a function cumulatively to an iterable, reducing it to a single value
+
+```py
+from functools import reduce
+li = ["Geeks", "for", "Geeks"]
+res = reduce(lambda x, y: x + " " + y, li)
+print(res)
+```
+
+- **Basic Usage with a Named Function**: 
+  ```py
+  from functools import reduce
+  def add(x, y):
+      return x + y
+
+  a = [1, 2, 3, 4, 5]
+  res = reduce(add, a)
+  print(res)
+  ```
+  (累加)
+
+- **Using reduce() with a Lambda Function**: 
+  ```py
+  from functools import reduce
+  a = [1, 2, 3, 4, 5]
+  res = reduce(lambda x, y: x * y, a)
+  print(res)
+  ```
+
+- **Using reduce() with operator Module**: 
+  ```py
+  import functools
+  import operator
+  a = [1, 3, 5, 6, 2]
+
+  print(functools.reduce(operator.add, a))
+  print(functools.reduce(operator.mul, a)) 
+  print(functools.reduce(operator.add, ["geeks", "for", "geeks"]))
+  ```
+
+- **Using initializer**: 
+  ```py
+  from functools import reduce
+  a = [1, 2, 3]
+  res = reduce(lambda x, y: x + y, a, 10)
+  print(res)
+  ```
+
+  - `accumulate()`: The accumulate() function (from itertools) and reduce() both apply a function cumulatively to items in a sequence. However, accumulate() returns an iterator of **intermediate results**, while reduce() returns only final value.
+  ```py
+  from itertools import accumulate
+  from operator import add
+
+  a = [1, 2, 3, 4, 5]
+  res = accumulate(a, add)
+  print(list(res))
+  ```
+
+#### filter()
+
+filter() function is used to extract elements from an iterable (like a list, tuple or set) that satisfy a given condition. It works by applying a function to each element and keeping only those for which function returns True.
+
+```py
+def starts_a(w):
+    return w.startswith("a")
+
+li = ["apple", "banana", "avocado", "cherry", "apricot"]
+res = filter(starts_a, li)
+print(list(res))
+```
+
+- **Using filter() with a Named Function**: 
+  ```py
+  def even(n):
+    return n % 2 == 0
+
+  a = [1, 2, 3, 4, 5, 6]
+  b = filter(even, a)
+  print(list(b)) # Convert filter object to a list
+  ```
+
+- **Using filter() with a Lambda Function**: 
+  ```py
+  a = [1, 2, 3, 4, 5, 6]
+  b = filter(lambda x: x % 2 == 0, a)
+  print(list(b))
+  ```
+
+- **Filtering with None (Truthiness Check)**: 
+  ```py
+  L = ["apple", "", None, "banana", 0, "cherry"]
+  A = filter(None, L)
+  print(list(A))
+  ```
+
+## inner function
+
+#### Scope of variables in inner functions
+
+- **Modifying variables using nonlocal**:
+  ```py
+  def fun1(): 
+    a = 45
+    def fun2(): 
+        nonlocal a 
+        a=54
+        print(a)
+    fun2()
+    print(a)
+  fun1()
+  ```
+
+#### Real World Applications of Inner functions
+
+- **Encapsulation of helper functions**
+```py
+def process_data(data):
+    def clean_data():
+        return [item.strip() for item in data] 
+    return clean_data() # 有括号意思是：马上执行它。
+print(process_data(["  Python  ", "  Inner Function  "]))
+```
+
+- **Function wrapper and logging**
+```py
+import logging
+logging.basicConfig(level=logging.INFO) 
+
+def logger(func):
+    def wrapper(*args, **kwargs):
+        logging.info(f"Executing {func.__name__} with {args}, {kwargs}") 
+        return func(*args, **kwargs) 
+    return wrapper
+
+@logger
+def add(a, b):
+    return a + b  
+print(add(3, 4))
+```
 
