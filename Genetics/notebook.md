@@ -94,5 +94,33 @@ Alternative form of the traits--**allele**(等位基因)
 <picture>
 
 > Huntington's disease: a rare dominant trait
+> Cystic fibrosis: recessive condition
+> Progeria: a *de novo* dominant trait
+> Treacher Collins syndrome(TCS): a *de novo* dominant trait
 
 ## Extension to Mendal's Law
+
+#### Single-gene inheritance
+
+**Incomplete dominance**: intermediate traits
+> *Antirrhinum majus*
+
+**Codominant**: both traits appear equally
+> lentil
+> blood type
+
+**Multiple alleles**: Dominance or recessiveness is always relative to a second allele.
+- perform reciprocal crosses between pure breeding lines of all phenotypes
+
+**Pleiotropy**: a single gene determines more than one distinct and seemingly unrelate characteristic
+> Primary Ciliary Dyskinesia, PCD
+> 毛色（）
+> Sickle-Cell Anemia
+> - clog the small blood vessels
+> - Very fragile
+> 有一张图，海拔不同的时候呈现的显隐关系会变化，贫血和疟疾之间的显隐关系也会变化
+> Malaria parasites cause sickle-shaped blood cells to break down before the malaria parasites can reproduce.
+
+Some alleles may cause **lethality**
+
+
