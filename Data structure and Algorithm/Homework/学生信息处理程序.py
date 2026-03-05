@@ -16,21 +16,21 @@ class Student():
         self.name = ""
         self.age = 0
         self.scores = 0
-        self.average = 0.0
+        self.average = 0.00
         self.count =0
-    def __input__(self):
+    def input(self):
         data = input().split(" ")
         self.name = data[0]
         self.age = data[1]
         for i in range(2,len(data)):
             self.scores +=int(data[i])
             self.count +=1
-    def __calculate__(self):
+    def calculate(self):
         self.average = float(self.scores/self.count)
-    def __output__(self):
+    def output(self):
         print(f"name: {self.name}") #这里要认真看看
-        print(f"age:{self.age}")
-        print(f"avg acore: {self.average}")
+        print(f"age: {self.age}")
+        print(f"avg score: {self.average:.2f}") #这里要认真看
 
 def main():
     student = Student()
