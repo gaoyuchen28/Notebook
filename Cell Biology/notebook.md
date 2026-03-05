@@ -23,13 +23,13 @@ Cells are the fundamental unit of life(**The cell theory**)
 This tree is based on comparisons of the nucleotide sequence of a 
 **ribosomal RNA (rRNA)** subunit in the different species.
 
-![](1.png){width=80%}
+![](1.png){width=60%}
 
 There can be other tree of life
 
 The Pfu DNA polymerase(thermostable) from *Pyrococcus furiosus*(Archaea)
 
-![](2.png)
+![](2.png){width=60%}
 
 > S=Svedberg(沉降系数,用来衡量超速离心时，颗粒沉降的快慢)
 > The genome of archaea is more closely related to eukaryotes than to bacteria.
@@ -48,7 +48,7 @@ Certain small molecules (monomers) can be joined to form polymers (also called m
 
 **DNA** consists of two complementary strands wound around each other to form a double helix, which is stabilized by weak hydrogen bonds.
 
-![](3.png)
+![](3.png){width=60%}
 
 **Phospholipids**: Conserved Building Blocks for All Cellular Membranes
 - the property of the membrane determined by all different component
@@ -67,13 +67,13 @@ All Cells Are Enclosed in a Plasma Membrane Across Which Nutrients and Waste Mat
 
 #### Eukaryotic Cell Structure and Function
 
-![](4.png)
+![](4.png){width=60%}
 
 - **3 Types of Cytoskeletal Filaments**: Cell shape, movement, and division
   - Microtubules(20 nm): most rigid, form cilia & flagella
     - Mitotic Spindle
   
-    ![](5.png)
+    ![](5.png){width=60%}
 
   - Microfilament(7 nm)
   - Intermediate filament(10 nm): maintain cell tension 
@@ -83,7 +83,7 @@ All Cells Are Enclosed in a Plasma Membrane Across Which Nutrients and Waste Mat
   - Chromatin: DNA+ proteins(mostly histones)
 - **Golgi Complex and Endoplasmic Reticulum(ER)**
   
-  ![](6.png)
+  ![](6.png){width=60%}
 
   - Rough ER: site of protein synthesis (lysosomal, membrane, secreted proteins)
     - protein folding
@@ -99,3 +99,125 @@ All Cells Are Enclosed in a Plasma Membrane Across Which Nutrients and Waste Mat
     - Packaging molecules in vesicles for transport
 - **Endosomes, Phagosomes, Auto-phagosomes, Lysosomes**
   - Lysosomes: found exclusively in **animal cells**; contains acid hydrolases (nucleases, proteases, phosphatases, …) for breaking down macromolecules, organelles or autolysis of damaged cells
+- **Mitochondria: Energy Production (ATP) in Aerobic Cells**
+
+Cell Cycle
+
+![](7.png){width=60%}
+
+All Cells Function as Biochemical Factories Dealing with the Same Basic Molecular Building Blocks
+Life Requires Free Energy
+  Cells can be powered by a variety of energy sources: 
+  - Organotrophic (feeding on organic compounds)
+  - Phototrophic (feeding on light)
+  - Lithotrophic (feeding on rock/inorganic compounds)
+
+### THE DIVERSITY OF GENOMES AND THE TREE OF LIFE
+
+- Some Cells Fix Nitrogen and Carbon Dioxide for Others
+  - To make a living cell requires matter, as well as free energy. 
+    - DNA, RNA, and protein are composed of just six elements: hydrogen, carbon, nitrogen, oxygen, sulfur, and phosphorus. 
+    - These are all plentiful in the nonliving environment, in the Earth’s rocks, water, and atmosphere, but not in chemical forms that allow easy incorporation into biological molecules.
+
+#### The Greatest Biochemical Diversity Exists Among Prokaryotic Cells(including bacteria and archaea)
+
+Scale (Diameter): virus (10X) mycoplasma (10X) bacteria (10X) animal/plant cells (10X) protozoan cells (single-celled organisms，草履虫)
+
+- Some Genes Evolve Rapidly; Others Are Highly Conserved
+
+### GENETIC INFORMATION IN EUKARYOTES
+
+- Eukaryotic Genomes Are Big
+  Eukaryotes not only have more genes than prokaryotes; they also have vastly more DNA that does not code for protein(Regulatory DNA).
+- Eukaryotes Have Hybrid Genomes
+- The Genome Defines the Program of Multicellular Development
+- The Vertebrate Genome Is a Product of Repeated Duplications
+
+### Model Organisms
+
+- sequenced genomes
+- short life cycle
+- easy to maintain
+- cost effective
+- ethical considerations
+- mutations available
+- other genetic technologies
+
+Prokaryotic
+  *Escherichia coli* -bacteria
+Eukaryotic
+  *Saccharomyces cerevisiae* -yeast
+  *Arabidopsis thaliana* -plant
+  *Caenorhabditis elegans* -worm
+  *Drosophila melanogaster* -fruit fly
+  *Mus musculus* -mouse
+  *Homo sapiens* -human
+
+#### E.coli
+
+#### Yeast
+
+Carries out the basic tasks that any eukaryotic cell must perform. 
+Cell cycle, cell division researches
+6000 genes, 2000 essential. A membrane bound nucleus,Genes in chromosomes,Membrane bound organelles, Cytoskeleton
+
+Has diploid(2n) state and haploid(n) state
+**Meiosis** is triggered by starvation and gives rise to spores—haploid cells in a dormant state, resistant to harsh environment.
+
+![](8.png){width=60%}
+
+- Mutations Reveal the Functions of Genes: *Schizosaccharomyces pombe*: A normal yeast is compared with a mutant in which a change in a single gene has converted the cell from a cigar shape (left) to a T shape (right).
+- Autophagy Degrades Unwanted Proteins and Organelles: baker's yeast-- using mutated yeast lacking vacuolar degradation enzymes and simultaneously stimulating autophagy by starving the cells
+
+If there is a defective gene in yeast, a human gene can be introduced that will compensate for the mutant yeast gene.
+
+#### Arabidopsis
+
+#### C. elegans
+
+First multicellular organism whose complete genome was sequenced. 
+959 cells in the adult body. 
+The divisions proceed like clockwork. 
+A model for the study of program cell death.(线虫刚出生的时候有1000以上的细胞，随着成熟细胞数量减少了)
+
+#### Drosophila
+
+#### Frog and zebrafish
+
+vertebrate development
+
+# Chapter 1 Techniques in Cell Biology
+
+### ISOLATING CELLS AND GROWING THEM IN CULTURE
+
+- Cells Can Be Isolated from Tissues
+  - Trypsin (a pancreatic protease): cleaves at the C-terminal side of lysine and arginine
+  - Collagenase: cleaves the peptide bonds in native, triple-helical collagen
+- Cells Can Be Grown in Culture
+  - Primary cell lines
+  - Transformed cell lines
+
+>  Primary cells
+> - isolated directly from tissues
+> - preparation from tissue: Trypsin and/or collagenase
+> - EDTA (many CAMs require Ca++, EDTA remove calcium)
+> - finite divisions
+> - Exception: embryonic stem cells can be cultured indefinitely
+> Transformed cells
+> - (Oncogenic) transformation 
+> - Indefinite life span
+> - “cell line”: a culture of cells with an indefinite life span (immortal)
+
+
+- Eukaryotic Cell Lines Are a Widely Used Source of Homogeneous Cells
+
+
+- Culture of Animal Cells Require Nutrient-Rich Media and Special Solid Surfaces
+- Cell culture medium
+  - 9 amino acids that can’t be synthesized by adult vertebrate animal cells: Phe, Val, Thr, Trp, Ile, Met, Leu, Lys, His
+  - 3 amino acids that most cells can’t synthesize: Cys, Tyr, Arg
+  - Glutamine: nitrogen source
+  - Vitamins, various salts, fatty acids, glucose
+  - Serum: protein factors for cell proliferation (protein factor: insulin, transferrin, growth factors)
+  - Antibiotics: reduce bacterial or fungal contamination
+  
