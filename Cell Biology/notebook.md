@@ -221,3 +221,17 @@ vertebrate development
   - Serum: protein factors for cell proliferation (protein factor: insulin, transferrin, growth factors)
   - Antibiotics: reduce bacterial or fungal contamination
   
+# Chapter 2 Methods in cell biology
+
+### Purifying and analyzing proteins
+
+- Cells Can Be Separated into Their Component Fractions
+  - Disrupt the cell: chemical & non-chemical
+  - Fractionation: Centrifugation
+    - Fixed angle rotors
+    - Swinging bucket rotors/ Horizontal rotors: collect the materials at bottom
+  
+  ![](9.png)
+
+  - Sedimentation: component sediments rate depends primarily on its size and shape
+  - Chromatography
