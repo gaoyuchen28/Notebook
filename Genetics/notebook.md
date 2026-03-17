@@ -194,4 +194,108 @@ Duplicate genes provide alternative genetic determination of a specific phenotyp
 
   - Factors--Modifier genes: modifier genes have a more subtle, secongdary effect, while major genes have a large influence
   - Factors--environmental effects (eg. Hydrangea, Al3+)
-  - 
+
+
+# Chapter 2 The Chromosome Theory of Inheritance and Linkage Analysis
+
+## The chromosome theory of inheritance
+
+#### Genes reside in the nucleus
+
+microscopists studying fertilization in frogs and sea urchins
+
+> Flemming investigated the process of cell division
+> He identified **chromatin**
+
+> Cajal
+
+> Walter Sutton
+> Studied Great lubber grasshopper--
+> Smotic cells contained 22 chromosomes +XY; Gametes contained 11 chromosomes and X/Y
+> easy to distinguish different pairs of chromosome
+
+**The boveri-sutton chromosome theory:**
+- linear structure--loci
+- paired factors
+- carriers of genetic material
+
+#### Genes reside in chromosomes
+
+**Mitosis**
+**Meiosis**
+> Haploid gametes produce diploid zygotes at fertilization
+> **Haploid**: a single chromosome set
+> **Diploid**: two matching chroomosome sets
+>
+Anatomy of a chromosome一个染色质图
+
+- centromere
+- Metacentric Chromosomes
+- Acrocentric Chromosomes
+- Metaphase chromosomes are identified by the position of chromosomes
+
+Homologous Chromosomes match in size, shape....
+
+**Karyotype**(核型分析): shows the stained chromosomes of a single organism in homologous pairs of **decreasing size**(大小递减的排列)
+**Autosome**
+**Sex chromosome**
+
+WHY DOES THE NUMBER OF CHROMOSOMES MATTER
+- Only one: Restrain the diversity
+- One hundred: mistakes in cell division
+
+> Trisomy 21
+> why only trisomy 21 patients: for other chromosomes maybe lethal, they are bigger and have more genes.
+
+#### Sex chromosome and sex determination
+
+同配性别&异配性别
+
+SRY(sex determining region of Y) is the primary determinant of maleness
+> in sex-reversed XX male, one of the X chromosomes carries SRY
+> sex-reversed XY females lacks functional SRY on Y
+
+- a little piece of DNA that makes girls boys
+  - Sox9(downstream of SRY, in chronosomes 11) determines maleness
+
+- Dosage compensation
+> mammals: inactivation of one X
+> flies: 2X transcription rate of a single X
+> worms: repression of 
+
+- Sex determination in fruit flies and humans
+  - human: the presence or absence of Y, and human can tolar the XXX
+  - Drosophila: the number of X chromosomes
+  
+> Natural sex changes in clownfish
+> When the dominant female dies, the dominant male changes sex to take her place, while the largest juvenile male becomes the new dominant male, triggered by social cues and hormonal shifts
+
+Somatic cells vs germ cells
+
+A mitosis cell cycle: G1-S-G2-M
+- Prophase-Prometaphase-Metaphase-Anaphase-Telophase-Cytokinesis
+
+Meiosis:
+- kkk
+- crossing-over
+- contributes to genetic diversity:
+  - independent assortment of nonhomologousvhromosomes
+  - crossing-over
+  - another one
+- **Oogenesis**
+  - 补一页ppt
+
+  > Prenatal genetic diagnosis:
+  > - amniocentesis
+  > - non-invasive sequencing of cell-free genome
+  > NIPT: obtain the fetal DNA in a sample of mother's blood
+  > heat the sample(?)
+
+## Linkage and recombination
+
+Calvin Bridges:
+Primary exceptional progeny
+Sencondary exceptional progeny
+(补一下图)
+
+Nondisjuction of chromosomes during meiosis: can ocurr at different step

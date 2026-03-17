@@ -235,3 +235,48 @@ vertebrate development
 
   - Sedimentation: component sediments rate depends primarily on its size and shape
   - Chromatography
+
+# Chapter 3 the cytoskeleton
+
+### Function and origin of the cytoskeleton
+
+Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures
+- Actin filament: Determine the shape of cell's surface; Drive the pinching of one cell into two.
+  - right underneath the cell memberane
+- Intermediate filament: Provide mechanical strength.
+  - around the nucleus
+- Microtubules(highway): Determine the positions of membrane-enclosed organelles; Direct intracellular transport; Form the mitotic spindle.
+  - radia distribution
+
+
+Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures
+- single actin filament
+- microvilli:
+  - orientation, two end not similar?
+  - aranged in a certain way--Actin proteins
+- stress fibers: contractile actin bundles found in non-muscle cells
+- striated muscle
+- Microtubules:
+  - hollow
+  - start from one center in the cell(**MTOC**)
+- Intermediate filament:
+  - ropelike structure 10nm
+  - nuclear lamina: just beneath the inner cuclear membrane
+
+Diagram of changes in cytoskeletal organization associated with cell division
+- 
+
+The light microscope can resolve details 0.2 μm apart (super resolution ~ 12 nm)
+However, Microfilaments have a diameter of 7 nm
+
+### ACTIN AND ACTIN-BINDING PROTEINS
+
+Bristles microvilli stereocilia filopodia lamellipodia
+
+**Globar(G-actin)**：375-amino-acid polypeptide carrying a tightly
+associated molecule of ATP or ADP
+
+Actin Subunits Assemble Head-to-Tail to Create Flexible, Polar Filaments
+Actin subunits assemble head-to-tail to form a tight, right-handed helix, forming a structure about 8 nm wide called filamentous or **F-actin**
+- Barbed end
+- Pointed end
