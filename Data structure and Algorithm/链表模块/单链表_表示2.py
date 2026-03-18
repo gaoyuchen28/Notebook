@@ -3,7 +3,7 @@ class linkedlist:
     class Node:
         def __init__(self,data,next=None): #这里的初始定义很重要，这里是默认了next是none
             self.data = data
-            self.next = None
+            self.next = next
     
     def __init__(self):
         self.head = None
@@ -19,7 +19,7 @@ class linkedlist:
     def insert_after(self, p, data):
         nd = linkedlist.Node(data)
         if p is None:
-            self.pushFront(nd)
+            self.pushFront(data)
         else:
             nd.next = p.next
             p.next = nd
@@ -33,7 +33,7 @@ class linkedlist:
             self.insert_after(self.tail, data)
     
     # 删除操作
-    def popFront(self, data):
+    def popFront(self):
         if self.head is None:
             raise Exception("Popping front from empty link list.")
         else:
@@ -50,3 +50,21 @@ class linkedlist:
             self.tail = p #每个函数都要考虑到对于尾的判断
         p.next = p.next.next
         self.size -=1
+    def print(self):
+        p = self.head
+        while p is not None:
+            if p!= self.head:
+                print(",",end='')
+            print(p.data, end='')
+            p = p.next
+        print()
+if __name__ == "__main__":
+    ll = linkedlist()
+    ll.pushFront(1)
+    ll.pushFront(2)
+    ll.pushBack(3)
+    ll.print()  # 应该输出: 2,1,3
+    ll.delete_after(ll.head)  # 删除第二个元素 (1)
+    ll.print()  # 应该输出: 2,3
+    print(f"Pop Front: {ll.popFront()}")  # 应该输出: Pop Front: 2
+    ll.print()  # 应该输出: 3
