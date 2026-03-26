@@ -280,3 +280,8 @@ Actin Subunits Assemble Head-to-Tail to Create Flexible, Polar Filaments
 Actin subunits assemble head-to-tail to form a tight, right-handed helix, forming a structure about 8 nm wide called filamentous or **F-actin**
 - Barbed end
 - Pointed end
+
+# Chapter 4 Biomembranes
+
+There's a lot of compartment in Eucaryotic cells
+

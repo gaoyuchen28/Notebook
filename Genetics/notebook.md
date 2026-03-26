@@ -272,6 +272,8 @@ SRY(sex determining region of Y) is the primary determinant of maleness
 
 Somatic cells vs germ cells
 
+#### Mitosis, meiosis and gametogenesis
+
 A mitosis cell cycle: G1-S-G2-M
 - Prophase-Prometaphase-Metaphase-Anaphase-Telophase-Cytokinesis
 
@@ -291,11 +293,121 @@ Meiosis:
   > NIPT: obtain the fetal DNA in a sample of mother's blood
   > heat the sample(?)
 
-## Linkage and recombination
+#### Sex-linked traits in human
+
+> Red-Green colorblindness
+> X-linked recessive trait in human--hemophilia
+> difficulty in which bloof can't clot normally
+> treatment: injection of cloting factot
+
+X-linked recessive trsits exhibit 5 characteristics:
+- more males than females
+- 1
+- 1
+- 1
+- 1
+
+Sex-limited traits
+Sex-看ppt
+
+#### Mechanism of homologous recombination and gene conversion
 
 Calvin Bridges:
 Primary exceptional progeny
 Sencondary exceptional progeny
 (补一下图)
 
-Nondisjuction of chromosomes during meiosis: can ocurr at different step
+**Nondisjuction** of chromosomes during meiosis: can ocurr at different step
+
+## Linkage and recombination
+
+#### Gene linkage and recombination
+
+性性染色体的linkage
+
+**ASutosomal genes**
+
+#### Recombinstion: A result of crossing-over
+
+## Mapping: locating genes along a chronosome
+
+#### Two point crossess
+
+limitation
+
+### Three point crosses
+
+limitation: add
+
+correction for double crossover
+
+Double recombinants indicate order of three genes
+
+Interference: The number of double cross-overs may be less than expected
+- Occurrence of one crossover reduces likelihood that another crossover will occur in adjacent parts of the chromosomes
+- Measuring interference:
+  - coefficient of coincidence
+  - Interference = 1 - C
+
+linkage provides the potential for transmitting favorable combinations genes
+Recombination produce diverse alleles
+
+Four categories of genetic variation:
+- SNP
+- DIP/InDel: Insertion and Deletion
+- SSR: Simple Sequence Repeat
+- CNV: Copy Number Variation
+
+**Single Nucleotide Polymorphism**
+many SNPs only in introns, so it has small influence in phenotype
+> sickle cell anemia is caused by a SNP in the Hb gene
+
+> Neurofibromatosis: 
+> - autosomal, dominantly inherited
+> - positional cloning example determines whether or nota SNP is linked to the neurofibromatosis gene，但有的时候会出现重组，利用重组率计算基因距离
+
+Determing genotype by sequencing PCR products.
+
+**Simple Sequence Repeat**
+are highly polymorphic
+Genotype is dertermined by PCR at many SSR loci
+diferent from person to person
+> match DNA from crime scene to a person
+
+> Multiolex PCR for DNA fingerprinting
+
+### Tetred analysis in fungi
+
+ideal experimental organism-- Tetrad
+
+all hour haploid porducts of meiosis are contained in ascus
+Phenotype of halioid fungi is direct representation of their genotype
+recombination occur after cell division?
+
+
+## Mitotic recombination and genetic mosaics
+
+twin spots, single spot, singed spot
+
+Application:
+> MOsaic clonal analysis using the FLP-FRT system
+> 一张图展示FRT的原理
+> Gal4-UAS, borrowed from yeast
+> 补充一个：phiC31 intergrase system
+
+Origin of cancer
+> retinoblastoma
+> heterozygous form homozygous cells
+
+mitotic recombination: start from heterozygous so the alleles must be dominant
+
+## Mechanism of homologous recombination and gene conversion
+
+- homologous recombination: 同源重组
+  heteroduplex->break point
+- site-specific recombination
+  
+gene conversion
+one ellele is converted to the allele on the homologous chromosome, resulting in nonreciprocal recombination
+
+vs.mutation: more frequency
