@@ -623,7 +623,7 @@ limitation:
 - Actual distances between genes do not always add up
 - Pairwise crosses are time and labor consuming
 
-### Three point crosses
+#### Three point crosses
 
 ![](30.png)
 
