@@ -353,160 +353,322 @@ Factors that alter the phenotypic expression of genotype include:
 **Phenocopy**: a change in phenotype arising from environmental agents that mimics the effect of a mutation at a gene
 - Chance
 
-
-
 # Chapter 2 The Chromosome Theory of Inheritance and Linkage Analysis
 
 ## The chromosome theory of inheritance
 
-#### Genes reside in the nucleus
+key words:
+- somatic cell（体细胞）
+- germ cell（种质细胞）
+- homologous chromosome（同源染色体）
+- autosome（常染色体）
+- crossing-over, crossover（交换）
+- chiasma (chiasmata)（交叉）
+- recombination nodule（重组结）
+- karyotype（核型分析）
+- hemizygous（半合子）
+- sex-limited trait（限性性状）
+- sex-influenced trait（从性性状）
+- criss-cross inheritance（交叉遗传）
 
-microscopists studying fertilization in frogs and sea urchins
+#### Chromosomes: the carriers of genes
+
+Genes reside in the nucleus
+
+> microscopists studying fertilization in frogs and sea urchins
 
 > Flemming investigated the process of cell division
-> He identified **chromatin**
+> He identified **chromatin** was correlated to threadlike structures in the cell nucleus – the chromosomes
 
 > Cajal
 
 > Walter Sutton
-> Studied Great lubber grasshopper--
+> Studied **Great lubber grasshopper**--
 > Smotic cells contained 22 chromosomes +XY; Gametes contained 11 chromosomes and X/Y
 > easy to distinguish different pairs of chromosome
 
 **The boveri-sutton chromosome theory:**
+- chromosomes as the carriers of genetic material.
 - linear structure--loci
 - paired factors
 - carriers of genetic material
 
-#### Genes reside in chromosomes
-
-**Mitosis**
-**Meiosis**
-> Haploid gametes produce diploid zygotes at fertilization
+Haploid gametes produce diploid zygotes at fertilization
 > **Haploid**: a single chromosome set
 > **Diploid**: two matching chroomosome sets
 >
-Anatomy of a chromosome一个染色质图
+Anatomy of a chromosome
+
+![](20.png)
+
+Homologous chromosomes match in size, shape, and banding patterns
 
 - centromere
 - Metacentric Chromosomes
 - Acrocentric Chromosomes
 - Metaphase chromosomes are identified by the position of chromosomes
 
-Homologous Chromosomes match in size, shape....
-
 **Karyotype**(核型分析): shows the stained chromosomes of a single organism in homologous pairs of **decreasing size**(大小递减的排列)
-**Autosome**
-**Sex chromosome**
 
-WHY DOES THE NUMBER OF CHROMOSOMES MATTER
+**TOPIC**: WHY DOES THE NUMBER OF CHROMOSOMES MATTER
 - Only one: Restrain the diversity
 - One hundred: mistakes in cell division
 
+Nonhomologous chromosomes are qualitatively different
+
+> Jimsonweed （蔓陀罗）:
+> trisomy （三体） in any of these 12 chromosomes produced a unique phenotype of seed pod shape, deviating from a wild-type spherical shape.
+> 
 > Trisomy 21
 > why only trisomy 21 patients: for other chromosomes maybe lethal, they are bigger and have more genes.
 
 #### Sex chromosome and sex determination
 
-同配性别&异配性别
+Sex chromosome:
+- Provide basis for sex determination
+- One sex has matching pair（同配性别）XX
+- Other sex has one of each type of chromosome（异配性别）XY
 
 SRY(sex determining region of Y) is the primary determinant of maleness
 > in sex-reversed XX male, one of the X chromosomes carries SRY
 > sex-reversed XY females lacks functional SRY on Y
 
-- a little piece of DNA that makes girls boys
-  - Sox9(downstream of SRY, in chronosomes 11) determines maleness
+- a little piece of DNA that makes girls boys: Sox9(downstream of SRY, in chronosomes 11) determines maleness
+  SRY->Sox9->Maleness
 
-- Dosage compensation
+- Dosage compensation(how to proof?)
 > mammals: inactivation of one X
 > flies: 2X transcription rate of a single X
-> worms: repression of 
+> worms: repression of both X to half
 
 - Sex determination in fruit flies and humans
   - human: the presence or absence of Y, and human can tolar the XXX
   - Drosophila: the number of X chromosomes
+
+![](21.png)
+
+![](22.png)
   
 > Natural sex changes in clownfish
 > When the dominant female dies, the dominant male changes sex to take her place, while the largest juvenile male becomes the new dominant male, triggered by social cues and hormonal shifts
-
-Somatic cells vs germ cells
+> 推测有可能和感受群体中的信息素有关
 
 #### Mitosis, meiosis and gametogenesis
 
-A mitosis cell cycle: G1-S-G2-M
-- Prophase-Prometaphase-Metaphase-Anaphase-Telophase-Cytokinesis
+Somatic cells vs germ cells
 
-Meiosis:
-- kkk
-- crossing-over
+Mitosis: Genetically conservative
+- Prophase-Prometaphase-Metaphase-Anaphase-Telophase-Cytokinesis
+- Interphase: the period between cell divisions, consisting of the G1, S, and G2 phases
+  - S phase: chromosomes replicate to form sister chromatids during synthesis;
+
+Meiosis:One source of the genetic variation that fuels evolution
+- crossing-over: An exchange of parts between nonsister chromatids during pachytene. As a result, chromatids may no longer be of purely maternal or parternal origin.
 - contributes to genetic diversity:
-  - independent assortment of nonhomologousvhromosomes
-  - crossing-over
-  - another one
+  - Independent assortment of nonhomologous chromosomes creates different combinations of alleles among chromosomes
+  - crossing-over between homologous chromosomes creates different combinations of maternal and paternal information.
+  - Random union of genetically distinct sperm and egg.
+
 - **Oogenesis**
-  - 补一页ppt
+  - Diploid germ cells called oogonia(卵原细胞) multiply by mitosis to produce primary oocytes
+  - Oogenesis begin in the fetus(婴儿期)
+
+  > Maternal age correlates with meiotic segregational errors
 
   > Prenatal genetic diagnosis:
   > - amniocentesis
   > - non-invasive sequencing of cell-free genome
   > NIPT: obtain the fetal DNA in a sample of mother's blood
-  > heat the sample(?)
+
+- **Spermatogenesis**
+  - Symmetrical meiotic divisions produce four functional sperm
+  - Mitosis produces diploid primary spermatocytes
+  - Spematids mature into functional sperm
+
+#### Validation of the chromosome theory of inheritance
+
+Morgen's theory:
+
+![](21.png)
+
+TOPIC: Nondisjunction of chromosomes during meiosis
+Calvin Bridges's Primary exceptional progeny
+
+![](24.png)
+
+Validation:
+
+![](25.png)
 
 #### Sex-linked traits in human
 
-> Red-Green colorblindness
+
 > X-linked recessive trait in human--hemophilia
 > difficulty in which bloof can't clot normally
 > treatment: injection of cloting factot
 
 X-linked recessive trsits exhibit 5 characteristics:
-- more males than females
-- 1
-- 1
-- 1
-- 1
+- Trait appears in more males than females
+- Mutation and trait never pass from father to son
+- Affected male pass X-linked mutation to all daughters, who are heterozygous carriers（交叉遗传）
+- The trait often skips a generation（隔代遗传）
+- Trait only appears in successive generations if sister of an **affected male** is a carrier. If so, one half of her sons will show the trait
 
 Sex-limited traits
-Sex-看ppt
+Sex-influenced traits: traits can show up in both sexes, but are expressed differently in each due to hormonal differences.
 
-#### Mechanism of homologous recombination and gene conversion
-
-Calvin Bridges:
-Primary exceptional progeny
-Sencondary exceptional progeny
-(补一下图)
-
-**Nondisjuction** of chromosomes during meiosis: can ocurr at different step
+> Premature pattern baldness（早老性斑秃）：
+> dominant in men; recessive in women
 
 ## Linkage and recombination
 
+key words:
+- linkage（连锁）
+- recombination（重组）
+- parental type（亲组型）
+- intrachromosomal recombination（染色体内重组）
+- interchromosomal recombination（染色体间重组）
+- genetic marker（遗传标记）
+- linkage group（连锁群）
+- goodness of fit（适合度）
+- chi square test（卡方检验）
+- null hypothesis（零假说，无效假说）
+- p value（p值）
+- recombination frequency（RF，重组率）
+- centimorgan（cM，厘摩）; map unit（m.u.，图距单位）
+- Locus（基因座）
+
 #### Gene linkage and recombination
 
-性性染色体的linkage
+![](26.png)
 
-**ASutosomal genes**
+Autosomal genes can also exhibit linkage
+
+> Colorblindness and hemophilia are X-linked traits
+
+Detect linkage by generating a double heterozygote and crossing to homozygous recessive (testcross)
+
+Recombination frequency, RF:
+
+RF = Recombinant number/(Parental number + Recombinant number)
+> A recombination frequency of less than 50% is a diagnostic for linkage.
+
+![](27.png)
+
+#### The Chi-square test and linkage analysis
+
+Chi-square test measures “goodness of fit” between observed and expected (predicted) results
+
+Chi-square test can reject the null hypothesis, but it cannot prove a hypothesis
+- Null hypothesis: observed values are not different from the expected values ( Expect a 1:1:1:1 ratio of gametes)
+- Alternative hypothesis: observed values are different from expected values (Expect significant deviation from 1:1:1:1 ratio)
+
+Data needed:
+- Total number of progeny
+- How many classes of progeny
+- Number of offspring observed in each class
+
+![](28.png)
+
+Degrees of freedom (df)-- df = N – 1 (where N is the number of classes)
+
+Determine a p value using chi-square value and df
+
+Use p value of 0.05 as cutoff
+Chi-square values that lie in the yellow region of this table allow rejection of the null hypothesis with >95% confidence
 
 #### Recombinstion: A result of crossing-over
 
+**Chiasmata** mark the sites of recombination
+
+Morgen's theory: Different gene pairs exhibit different linkage rates because genes are arranged in a line along a chromosome. The closer together the two genes are on the chromosome, the less their chance of being separated by an event that cuts and recombines the line of genes
+
+#### Summary
+
+- Genes close together on the same chromosome are linked and do not segregate independently
+- Linked genes lead to a larger number of parental class than expected in double heterozygotes cross
+- Mechanism of recombination is crossing-over
+- Chiasmata are the visible signs of crossing over
+- Recombination frequencies reflect physical distance between genes
+- Recombination frequencies between two genes vary from **0% to 50%**
+
 ## Mapping: locating genes along a chronosome
+
+key word:
+- two-point cross（两点杂交）
+- two-point testcross（两点测交）
+- three-point cross（三点杂交）
+- three-point testcross（三点测交）
+- coefficient of coincidence（C，并发系数）
+- interference（I，干涉）
+- chromosomal interference（染色体干涉）
+- I = 1 - C
+- gene mapping（基因定位，基因作图）
+- tetrad analysis（四分子分析）
+- octad（八分子）
+- parental ditype（PD，亲二型）
+- nonparental ditype（NPD，非亲二型）
+- tetratype（T，四型）
+- twin spot（孪生斑）
+- genetic mosaic（遗传镶嵌）
 
 #### Two point crossess
 
-limitation
+Recombination frequencies reflect the distances between two genes
+
+1 RF = 1 m.u. (map unit) = 1 cM (centiMorgan)
+
+limitation: 
+- Difficult to determine gene order if two genes are close together
+- Actual distances between genes do not always add up
+- Pairwise crosses are time and labor consuming
 
 ### Three point crosses
 
-limitation: add
+![](30.png)
 
-correction for double crossover
+**Correction for Double Crossovers (DCO)**
 
-Double recombinants indicate order of three genes
+![](31.png)
 
-Interference: The number of double cross-overs may be less than expected
-- Occurrence of one crossover reduces likelihood that another crossover will occur in adjacent parts of the chromosomes
-- Measuring interference:
-  - coefficient of coincidence
-  - Interference = 1 - C
+The RF of linked genes cannot exceed 50%: 
+- Meioses without crossovers produce only parental chromosomes.
+- Single and double crossovers produce a 1:1 parental to recombinant chromosome ratio on average.
+
+Double recombinants indicate order of three genes: double cross is in the middle
+
+**Chromosomal interference**: Occurrence of one crossover reduces likelihood that another crossover will occur in adjacent parts of the chromosome
+
+Measuring interference: 
+- coefficient of coincidence = $$\frac{\text{Observed Double Crossovers (DCO)}}{\text{Expected Double Crossovers (DCO)}}$$
+- interference = 1 - coefficient of coincidence
+
+Summary:
+- Cross true breeding mutant with wild-type
+- Analyze F2 individuals (**males** if sex linked)
+- Determine order of genes based on parentals and recombinants
+- Determine genetic distance between each pair of recombinants
+- Calculate coefficient of coincidence and interference
+
+> Cystic fibrosis (CF): A recessive condition
+> 1. Pedigrees → CF is encoded by a single gene;
+> 2. Gene PON encoding Serum enzyme is linked to CF;
+> 3. Linkage analyses with hundreds of DNA markers → CF is on the long arm of chromosome 7;
+> 4. Fine mapping with several other markers;
+> 5. In 1992, CF gene was cloned.
+
+**DNA marker**: a piece of DNA of known size, representing a specific locus, that comes in identifiable variations. These allelic variations segregate according to Mendel’s laws.
+
+> a typical marker: RFLP--Restriction fragment length polymorphism
+> southern blotting
+
+> Nomenclature for Drosophila genes
+> - Wild-type allele - denoted with a “+” 
+> - Mutant allele - denoted with no extra symbol 
+> - Recessive mutation - gene symbol is in lower case
+> - Dominant mutation - gene symbol is in upper case
+
+
 
 linkage provides the potential for transmitting favorable combinations genes
 Recombination produce diverse alleles
