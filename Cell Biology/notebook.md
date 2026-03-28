@@ -285,3 +285,143 @@ Actin subunits assemble head-to-tail to form a tight, right-handed helix, formin
 
 There's a lot of compartment in Eucaryotic cells
 
+### Cell membranes
+
+composed of lipids(lipid bilayer) and proteins, eukaryotic cells have internal membrane
+
+> lipid: 
+> - dont have polymer form
+> - hydrophobic
+> - tiny
+
+Membrane Functions
+- Selective barriers，semipermeable
+- transport of small molecules
+- receiving information, cell signaling
+- Fluid properties, capacity for movement and expansion during cell growth and motility
+
+> first cell from enclosed membrane structure
+
+##### phophoglycerides, spingolipids, and sterils are the major lipids in cell membrane
+
+- lipid bilayer is about **5nm** or **50 atoms** thick
+- contains of phosphoglycerides, sphingolipids, sterols
+- all **Amphipathic** lipid molecules
+  放一张sterol和glycolipid都是两性的图
+- 有不同修饰
+  - sterol: stablize the membrane
+
+#### lipid bilayer
+  
+##### phospholipids spontaneously form bilayers
+
+> Gorter and Grendal
+> Langmuir-Blodgett Trough
+
+hydrophilic and hydrophobic molecules interact differently with water
+
+minimizing the interaction between water and hydrophobic part
+
+spontaneously form spherical biyayers called vesicles or liposomes(closure and sealed)
+
+##### the lipid bilayer is a teo-dimensianl Fluid
+
+一些运动：
+- plasma mambrane: asymmeric liquid bilayer
+
+##### the fluidity of a lipid bilayer depends on its composition
+
+- unsaturated hydrocarbon chains with cis-double bonds
+- saturated hydrocarbon chains: decrease fluidity
+
+later membrane more rigid and thicker, contains more cholesterols
+
+##### lipid bilayer can form domains of different composition
+
+raft domain-> rigidity 
+
+#### lipid monolayer
+
+##### lipid droplets are surrounded by a phospholipid monolayer
+
+- neutral lipid(triglycerides) form in between of ER bilayer(within hydrophobic space)
+  
+插入一张图
+
+##### the asymmetry of the lipid bilayer is functionally important
+
+##### glycolipids are found on the surface of all eukaryotic plasma membranes
+
+#### membrane proteins
+
+- transporters
+- anchors
+- receptors
+- enzymes
+  
+transmembrane domains
+- alpha-helix is most common: on the surface of helix are hydrophobic, hydrophilic one are wrapped into helix, so it can coexit with membrane
+
+##### membrane proteins can be associated with the liphd bilayer in various way
+
+有一张图
+
+##### lipid anchor control the membrane localization of some signaling proteins
+
+attachment by a fatty acid chain or a prenyl group
+
+##### transmembrane protein
+
+half helix...?
+- α helics often interact with one another
+
+##### some beta barrels form large channels
+
+form from different numbers of beta-strands
+
+##### many membrane proteins are clycosylated
+
+surface carbonhydrates in cell recognition
+
+- glycocalyx layer(糖萼)
+
+##### membrane proteins can be solubilized and purified in detergents
+
+SDS: ionic detergents
+
+amphipathic and can disrupt the comformation of ....
+
+**nanodisc**: artificial membrane stablizing 
+
+intergral membrane proteins must be solubilized with detergent to remove them from membrane for study
+外围的膜蛋白可以被更gentle的去除
+
+##### Bacteriorhodopsin
+
+is a light-driven proton pump 7 aa-helix
+
+has a chromophore
+
+##### protein membrane interation
+
+memberane proteins often function as large complexes
+> cell fusion very difficult
+> - muscle cell
+> - fertilization
+
+Many membrane proteins diffuse in the plane of the membrane
+
+> FRAP
+
+cells can confine proteins and lipids to specific domains within a membrane
+
+> 表皮细胞：tight(water molecule cant in) junction, prevent apical protein move into basal part, important in bladder
+> sperm cell: protein target to assemble in different part
+
+locolization code in protein-> self assemble into large aggregates
+
+##### cytoskeleton
+
+cortical cytoskeleton restricts membrane protein diffusion
+
+##### membrane-bending proteins deform bilayers

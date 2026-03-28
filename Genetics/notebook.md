@@ -43,20 +43,47 @@ why DNA is the heredity molecule: have the ability to store, replicate, mutate, 
 
 ## Mendel's breakthrough
 
+> Key words
+> - law of segregation（分离定律）
+> - law of independent assortment（独立分配定律）
+> - reciprocal cross（反交）
+> - backcross（回交）
+> - testcross（测交）
+> - inbreeding, incross（内交，近交）
+> - outbreeding, outcross（外交，远交）
+> - P: parental generation（亲本，亲代）
+> - F1: first filial generation（子一代）
+> - F2: second filial generation（子二代）
+> - selfing line（自交系）
+> - inbred line, inbred strain（近交系）
+> - product rule（乘法法则，相乘定律）
+> - sum rule（加法法则，相加定律）
+> - hybrid（杂种）
+> - monohybrid（单杂种，单因子杂种）
+> - dihybrid （双因子杂种，双因子杂合子）
+> - multihybrid（多基因杂种）
+> - Punnett square（Punnett 棋盘式方格）
+> - branched-line diagram（分支图）
+> - pedigree（系谱，家谱）
+> - consanguineous mating（近亲交配）
+
 **Garden pea(*Pisum sativum*)**:
 - Stigma & Anthers -> **self-fertilization**
+- **Pure breeding**: produce offspring carring specidic parental traits that remain constant from generation and generation
 
-> What is an ideal experimental organism
-> - Aging and longetivity research: Shortest-lived vertebrate species bred in the lab: *Turquoise killifish*
+**TOPIC:**What is an ideal experimental organism
+> Aging and longetivity research: Shortest-lived vertebrate species bred in the lab: *Turquoise killifish*
 > (due to the short rain season in Africa)
 > - Cancer and aging research: Naked mole rat
 > (Rarely get cancer; resistant to some types of pain; survive up to 18 minutes without oxygenl; Do not age; Fertility does not drop as they age)
 
-**Pure breeding**: produce offspring carring specidic parental traits that remain constant from generation and generation
-
 **Keys to Success:**
   1. ideal experimental organism
-  2. pure-breeding lines
+    - Vigorously(茁壮的) grow
+    - Self-fertilize
+    - Easy to cross-fertilize
+    - Produce large number of offspring each generation
+  2. pure-breeding lines (2-year trial experiment)
   3. analyzed traits with descrete alternative form(Black and white experiment)
   4. numerical analysis
 
@@ -64,90 +91,197 @@ why DNA is the heredity molecule: have the ability to store, replicate, mutate, 
 
 Monohybrid crosses reveal units of inheritance and **Law of Segregation** (**Reciprocal cross**互交)
 
-**Dominant** & **recessive**
-Alternative form of the traits--**allele**(等位基因)
+Two alleles for each trait separate (**segregate**) during gamete formation, and then unite at random, one from each parent, at fertilization.
 
-> Rules of Probability
-> 课下补充
->
+> Using The Punnett Square to present the law of segregation
 
-| Key words | Chinese meaning |
-| --------- | --------------- |
-| Genotype  ||
-| Phenotype ||
-| Homozygous ||
-| Heterozygous ||
-| Homozygote ||
-| Heterozygote ||
+对于实验的若干解释: **Dominant** & **recessive**
+- Disappearance of traits in F1 generation and reappearanc in the F2 generation **disproves the hypothesis that traits blend**
+- 实验要求: Trait must have two forms that can each breed true
+-  One form must be hidden when plants with each trait are interbred
+-  
 
-**Testcross** reveals unkown genotype
+**Testcross** reveals unkown genotype: to cross with a homozygous recessive
+
 
 #### Law of Independent Assortment
 
+Dihybrid crosses reveal the **law of independent assortment**
+
+对于实验的若干解释：
+- A dihybrid is an individual that is heterozygous at two genes
+- F2 generation contained both parental types and recombinant types
+- Alleles of genes assort independently, and can thus appear in any combination in the offspring
+
+During gamete formation different pairs of alleles segregate independently of each other
+
 #### Summary
 
-- 课后补充
+- Inheritance is **particulate**, not blending
+- There are two copies of each trait in a germ cell
+- Gametes contain one copy of the trait
+- Alleles (different forms of the trait) segregate randomly
+- Alleles are dominant or recessive - thus the difference between genotype and phenotype
+- Different traits assort independently
 
 #### Mendelian inheritance in HUMAN
 
-**Pedigree analysis**
-<picture>
+Most traits in humans are due to the interaction of multiple genes and do not show a simple Mendelian pattern of inheritance
 
-> Huntington's disease: a rare dominant trait
-> Cystic fibrosis: recessive condition
-> Progeria: a *de novo* dominant trait
-> Treacher Collins syndrome(TCS): a *de novo* dominant trait
+**Pedigrees** help us infer if a trait is from a single gene and if the trait is dominant or recessive
+
+**Pedigree analysis**
+
+![6](6.png){width=80%}
+
+- A vertical pattern of inheritance indicates a rare dominant trait
+> Huntington's disease: A late-onset neurodegenerative genetic disorder that causes uncontrolled movements, emotional problems, and loss of cognition.
+> **Poly Q** - a gain of toxic function of mHtt
+
+- A horizontal pattern of inheritance indicates a rare recessive trait
+> Cystic fibrosis: A fatal and incurable disorder in which the lungs, pancreases, intestines and other organs become clogged with a viscous mucus that interfere with breathing and digestion
+
+- Puzzling pedigree
+> Progeria: a *de novo* dominant trait, an extremely rare genetic disorder with premature aging symptoms there is no known cure, few people with progeria exceed 13 years of age.
+>
+> ![](7.png)
+>
+> Mutation occurs during cell division in a newly conceived zygote or in the gametes of one of the parents
+> 
+> Treacher Collins syndrome(TCS): a *de novo* dominant trait, a disorder of craniofacial development.
 
 ## Extension to Mendal's Law
 
+key word
+- Incomplete dominance 
+- Codominance
+- Multiple alleles
+- Pleiotropy
+- lethality
+- complementary gene action
+- complementation test
+- heterogeneity
+- redundancy, redundant gene
+- epistasis, epistatic effect, epistatic gene
+- hypostatic gene
+- recessive epistasis
+- dominant epistasis
+- penetrance（外显率）__incomplete penetrance
+- expressivity（表现度）__variable expressivity
+- discrete trait（不连续性状）
+- quantitative trait（数量性状）
+- continuous trait（连续性状）
+- phenocopy（拟表型，表型模拟）
+
 #### Single-gene inheritance
 
-**Incomplete dominance**: intermediate traits
-> *Antirrhinum majus*
+###### Incomplete dominance: 
 
-**Codominant**: both traits appear equally
-> lentil
+F1 hybrids that differ from both parents express an intermediate phenotype. Neither allele is dominant or recessive to the other. Phenotypic ratios are same as genotypic ratios.
+
+> Snapdragons *Antirrhinum majus*
+>
+> ![](8.png)
+>
+> horse
+
+###### Codominant: 
+
+both traits appear equally, Phenotypic ratios are same as genotypic ratios.
+
+> lentil coat patterns
+> 
 > blood type
 
-**Multiple alleles**: Dominance or recessiveness is always relative to a second allele.
-- perform reciprocal crosses between pure breeding lines of all phenotypes
+###### Multiple alleles: 
 
-**Pleiotropy**: a single gene determines more than one distinct and seemingly unrelate characteristic
-> Primary Ciliary Dyskinesia, PCD
-> 毛色（）
-> Sickle-Cell Anemia
-> - clog the small blood vessels
-> - Very fragile
-> 有一张图，海拔不同的时候呈现的显隐关系会变化，贫血和疟疾之间的显隐关系也会变化
+1. Genes may have multiple alleles that segregate in populations.
+2. Although there may be many alleles in a population, each individual carries only 2 of the alternatives.
+3. Dominance or recessiveness is always relative to a second allele.
+
+> ABO blood type:
+> Enzymes add sugar A or sugar B to a base consisting of a sugar polymer known as substance H, resulting in antigen A or antigen B respectively
+>
+> ![](9.png)
+>
+> The eye color of Drosophila
+
+- Establishing dominance relations between multiple alleles: Perform **reciprocal crosses** between pure breeding lines of all phenotypes.
+
+**TOPIC**:Mutations are the source of new alleles
+Allele frequency is the percentage of the total number of gene copies represented by one allele.
+  Wild-type allele —— the most common allele in a population
+  Mutant allele —— a rare allele in the same population
+  Monomorphic —— gene with only one common, wild-type allele
+  Polymorphic —— gene with more than one common allele
+
+###### Pleiotropy: 
+
+a single gene determines more than one distinct and seemingly unrelate characteristic, Each protein can have a cascade of effects on an organism, Some alleles may cause lethality
+
+> Respiratory problems & Sterile
+
+> A. Yellow must be AYA, and AY is dominant to A
+> B. AY is recessive lethal! AYAY die in utero and do not show up as progeny.
+> ![](10.png)
+
+> Sickle-Cell Anemia: both Mutliple alleles & Pleiotropy
+> Pleiotropy part: Sickling & Resistance to malaria & Recessive lethality
+> - clog the small blood vessels -- Shortness of breath, muscle cramps, fatigue
+> - Very fragile -- Anemia
+>
+> ![](11.png)
+>  
 > Malaria parasites cause sickle-shaped blood cells to break down before the malaria parasites can reproduce.
 
 Some alleles may cause **lethality**
 
 #### Multifactorial inheritance
 
-- **Gene interactions**: two genes can interact to determine one trait
-> 这里有两个例子可以看一下
+###### The action of two or more genes
 
-- **Complementary gene action**: 
+**Penetrance and expressivity:**
+
+Each genotypic class (defined in terms of the presence or absence of the dominant allele of two genes) determines a particular phenotype:
+  -  both present 
+  -  one present 
+  -  the other present 
+  -  neither present 
+
+> The shape of cockscombs
+>
+> ![](12.png)
+>
+
+**Complementary gene action**: 
+
 > color in sweet peas:
 > A_B_(purplr) & others(white) = 9:7
 >
 > ![example](1.png)
+>
+
+> A possible explaination
+>
+> ![](13.png)
 > 
 
-9:7 ratio is a phenotypic signature of Complementary gene action
+> in human deafness
+> Complementation: if offspring receiving two mutations one from each parent - express the wild-type phenotype, complementation has occurred.
+> Complementation test can determine if mutations arise from the same or different genes.
 
-> Gnenetic heterogeneity in human deafness
+**9:7 ratio is a phenotypic signature of complementary gene interaction where dominant alleles of two genes act together (A_B_) to produce a trait while other three genotypic classes do not.**
 
-Complimentation: if offspring receving two mutations(one from each parent), express the WT
 
-- **Epistasis**: a gene interaction in which the effects of an allele at one gene is masked, inhibited, or modified by one or more other genes, known as modifier genes
+**Epistasis**: 
+
+a gene interaction in which the effects of an allele at one gene is masked, inhibited, or modified by one or more other genes, known as modifier genes
+
 > coat color in Labrador retriever dog
 > ![](3.png)
 > **recessive epistasis**
 
-少一个解释
-9:3:4 is a telltale ratio of recessive epistasis at F2
+**9:3:4 is a telltale ratio of recessive epistasis at F2**
 
 > Bombay blood type
 > the woman lack of substance H(hh),so the recessive allele(h) masks the effects of any ABO alleles
@@ -155,45 +289,70 @@ Complimentation: if offspring receving two mutations(one from each parent), expr
 > Bombay blood type can only accept blood from another Bombay blood type indivitual
 
 > summer squash
+> 
 > ![](5.png)
+> 
 > Green(Chlorophylls)->Yellow(Carotenoid)
-> 少一张可能的机理图
+> 
+> ![](14.png)
+> 
 > **Dominant epistasis**
 
-少一个解释
-Dominant epistasis: the dominant allele
 
-> chicken feather: A profuces color only in aabsence of B
-> 这里也少一张图
-> 少一张可能的机理图
+> chicken feather: A profuces color only in absence of B
+>
+> ![](15.png)
+> 
+> ![](16.png)
 >
 
-12:3:1 and 13:3 are telltale ratios for dominant epistasis
+**12:3:1 and 13:3 are telltale ratios for dominant epistasis.**
 
-- **Duplicate effect**:
+**Duplicate effect**:
+
+provide alternative genetic determination of a specific phenotype.
+
 > Duplicate effect in shepherd's purse
-> 差一张图
+>
+> ![](17.png)
+> 
 > **Redundancy**: more than one gene acting in a totally same pathway
 > At this time we can do gain-function experiment(overexpress), and do the lost-function experiment to know the genotype
-> however sometimes is not redundancy but complementary
+> however sometimes is not redundancy but complementary....?
 > *test*
 
-Duplicate genes provide alternative genetic determination of a specific phenotype
+![](18.png)
 
-- **Testing two gene and one gene hypothesis**
+**Testing two gene and one gene hypothesis**
+
+![](19.png)
+
   - 9:4:3(recessive epistasis) & 1:2:1(incomplete dominance)-> backcross
   - pedigree analysis can be used to tes trait inheritance hypothesis in humans:
   > OCA(Oculocutaneous albinism)
-  > 少一张图
 
-#### ？
+###### Interactions between genes and the environment
 
-- **Penetrance and expressivity**: Penetrance is the percentage of individuals with a specific genotype who express the associated trait (all-or-nothing), while expressivity describes the degree or intensity of phenotype expression among individuals with the same genotype (variable range). 
+- Penetrance: percentage of a population with a particular genotype that show the expected phenotype
+> Penetrance can be complete (100%) or incomplete (e.g.,retinoblastoma penetrance is 75%).
+**Gene interactions**: two genes can interact to determine one trait
 
-> Piebald spotting in dogs
+- Expressivity: degree or intensity with which a particular genotype is expressed in a phenotype
+> Expressivity can be variable or unvarying.
 
-  - Factors--Modifier genes: modifier genes have a more subtle, secongdary effect, while major genes have a large influence
-  - Factors--environmental effects (eg. Hydrangea, Al3+)
+Factors that alter the phenotypic expression of genotype include: 
+- Modifier genes
+  - Modifier genes have a more subtle, secondary effect, while major genes have a large influence.
+- The environment
+  > Hydrangea （绣球花）:
+  > The more alkaline the soil, the pinker the flowers
+  > Siamese cat: 
+  > Melanin is produced only in the cooler extremities
+
+  > Phocomelia: chemical exposure
+**Phenocopy**: a change in phenotype arising from environmental agents that mimics the effect of a mutation at a gene
+- Chance
+
 
 
 # Chapter 2 The Chromosome Theory of Inheritance and Linkage Analysis

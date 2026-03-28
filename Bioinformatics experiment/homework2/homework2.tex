@@ -19,7 +19,7 @@
 
 \lstset{
     language=R,
-    basicstyle=\ttfamily\small,
+    basicstyle=\ttfamily\footnotesize,  % 改成更小的字体
     keywordstyle=\color{r-keyword}\bfseries,
     commentstyle=\color{r-comment}\itshape,
     stringstyle=\color{r-string},
@@ -31,7 +31,13 @@
     backgroundcolor=\color{r-bg}
 }
 
-
+% --- 链接美化 ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 
 \title{实验一  差异表达分析}
 \author{Yuchen Gao}
@@ -610,9 +616,32 @@ keep <- rowSums(counts(dds)>= 10)
 
 在拓展调研中提到，基因差异表达的显著性和生存预后并不存在绝对的相关性。基因差异表达着重于理解基因对于某一种癌症的功能相关性，然而生存预后分析聚焦于致病性。
 因此不难理解，一个基因在肿瘤中显著上调，只能说明它在肿瘤组织中活跃，而不一定是驱动生存差异的核心因子。
-这一点的最好例子为差异表达最显著的GABRD，作为GABA A型受体的一个亚基，其主要功能是在神经系统中传递抑制性信号。
+在本研究中发现，GABRD基因的显著表达强于KIF2C基因，但是生存预后分析却呈现出了不同的结果。虽然在大量文献中也提及了GABRD对于生存预后的重要意义，但仅从本研究结果出发分析，GABRD 编码 $\mathrm{GABA}_{A}$ 受体 $\delta$ 亚基，主要涉及神经信号调控，在肝癌中可能参与代谢或信号调节，而不是驱动肿瘤恶性行为的核心因子。
+但是KIF2C 是微管去聚合酶，直接调控有丝分裂和细胞增殖，高表达会加快肿瘤生长和转移，因此会对生存预后影响更直接。
 
 \subsection{进一步研究方向}
 
+\begin{enumerate}
+    \item 多组学整合分析：可以在这个数据集的基础上，结合 RNA-seq、突变、甲基化等修饰的相关数据，分析几个重要基因的表达调控机制。
+    \item 单细胞测序数据分析：利用单细胞 RNA-seq数据集（\href{https://www.ncbi.nlm.nih.gov/gds}{GEO 数据库}），分析 DEG 在不同肿瘤细胞亚群或免疫细胞中的特异表达，揭示细胞异质性。
+    \item 转录因子预测：结合公开 ChIP-seq 数据验证预测的转录因子结合位点。
+\end{enumerate}
+
+\section{补充信息}
+
+\subsection{AI使用说明}
+
+在本次实验中，向AI提供的prompt主要包括以下几个方面：
+
+\begin{enumerate}
+    \item latex格式美化类
+    \item 火山图绘制：“请给我一些代码建议，我希望能够在火山图上对一些基因进行特定标注”
+    \item symbol转换：“请问如何能将基因编码变为基因名称”
+    \item 结果分析：“请帮我对比这两种代码在逻辑上是否存在问题”
+\end{enumerate}
+
+\subsection{与小组同学讨论}
+
+通过与本组李鉴哲同学进行讨论，对于代码中出现的bug进行了排查，并且对于结果的分析以及后续的拓展调研也有了更深入的理解。
 
 \end{document}
