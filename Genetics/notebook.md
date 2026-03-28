@@ -132,7 +132,7 @@ Most traits in humans are due to the interaction of multiple genes and do not sh
 
 **Pedigree analysis**
 
-![6](6.png){width=80%}
+![6](6.png){width=60%}
 
 - A vertical pattern of inheritance indicates a rare dominant trait
 > Huntington's disease: A late-onset neurodegenerative genetic disorder that causes uncontrolled movements, emotional problems, and loss of cognition.
@@ -144,7 +144,7 @@ Most traits in humans are due to the interaction of multiple genes and do not sh
 - Puzzling pedigree
 > Progeria: a *de novo* dominant trait, an extremely rare genetic disorder with premature aging symptoms there is no known cure, few people with progeria exceed 13 years of age.
 >
-> ![](7.png)
+> ![](7.png){width=60%}
 >
 > Mutation occurs during cell division in a newly conceived zygote or in the gametes of one of the parents
 > 
@@ -181,7 +181,7 @@ F1 hybrids that differ from both parents express an intermediate phenotype. Neit
 
 > Snapdragons *Antirrhinum majus*
 >
-> ![](8.png)
+> ![](8.png){width=60%}
 >
 > horse
 
@@ -202,7 +202,7 @@ both traits appear equally, Phenotypic ratios are same as genotypic ratios.
 > ABO blood type:
 > Enzymes add sugar A or sugar B to a base consisting of a sugar polymer known as substance H, resulting in antigen A or antigen B respectively
 >
-> ![](9.png)
+> ![](9.png){width=60%}
 >
 > The eye color of Drosophila
 
@@ -223,14 +223,15 @@ a single gene determines more than one distinct and seemingly unrelate character
 
 > A. Yellow must be AYA, and AY is dominant to A
 > B. AY is recessive lethal! AYAY die in utero and do not show up as progeny.
-> ![](10.png)
+> 
+> ![](10.png){width=60%}
 
 > Sickle-Cell Anemia: both Mutliple alleles & Pleiotropy
 > Pleiotropy part: Sickling & Resistance to malaria & Recessive lethality
 > - clog the small blood vessels -- Shortness of breath, muscle cramps, fatigue
 > - Very fragile -- Anemia
 >
-> ![](11.png)
+> ![](11.png){width=60%}
 >  
 > Malaria parasites cause sickle-shaped blood cells to break down before the malaria parasites can reproduce.
 
@@ -250,7 +251,7 @@ Each genotypic class (defined in terms of the presence or absence of the dominan
 
 > The shape of cockscombs
 >
-> ![](12.png)
+> ![](12.png){width=60%}
 >
 
 **Complementary gene action**: 
@@ -258,12 +259,12 @@ Each genotypic class (defined in terms of the presence or absence of the dominan
 > color in sweet peas:
 > A_B_(purplr) & others(white) = 9:7
 >
-> ![example](1.png)
+> ![example](1.png){width=60%}
 >
 
 > A possible explaination
 >
-> ![](13.png)
+> ![](13.png){width=60%}
 > 
 
 > in human deafness
@@ -278,32 +279,36 @@ Each genotypic class (defined in terms of the presence or absence of the dominan
 a gene interaction in which the effects of an allele at one gene is masked, inhibited, or modified by one or more other genes, known as modifier genes
 
 > coat color in Labrador retriever dog
-> ![](3.png)
+> 
+> ![](3.png){width=60%}
+> 
 > **recessive epistasis**
 
 **9:3:4 is a telltale ratio of recessive epistasis at F2**
 
 > Bombay blood type
 > the woman lack of substance H(hh),so the recessive allele(h) masks the effects of any ABO alleles
-> ![](4.png)
+> 
+> ![](4.png){width=60%}
+> 
 > Bombay blood type can only accept blood from another Bombay blood type indivitual
 
 > summer squash
 > 
-> ![](5.png)
+> ![](5.png){width=60%}
 > 
 > Green(Chlorophylls)->Yellow(Carotenoid)
 > 
-> ![](14.png)
+> ![](14.png){width=60%}
 > 
 > **Dominant epistasis**
 
 
 > chicken feather: A profuces color only in absence of B
 >
-> ![](15.png)
+> ![](15.png){width=60%}
 > 
-> ![](16.png)
+> ![](16.png){width=60%}
 >
 
 **12:3:1 and 13:3 are telltale ratios for dominant epistasis.**
@@ -314,18 +319,18 @@ provide alternative genetic determination of a specific phenotype.
 
 > Duplicate effect in shepherd's purse
 >
-> ![](17.png)
+> ![](17.png){width=60%}
 > 
 > **Redundancy**: more than one gene acting in a totally same pathway
 > At this time we can do gain-function experiment(overexpress), and do the lost-function experiment to know the genotype
 > however sometimes is not redundancy but complementary....?
 > *test*
 
-![](18.png)
+![](18.png){width=60%}
 
 **Testing two gene and one gene hypothesis**
 
-![](19.png)
+![](19.png){width=60%}
 
   - 9:4:3(recessive epistasis) & 1:2:1(incomplete dominance)-> backcross
   - pedigree analysis can be used to tes trait inheritance hypothesis in humans:
@@ -399,7 +404,7 @@ Haploid gametes produce diploid zygotes at fertilization
 >
 Anatomy of a chromosome
 
-![](20.png)
+![](20.png){width=60%}
 
 Homologous chromosomes match in size, shape, and banding patterns
 
@@ -445,9 +450,9 @@ SRY(sex determining region of Y) is the primary determinant of maleness
   - human: the presence or absence of Y, and human can tolar the XXX
   - Drosophila: the number of X chromosomes
 
-![](21.png)
+![](21.png){width=60%}
 
-![](22.png)
+![](22.png){width=60%}
   
 > Natural sex changes in clownfish
 > When the dominant female dies, the dominant male changes sex to take her place, while the largest juvenile male becomes the new dominant male, triggered by social cues and hormonal shifts
@@ -489,16 +494,16 @@ Meiosis:One source of the genetic variation that fuels evolution
 
 Morgen's theory:
 
-![](21.png)
+![](21.png){width=60%}
 
 TOPIC: Nondisjunction of chromosomes during meiosis
 Calvin Bridges's Primary exceptional progeny
 
-![](24.png)
+![](24.png){width=60%}
 
 Validation:
 
-![](25.png)
+![](25.png){width=60%}
 
 #### Sex-linked traits in human
 
@@ -540,7 +545,7 @@ key words:
 
 #### Gene linkage and recombination
 
-![](26.png)
+![](26.png){width=60%}
 
 Autosomal genes can also exhibit linkage
 
@@ -553,7 +558,7 @@ Recombination frequency, RF:
 RF = Recombinant number/(Parental number + Recombinant number)
 > A recombination frequency of less than 50% is a diagnostic for linkage.
 
-![](27.png)
+![](27.png){width=60%}
 
 #### The Chi-square test and linkage analysis
 
@@ -568,7 +573,7 @@ Data needed:
 - How many classes of progeny
 - Number of offspring observed in each class
 
-![](28.png)
+![](28.png){width=60%}
 
 Degrees of freedom (df)-- df = N – 1 (where N is the number of classes)
 
@@ -625,11 +630,11 @@ limitation:
 
 #### Three point crosses
 
-![](30.png)
+![](30.png){width=60%}
 
 **Correction for Double Crossovers (DCO)**
 
-![](31.png)
+![](31.png){width=60%}
 
 The RF of linked genes cannot exceed 50%: 
 - Meioses without crossovers produce only parental chromosomes.
