@@ -582,6 +582,8 @@ Determine a p value using chi-square value and df
 Use p value of 0.05 as cutoff
 Chi-square values that lie in the yellow region of this table allow rejection of the null hypothesis with >95% confidence
 
+![](43.png){width=60%}
+
 #### Recombinstion: A result of crossing-over
 
 **Chiasmata** mark the sites of recombination
@@ -718,6 +720,8 @@ ideal experimental organism-- Tetrad
 
 - Meiosis can generate three kinds of tetrads: PD & NPD (parental ditype & nonparental ditype)这是自由组合的事情
 - Meiosis can generate three kinds of tetrads: T(tetratype)
+
+![](42.png){width=60%}
 
 ![](33.png){width=60%}
 
