@@ -673,67 +673,155 @@ Summary:
 > - Recessive mutation - gene symbol is in lower case
 > - Dominant mutation - gene symbol is in upper case
 
-
-
 linkage provides the potential for transmitting favorable combinations genes
-Recombination produce diverse alleles
+Recombination produces great flexibility in generating new combination of alleles.
 
-Four categories of genetic variation:
-- SNP
-- DIP/InDel: Insertion and Deletion
-- SSR: Simple Sequence Repeat
-- CNV: Copy Number Variation
+**DNA polymorphisms**: 
+- Most polymorphisms do not influence phenotype
+- Four categories of genetic variation:
+  - SNP
+  - DIP/InDel: Insertion and Deletion
+  - SSR: Simple Sequence Repeat
+  - CNV: Copy Number Variation
+
+**Copy number variant**: 顾名思义
 
 **Single Nucleotide Polymorphism**
+
+Genotyping can identify carriers and homozygous individuals.
 many SNPs only in introns, so it has small influence in phenotype
 > sickle cell anemia is caused by a SNP in the Hb gene
 
 > Neurofibromatosis: 
 > - autosomal, dominantly inherited
 > - positional cloning example determines whether or nota SNP is linked to the neurofibromatosis gene，但有的时候会出现重组，利用重组率计算基因距离
+>
+> ![](33.png){ width=60% }
 
 Determing genotype by sequencing PCR products.
 
 **Simple Sequence Repeat**
 are highly polymorphic
-Genotype is dertermined by PCR at many SSR loci
-diferent from person to person
+Genotype is dertermined by PCR at many SSR loci diferent from person to person
+
+Multiplex PCR is used for DNA fingerprinting: 
 > match DNA from crime scene to a person
 
 > Multiolex PCR for DNA fingerprinting
 
-### Tetred analysis in fungi
+####  Tetred analysis in fungi
 
 ideal experimental organism-- Tetrad
+- all four haploid products of meiosis are contained in ascus
+- Ascospores（子囊孢子） within ascus germinate into haploid individuals
+- Phenotype of haploid fungi is direct representation of their genotype
 
-all hour haploid porducts of meiosis are contained in ascus
-Phenotype of halioid fungi is direct representation of their genotype
-recombination occur after cell division?
+- Meiosis can generate three kinds of tetrads: PD & NPD (parental ditype & nonparental ditype)这是自由组合的事情
+- Meiosis can generate three kinds of tetrads: T(tetratype)
 
+![](33.png){width=60%}
+
+Linkage is demonstrated by PDs outnumbering NPDs: PD/NPD > 1, linked; PD/NPD = 1, unlinked
+
+**A disproven model:** Recombination before chromosome duplication, which predicts most tetrads containing recombinant spores would be NPDs instead of Ts.
 
 ## Mitotic recombination and genetic mosaics
 
+#### Mitotic recombination produces genetic mosaics
+
 twin spots, single spot, singed spot
+- yellow (y) mutant – yellow body
+- Wild type (y+) – brown body
+- singed (sn) mutant – short and curled bristles
+- Wild type (sn+) – long and straight bristles
+
+![](35.png){width=60%}
+
+![](36.png){width=60%}
+
+#### Application of mitotic recombination
 
 Application:
-> MOsaic clonal analysis using the FLP-FRT system
-> 一张图展示FRT的原理
-> Gal4-UAS, borrowed from yeast
-> 补充一个：phiC31 intergrase system
+> Mosaic clonal analysis using the FLP-FRT system相当于强制进行有丝分裂重组
+>
+> ![](37.png)
+
 
 Origin of cancer
 > retinoblastoma
+> 可能有很多不同的生病原因
+>
+> ![](38.png)
+> 
 > heterozygous form homozygous cells
+
+> **The two-hit model**: It takes two mutational events to cause the cancer. The first mutational event can be inherited, whereas the second “hit” results in the loss of the remaining normal allele (gene).
 
 mitotic recombination: start from heterozygous so the alleles must be dominant
 
 ## Mechanism of homologous recombination and gene conversion
 
+key words:
+- abnormal segregation（异常分离）
+- gene conversion（基因转变，基因转换）
+- chromatid conversion（染色单体转变）
+- half-chromatid conversion（半染色单体转变）
+- post-meiotic segregation（减数后分离）
+- homologous recombination（同源重组，HR）
+- general recombination（一般重组）
+- hybrid DNA model（杂合DNA模型）
+- double-strand break model（双链断裂模型）
+- breakage and rejoining（断裂与重接）
+- heteroduplex DNA（异源双链DNA）
+- hybrid DNA（杂合DNA，杂种DNA）
+- branch migration（分支迁移）
+- Holliday intermediate（Holliday中间体）
+- displacement loop（D-loop）
+
+#### Homologous recombination
+
+Types of DNA recombination: 
+- Homologous recombination
+- Site-specific recombination
+- Transposition转座
+
+> Meselson and Weigle: Experimental evidence
+>
+> ![](39.png){width=60%}
+>
+
+
+
 - homologous recombination: 同源重组
-  heteroduplex->break point
-- site-specific recombination
+  - The double stranded break model:
+  - Step 1: Double-strand break formation 
+  - Step 2: Resection 
+  - Step 3: Strand invasion
+  - Step 4: Formation of double Holliday junction
+  - Step 5: Branch migration
+  - 会形成一个Heteroduplex region区域
   
-gene conversion
+  ![](40.png)
+
+
+  > Holliday model
+  > 
+- site-specific recombination
+  - The FLP-FRT system
+  - Cre-Lox recombination
+  - Brainbow strategies
+
+  
+#### Gene conversion
+
 one ellele is converted to the allele on the homologous chromosome, resulting in nonreciprocal recombination
 
-vs.mutation: more frequency
+![](41.png)
+
+Gene conversion vs. mutation: 
+- It occurs at a higher frequency (0.1 to 1%) than the corresponding mutation events;
+- It always produces the allele present on the homologous chromosome, not a new allele;
+- It correlated about 50% of the time with reciprocal recombination of flanking markers.
+
+> 侧翼标记
+> 想要观察中间的G基因是否发生了突变或重组，通过 A（上游）和 B（下游）这两个特征来“圈定”这段区域。
