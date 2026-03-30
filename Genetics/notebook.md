@@ -829,3 +829,8 @@ Gene conversion vs. mutation:
 
 > 侧翼标记
 > 想要观察中间的G基因是否发生了突变或重组，通过 A（上游）和 B（下游）这两个特征来“圈定”这段区域。
+
+# Chapter 3 The Concepts of Gene and Mutation
+
+## The Conception of Gene
+

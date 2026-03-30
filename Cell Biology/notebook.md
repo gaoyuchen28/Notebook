@@ -425,3 +425,5 @@ locolization code in protein-> self assemble into large aggregates
 cortical cytoskeleton restricts membrane protein diffusion
 
 ##### membrane-bending proteins deform bilayers
+
+
