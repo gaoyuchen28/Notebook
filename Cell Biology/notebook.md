@@ -399,21 +399,169 @@ Fluorescent in situ hybridization (FISH) can be used to localize genes on chromo
 **PCR Is Also Used for Diagnostic and Forensic Applications**
 
 
-
 # Chapter 2 Methods in cell biology
 
-### Purifying and analyzing proteins
+#### Purifying and analyzing proteins
 
-- Cells Can Be Separated into Their Component Fractions
-  - Disrupt the cell: chemical & non-chemical
-  - Fractionation: Centrifugation
-    - Fixed angle rotors
-    - Swinging bucket rotors/ Horizontal rotors: collect the materials at bottom
+**Cells Can Be Separated into Their Component Fractions**
+
+**Cell Fractionation By Centrifugation**
+  
+- Disrupt the cell: Mechanical & non-Mechanical
+  - Non-Mechanical: Osmotic shock & Enzymes lysis(Break many of the membranes of the cell into fragments and release organelles.)
+  - Mechanical: Ultrasonic vibration & Orifice Extrusion(微孔挤压) & Grinding
+- Fractionation: Centrifugation(Preparative Ultracentrifuge, 分析性超速离心机)
+  - Fixed angle rotors
+  - Swinging bucket rotors/ Horizontal rotors: collect the materials at bottom
   
   ![](9.png)
 
-  - Sedimentation: component sediments rate depends primarily on its size and shape
-  - Chromatography
+**Subcellular Components Separated By Sedimentation**
+
+Velocity sedimentation & equilbrium sedimentation(base on density)
+
+**Proteins Can Be Separated by Chromatography**
+
+![](29.png)
+
+Depending on the choice of matrix, proteins can be separated according to their charge (**ion-exchange chromatography**), their hydrophobicity(**hydrophobic chromatography**), their size (**gel-filtration chromatography**), or their ability to bind to particular small molecules or other macromolecules(**affinity chromatography**).
+
+Sequential Chromatography: combination of different methods
+
+**Immunoprecipitation Is a Rapid Affinity Purification Method**
+
+![](30.png)
+
+Co-Immunoprecipitation (Co-IP): A technique to identify physical interactions between proteins using antibodies.
+
+**Genetically Engineered Tags Provide an Easy Way to Purify Proteins**
+
+Tagging with epitope or Tagging with whole protein
+
+Double tagging of the protein of interest： Tandem Affinity Purification (TAP)
+
+![](31.png)
+
+- Protein A (ProtA)： 能够与 IgG 珠子高亲和力结合。
+- TEP 酶切位点 (TEV cleavage site)： 一段特定的氨基酸序列，能被 TEV 蛋白酶识别并切断。
+- 钙调蛋白结合肽 (CBP)： 能够与钙调蛋白（Calmodulin）珠子结合。
+
+#### ANALYZING PROTEINS
+
+Proteins Can Be Separated by SDS（十二烷基硫酸钠） Polyacrylamide-Gel（聚丙烯酰胺凝胶）Electrophoresis (SDS-PAGE)
+- The protein migrates at a rate that depends on its net charge and on its size and shape.
+- The pore size of the gel can be adjusted.
+
+**Two-Dimensional Gel Electrophoresis Provides Greater Protein Separation**
+
+- The first step separates proteins by their **intrinsic charges(固有电荷)** (nonionic detergents非离子性去垢剂-破坏脂质-蛋白及蛋白-蛋白之间的疏水相互作用, beta-mercaptoethanol$\beta$-巯基乙醇-打破蛋白质内的二硫键, urea尿素-破坏蛋白质的氢键和范德华力)
+- The second step separates proteins by their size (SDS-PAGE)
+
+**Specific Proteins Can Be Detected by Blotting with Antibodies**
+
+A specific protein can be identified after its fractionation on a polyacrylamide gel by exposing all the proteins present on the gel to a specific antibody that has been labeled with a radioactive isotope or a fluorescent dye.
+
+**Mass Spectrometry to Identify Unknown Proteins**
+
+Mass spectrometry separates ions according to their mass-to-charge (m/z) ratio.
+可以有一级质谱和二级质谱
+
+“two-dimensional” mass spectrometry（Liquid Chromatography Mass Spectrometry (LC-MS)） can be used to determine all of the proteins present in a mixture of proteins.
+
+#### Protein Structure Can Be Determined
+
+**Protein Structure Can Be Determined Using X-Ray Diffraction**
+
+先拍出衍射图案，然后再通过傅立叶变换复原结构
+
+**Single Particle Cryo-electron Microscopy to Determine Protein Structures**
+
+将脆弱的生物样本瞬间封存在极低温下的玻璃态冰中，使其保持原有的生理结构，然后利用极低剂量的电子束进行高速成像，最后通过计算机将海量、不同角度的二维投影图，反向重构出蛋白质的三维原子坐标。
+
+**Lots of Structures have not been Determined**
+
+Predicting the structure that a protein based solely on its amino acid sequence—protein folding problem
+
+**Sequence to Structure**
+
+AlphaFold2 uses a deep neural network trained to generate protein structures from amino acid sequences, by utilizing information on homologous proteins and multiple sequence alignments.
+
+#### ANALYZING AND MANIPULATING DNA
+
+**Recombinant DNA Technology – the ability to manipulate DNA with precision in a test tube or in an organism**
+- DNA cutting
+- DNA ligation
+- DNA cloning
+- Nucleic acid hybridization
+- Sequencing 
+- Editing
+- DNA synthesis
+
+**Restriction Nucleases Cut Large DNA Molecules into Specific Fragments**
+
+Purified from bacteria, cut the DNA double helix into fragments of strictly defined sizes at specific sites defined by the local nucleotide sequence.
+
+**Gel Electrophoresis Separates DNA Molecules of Different Sizes**
+
+**DNA Ligase Can Join Together Any Two DNA Fragments in Vitro to Produce Recombinant DNA Molecules**
+
+**DNA Can Be Cloned Using Bacteria**
+
+**An Entire Genome Can Be Represented in a DNA Library**
+
+Genomic and cDNA Libraries Have Different Advantages and Drawbacks
+
+![](32.png)
+
+**PCR Can Be Used to Obtain Specific Genomic or cDNA Clones**
+
+![](33.png)
+
+DNA Cloning Allows Any Protein to be Produced in Large Amounts
+
+**Both DNA and RNA Can Be Rapidly Sequenced**
+
+Sanger Sequencing: ddNTP的终止延伸的作用
+Second-generation Sequencing Technologies
+
+![](34.png)
+
+Sequencing Cost Has Been Reduced Dramatically
+
+Genome Annotation is important
+
+#### STUDYING GENE EXPRESSION AND FUNCTION
+
+**Genetic Screens Identify Mutants with Specific Abnormalities**
+
+**Polymorphisms**
+
+Polymorphisms: common sequence variants coexist in the population
+
+Haplotype blocks(单倍体嵌块): combinations of polymorphisms that are inherited as a unit.
+- 这段地方几乎从来不发生基因重组
+- Linkage Disequilibrium
+- 只要检测到其中一个SNP，就能推断得知附近的基因
+
+Polymorphisms Can Aid the Search for Mutations Associated with Disease
+- Mendelian diseases: single-gene or monogenic disorders 
+- Common diseases: multigenic (i.e. diabetes, autism)
+
+**Recombinant DNA Technology Has Made Reverse Genetics Easier**
+
+Reverse genetics: starts with altering a gene of interest
+- knock-out (KO)
+- knock-in (KI)
+- conditional KO/KI/Expr
+
+**CRISPR-mediated Immunity In Bacteria And Archaebacteria**
+**RNA Interference Is a Simple and Rapid Way to Test Gene Function**
+
+**Microarray or RNA-seq Provides a Snapshot of Gene Expression**
+- 样本处理： 提取总 RNA $\rightarrow$ 逆转录为 cDNA $\rightarrow$ 荧光标记（单色如 Biotin，或双色如 Cy3/Cy5）。
+- 竞争性杂交： 在双色芯片中，对照组和实验组样本混合后同时与芯片杂交。
+- 信号强度： 荧光亮度与样本中目标分子的丰度成正比。
+
 
 # Chapter 3 the cytoskeleton
 

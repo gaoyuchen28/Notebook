@@ -834,3 +834,30 @@ Gene conversion vs. mutation:
 
 ## The Conception of Gene
 
+spontaneously mutation
+point mutation
+insertion and deletion
+natural processes: x-ray; UV light; Oxidative damage
+errors in replication
+unequal crossing-over
+transposable elements
+unstable trinucleotide repeats
+  CGG repeat: **Anticipation** & **slipping mispairing**
+              dCas-Tet1(demethylation), target to other CGG repeats
+
+induced mutation
+EMS dosage很重要，matching & lethal
+ames test
+
+hypermophic mutation
+antimorphic(dominant negative)->kinase的问题：就是block ATP的结合位点
+
+DNA repair:
+accurate repair system
+
+tissue distribution of mtDNA mutant
+
+用mtDNA做亲子鉴定：short lots of copies
+
+three-person in vitro fertilization, two ways
+
