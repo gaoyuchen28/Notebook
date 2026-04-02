@@ -399,7 +399,7 @@ Fluorescent in situ hybridization (FISH) can be used to localize genes on chromo
 **PCR Is Also Used for Diagnostic and Forensic Applications**
 
 
-# Chapter 2 Methods in cell biology
+# ✅Chapter 2 Methods in cell biology
 
 #### Purifying and analyzing proteins
 
@@ -563,50 +563,451 @@ Reverse genetics: starts with altering a gene of interest
 - 信号强度： 荧光亮度与样本中目标分子的丰度成正比。
 
 
-# Chapter 3 the cytoskeleton
+# ✅Chapter 3 the cytoskeleton
 
-### Function and origin of the cytoskeleton
+#### Function and origin of the cytoskeleton
 
-Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures
-- Actin filament: Determine the shape of cell's surface; Drive the pinching of one cell into two.
+**Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures**
+
+![](35.png)
+
+- Actin filament(trail,short distance): Determine the shape of cell's surface; Drive the pinching of one cell into two; motility of cell.
   - right underneath the cell memberane
-- Intermediate filament: Provide mechanical strength.
+- Intermediate filament: Provide mechanical strength, sustain/withstand to the pressure.
   - around the nucleus
 - Microtubules(highway): Determine the positions of membrane-enclosed organelles; Direct intracellular transport; Form the mitotic spindle.
-  - radia distribution
+  - radia distribution from centre to outwards
 
+> limit of resolution:
+> The light microscope can resolve details 0.2 μm apart Super resolution ~ 12 nm
+> However, Microfilaments have a diameter of 7 nm
 
-Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures
-- single actin filament
-- microvilli:
-  - orientation, two end not similar?
-  - aranged in a certain way--Actin proteins
-- stress fibers: contractile actin bundles found in non-muscle cells
+Actin Filament(microfilament):
+- microvilli(Intestinal epithelial cell):
+  - absorb nuritions, increasing surface
+  - aranged in a certain way--Actin proteins, arranged by a certain type of protein
+- stress fibers: contractile(可收缩的) actin bundles found in non-muscle cells
 - striated muscle
-- Microtubules:
-  - hollow
-  - start from one center in the cell(**MTOC**)
+
+Microtubules:
+- long and hollow
+- start from one center in the cell(**MTOC**)
+- maintain organelle's position; help cell transported; help cell to divide
+ 
 - Intermediate filament:
   - ropelike structure 10nm
+  - constitute a large and heterogeneous family
   - nuclear lamina: just beneath the inner cuclear membrane
 
-Diagram of changes in cytoskeletal organization associated with cell division
-- 
+**Diagram of changes in cytoskeletal organization associated with cell division**
 
-The light microscope can resolve details 0.2 μm apart (super resolution ~ 12 nm)
-However, Microfilaments have a diameter of 7 nm
+Not in mitosis:
+Microtubules: organize from MTOC
+Actin: at the edge action filament will quickly assemble and disassemble
+> The crawling **fibroblast**(成纤维细胞) drawn here has a polarized, dynamic actin cytoskeleton. The polarization of the actin cytoskeleton is assisted by the microtubule cytoskeleton
 
-### ACTIN AND ACTIN-BINDING PROTEINS
+Beginning mitosis:
+Microtubules: arrange spindle structure -> responsible for aligning and segregating the duplicated chromosomes when the cell divides
 
-Bristles microvilli stereocilia filopodia lamellipodia
+Anaphase:
+Contractile ring: **Actin and its associated motor protein myosin** form a belt around the middle of the cell
 
-**Globar(G-actin)**：375-amino-acid polypeptide carrying a tightly
-associated molecule of ATP or ADP
+**A neutrophil in pursuit of bacteria**
 
-Actin Subunits Assemble Head-to-Tail to Create Flexible, Polar Filaments
+The shape of neutropil change fast: requires quickly reassembles the dense actin network
+
+**The Cytoskeleton Determines Cellular Organization and Polarity**
+> Organization of the cytoskeleton in polarized epithelial cells
+> Apical and Basal
+>
+> ![](36.png)
+>
+> - Bundled actin filaments form **microvilli** that increase the cell-surface area available for absorbing nutrients from food.
+> - Below the microvilli, a circumferential band of **actin filaments** is connected to cell–cell adherens junctions that anchor the cells to each other(cell needs to attach to each other, organized in a certain structure).
+> - Intermediate filaments are anchored to **adhesive structures**, including **desmosomes(桥粒)** and **hemidesmosomes(半桥粒)**, that connect the epithelial cells into a sturdy sheet and attach them to the underlying extracellular matrix.
+> - Microtubules run vertically from the top of the cell to the bottom and provide a global coordinate system that enables the cell to direct newly synthesized components to their proper locations.
+
+**Filaments assemble from protein subunit that impart specific physical and dynamic properties**
+
+![](37.png)
+
+All three types of filaments form from assemblies of subunits that selfassociate using a combination of end-to-end and side-to-side protein contacts(more stable,但似乎是中间断裂变得更困难，其他的还可以).
+
+**Flexibility and stretch in an intermediate filament**
+
+Atomic force microscopy:
+A tiny mechanical probe was used to rapidly scan across a surface to which intermediate filaments were adhered, providing a measurement of the height and contour of the filaments.
+
+**Bacterial Cell Organization and Division Depend on Homologs of Eukaryotic Cytoskeletal Proteins**
+
+Bacteria contain homologs of all three of the eukaryotic cytoskeletal filaments.
+- FtsZ – tubulin homolog in prokaryotes involved in cytokinesis
+  - polymerize into filaments and assemble into a “Z-ring”
+  - formed in vitro, as visualized using electron microscopy
+  - Dividing chloroplasts (red) from a red alga
+- MreB – actin homolog involved in cell shape
+  - grow in distorted or twisted shapes and eventually die
+- ParM – actin homolog involved in chromosome separation
+- Crescentin – has coiled-coil domains similar to intermediate filaments
+  
+  ![](38.png)
+
+#### ACTIN AND ACTIN-BINDING PROTEINS
+
+![](39.png)
+
+**ACTIN**
+
+Globar(**G-actin**)：375-amino-acid polypeptide carrying a tightly, associated molecule of ATP or ADP(ATP & ADP binding form)
+- The amino acid sequences of actins from different eukaryotic species are usually about 90% identical.
+- 3 isoforms in vertebrates (α, β, γ): α-Actin is expressed only in muscle cells, while β- and γ-actins are found together in almost all non-muscle cells
+- highly conserved
+
+**Actin Subunits Assemble Head-to-Tail to Create Flexible, Polar Filaments**
+
 Actin subunits assemble head-to-tail to form a tight, right-handed helix, forming a structure about 8 nm wide called filamentous or **F-actin**
-- Barbed end
-- Pointed end
+- Barbed end: Fast-growing plus end
+- Pointed end: Slow-growing minus end
+
+![](40.png)
+
+**Structural polarity of the actin filament**
+
+**Nucleation Is the Rate-Limiting Step in the Formation of Actin Filaments**
+
+For a new actin filament to form, subunits must assemble into an initial aggregate, or nucleus, that is stabilized by multiple subunit-subunit contacts and can then elongate rapidly by addition of more subunits. This process is called filament nucleation.
+
+![](41.png)
+
+The system approaches a steady state at which the rate of addition of new subunits to the filament ends exactly balances the rate of subunit dissociation. The concentration of free subunits left in solution at this point is called the critical concentration, Cc.
+
+to make this step faster it can perform a filament seeds here.
+
+![](42.png)
+
+Nucleation is relatively slow
+
+slow end 是因为要经历 conformation change
+
+![](43.png)
+
+> The number of monomers that add to the polymer (actin filament or microtubule) per second will be proportional to the concentration of the free subunit (`k_on * C`), but the subunits will leave the polymer end at a constant rate (`k_off`) that does not depend on `C`.
+> As the polymer grows, subunits are used up, and `C` is observed to drop until it reaches a constant value, called the **critical concentration** (`C_c`).
+> **At this concentration, the rate of subunit addition equals the rate of subunit loss.**
+> At this equilibrium: 
+> $k_{on} \cdot C = k_{off}$
+> $C_c = \frac{k_{off}}{k_{on}} = K_d$
+> where `K_d` is the dissociation constant.
+> 对于 slow-minus end，由于亚基难结合（k_on小），临界浓度较大。
+
+**ATP Hydrolysis Within Actin Filaments Leads to Treadmilling at Steady State**
+
+![](44.png)
+
+Since \(k_{\text{off}}^D\) and \(k_{\text{on}}^T\) refer to different reactions, 
+their ratio 
+
+\[
+\frac{k_{\text{off}}^D}{k_{\text{on}}^T}
+\]
+
+need not be the same at both ends of the polymer, so that:
+
+\[
+C_c (\text{minus end}) > C_c (\text{plus end})
+\]
+
+The concentration of free monomer reaches a value that is above \(C_c\) for the plus end 
+but below \(C_c\) for the minus end. At this steady state, subunits undergo a net 
+assembly at the plus end and a net disassembly at the minus end at an identical rate. 
+The polymer maintains a constant length, even though there is a net flux of subunits 
+through the polymer, known as **treadmilling**.
+
+**Treadmilling**
+
+In a test tube, the Cc for actin polymerization lower the concentration of unpolymerized actin.
+The cell has evolved mechanisms to prevent most of its monomeric actin from assembling into filaments(大概就是这些monomeric actin还有其他用处).
+
+**The Functions of Actin Filaments Are Inhibited by Both Polymerstabilizing and Polymer-destabilizing Chemicals**
+
+Both microtubule-depolymerizing drugs (such as nocodazole) and microtubulepolymerizing drugs (such as Taxol) preferentially kill **dividing cells**, since microtubule dynamics are crucial for correct function of the mitotic spindle
+
+Goal: free the cell at certain stage
+
+**Nocodazole is used to synchronize the cell division cycle**
+
+Inhibit spindle formation so that it will all stop at G2 phase
+
+**Monomer Availability Controls Actin Filament Assembly**
+
+In muscle cell, there's free actin(soluble) and actin-thymosin complex(can't form monomer)/actin-profilin complex
+control by accessory proteins
+
+![](45.png)
+
+**Some proteins with Filaments**
+
+Help forming actin nucleas
+
+- NFP actually determines where the actin form, attach to cell membrane, Also Arp2 and Arp3 will attach to other filament also control wwhere the filament can go
+
+![](46.png)
+
+- formins, dimer binding to adding ends, help the growing of plus end; Formin-dependent actin filament growth is strongly enhanced by the association of actin monomers with profilin.
+
+![](47.png)
+
+- capping protein(CapZ, binding mucle Z band): stabilizes an actin filament at its plus end by rendering it inactive, so it will only depend on minus end which significantl reducing the growth speed
+
+- Cofilin binds along the length of the actin filament, forcing the filament to twist a little more tightly-> shorter, weakens the contacts between actin subunits in the filament.
+
+**Bacteria Can Hijack the Host Actin Cytoskeleton**
+
+ActA protein on the bacterial surface activates the Arp2/3 complex to nucleate new filament assembly along the sides of existing filaments.(break the cell)
+
+**Actin at the Cell Cortex Determines Cell Shape**
+
+Two type of the shape: 
+- the actin filaments of branched networks are nucleated by the Arp2/3 complex, 
+- while bundles are made of the long, straight filaments produced by formins.
+
+- **Stress fibers** are contractile and exert tension; **the actin cortex** underlies the plasma membrane and consists of gel-like networks or **dendritic actin** networks that enable membrane protrusion at lamellopodia. (not muscle cell want to move)
+- Filopodia are spike-like projections of the plasma membrane that allow a cell to explore its environment.
+
+![](48.png)
+
+**The modular structures of four actin-cross-linking proteins**
+
+Each has two acting-binding sites (red)
+
+![](49.png)
+
+![](50.png)
+
+**Higher-Order Actin Filament Arrays Influence Cellular Mechanical Properties and Signaling**
+
+> Periventricular heterotopia (right) caused by mutation in the filamin A gene. A rough zone of cortical neurons (arrowheads) is seen along the lateral walls of the ventricles, representing neurons that have failed to migrate to the cortex during brain development
+
+#### ACTIN AND MYOSIN
+
+**Actin-Based Motor Proteins Are Members of the Myosin Superfamily**
+
+Skeletal muscle myosin (myosin II), which generates the force for muscle contraction, is an elongated protein formed from two heavy chains and two copies of each of two light chains
+
+**The myosin II bipolar thick filament in muscle**
+
+肌肉中的 Myosin II 形成的粗丝是双极的，这种结构使肌球蛋白两端的头部能够向相反方向与肌动蛋白薄丝结合并产生收缩力
+
+**Direct evidence for the motor activity of the myosin head**
+
+put actin filament and ATP, those filament can be moved 
+
+![](51.png)
+
+Myosin Generates Force by Coupling ATP Hydrolysis to Conformational Changes
+
+**Sliding of Myosin II Along Actin Filaments Causes Muscles to Contract**
+
+![](52.png)
+
+Thick filament: myosin; thin filament: actin
+
+- The Z discs, at each end of the sarcomere, are attachment sites for the plus ends of actin filaments (thin filaments);
+- the M line, or midline, is the location of proteins that link adjacent myosin II filaments (thick filaments) to one another.
+
+![](53.png)
+
+- Nebulin stretches from the Z disc toward the minus end of each thin filament, which is capped and stabilized by tropomodulin.
+  - Tropomodulin (Tmod) 是一种 薄丝（actin thin filament）末端帽蛋白。它专门结合 actin 薄丝的减端（pointed end），阻止肌动蛋白单体的脱聚或过度聚合。在肌肉中，它主要位于 薄丝的 Z 盘远端（靠近 pointed end）。
+- Titin acts as a molecular spring, with a long series of immunoglobulin-like domains that can unfold one by one as stress is applied to the protein. (determines the length of sacromere)
+
+**A Sudden Rise in Cytosolic Ca2+ Concentration Initiates Muscle Contraction**
+
+folding and reaching into the center of the cell
+
+Ca2+ flooding into the cytosol then initiates the contraction of each myofibril.
+The increase in Ca2+ concentration is transient because the Ca2+ is rapidly pumped back into the sarcoplasmic reticulum by an abundant, ATP dependent Ca2+ -pump (also called a Ca2+ -ATPase) in its membrane.
+
+Troponins T，I and C (tropomyosin-binding, inhibitory and Ca2+binding activity).
+- In a resting muscle, the troponin I-T complex pulls the tropomyosin out of its binding groove. When the level of Ca2+ is raised, troponin C causes troponin I to release its hold on actin. 
+- This allows the tropomyosin molecules to slip back into their normal position so that the myosin heads can walk along the actin filaments.
+- Troponin C is closely related to the ubiquitous Ca2+ -binding protein calmodulin.
+
+平滑肌的机理有所不同：
+
+![](54.png)
+
+when it is dephosphorylated, the myosin head tends to dissociate from actin and becomes inactive.(这些收缩纤维束以 斜向（斜角）方式排列在细胞内，而不是沿着细胞长度或宽度完全平行/垂直)
+
+**Smooth muscle cells**
+
+- they lack the regular striations(规律条纹) of skeletal muscle
+- is also triggered by an influx of calcium ions, but the regulatory mechanism is different
+- forms the contractile portion of the stomach, intestine, and uterus, as well as the walls of arteries and many other structures requiring slow and sustained contractions.
+- Smooth muscle is composed of sheets of highly elongated spindle-shaped cells, each with a single nucleus
+
+**Heart muscle is a precisely engineered machine**
+
+![](55.png)
+
+**Actin and Myosin Perform a Variety of Functions in Non-Muscle Cells**
+
+Non-muscle cells also express a large family of other myosin proteins, which have diverse structures and functions in the cell.
+
+> Myosin V transports cargo and organelles along actin cables, in this example moving a mitochondrion into the growing bud of a yeast cell.
+
+#### MICROTUBULES
+
+**Microtubule Introduction**
+
+From monomor to polymer: tubulin
+
+Tubulin subunit is heterodimer formed from two closely related globular proteins called α-tubulin(beginning) and β-tubulin(ends)
+
+Protofilament = 由蛋白单体线性聚合形成的基本纤维链，是微管或肌动蛋白丝等更大细胞骨架结构的构建单元
+
+A microtubule is a hollow cylindrical structure built from 13 parallel protofilaments(但似乎依然会比较容易从中间断裂)
+
+- α-tubulin : GTP never hydrolyzed or exchanged;
+- β-tubulin : GTP or GDP
+
+**The preferential growth of microtubules at the plus end**
+
+β-tubulin change GTP to GDP change the shape of the microtubules
+
+The microtubule lattice has a distinct structural polarity:α-tubulin exposed at the minus end and β-tubulin at the plus end. Plus ends grow and shrink more rapidly
+
+**Dynamic instability due to the structural difference between a growing and a shrinking microtubule end**
+
+Loss of the GTP cap allows the GDP containing protofilaments to relax into their more curved conformation.
+
+![](56.png)
+
+**Microtubules Undergo Dynamic Instability**
+
+**A Protein Complex Containing g-Tubulin Nucleates Microtubules**
+
+γ-tubulin small complex: 2 γ-tubulins + a pair of accessory proteins
+
+Microtubules are generally nucleated from a specific intracellular location known as a microtubule-organizing center (MTOC) where γ-tubulin is most enriched.
+
+**Microtubules Emanate from the Centrosome in Animal Cells**
+
+The centrosome is the major MTOC (microtubule organizing center) of animal cells
+
+Embedded in the centrosome are the centrioles, a pair of cylindrical structures arranged at right angles to each other in an L-shaped configuration.
+
+**Microtubule organization in different cell types**
+
+![](57.png)
+
+**Microtubule-Binding Proteins Modulate Filament Dynamics and Organization**
+
+MAP2 & Tau:
+
+![](58.png)
+
+Kinesin-13: binds to microtubule ends and pry them apart
+
+![](59.png)
+
+XMAP215: binds tubulin dimers and delivers them to the microtubule plus end
+
+plus-end tracking proteins(+TIPs) : accumulate at the active ends and appear to rocket around the cell as passengers at the ends of rapidly growing microtubules, dissociating from the ends when the microtubule begin to shrink.（稳定加端或调控微管的生长速度。）
+
+Tubulin-Sequestering and Microtubule-Severing Proteins Destabilize Microtubules(结合游离 tubulin 的蛋白和切割微管的蛋白都会破坏微管的稳定性，使微管容易解聚或断裂)
+
+> Taxol stabilized, rhodamine labeled microtubules were adsorbed on the surface of a glass slide, and purified **katanin**(一种微管切割蛋白) was added along with ATP.
+
+**Two Types of Motor Proteins Move Along Microtubules**
+
+kinesins and dyneins: 
+- Move cargo such as organelles and macromolecules within the cell; travel over long distances
+- Slide microtubules relative to one another, thereby generating specific arrangements of microtubules, as in neurons and epithelial cells
+- A subset of microtubule-based motors regulates microtubule dynamics, e.g., kinesin-13
+
+**The mechanochemical cycle of kinesin**
+
+towards plus end
+- The rear head detachment from the microtubule with ADP bound [detachment requires ATP hydrolysis and phosphate (Pi) release].
+- The binding of ATP to this motor domain causes a small peptide called the “neck linker”(purple) to shift from a rearward-pointing to a forward-pointing conformation
+
+**dyneins**
+
+The dyneins (1.5mDalton) are a family of minus-end directed microtubule motors
+
+Microtubules and Motors Move Organelles and Vesicles: 
+- Dynactin mediates the attachment of dynein to a membrane enclosed organelle
+
+![](60.png)
+
+**Microtubules and microtubule motors organize the ER and the Golgi apparatus**
+
+**Lissencephaly**
+
+One type of lissencephaly is caused by defects in Lis1, a dynein-binding protein required for nuclear migration in several species.
+- In the normal brain, migration of the nucleus directs the developing neural cell body toward its correct position in the cortex. 
+- In the absence of Lis1, this process fails, and affected children suffer from developmental delays as well as a variety of neurological defects.
+
+**Regulated melanosome(黑色素体) movements in fish pigment cells**
+
+![](61.png)
+
+**Motile Cilia and Flagella Are Built from Microtubules and Dyneins**
+
+The arrangement of microtubules in a flagellum or cilium (“9+2”): Nine special microtubule doublets (comprising one complete and one partial microtubule fused together so that they share a common tubule wall) are arranged in a ring around a pair of single microtubules.
+
+-  flexible protein links prevent the sliding of the doublet. The motor action therefore causes a bending motion, creating waves or beating motions.
+  
+  ![](62.png)
+
+-  Proteolytic enzyme trypsin breaks the flexible protein links holding adjacent microtubule doublets together
+  
+  ![](63.png)
+
+**Microtubule-Binding Proteins Modulate Filament Dynamics and Organization**
+
+![](64.png)
+
+#### INTERMEDIATE FILAMENTS
+
+这种中间丝（intermediate filament）仅在某些后生动物（metazoans）中形成细胞质丝（cytoplasmic filament），包括脊椎动物（vertebrates）、线虫（nematodes）和软体动物（mollusks）。
+
+**Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures**
+
+![](65.png)
+
+**Intermediate Filament Structure Depends on the Lateral Bundling and Twisting of Coiled-Coils**
+
+monomer is quite like a string
+
+**Intermediate Filaments Impart Mechanical Stability to Animal Cells**
+
+Keratins(角蛋白) are the most diverse intermediate filament family
+> Epidermolysis bullosa simplex (defective keratins expressed in the basal cell layer of the epidermis): the skin blisters in response to even very slight mechanical stress, which ruptures the basal cells of the skin
+>
+
+**Plakin protein family: link IF network to the rest of the cytoskeleton**
+
+Plectin (green): making crosslinks from intermediate filaments (blue) to microtubules (red).
+
+> Mutations in the gene for plectin cause a devastating human disease that combines epidermolysis bullosa (caused by disruption of skin keratin filaments), muscular dystrophy (caused by disruption of desmin filaments), and neurodegeneration (caused by disruption of neurofilaments).
+
+**SUN-KASH protein complexes connect the nucleus and cytoplasm through the nuclear envelope**
+
+![](66.png)
+
+**During Mitosis the Nuclear Envelope Disassembles**
+
+![](67.png)
+
+#### CELL POLARIZATION AND MIGRATION
+
+![](68.png)
+
+**Cell polarization is controlled by members of the Rho protein family**
+
+![](69.png)
 
 # ✅Chapter 4 Biomembranes
 
