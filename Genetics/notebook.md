@@ -132,7 +132,7 @@ Most traits in humans are due to the interaction of multiple genes and do not sh
 
 **Pedigree analysis**
 
-![6](6.png){width=60%}
+<img src="6.png" alt="6" width="480">
 
 - A vertical pattern of inheritance indicates a rare dominant trait
 > Huntington's disease: A late-onset neurodegenerative genetic disorder that causes uncontrolled movements, emotional problems, and loss of cognition.
@@ -144,7 +144,7 @@ Most traits in humans are due to the interaction of multiple genes and do not sh
 - Puzzling pedigree
 > Progeria: a *de novo* dominant trait, an extremely rare genetic disorder with premature aging symptoms there is no known cure, few people with progeria exceed 13 years of age.
 >
-> ![](7.png){width=60%}
+> <img src="7.png" alt="" width="480">
 >
 > Mutation occurs during cell division in a newly conceived zygote or in the gametes of one of the parents
 > 
@@ -181,7 +181,7 @@ F1 hybrids that differ from both parents express an intermediate phenotype. Neit
 
 > Snapdragons *Antirrhinum majus*
 >
-> ![](8.png){width=60%}
+> <img src="8.png" alt="" width="480">
 >
 > horse
 
@@ -202,7 +202,7 @@ both traits appear equally, Phenotypic ratios are same as genotypic ratios.
 > ABO blood type:
 > Enzymes add sugar A or sugar B to a base consisting of a sugar polymer known as substance H, resulting in antigen A or antigen B respectively
 >
-> ![](9.png){width=60%}
+> <img src="9.png" alt="" width="480">
 >
 > The eye color of Drosophila
 
@@ -224,14 +224,14 @@ a single gene determines more than one distinct and seemingly unrelate character
 > A. Yellow must be AYA, and AY is dominant to A
 > B. AY is recessive lethal! AYAY die in utero and do not show up as progeny.
 > 
-> ![](10.png){width=60%}
+> <img src="10.png" alt="" width="480">
 
 > Sickle-Cell Anemia: both Mutliple alleles & Pleiotropy
 > Pleiotropy part: Sickling & Resistance to malaria & Recessive lethality
 > - clog the small blood vessels -- Shortness of breath, muscle cramps, fatigue
 > - Very fragile -- Anemia
 >
-> ![](11.png){width=60%}
+> <img src="11.png" alt="" width="480">
 >  
 > Malaria parasites cause sickle-shaped blood cells to break down before the malaria parasites can reproduce.
 
@@ -251,7 +251,7 @@ Each genotypic class (defined in terms of the presence or absence of the dominan
 
 > The shape of cockscombs
 >
-> ![](12.png){width=60%}
+> <img src="12.png" alt="" width="480">
 >
 
 **Complementary gene action**: 
@@ -259,12 +259,12 @@ Each genotypic class (defined in terms of the presence or absence of the dominan
 > color in sweet peas:
 > A_B_(purplr) & others(white) = 9:7
 >
-> ![example](1.png){width=60%}
+> <img src="1.png" alt="example" width="480">
 >
 
 > A possible explaination
 >
-> ![](13.png){width=60%}
+> <img src="13.png" alt="" width="480">
 > 
 
 > in human deafness
@@ -280,7 +280,7 @@ a gene interaction in which the effects of an allele at one gene is masked, inhi
 
 > coat color in Labrador retriever dog
 > 
-> ![](3.png){width=60%}
+> <img src="3.png" alt="" width="480">
 > 
 > **recessive epistasis**
 
@@ -289,26 +289,26 @@ a gene interaction in which the effects of an allele at one gene is masked, inhi
 > Bombay blood type
 > the woman lack of substance H(hh),so the recessive allele(h) masks the effects of any ABO alleles
 > 
-> ![](4.png){width=60%}
+> <img src="4.png" alt="" width="480">
 > 
 > Bombay blood type can only accept blood from another Bombay blood type indivitual
 
 > summer squash
 > 
-> ![](5.png){width=60%}
+> <img src="5.png" alt="" width="480">
 > 
 > Green(Chlorophylls)->Yellow(Carotenoid)
 > 
-> ![](14.png){width=60%}
+> <img src="14.png" alt="" width="480">
 > 
 > **Dominant epistasis**
 
 
 > chicken feather: A profuces color only in absence of B
 >
-> ![](15.png){width=60%}
+> <img src="15.png" alt="" width="480">
 > 
-> ![](16.png){width=60%}
+> <img src="16.png" alt="" width="480">
 >
 
 **12:3:1 and 13:3 are telltale ratios for dominant epistasis.**
@@ -319,18 +319,18 @@ provide alternative genetic determination of a specific phenotype.
 
 > Duplicate effect in shepherd's purse
 >
-> ![](17.png){width=60%}
+> <img src="17.png" alt="" width="480">
 > 
 > **Redundancy**: more than one gene acting in a totally same pathway
 > At this time we can do gain-function experiment(overexpress), and do the lost-function experiment to know the genotype
 > however sometimes is not redundancy but complementary....?
 > *test*
 
-![](18.png){width=60%}
+<img src="18.png" alt="" width="480">
 
 **Testing two gene and one gene hypothesis**
 
-![](19.png){width=60%}
+<img src="19.png" alt="" width="480">
 
   - 9:4:3(recessive epistasis) & 1:2:1(incomplete dominance)-> backcross
   - pedigree analysis can be used to tes trait inheritance hypothesis in humans:
@@ -404,7 +404,7 @@ Haploid gametes produce diploid zygotes at fertilization
 >
 Anatomy of a chromosome
 
-![](20.png){width=60%}
+<img src="20.png" alt="" width="480">
 
 Homologous chromosomes match in size, shape, and banding patterns
 
@@ -450,9 +450,9 @@ SRY(sex determining region of Y) is the primary determinant of maleness
   - human: the presence or absence of Y, and human can tolar the XXX
   - Drosophila: the number of X chromosomes
 
-![](21.png){width=60%}
+<img src="21.png" alt="" width="480">
 
-![](22.png){width=60%}
+<img src="22.png" alt="" width="480">
   
 > Natural sex changes in clownfish
 > When the dominant female dies, the dominant male changes sex to take her place, while the largest juvenile male becomes the new dominant male, triggered by social cues and hormonal shifts
@@ -494,16 +494,16 @@ Meiosis:One source of the genetic variation that fuels evolution
 
 Morgen's theory:
 
-![](21.png){width=60%}
+<img src="21.png" alt="" width="480">
 
 TOPIC: Nondisjunction of chromosomes during meiosis
 Calvin Bridges's Primary exceptional progeny
 
-![](24.png){width=60%}
+<img src="24.png" alt="" width="480">
 
 Validation:
 
-![](25.png){width=60%}
+<img src="25.png" alt="" width="480">
 
 #### Sex-linked traits in human
 
@@ -545,7 +545,7 @@ key words:
 
 #### Gene linkage and recombination
 
-![](26.png){width=60%}
+<img src="26.png" alt="" width="480">
 
 Autosomal genes can also exhibit linkage
 
@@ -558,7 +558,7 @@ Recombination frequency, RF:
 RF = Recombinant number/(Parental number + Recombinant number)
 > A recombination frequency of less than 50% is a diagnostic for linkage.
 
-![](27.png){width=60%}
+<img src="27.png" alt="" width="480">
 
 #### The Chi-square test and linkage analysis
 
@@ -573,7 +573,7 @@ Data needed:
 - How many classes of progeny
 - Number of offspring observed in each class
 
-![](28.png){width=60%}
+<img src="28.png" alt="" width="480">
 
 Degrees of freedom (df)-- df = N – 1 (where N is the number of classes)
 
@@ -582,7 +582,7 @@ Determine a p value using chi-square value and df
 Use p value of 0.05 as cutoff
 Chi-square values that lie in the yellow region of this table allow rejection of the null hypothesis with >95% confidence
 
-![](43.png){width=60%}
+<img src="43.png" alt="" width="480">
 
 #### Recombinstion: A result of crossing-over
 
@@ -632,11 +632,11 @@ limitation:
 
 #### Three point crosses
 
-![](30.png){width=60%}
+<img src="30.png" alt="" width="480">
 
 **Correction for Double Crossovers (DCO)**
 
-![](31.png){width=60%}
+<img src="31.png" alt="" width="480">
 
 The RF of linked genes cannot exceed 50%: 
 - Meioses without crossovers produce only parental chromosomes.
@@ -698,7 +698,7 @@ many SNPs only in introns, so it has small influence in phenotype
 > - autosomal, dominantly inherited
 > - positional cloning example determines whether or nota SNP is linked to the neurofibromatosis gene，但有的时候会出现重组，利用重组率计算基因距离
 >
-> ![](33.png){ width=60% }
+> <img src="33.png" alt="" width="480">
 
 Determing genotype by sequencing PCR products.
 
@@ -721,9 +721,9 @@ ideal experimental organism-- Tetrad
 - Meiosis can generate three kinds of tetrads: PD & NPD (parental ditype & nonparental ditype)这是自由组合的事情
 - Meiosis can generate three kinds of tetrads: T(tetratype)
 
-![](42.png){width=60%}
+<img src="42.png" alt="" width="480">
 
-![](33.png){width=60%}
+<img src="33.png" alt="" width="480">
 
 Linkage is demonstrated by PDs outnumbering NPDs: PD/NPD > 1, linked; PD/NPD = 1, unlinked
 
@@ -739,23 +739,23 @@ twin spots, single spot, singed spot
 - singed (sn) mutant – short and curled bristles
 - Wild type (sn+) – long and straight bristles
 
-![](35.png){width=60%}
+<img src="35.png" alt="" width="480">
 
-![](36.png){width=60%}
+<img src="36.png" alt="" width="480">
 
 #### Application of mitotic recombination
 
 Application:
 > Mosaic clonal analysis using the FLP-FRT system相当于强制进行有丝分裂重组
 >
-> ![](37.png)
+> <img src="37.png" alt="" width="480">
 
 
 Origin of cancer
 > retinoblastoma
 > 可能有很多不同的生病原因
 >
-> ![](38.png)
+> <img src="38.png" alt="" width="480">
 > 
 > heterozygous form homozygous cells
 
@@ -791,7 +791,7 @@ Types of DNA recombination:
 
 > Meselson and Weigle: Experimental evidence
 >
-> ![](39.png){width=60%}
+> <img src="39.png" alt="" width="480">
 >
 
 
@@ -805,7 +805,7 @@ Types of DNA recombination:
   - Step 5: Branch migration
   - 会形成一个Heteroduplex region区域
   
-  ![](40.png)
+  <img src="40.png" alt="" width="480">
 
 
   > Holliday model
@@ -820,7 +820,7 @@ Types of DNA recombination:
 
 one ellele is converted to the allele on the homologous chromosome, resulting in nonreciprocal recombination
 
-![](41.png)
+<img src="41.png" alt="" width="480">
 
 Gene conversion vs. mutation: 
 - It occurs at a higher frequency (0.1 to 1%) than the corresponding mutation events;
@@ -833,6 +833,113 @@ Gene conversion vs. mutation:
 # Chapter 3 The Concepts of Gene and Mutation
 
 ## The Conception of Gene
+
+#### DNA as the genetic material
+
+> Griffith’s demonstration of bacterial transformation
+>
+> <img src="44.png" alt="" width="480">
+>
+
+> Avery's experiment
+>
+> <img src="45.png" alt="" width="480">
+>
+
+> Alfred Hershey and Martha Chase
+>
+> <img src="46.png" alt="" width="480">
+>
+
+#### A gene is a discrete linear set of nucleotide pairs
+
+Complementation test can determine if mutations arise from the same or different genes.
+
+How recombination within a gene could generate a wild-type allele?
+
+<img src="47.png" alt="" width="480">
+
+> Benzer’s experiment:
+> T4 phage
+> - Can examine a large number of progeny to detect rare mutation events (100-1000 progeny/hour)
+> - Phase chromatin is “naked”, allowing much higher recombination frequency
+> - Could allow only recombinant phage to proliferate while parental phages died 
+>
+> <img src="48.png" alt="" width="480">
+>
+> Step 1: complementation test (trans) -> find out all mutations in rll-A 
+>
+> <img src="49.png" alt="" width="480">
+>
+> Complementation test is *trans* combination, testing whether this 2 mutations are in same gene or not
+> Control group is *cis* combination, testing whether the mutation is dominant or recessive
+>
+> Step 2: recombination test -> between rll-A mutations
+>
+> <img src="50.png" alt="" width="480">
+>
+> Recombination test: testing whether recombination appears in the same gene
+> Control group: exlude the possible of revertants
+
+Gene structure:
+- A gene consists of different parts that can each mutate; 
+- Recombination between different mutable sites in the same gene can generate a normal, wild-type allele;
+- A gene performs its normal function only if all of its components are wild type.
+
+- The minimal recombination frequency: 0.02 cM;
+- T4 Chromosome: 1.8×105 bp, 1500 cM (120 bp/cM); 
+- 0.02 cM (0.02/1500) 1.8×10^5 = 2.4 bp
+- Gene is not an indivisible entity
+- Different nucleotide pairs within a gene are independently mutable, and recombination can occur between nucleotide pairs within a gene as well as between genes
+
+#### The central dogma
+
+> The human dystrophin gene: RNA splicing
+
+RNA splicing:
+- there's specific splice site
+- Alternative RNA splicing
+  - dendritic self-avoidance
+
+<img src="51.png" alt="" width="480">
+
+Translation部分省略了
+
+#### Transposable elements – the jumping genes
+
+Activator transposase catalyzes excision and integration
+
+<img src="52.png" alt="" width="480">
+
+Transposition: The movement of small segments of DNA – entities known as transposable elements (TEs) – from one position in the genome to another
+- Retroposons: transpose via reverse transcription of an RNA intermediate 先变成RNA再逆转录为DNA然后才插入
+  - LINEs
+  - SINEs
+    - The Alu element and human diseases
+    - Alu insertions are sometimes disruptive and can result in inherited disorders.
+  - HERVs
+
+  <img src="54.png" alt="" width="480">
+
+- LTR: long terminal repeats
+- Transposons move their DNA directly
+
+Transposon structure: Transposase enzyme recognizes inverted repeats and excises the transpon
+1. P element in original genomic position and Transposase
+2. P element excised
+3. Excision of P element leaves a gap at its original location
+4. Repair of gap using a sister chromatid or homologous chromosome containing a P element Transposon remains in original position
+5. Repair of gap using a homologous chromosome lacking a P element Transposon no longer at original position
+6. Repair by Nonhomologous end joining(NHEJ)
+  
+An inserted element is flanked by a short repeat: transposition footprint
+
+> hybrid dysgenesis of *drosophila*
+>
+> <img src="53.png" alt="" width="480">
+>
+
+
 
 spontaneously mutation
 point mutation
@@ -860,4 +967,3 @@ tissue distribution of mtDNA mutant
 用mtDNA做亲子鉴定：short lots of copies
 
 three-person in vitro fertilization, two ways
-
