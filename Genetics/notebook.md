@@ -1,3 +1,31 @@
+---
+title: "Genetics Notes"
+subtitle: "Course Notebook"
+author: "Gaoyuchen"
+date: "2026-04-06"
+subject: "Genetics"
+keywords:
+  - Genetics
+  - Biology
+  - Notes
+lang: "en"
+titlepage: true
+toc: true
+toc-own-page: true
+numbersections: true
+titlepage-rule-color: "2E4057"
+titlepage-text-color: "2E4057"
+titlepage-background: ""
+mainfont: "Palatino"
+CJKmainfont: "Songti SC"
+geometry:
+  - margin=1in
+header-includes:
+  - \usepackage{xeCJK}
+  - \usepackage{float}
+  - \floatplacement{figure}{H}
+---
+
 # Chapter 0 introduction
 
 ### A brief history of modern genetics
@@ -658,9 +686,9 @@ Summary:
 - Calculate coefficient of coincidence and interference
 
 > Cystic fibrosis (CF): A recessive condition
-> 1. Pedigrees → CF is encoded by a single gene;
+> 1. Pedigrees -> CF is encoded by a single gene;
 > 2. Gene PON encoding Serum enzyme is linked to CF;
-> 3. Linkage analyses with hundreds of DNA markers → CF is on the long arm of chromosome 7;
+> 3. Linkage analyses with hundreds of DNA markers -> CF is on the long arm of chromosome 7;
 > 4. Fine mapping with several other markers;
 > 5. In 1992, CF gene was cloned.
 
@@ -939,31 +967,233 @@ An inserted element is flanked by a short repeat: transposition footprint
 > <img src="53.png" alt="" width="480">
 >
 
+## Functional dissection of a gene through mutation
 
+#### Mutation
 
-spontaneously mutation
-point mutation
-insertion and deletion
-natural processes: x-ray; UV light; Oxidative damage
-errors in replication
-unequal crossing-over
-transposable elements
-unstable trinucleotide repeats
-  CGG repeat: **Anticipation** & **slipping mispairing**
-              dCas-Tet1(demethylation), target to other CGG repeats
+Mutation: Changes in base sequences that modify the information content of DNA.
 
-induced mutation
-EMS dosage很重要，matching & lethal
-ames test
+**Classification of Mutations:**
 
-hypermophic mutation
-antimorphic(dominant negative)->kinase的问题：就是block ATP的结合位点
+By effect on structure
+- Small-scale mutations
+  - Point mutation
+  - Insertion
+  - Deletion
+- Large-scale mutations
+  - Amplification
+  - Deletion
+  - Translocation
+  - Inversion
 
-DNA repair:
-accurate repair system
+By effect on function
+- Loss of function
+- Gain of function
+- Dominant negative
+- Reverse mutation
 
-tissue distribution of mtDNA mutant
+By inheritance
+- Inheritable germline mutation
+- Non inheritable somatic mutation
 
-用mtDNA做亲子鉴定：short lots of copies
+Different genes, different mutation rates
+- Average mutation rate in gamete-producing eukaryotes is higher than that of prokaryotes
+- Diploid organisms can tolerate more mutations than haploid organisms
+- Human sperms have higher mutation rate than human eggs
+  - average: Mutation rate = 1 X 10-8
+  - Each child contains about 60 mutations (base pairs different from either parent), do not effect phenotype
+  - Mutation rate in sperm = 2-4 X 10-8
+- Revertants are more rare than forward mutations
 
-three-person in vitro fertilization, two ways
+###### The molecular basis of spontaneous mutations
+
+> fluctuation test
+> Hypothesis 1：Resistance is a physiological response to a bactericide
+> Hypothesis 2：Resistance arises from random mutation
+>
+> Each colony represents the descendants of a single resistant bacterium
+>
+> <img src="55.png" alt="" width="480">
+>
+
+> Replica plating
+> verifies that bacterial resistance is the result of preexisting mutations
+
+- Bacterial resistance arises from mutations that occurred before exposure to bactericide
+- Mutations occur as the result of random processes
+
+point mutation: : A type of mutation that causes the replacement of a single base nucleotide with another nucleotide of the genetic material, DNA or RNA.
+- Transition: purine replaced by another purine, or pyrimidine replaced by another pyrimidine
+- Transversion: purine replaced by a pyrimidine, or pyrimidine replaced by a purine
+
+insertion and deletion:
+- block of 1 or more bp lost from DNA
+- block of 1 or more bp added to DNA
+
+**Natural processes: x-ray; UV light; Oxidative damage**
+- Depurination: DNA 中的 嘌呤（adenine A 或 guanine G）碱基 从糖-磷酸骨架上脱落，形成 apurinic site (AP site)(1000/hr in every cell)
+- Deamination of C : C changed to U; Normal C-G -> A-T after replication
+
+<img src="56.png" alt="" width="480">
+
+<img src="57.png" alt="" width="480">
+
+<img src="57.png" alt="" width="480">
+
+<img src="58.png" alt="" width="480">
+
+**Errors in replication: tautomerization**
+
+**unequal crossing-over: **
+> Unequal crossing-over between red and green photoreceptor genes can change gene number and create hybrid photoreceptor proteins
+>
+> <img src="59.png" alt="" width="480">
+>
+
+**Transposable elements:**
+
+**Unstable trinucleotide repeats**
+- CGG repeat: 会导致non-coding region的甲基化水平上升，影响转录
+  - Anticipation: become apparent at an earlier age as it is passed on to the next generation. In most cases, an increase of severity of symptoms is also noted
+  
+  <img src="60.png" alt="" width="480">
+
+  - slipped mispairing
+  
+  <img src="61.png" alt="" width="480">
+
+  
+  - 有可能的治疗措施: dCas-Tet1(demethylation), 但问题是target to other CGG repeats
+  > Fragile X syndrome: The trinucleotide repeat is present within the non-coding region, the repeat expansion could affect the expression of the gene.
+  > Huntington’s disease: The trinucleotide repeat is present within the protein-coding region, the repeat expansion leads to production of a mutant toxic protein with gain of function.
+
+###### The molecular basis of induced mutations
+
+base analogs: chemical structure almost identical to normal base (5BU)
+
+hydroxylating agents: Hydroxylating agents add an –OH group
+
+alkylating agents: Alkylating agents add ethyl or methyl groups
+> Ethyl Methanesulfonate
+> dosage很重要，matching & lethal
+
+deaminating agents: Deaminating agents remove amine (-NH2) groups
+
+intercalating agents: 
+> Profalvin
+> 平面芳香族化合物
+> Proflavin 插入两条 DNA 链之间, 使 DNA 复制时发生 frameshift mutation（移码突变）
+
+> Ames test
+> to screen for chemicals that cause mutations and, therefore, might cause cancer.
+>
+> <img src="62.png" alt="" width="480">
+>
+> Rice liver enzyme: 模拟哺乳动物体内的代谢环境, 将化学物质转化为活性代谢物
+
+###### The phenotypic consequences of mutations
+
+- Wild type
+- Base substitutions
+- Frameshift mutation
+- Point mutation in non-coding sequence
+  
+Silent mutations do not alter the amino acid sequence
+
+Missense mutations replace one amino acid with another
+- Conservative – *chemical properties* of mutant amino acid are similar to the original amino acid
+- Nonconservative – *chemical properties* of mutant amino acid are different from original amino acid
+
+Nonsense mutations change codon that encodes an amino acid to a stop codon (UGA, UAG, or UAA) 
+
+Frameshift mutations result from insertion or deletion of nucleotides with the coding region that change the reading frame for the reminder of the translation process. No frameshift if multiples of three are inserted or deleted
+
+Mutations outside the coding sequence can disrupt gene expression:
+- Mutations in the sequence of a promoter -> diminish or prevent transcription
+- Changes in a splice-acceptor or donor site -> no mature mRNA or splicing errors
+- Mutations affecting ribosome binding site -> diminish the efficiency of translation
+- Changes in sites that regulate stability or localization of the mRNA -> instability or mislocalization of mRNA and protein
+
+Null (amorphic) mutations: completely block function of a gene product (e.g. deletion of an entire gene)
+
+Hypomorphic mutations – gene product has weak, but detectable, activity
+
+Some loss-of-function alleles can show incomplete dominance
+
+Rare dominant loss-of-function allele
+> 通常 loss-of-function 突变是隐性的，因为一个正常拷贝可以弥补功能（haplosufficient）
+> 显性 LoF 突变发生在某些情况下：
+>  - Haploinsufficiency（半量不足）: phenotype is sensitive to gene dosage (i.e. 50% of gene product)
+> 见下
+
+Hypermophic mutation: generate more gene product or the same amount of a more efficient gene product
+> FGFR3 gene 
+> Achondroplasia (a form of short-limbed dwarfism; 先天性软骨发育不全) is caused by a dominant hypermorphic allele of FGFR3. The altered protein is always active.
+
+Neomorphic mutations – generate gene product with new function or that is expressed at inappropriate time or place
+
+Antimorphic(dominant negative): Mutant subunits block the activity of normal subunits
+kinase的问题：就是block ATP的结合位点; 或者block专门的激酶活性位点
+
+###### Biological repair system
+
+Proofreading decreases mistakes made during replication
+
+DNA repair systems:
+
+accurate repair system: Particularly important for removing uracil
+- Base excision repair removes damaged bases(BER)
+  - DNA glycosylases remove altered nitrogenous base.
+  - Nearby nucleotides removed
+  - New DNA systhesized to fill gap
+
+<img src="63.png" alt="" width="480">
+
+- Nucleotide excision repair corrects damaged nucleotides(NER)
+  - UvrA-UvrB complex scans for distortions to double helix (e.g. thymine dimers)
+  - UvrB-UvrC complex nicks the damaged DNA 
+  - DNA polymerase fills in the gap
+
+<img src="64.png" alt="" width="480">
+
+- homologous and nonhomologous repair(HR)
+- Nonhomologous end-joining(NHEJ)
+
+Error-prone repair systems:
+- SOS system:
+  - Adds random nucleotides opposite damaged bases
+- Microhomology-mediated end-joining (MMEJ)
+  -  Similar to NHEJ, except nucleotides are removed at doublestranded breaks leading to small deletions
+
+Defects in DNA repair lead to human diseases:
+
+> Xeroderma pigmentosum (XP)
+> An autosomal recessive genetic disorder of DNA repair in which the ability to repair damage caused by ultraviolet (UV) light is deficient
+
+> BRCA1 and breast cancer
+> BRCA1 (breast cancer 1, early onset) is human tumor suppressor gene. It is involved in double-strand break repair by homologous recombination and contribute to susceptibility to breast cancer.
+
+#### Organelle genetics
+
+Mitochondrial DNA is circular in shape while nuclear DNA is linear in shape.
+
+Nuclear and organellar genomes cooperate with one another, semiautonomous
+
+- Heteroplasmic cells contain a mixture of organelle genomes
+- Homoplasmic cells contain only one type of organelle genome
+
+Maternal inheritance of Xenopus mtDNA
+> 用mtDNA做亲子鉴定的原因：short lots of copies
+> The mutation rate of animal mtDNA is higher than that of nuclear DNA
+> Usually no change in mtDNA from parent to offspring
+
+#### mtDNA mutations and human health
+
+- Tissues with higher energy requirements are less tolerant of mutant mitochondria
+- Tissues with low energy requirements are affected only when the proportion of wild-type mitochondria is greatly reduced
+
+<img src="65.png" alt="" width="480">
+
+Three-person in vitro fertilization, two ways:
+
+<img src="66.png" alt="" width="480">
