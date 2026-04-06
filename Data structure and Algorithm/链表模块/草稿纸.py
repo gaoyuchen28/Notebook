@@ -1,85 +1,92 @@
-# 双向列表实现
-class Node:
-    def __init__(self, value):
-        self.value = value
-        self.next = None
-        self.prev = None
-
-class DoublyLinkedList:
-# 在链表尾部添加节点
-# 在链表头部添加节点
-# 删除链表中的指定节点
-# 打印链表中的所有元素，从头到尾
-# 打印链表中的所有元素，从尾到头
+# 仅设尾指针的循环链表
+class CircleLinkList: 
+# 在链表头部插入元素
+# 在链表尾部插入元素
+# 移除并返回链表头部元素
+# 移除并返回链表尾部元素
+# 打印链表中的所有元素
+    class Node:
+        def __init__(self, value):
+            self.value = value
+            self.next = None
+    
     def __init__(self):
-        self.head = None
         self.tail = None
+        self.size = 0
     
-    def append(self, value):
-        node = Node(value)
-        if self.head == None:
-            self.head = node
+    def pushFront(self,value):
+        node = CircleLinkList.Node(value)
+        if self.tail == None:
             self.tail = node
-        else:
             self.tail.next = node
-            node.prev = self.tail
-            self.tail = node
-    
-    def prepend(self, value):
-        node = Node(value)
-        if self.head == None:
-            self.head = node
-            self.tail = node
         else:
-            node.next = self.head
-            self.head.prev = node
-            self.head = node
-        
-    def delete(self, p):
-        if p is None:
+            node.next = self.tail.next
+            self.tail.next = node
+        self.size +=1
+    
+    def pushBack(self, value):
+        node = CircleLinkList.Node(value)
+        if self.tail == None:
+            self.tail = node
+            self.tail.next = node
+        else:
+            node.next = self.tail.next
+            self.tail.next = node
+            self.tail = node
+        self.size +=1
+    
+    def popFront(self):
+        if self.tail == None:
             return
-        if p == self.tail:
-            self.tail = self.tail.prev
-            self.tail.next = None
         else:
-            p.prev.next = p.next
-            p.next.prev = p.prev
+            value = self.tail.next.value
+            self.tail.next = self.tail.next.next
+            self.size -=1
+            return value
     
-    def print_list(self):
-        current = self.head
-        while current:
-            print(current.value, end = "<->")
-            current = current.next
-        print("None")
+    def popBack(self):
+        if self.tail == None:
+            return
+        else:
+            value = self.tail.value
+            current = self.tail.next
+            while current.next != self.tail:
+                current = current.next
+            current.next = self.tail.next
+            self.tail = current
+            self.size -=1
+            return value
+    def print(self):
+        if self.size == 0:
+            print('Empty!')
+        else:
+            current = self.tail.next
+            while current:
+                print(current.value, end = ",")
+                current = current.next
+                if current == self.tail.next:
+                    break
+        print()
     
-    def print_reverse(self):
-        current = self.tail
-        while current:
-            print(current.value, end="<->")
-            current = current.prev
-        print("None")
-    
-dll = DoublyLinkedList()
+if __name__ == "__main__":
+    clist = CircleLinkList()
 
-# 添加节点
-dll.append(10)
-dll.append(20)
-dll.append(30)
+    print("Pushing elements to front:")
+    for i in range(3):
+        clist.pushFront(i)
+        clist.print()  # 应该依次输出: 0, 1,0, 2,1,0,
 
-# 在头部添加节点
-dll.prepend(5)
+    print("Pushing elements to back:")
+    for i in range(3, 6):
+        clist.pushBack(i)
+        clist.print()  # 应该依次输出: 2,1,0,3, 2,1,0,3,4, 2,1,0,3,4,5,
 
-# 打印链表
-print("从头到尾打印：")
-dll.print_list()    # 5 <-> 10 <-> 20 <-> 30 <-> None
+    print("Popping from front:")
+    for _ in range(3):
+        print(f"Popped: {clist.popFront()}")
+        clist.print()  # 应该依次输出: 2,1,0,3,4,5, 1,0,3,4,5, 0,3,4,5,
 
-# 打印链表（逆序）
-print("从尾到头打印：")
-dll.print_reverse() # 30 <-> 20 <-> 10 <-> 5 <-> None
-
-# 删除节点
-dll.delete(dll.head.next)  # 删除第二个节点（数据为10）
-
-# 打印链表
-print("删除一个节点后，链表为：")   
-dll.print_list()    # 5 <-> 20 <-> 30 <-> None
+    print("Popping from back:")
+    for _ in range(3):
+        print(f"Popped: {clist.popBack()}")
+        clist.print()  # 应该依次输出: 5, 3,4, 5, 4, 3, Empty!
