@@ -1,47 +1,90 @@
-# 单向链表实现1：尾插法
-class Node:
-    def __init__(self, value): # 简单说就是Node其实就包括value和next两个部分
-        self.value = value
-        self.next = None
-
-class LinkedList: #需要包括插入、删除、print三个功能
-    def __init__(self): # LinkedList 表示整个链表结构，self.head 是链表的入口，指向链表的第一个节点（head node）
-        self.head = None
+# 单向列表实验二：维护了tail和size
+class LinkList: 
+# 功能包括：
+# 打印、
+# 在链表头部插入、
+# 在链表尾部插入、
+# 在节点p后插入、
+# 删除节点 p 后的节点、
+# 删除头节点并返回数据、
+    class Node:
+        def __init__(self, value):
+            self.value = value
+            self.next = None
     
-    def insert(self, value):
-        node = Node(value)
-        if self.head == None:
-            self.head = node
-        else:
-            current = self.head
-            while current.next:
-                current = current.next
-            current.next = node
+    def __init__(self):
+        self.head = None
+        self.tail = None
+        self.size = 0
 
-    def delete(self, value):
-        if self.head == None:
+    def print(self):
+        if self.size == 0:
             return
-        else:
-            current = self.head
-            while current.next:
-                if current.next.value == value:
-                    break
-                current = current.next
-            if current == None:
-                return
-            else:
-                current.next = current.next.next
-    def display(self): # 输出模块的判断
         current = self.head
         while current:
             print(current.value, end = " ")
             current = current.next
         print()
-
-linked_list = LinkedList()
-linked_list.insert(1)
-linked_list.insert(2)
-linked_list.insert(3)
-linked_list.display()  # 输出：1 2 3
-linked_list.delete(2)
-linked_list.display()
+    
+    def pushFront(self, value):
+        node = LinkList.Node(value)
+        if self.size == 0:
+            self.head = node
+            self.tail = node
+        else:
+            p = self.head
+            self.head = node
+            node.next = p
+        self.size += 1
+    
+    def pushBack(self, value):
+        node = LinkList.Node(value)
+        if self.size == 0:
+            self.head = node
+            self.tail = node
+        else:
+            self.insert_after(self.tail, value)
+        self.size += 1
+    
+    def insert_after(self, p, value):# If p is None, insert at the beginning
+        node = LinkList.Node(value)
+        if p is None:
+            self.pushFront(value)
+        else:
+            if p == self.tail:
+                p.next = node
+                self.tail = node
+            else:
+                node.next = p.next
+                p.next = node
+        self.size += 1
+    
+    def delete_after(self,p):
+        if p is None or p.next is None:
+            return
+        else:
+            if p.next == self.tail:
+                self.tail = p
+            else:
+                p.next = p.next.next
+            self.size -= 1
+    
+    def popFront(self):
+        if self.size == 0:
+            self.tail = None
+        else:
+            value = self.head.value
+            self.head = self.head.next
+            self.size -= 1
+            return value
+        
+if __name__ == "__main__":
+    ll = LinkList()
+    ll.pushFront(1)
+    ll.pushFront(2)
+    ll.pushBack(3)
+    ll.print()  # 应该输出: 2,1,3
+    ll.delete_after(ll.head)  # 删除第二个元素 (1)
+    ll.print()  # 应该输出: 2,3
+    print(f"Pop Front: {ll.popFront()}")  # 应该输出: Pop Front: 2
+    ll.print()  # 应该输出: 3
