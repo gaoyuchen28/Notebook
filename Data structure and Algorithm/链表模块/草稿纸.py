@@ -1,90 +1,85 @@
-# 单向列表实验二：维护了tail和size
-class LinkList: 
-# 功能包括：
-# 打印、
-# 在链表头部插入、
-# 在链表尾部插入、
-# 在节点p后插入、
-# 删除节点 p 后的节点、
-# 删除头节点并返回数据、
-    class Node:
-        def __init__(self, value):
-            self.value = value
-            self.next = None
-    
+# 双向列表实现
+class Node:
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+        self.prev = None
+
+class DoublyLinkedList:
+# 在链表尾部添加节点
+# 在链表头部添加节点
+# 删除链表中的指定节点
+# 打印链表中的所有元素，从头到尾
+# 打印链表中的所有元素，从尾到头
     def __init__(self):
         self.head = None
         self.tail = None
-        self.size = 0
-
-    def print(self):
-        if self.size == 0:
+    
+    def append(self, value):
+        node = Node(value)
+        if self.head == None:
+            self.head = node
+            self.tail = node
+        else:
+            self.tail.next = node
+            node.prev = self.tail
+            self.tail = node
+    
+    def prepend(self, value):
+        node = Node(value)
+        if self.head == None:
+            self.head = node
+            self.tail = node
+        else:
+            node.next = self.head
+            self.head.prev = node
+            self.head = node
+        
+    def delete(self, p):
+        if p is None:
             return
+        if p == self.tail:
+            self.tail = self.tail.prev
+            self.tail.next = None
+        else:
+            p.prev.next = p.next
+            p.next.prev = p.prev
+    
+    def print_list(self):
         current = self.head
         while current:
-            print(current.value, end = " ")
+            print(current.value, end = "<->")
             current = current.next
-        print()
+        print("None")
     
-    def pushFront(self, value):
-        node = LinkList.Node(value)
-        if self.size == 0:
-            self.head = node
-            self.tail = node
-        else:
-            p = self.head
-            self.head = node
-            node.next = p
-        self.size += 1
+    def print_reverse(self):
+        current = self.tail
+        while current:
+            print(current.value, end="<->")
+            current = current.prev
+        print("None")
     
-    def pushBack(self, value):
-        node = LinkList.Node(value)
-        if self.size == 0:
-            self.head = node
-            self.tail = node
-        else:
-            self.insert_after(self.tail, value)
-        self.size += 1
-    
-    def insert_after(self, p, value):# If p is None, insert at the beginning
-        node = LinkList.Node(value)
-        if p is None:
-            self.pushFront(value)
-        else:
-            if p == self.tail:
-                p.next = node
-                self.tail = node
-            else:
-                node.next = p.next
-                p.next = node
-        self.size += 1
-    
-    def delete_after(self,p):
-        if p is None or p.next is None:
-            return
-        else:
-            if p.next == self.tail:
-                self.tail = p
-            else:
-                p.next = p.next.next
-            self.size -= 1
-    
-    def popFront(self):
-        if self.size == 0:
-            self.tail = None
-        else:
-            value = self.head.value
-            self.head = self.head.next
-            self.size -= 1
-            return value
-        
-if __name__ == "__main__":
-    ll = LinkList()
-    ll.pushFront(1)
-    ll.pushFront(2)
-    ll.pushBack(3)
-    ll.print()  # 应该输出: 2,1,3
-    ll.delete_after(ll.head)  # 删除第二个元素 (1)
-    ll.print()  # 应该输出: 2,3
-    print(f"Pop Front: {ll.popFront()}")  # 应该输出: Pop Front: 2
-    ll.print()  # 应该输出: 3
+dll = DoublyLinkedList()
+
+# 添加节点
+dll.append(10)
+dll.append(20)
+dll.append(30)
+
+# 在头部添加节点
+dll.prepend(5)
+
+# 打印链表
+print("从头到尾打印：")
+dll.print_list()    # 5 <-> 10 <-> 20 <-> 30 <-> None
+
+# 打印链表（逆序）
+print("从尾到头打印：")
+dll.print_reverse() # 30 <-> 20 <-> 10 <-> 5 <-> None
+
+# 删除节点
+dll.delete(dll.head.next)  # 删除第二个节点（数据为10）
+
+# 打印链表
+print("删除一个节点后，链表为：")   
+dll.print_list()    # 5 <-> 20 <-> 30 <-> None
