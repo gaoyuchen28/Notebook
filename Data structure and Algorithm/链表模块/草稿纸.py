@@ -1,17 +1,10 @@
-# 链表合并
+# 整数转换为任意进制
 
-def merge_sorted_lists(l1, l2):
-    dummy = Node(0)
-    tail = dummy
-    while l1 and l2:
-        if l1.data > l2.data:
-            tail.next = l1
-            l1 = l1.next
-        else:
-            tail.next = l2
-            l2 = l2.next
-    if l1:
-        tail.next = l1
+def exchange(number, base):
+    data = "0123456789ABCDEF"
+    if number < base:
+        return data[number]
     else:
-        tail.next = l2
-    return dummy.next
+        return exchange(number//base, base) + data[number%base] # 要注意这里给的data是什么意思！！！
+
+print(exchange(1453, 16))
