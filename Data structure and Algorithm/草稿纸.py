@@ -1,10 +1,13 @@
-# 进制转换
+# 递归可视化之螺旋
 
-def exchange(num, base):
-    data = "0123456789ABCDEFG"
-    if num < base:
-        return data[num]
-    else:
-        return exchange(num//base,base) + data[num%base]
+import turtle
+t = turtle.Turtle()
 
-print(exchange(10,2))
+def L(len):
+    if len > 0 :
+        t.forward(len)
+        t.right(90)
+        return L(len-5)
+
+L(100)
+t.done()
