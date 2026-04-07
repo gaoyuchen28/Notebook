@@ -1,18 +1,43 @@
-# 递归可视化之二叉树
+# 谢尔宾斯基三角形
 
 import turtle
 t = turtle.Turtle()
 
-def Tree(len):
-    if len > 1 :
-        t.forward(len)
-        t.right(20)
-        Tree(len - 5)
-        t.left(40)
-        Tree(len - 5)
-        t.right(20)
-        t.backward(len)
-t.left(90) # 初始方向默认朝右（0°）,将海龟旋转 90°，也就是 向上。
+def DrawTriangle(point,color):
+    t.fillcolor(color)
+    t.penup()
+    t.goto(point['top'])
+    t.begin_fill()
+    t.goto(point['left'])
+    t.goto(point['right'])
+    t.goto(point["top"])
+    t.end_fill()
 
-Tree(25)
-t.done()
+def getMid(p1, p2):
+    return((p1[0]+p2[0])/2, (p1[1]+p2[1])/2)
+
+def Triangle(degree, point):
+    colormap = ['blue','green','red','yellow','purple','orange']
+    DrawTriangle(point,colormap[degree])
+    if degree > 0 :
+        Triangle(degree-1,
+                {  'left': getMid(point['top'],point['left']),
+                    'right': getMid(point['top'],point['right']),
+                    'top' : point['top']})
+        Triangle(degree-1,
+                {  'left' : point['left'],
+                    'right': getMid(point['left'],point['right']),
+                    'top' : getMid(point['left'],point['top'])})
+        Triangle(degree-1,
+                {  'left' : getMid(point['left'],point['right']),
+                    'right': point['right'],
+                    'top' : getMid(point['right'],point['top'])})
+
+point = {
+    'left': (-200, -100),
+    'right':(200, -100),
+    'top':(0, 200) }
+
+Triangle(5, point)
+
+turtle.done()
