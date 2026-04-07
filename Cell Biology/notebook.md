@@ -1241,20 +1241,43 @@ most ions have significant different concentration in cytoplasmic and extracellu
 
 #### PRINCIPLES OF MEMBRANE TRANSPORT
 
-protein-free lipid bilayers are impermeable to ions (only hydrophobic molecules can cross the lipid bilayer)
+**protein-free lipid bilayers are impermeable to ions (only hydrophobic molecules can cross the lipid bilayer)**
 
-There're 2 main classes of membrane transport proteins: transporters(Permeases) and channels
+**There're 2 main classes of membrane transport proteins: transporters(Permeases) and channels**
 
 transporters are like enzyme; channel-pro interaction is more weak, "-gated"
 
-Active transport is nediated by transporters coupled to an Engery Source(light; ATP; concentration different)
+**Active transport is mediated by transporters coupled to an Engery Source(light; ATP; concentration different)**
 
-**Electrochemical gradients:** concentration gradients & membrane potential(bigger force)
+Electrochemical gradients:** concentration gradients & membrane potential(bigger force)
 
-transporter: outward-open and inward-open (occluded), energy input can be used to change the conformation
+transporter: outward-open and inward-open and occluded, energy input can be used to change the conformation
+
+![](70.png)
+
 transporter-mediated diffusion can't be saturated
 
-symport & antiport tranport: rmediaton and clear some staffce
+![](71.png)
+
+**Active transport drived by three ways**
+
+- Coupled transporter（耦合转运蛋白）: Uses the electrochemical gradient of one molecule (usually a concentration gradient) to drive the transport of another molecule across the membrane.
+  - Symporter（同向转运蛋白）
+  - Antiporter（反向转运蛋白 / 交换蛋白）
+  - Uniporter（单分子转运蛋白）
+- ATP-driven pump（ATP驱动泵）: Hydrolyzes ATP (producing ADP + P) to provide energy for transporting molecules or ions against their concentration or electrochemical gradients.
+- Light-driven pump（光驱动泵）: Absorbs light energy and converts it via light-sensitive proteins (e.g., rhodopsins) into the ability to transport molecules or ions against their gradient.
+
+Transporters built from inverted repeats.
+
+> Mechanism of glucose transport fueled by a Na+ gradient.
+> Two Types of Medicines are Developed in Na+-Couple Transport:
+> - Anti-diabetic (and more) drugs: SGLT2抑制剂，原本是Na+-Glucose共转运蛋白，抑制之后减少糖重吸收
+> - Anti-depressant: The serotonin/norepinephrine transporters targeted by antidepressants are Na⁺-dependent
+
+**The serotonin/norepinephrine transporters targeted by antidepressants are Na⁺-dependent**
+
+![](72.png)
 
 #### Transporters and active membrane transport
 
@@ -1263,15 +1286,17 @@ symport & antiport tranport: rmediaton and clear some staffce
 - ABC (ATP Binding Cassette)
 - F-type/V-type
 
-P-type ATPase pumps Ca2+ into the Sarcoplasmic reticulum in mucle cells
+![](73.png)
+
+**P-type ATPase pumps Ca2+ into the Sarcoplasmic reticulum in muscle cells**
 > The concentration of Ca2+ is very important for cells(more, toxic)
 > clearance of it is important
 
-Sarcoplasmic reticulum
+The pumping cycle of the sarcoplasmic reticulum Ca2+ pump.
  
-一张机理图
+![](74.png)
 
-Plasma Membrane Na+-K+ Pump(3 Na+ in and 2 K+ out) -> create a net negative charge
+**Plasma Membrane Na+-K+ Pump(3 Na+ in and 2 K+ out) -> create a net negative charge**
 
 > the concentration gradient of Na+ across the membrane is a source of potential energy-required reaction
 
@@ -1279,40 +1304,107 @@ Plasma Membrane Na+-K+ Pump(3 Na+ in and 2 K+ out) -> create a net negative char
 
 different tactics are used to avoid osmotic swelling
 
+![](75.png)
+
+**ABC Transporters Constitute the Largest Family of Membrane Transport Proteins**
+
 Small-molecule transport by typical ABC transporters
 - Bacterium：大概意思就是有很多家族的蛋白他们是相互合作的
+  
+![](76.png)
+
 - Drug resistance
 
-F-type/V-type ATPase:
+**Mitochondrial ATP Synthase or F1F0 type pump**:
+
+Moves protons down the electrochemical gradient from the intermembrane space to the matrix
+
+Movement of protons powers the synthesis of ATP
+
+![](77.png)
 
 #### Channels and the electrical properties of membrane
 
+channel proteins form hydrophilic pores across membranes.
+
 channel has much more efficiency and speed compare to transporters
 
+Channels need not be coupled to an energy source
+
+One class of channel proteins found in virtually all animals forms gap junctions between two adjacent cells
+
 - gated (voltage. extracellular-ligand, intracellular-ligand, mechanically)
-- perticular selectivity filter
+- particular selectivity filter
 
-Mechanosensitive Channels....
+![](78.png)
 
-Membrane Protential: K+ leak channels -> reasting potential of the cell become negative
+Mechanosensitive Channels Protect Bacterial Cells Against Extreme Osmotic Pressures
+
+**Membrane Protential: K+ leak channels -> resting potential of the cell become negative, The Resting Potential Decays Only Slowly When the Na+-K+ Pump Is Stopped**
+
+> The resting potential of an animal cell varies between –20 mV and –120 mV, depending on the organism and cell type.
+
 Potassium channel: very selective
-查一张机理图
+
+![](79.png)
+
 carbonyl oxygen-> smaller sodium tend to interact with 4 carbonyl oxygen in solvent instead of in channel
+
+#### CHANNELS AND THE ELECTRICAL PROPERTIES OF MEMBRANES
 
 The function of a Neuron Depends on its elongated structure
 
+In nerve and skeletal muscle cells, a stimulus that causes sufficient depolarization promptly opens the voltage-gated Na+ channels, allowing a small amount of Na+ to enter the cell down its electrochemical gradient.(*positive feedback*)
+
 Voltage-gated:
-一张典型图
+
+![](80.png)
+
 voltage sensitive domain(S4 helix)
+
 in electrically excitable cells((closed)rest -> (open)depolarized -> (inactivated)refractory)
+
+![](81.png)
+
 sodium channel faster than K+ channels
 Hyperpolarization: inactivate the sodium channel
 
-Myelination create by Schwann cells, has node of Ranvier
+![](82.png)
 
-Transmitted-Gated ion channels convert chemical signals into electrical ones at chemical synpases
-Electrical signals are converted to chemical signals at the nerve terminal
+**Myelination** create by Schwann cells, has node of Ranvier, Increases the Speed and Efficiency of Action Potential Propagation in Nerve Cells
 
-neuromuscular junction
+Myelin is formed by specialized supporting cells called glial cells: 
+- In the peripheral nervous system, Schwann cells myelinate axons
+- whereas in the central nervous system, oligodendrocytes perform this function.
+
+> Multiple sclerosis:
+
+
+Transmitted-Gated ion channels convert chemical signals into electrical ones at chemical synpases, Release small signal molecules known as neurotransmitters
+
+- Neurotransmitters can be excitatory or inhibitory
+
+![](83.png)
+
+![](84.png)
+
+**neuromuscular junction**
+
+acetylcholine receptor of skeletal muscle cells: Composed of five transmembrane polypeptides, two of one kind and three others, encoded by four separate genes
+
+![](85.png)
+
+Neuromuscular Transmission Involves the Sequential Activation of Five Different Sets of Ion Channels
+
+![](86.png)
 
 Many psychoactive srugs act at synpases
+
+> Channelrhodopsins
+> Patch-Clamp Recording: Individual Ion Channels Open in an All-or-Nothing Fashion
+
+> Long-Term Potentiation (LTP) in the Mammalian Hippocampus Depends on Ca2+ Entry Through NMDA-Receptor Channels
+>
+> ![](87.png)
+>
+> 哺乳动物海马中的长期增强（LTP）依赖 NMDA 受体介导的 Ca²⁺ 流入，引发突触后 AMPA 受体增加，从而增强突触传递
