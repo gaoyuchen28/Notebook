@@ -1,13 +1,18 @@
-# 递归可视化之螺旋
+# 递归可视化之二叉树
 
 import turtle
 t = turtle.Turtle()
 
-def L(len):
-    if len > 0 :
+def Tree(len):
+    if len > 1 :
         t.forward(len)
-        t.right(90)
-        return L(len-5)
+        t.right(20)
+        Tree(len - 5)
+        t.left(40)
+        Tree(len - 5)
+        t.right(20)
+        t.backward(len)
+t.left(90) # 初始方向默认朝右（0°）,将海龟旋转 90°，也就是 向上。
 
-L(100)
+Tree(25)
 t.done()
