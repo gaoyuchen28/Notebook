@@ -1,11 +1,17 @@
-# 数字求和
-def arraySum(arr):
-	# code here
-	if len(arr) == 1:
-		return arr[0]
-	else:
-		return arr[0] + arraySum(arr[1:])
+# 斐波那契数列
 
-arr = list(map(int, input().split()))
-Sum = arraySum(arr)
-print(Sum)
+def Fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return Fib(n-1) + Fib(n-2)
+
+n = int(input())
+data = []
+for i in range(n):
+    data.append(Fib(i)) # 用append！！！
+
+for num in data:
+    print(num, end = " ")
