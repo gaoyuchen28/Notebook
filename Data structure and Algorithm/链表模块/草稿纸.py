@@ -1,11 +1,13 @@
-# 反转字符串
+# Minimum and Maximum elements Using Recursion
 
-def reverse(arr):
+def Max(arr):
     if len(arr) == 1:
         return arr[0]
     else:
-        return reverse(arr[1:]) + arr[0]
+        if arr[len(arr)-2] > arr[len(arr)-1]:
+            arr[len(arr)-2], arr[len(arr)-1] = arr[len(arr)-1],arr[len(arr)-2]
+        return Max(arr[:len(arr)-1])
 
-arr = list(input().split(", "))
-
-print(reverse(arr))
+arr = list(map(int,input().split(", ")))
+arr1 = Max(arr)
+print(arr1)
