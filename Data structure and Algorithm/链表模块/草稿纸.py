@@ -1,10 +1,11 @@
-# 整数转换为任意进制
+# 数字求和
+def arraySum(arr):
+	# code here
+	if len(arr) == 1:
+		return arr[0]
+	else:
+		return arr[0] + arraySum(arr[1:])
 
-def exchange(number, base):
-    data = "0123456789ABCDEF"
-    if number < base:
-        return data[number]
-    else:
-        return exchange(number//base, base) + data[number%base] # 要注意这里给的data是什么意思！！！
-
-print(exchange(1453, 16))
+arr = list(map(int, input().split()))
+Sum = arraySum(arr)
+print(Sum)
