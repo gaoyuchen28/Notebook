@@ -1,21 +1,21 @@
-# 出栈序列统计
-# 你已经知道栈的操作有两种：push和pop，前者是将一个元素进栈，后者是将栈顶元素弹出。
-# 现在要使用这两种操作，由一个操作序列可以得到一系列的输出序列。
-# 请你编程求出对于给定的n，计算并输出由操作数序列1，2，…，n，经过一系列操作可能得到的输出序列总数。
+# 例题: 爬楼梯
+# 树老师爬楼梯，他可以每次走1级或者2级，输入楼梯的级数，求不同的走法数
+# 例如：楼梯一共有3级，他可以每次都走一级，或者第一次走一级，第二次走两级，
+# 也可以第一次走两级，第二次走一级，一共3种方法。
 
 
-def count(i, stack_size): # i 表示已经压入了多少个数，stack_size 表示当前栈内元素个数
-    if i == n: # 这个时候唯一的办法就是把剩下的元素挨个弹出
+
+def count(n): # i 表示已经压入了多少个数，stack_size 表示当前栈内元素个数
+    if n == 0:
         return 1
+    elif n == 1:
+        return 1
+    elif n == 2:
+        return 2
     else:
-        result = 0
-        if stack_size > 0:
-            result += count(i, stack_size - 1)
-            result += count(i + 1, stack_size + 1)
-        else:
-            result = count(i + 1, stack_size + 1)
-        return result
+        return count(n-1) + count(n-2)
+    
 
 n = int(input())
-print(count(0,0))
+print(count(n))
     
