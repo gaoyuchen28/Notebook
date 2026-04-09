@@ -1,22 +1,17 @@
-# remove all adjacent duplicates
-def rremove(s):
-    sb = ""
-    n = len(s)
-    i = 0
-    while i < n:
-        repeat = False      
-        while i < n-1 and s[i]==s[i+1]:
-            repeat = True
-            i += 1
-        
-        if not repeat:
-            sb += s[i]
-        i += 1
-    
-    if n == len(sb):
-        return sb
-    return rremove(sb)
+# Sort the Queue
+def Findmin(n):
+    if len(n) == 1:
+        c.append(n[0])
+        return
+    else:
+        for i in range(len(n)):
+            if n[0] > n[i]:
+                n[0], n[i] = n[i], n[0]
+        Findmin(n[1:])
+        c.append(n[0])
+        return
 
-s = "geeksforgeek"
-result = rremove(s)
-print(result)
+c = []
+n = list(map(int, input().split(", ")))
+Findmin(n)
+print(c)
