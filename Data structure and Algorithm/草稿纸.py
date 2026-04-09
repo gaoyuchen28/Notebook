@@ -1,18 +1,15 @@
-# Pow(x, n)
-def myPow(x, n):
-    """
-    :type x: float
-    :type n: int
-    :rtype: float
-    """
-    if n == 0:
-        return 1
-    elif n > 0:
-        return myPow(x,n-1)*x
-    elif 0 > n:
-        return myPow(x,n+1)/x
+# Check for Palindrome
+def check(left, right):
+    if  left >= right:
+        print("True")
+        return True
+    elif n[left] != n[right]:
+        print("False")
+        return False
+    else:
+        check(left+1,right-1)
 
-x = float(input())
-n = int(input())
-
-print(f"{myPow(x,n):.6f}")
+n = str(input())
+left = 0
+right = len(n)-1
+check(left, right)
