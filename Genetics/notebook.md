@@ -1197,3 +1197,137 @@ Maternal inheritance of Xenopus mtDNA
 Three-person in vitro fertilization, two ways:
 
 <img src="66.png" alt="" width="480">
+
+## Somatic mutation and the genetics of cancer
+
+> 《The emperor of all maladies》
+> 《The selfish gene》
+
+Cancer: a disease in which an individual mutant clone of cells begins by prospering at the enpense of its neighbors, and in the end ...
+
+Cancer genetics
+1. 
+2. 
+
+Tumor vs. cancer
+1. benign and malignant
+2. metastases
+一张图
+
+> PET(positron emission tomography)
+> Q: accumulate of glucose(uptake of glucose)
+
+Cancer types:
+- Carcinoma
+- Leukemia
+- Lymphoma
+- Sarcoma
+
+The hallmarks of Cancer
+一张图
+
+- evade normal controls on cell growth
+  - 1
+  - 2
+  - 3
+- acquire a potential for immortality
+  - expression of telomerase
+- higher rate of mutation
+  - mismatch not be correxted
+- mistakes in DNA replication and repair
+- ssfa
+
+X inactivation
+
+这个可以进一步作为evidence that a cancer is a clone of cells
+
+cancer stem cell:
+这里有一张图
+
+> assay
+>
+> inject a little bit of some type of cell, only cancer stem cell can induce a new tomour
+
+- Childhood Cancer
+- Inherited mutations can increase the predisposition to cancer->accumulate mutation
+> FAP(familial adenomatous poplysposis)
+> BRCA1
+
+Sequencing
+- Driver mutations
+- Passenger mutations
+
+signals to cell to divide:
+- extracellular signals
+  > TSH
+- cell-bound
+
+- growth factors
+- receptors
+- signal transducers
+- transcription factors
+
+> Notch need cell-cell intact
+> also act as transcription factors
+> 如果notch不能properly degraded, 就会出问题
+
+> Ras-mediayed signal transduction
+
+The cell cycle
+> 用了一个temperature-sensitive cell-cycle
+> Q: how to identify human homologs
+> 下一页ppt， rescue
+
+Q: which one is upstream(28)
+
+Different CDK-cyclin complexes govern diffrent cell-cycle transition
+1. control th dissolution of the nuclear membrane at mitosis(lamins phosporylated->soluble)
+2. G1->S, （有一张图）, E2F no longer been inhibited
+   checkpoint: P53, activated by DNA damage(也有一张图)
+   > P53 and apoptosis
+   > cell arrest at G1, and induce apoptosis
+3. G2 -> M 也有checkpoint
+  
+checkpoint:
+一张图
+
+Oncogene: dominant fasion & gain of functions
+conversion of a **proto-oncogene** into an oncogene
+一张图
+
+identifying oncogenes:
+- tumor viruses:
+  - 通过重组让proto-oncogene变得overactive
+- cell tansformation assays
+  - Alu gene?
+
+xxxxx
+- Ras: transducer
+  - Ras can be activated even without signal binding
+- Her2: gene amplification
+
+> cancer caused by viruses: HPV
+> Rb prevent cell cycle, P53 promote P21 transcription
+> 一张图
+
+**Tumor suppressors**: act recessively
+- Rb
+- P53
+- BRCA1
+
+mechanisms和之前一样说了很多
+
+> How elephants beat cancer
+> elephants: 20 copies of p53
+
+Treatment:
+- chemotherapy: after surgery
+  - side problem
+- Radiation therapy
+- Drugs target profucts of oncogenes:
+  > Gleevec
+  > specific binding site
+
+  > Herceptin:
+  > antibody that binds to the Her2 receptor -> prevent activation, results in destruction of cancer cells
+- Immunotherapy

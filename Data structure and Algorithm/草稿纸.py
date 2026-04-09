@@ -1,11 +1,9 @@
-# Count Set-bits of number
-def count(n):
-    if n == 0:
-        return 0
-    if (n & 1) == 1:
-        return 1 + count(n>>1)
-    else:
-        return count(n>>1)
+# Print Fibonacci Series in reverse order
+def Fib_rev(n, a, b):
+    if(n>0):
+
+        Fib_rev(n-1, b, a+b)
+        print(a, end = ", ")
 
 n = int(input())
-print(count(n))
+Fib_rev(n,0,1)
