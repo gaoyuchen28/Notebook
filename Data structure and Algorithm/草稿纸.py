@@ -1,13 +1,11 @@
-# Binary to Gray code
-def convert(s):
-    n = len(s)
-    if n == 1:
-        return str(s[0])
+# Printing Pyramid Patterns
+def prints(num):
+    if num == 1:
+        print("*")
+        return
     else:
-        result = s[n-1]^s[n-2]
-        return convert(s[:(n-1)]) + str(result)
-n = str(input())
-s = []
-for i in range(len(n)):
-    s.append(int(n[i]))
-print(convert(s))
+        prints(num-1)
+        for i in range(num):
+            print("*", end = " ")
+        print("\n", end = "")
+prints(5)
