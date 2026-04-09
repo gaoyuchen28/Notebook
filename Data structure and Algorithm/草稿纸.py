@@ -1,9 +1,22 @@
-# Print Fibonacci Series in reverse order
-def Fib_rev(n, a, b):
-    if(n>0):
+# remove all adjacent duplicates
+def rremove(s):
+    sb = ""
+    n = len(s)
+    i = 0
+    while i < n:
+        repeat = False      
+        while i < n-1 and s[i]==s[i+1]:
+            repeat = True
+            i += 1
+        
+        if not repeat:
+            sb += s[i]
+        i += 1
+    
+    if n == len(sb):
+        return sb
+    return rremove(sb)
 
-        Fib_rev(n-1, b, a+b)
-        print(a, end = ", ")
-
-n = int(input())
-Fib_rev(n,0,1)
+s = "geeksforgeek"
+result = rremove(s)
+print(result)
