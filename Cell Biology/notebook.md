@@ -1408,3 +1408,154 @@ Many psychoactive srugs act at synpases
 > ![](87.png)
 >
 > 哺乳动物海马中的长期增强（LTP）依赖 NMDA 受体介导的 Ca²⁺ 流入，引发突触后 AMPA 受体增加，从而增强突触传递
+
+
+
+# Chapter 5
+（此处有一节课我都没听）
+
+### Endoplasmic reticulum
+
+nuclear envelope
+
+different part of ER has different morphology: (这一块主要是confocal microscope)
+- tubules
+- sheets
+(figure)
+
+> ER first discovered by **electron microscope**
+
+ER can be very diverse in different cells
+- (most of them under electron microscope)Rough ER
+- smooth ER (enriched in lipid tissue)
+  - 倒数第二个点
+- transitional ER
+
+**Smooth tubules rough sheets**
+
+(figure)
+Smooth ER: more irregular
+当我们isolate 之后形态就不复从前了
+
+**isolation: obtain rough and smooth microsomes**
+
+reconstitute the functions of ER in body
+
+**Protein synthesis: co-translational and post-translational protein translocation**
+
+a significant magnitude of energy is invested in protein synthesiz
+
+Reason why ribosome has to attach to ER: facilitate targeting/sorting; transporting; protein folding
+- co-translational
+- post-translational
+(一张图)
+
+intrinstic property of proteins -> intracellular organization
+
+**Signal Sequences**
+
+first discovered in rough ER
+
+> Nobal prize in 1999
+> B cells(antibody)
+> isolate the microsome
+
+signal peptide: very N terminal of each amino acid chain
+
+**Translocon: a translocator with the accessory componants**
+
+after protein transport in ER, signal peptidase cut the signal peptide, 似乎是帮忙打开translocon
+
+- A signal-recognition particle(SRP): 
+  - Acts as a partner for the signal peptide during translation and is associated with the ribosome
+  - Functions as a translational pause factor, temporarily halting translation after the SRP binds to the ER lumen
+  - Localizes to the endoplasmic reticulum membrane, further translation can proceed
+  (有一张大图)
+
+⬆️ 然后这个东西就叫做 co-translational translocation
+
+> 怎么做translocon的实验
+> 一张图
+
+the polypeptide chain passes through an aqueous channel in the translocator
+
+However: can be opened all the time(have to be control)
+(一张图)
+
+signal peptide(short hydrophobic helix) insert into the complex, displace th plug
+
+也不是所有都需要elongation：
+**Post-translational translocation**
+
+invest energy:
+(一张图)
+
+**transmembrane protein insertion**
+
+an ER signal sequence is recognized twice:
+- SRP
+- pore of the protein translocator
+
+heavily charged protein
+(figure)
+
+Combinations of start-transfer ans Stop-stransfer signals determine the topology of multipass transmembrane proteins
+(figure)
+
+**Tail-anchored Protein**
+
+ATPase: provide energ; helping targeting
+
+**Translocated Polypeptide Chain Fold and Assemble in the Luman of the Rough ER**
+
+sugar modified protein(glycosylated: N-linked oligosaccharide)
+start in ER luman, continue in golgi
+90% happens on asparagine region(N-linked)
+(figure)
+
+oligosaccharyl transferase: donor of sugar transport by enzyme to the protein(figure)
+
+as tags to mark the state of folding(figure):
+- unfolded: 3 glucose
+- glucose trimming: left only 1 glucose
+  - **chaperone**: Lectin（凝集素）一类能够特异性识别糖链结构的蛋白质, helping folding
+- calnexin & glucosidase: check and mark the complete folding
+- or glucosyl transferase will add back glucose
+
+Improperly Folded proteins are exported from the ER and Degraded in the cytosol
+
+**ER associated degradation**
+
+another ATPase(figure): unfold polypeptide, pull them through a ring structure, each dephopholate pull the chain
+
+**Unfolded Protein Response**
+
+- increase protein folding capacity
+- shutdown gene responsible for protein synthesis
+(figures)
+
+**GPI anchor**
+
+glycosylphosphatidylinositol
+(figure)
+
+**Lipid bilayers**
+
+asymmetric process: alies on the one leaflet of bilayer of ER
+
+All the substrate are found in cytosolic site
+
+phospholipid translocator: **Scramblase**: ATP-independant enzyme
+  
+speed is more important
+
+肝脏细胞：脂蛋白非常hydrophobic所以需要package
+
+> TMEM41B
+> covid -> RNA virus very fragile, hijack lipid production of cell
+> KO TMEM41B, virus can't leave
+
+> Torsin
+
+> OST
+> unknown怎么在细胞质那一侧合成的，也不知道是怎么flip进去的
