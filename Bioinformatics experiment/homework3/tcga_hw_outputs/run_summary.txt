@@ -1,0 +1,11 @@
+Samples used: 421
+Tumor samples: 371
+Normal samples: 50
+Training samples: 295
+Testing samples: 126
+Accuracy: 0.9603
+Precision: 0.9907
+Recall: 0.9640
+Specificity: 0.9333
+F1: 0.9772
+AUC: 0.9486

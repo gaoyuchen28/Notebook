@@ -1,0 +1,370 @@
+Call:
+rpart(formula = ProductChoice ~ ., data = train_dt, method = "class", 
+    control = rpart.control(cp = 0.001, maxdepth = 8, minbucket = 30))
+  n= 14000 
+
+           CP nsplit rel error    xerror        xstd
+1 0.100476190      0 1.0000000 1.0171429 0.004792933
+2 0.025904762      1 0.8995238 0.8995238 0.005279489
+3 0.025238095      2 0.8736190 0.8791429 0.005340534
+4 0.001761905      3 0.8483810 0.8483810 0.005421020
+5 0.001650794      7 0.8397143 0.8465714 0.005425329
+6 0.001333333     14 0.8280952 0.8473333 0.005423520
+7 0.001047619     15 0.8267619 0.8469524 0.005424426
+8 0.001000000     17 0.8246667 0.8458095 0.005427129
+
+Variable importance
+  CustomerPropensity     MembershipPoints          CustomerAge 
+                  39                   27                   13 
+LastPurchaseDuration       PurchaseTenure        MartialStatus 
+                  11                    8                    1 
+         IncomeClass 
+                   1 
+
+Node number 1: 14000 observations,    complexity param=0.1004762
+  predicted class=1  expected loss=0.75  P(node) =1
+    class counts:  3500  3500  3500  3500
+   probabilities: 0.250 0.250 0.250 0.250 
+  left son=2 (7222 obs) right son=3 (6778 obs)
+  Primary splits:
+      CustomerPropensity   splits as  RLRLR,    improve=189.57950, (0 missing)
+      MembershipPoints     < 1.5  to the right, improve=154.45100, (0 missing)
+      CustomerAge          < 55.5 to the left,  improve= 87.61103, (0 missing)
+      LastPurchaseDuration < 3.5  to the left,  improve= 79.34381, (0 missing)
+      PurchaseTenure       < 4.5  to the right, improve= 33.71090, (0 missing)
+  Surrogate splits:
+      CustomerAge          < 57.5 to the left,  agree=0.637, adj=0.249, (0 split)
+      LastPurchaseDuration < 6.5  to the left,  agree=0.591, adj=0.155, (0 split)
+      PurchaseTenure       < 5.5  to the right, agree=0.555, adj=0.080, (0 split)
+      MartialStatus        splits as  LR,       agree=0.533, adj=0.036, (0 split)
+      IncomeClass          < 6.5  to the left,  agree=0.525, adj=0.019, (0 split)
+
+Node number 2: 7222 observations,    complexity param=0.02590476
+  predicted class=1  expected loss=0.666159  P(node) =0.5158571
+    class counts:  2411  1930  1356  1525
+   probabilities: 0.334 0.267 0.188 0.211 
+  left son=4 (6001 obs) right son=5 (1221 obs)
+  Primary splits:
+      MembershipPoints     < 1.5  to the right, improve=122.364800, (0 missing)
+      LastPurchaseDuration < 3.5  to the left,  improve= 33.934150, (0 missing)
+      CustomerPropensity   splits as  -R-L-,    improve= 17.109490, (0 missing)
+      PurchaseTenure       < 2.5  to the right, improve= 16.255940, (0 missing)
+      CustomerAge          < 54.5 to the left,  improve=  9.818781, (0 missing)
+
+Node number 3: 6778 observations,    complexity param=0.0252381
+  predicted class=3  expected loss=0.6836825  P(node) =0.4841429
+    class counts:  1089  1570  2144  1975
+   probabilities: 0.161 0.232 0.316 0.291 
+  left son=6 (5657 obs) right son=7 (1121 obs)
+  Primary splits:
+      MembershipPoints     < 1.5  to the right, improve=47.16568, (0 missing)
+      CustomerPropensity   splits as  L-L-R,    improve=37.87736, (0 missing)
+      CustomerAge          < 54.5 to the left,  improve=32.81119, (0 missing)
+      LastPurchaseDuration < 5.5  to the left,  improve=18.51003, (0 missing)
+      PurchaseTenure       < 12.5 to the right, improve=14.42441, (0 missing)
+
+Node number 4: 6001 observations,    complexity param=0.001761905
+  predicted class=1  expected loss=0.6465589  P(node) =0.4286429
+    class counts:  2121  1683  1234   963
+   probabilities: 0.353 0.280 0.206 0.160 
+  left son=8 (2814 obs) right son=9 (3187 obs)
+  Primary splits:
+      LastPurchaseDuration < 3.5  to the left,  improve=29.694490, (0 missing)
+      CustomerPropensity   splits as  -R-L-,    improve=19.800800, (0 missing)
+      PurchaseTenure       < 2.5  to the right, improve=18.614510, (0 missing)
+      CustomerAge          < 54.5 to the left,  improve= 7.347545, (0 missing)
+      MembershipPoints     < 2.5  to the right, improve= 5.254531, (0 missing)
+  Surrogate splits:
+      CustomerAge        < 22.5 to the left,  agree=0.545, adj=0.029, (0 split)
+      CustomerPropensity splits as  -R-L-,    agree=0.542, adj=0.024, (0 split)
+      PurchaseTenure     < 16.5 to the right, agree=0.533, adj=0.005, (0 split)
+      MembershipPoints   < 9.5  to the right, agree=0.533, adj=0.004, (0 split)
+
+Node number 5: 1221 observations
+  predicted class=4  expected loss=0.5397215  P(node) =0.08721429
+    class counts:   290   247   122   562
+   probabilities: 0.238 0.202 0.100 0.460 
+
+Node number 6: 5657 observations,    complexity param=0.001650794
+  predicted class=3  expected loss=0.6605975  P(node) =0.4040714
+    class counts:   935  1316  1920  1486
+   probabilities: 0.165 0.233 0.339 0.263 
+  left son=12 (3736 obs) right son=13 (1921 obs)
+  Primary splits:
+      CustomerPropensity   splits as  L-L-R,    improve=37.41535, (0 missing)
+      CustomerAge          < 55.5 to the left,  improve=35.08751, (0 missing)
+      LastPurchaseDuration < 5.5  to the left,  improve=21.49270, (0 missing)
+      PurchaseTenure       < 12.5 to the right, improve=15.31722, (0 missing)
+      MartialStatus        splits as  LR,       improve= 7.05706, (0 missing)
+  Surrogate splits:
+      CustomerAge < 72.5 to the left,  agree=0.679, adj=0.056, (0 split)
+
+Node number 7: 1121 observations
+  predicted class=4  expected loss=0.5637823  P(node) =0.08007143
+    class counts:   154   254   224   489
+   probabilities: 0.137 0.227 0.200 0.436 
+
+Node number 8: 2814 observations,    complexity param=0.001047619
+  predicted class=1  expected loss=0.5934613  P(node) =0.201
+    class counts:  1144   838   483   349
+   probabilities: 0.407 0.298 0.172 0.124 
+  left son=16 (1144 obs) right son=17 (1670 obs)
+  Primary splits:
+      PurchaseTenure     < 9.5  to the right, improve=7.177628, (0 missing)
+      ModeOfPayment      splits as  RRLLLRR,  improve=4.692505, (0 missing)
+      CustomerAge        < 68.5 to the left,  improve=4.264327, (0 missing)
+      CustomerPropensity splits as  -R-L-,    improve=3.650428, (0 missing)
+      IncomeClass        < 5.5  to the left,  improve=2.995864, (0 missing)
+  Surrogate splits:
+      IncomeClass   < 3.5  to the left,  agree=0.611, adj=0.044, (0 split)
+      CustomerAge   < 20.5 to the left,  agree=0.596, adj=0.005, (0 split)
+      ModeOfPayment splits as  RRLRRRR,  agree=0.594, adj=0.001, (0 split)
+
+Node number 9: 3187 observations,    complexity param=0.001761905
+  predicted class=1  expected loss=0.6934421  P(node) =0.2276429
+    class counts:   977   845   751   614
+   probabilities: 0.307 0.265 0.236 0.193 
+  left son=18 (1979 obs) right son=19 (1208 obs)
+  Primary splits:
+      CustomerPropensity   splits as  -R-L-,    improve=12.943290, (0 missing)
+      PurchaseTenure       < 2.5  to the right, improve=12.162030, (0 missing)
+      CustomerAge          < 31.5 to the left,  improve= 5.987794, (0 missing)
+      LastPurchaseDuration < 13.5 to the left,  improve= 4.720465, (0 missing)
+      MartialStatus        splits as  LR,       improve= 4.004912, (0 missing)
+  Surrogate splits:
+      CustomerAge    < 73.5 to the left,  agree=0.625, adj=0.010, (0 split)
+      ModeOfPayment  splits as  LLLLLLR,  agree=0.622, adj=0.003, (0 split)
+      PurchaseTenure < 36   to the left,  agree=0.621, adj=0.001, (0 split)
+
+Node number 12: 3736 observations,    complexity param=0.001650794
+  predicted class=3  expected loss=0.6763919  P(node) =0.2668571
+    class counts:   751   940  1209   836
+   probabilities: 0.201 0.252 0.324 0.224 
+  left son=24 (2306 obs) right son=25 (1430 obs)
+  Primary splits:
+      CustomerAge          < 55.5 to the left,  improve=18.390870, (0 missing)
+      LastPurchaseDuration < 4.5  to the left,  improve=15.550990, (0 missing)
+      PurchaseTenure       < 12.5 to the right, improve=10.174280, (0 missing)
+      CustomerPropensity   splits as  R-L--,    improve= 9.036668, (0 missing)
+      MartialStatus        splits as  LR,       improve= 5.806428, (0 missing)
+  Surrogate splits:
+      LastPurchaseDuration < 14.5 to the left,  agree=0.654, adj=0.097, (0 split)
+      MartialStatus        splits as  LR,       agree=0.635, adj=0.047, (0 split)
+      MembershipPoints     < 11.5 to the left,  agree=0.618, adj=0.002, (0 split)
+      PurchaseTenure       < 43.5 to the left,  agree=0.618, adj=0.002, (0 split)
+      IncomeClass          < 1.5  to the right, agree=0.618, adj=0.001, (0 split)
+
+Node number 13: 1921 observations,    complexity param=0.001650794
+  predicted class=3  expected loss=0.6298803  P(node) =0.1372143
+    class counts:   184   376   711   650
+   probabilities: 0.096 0.196 0.370 0.338 
+  left son=26 (379 obs) right son=27 (1542 obs)
+  Primary splits:
+      CustomerAge          < 41.5 to the left,  improve=6.822286, (0 missing)
+      Channel              splits as  RL,       improve=6.680240, (0 missing)
+      PurchaseTenure       < 11.5 to the right, improve=5.938617, (0 missing)
+      LastPurchaseDuration < 11.5 to the left,  improve=5.219314, (0 missing)
+      MembershipPoints     < 8.5  to the left,  improve=5.063052, (0 missing)
+
+Node number 16: 1144 observations,    complexity param=0.001047619
+  predicted class=1  expected loss=0.5909091  P(node) =0.08171429
+    class counts:   468   395   156   125
+   probabilities: 0.409 0.345 0.136 0.109 
+  left son=32 (860 obs) right son=33 (284 obs)
+  Primary splits:
+      CustomerPropensity   splits as  -R-L-,    improve=4.422863, (0 missing)
+      PurchaseTenure       < 18.5 to the right, improve=3.028106, (0 missing)
+      IncomeClass          < 5.5  to the left,  improve=2.031563, (0 missing)
+      MembershipPoints     < 3.5  to the right, improve=1.855172, (0 missing)
+      LastPurchaseDuration < 1.5  to the left,  improve=1.695833, (0 missing)
+  Surrogate splits:
+      IncomeClass    < 1.5  to the right, agree=0.755, adj=0.014, (0 split)
+      PurchaseTenure < 36   to the left,  agree=0.754, adj=0.011, (0 split)
+
+Node number 17: 1670 observations
+  predicted class=1  expected loss=0.5952096  P(node) =0.1192857
+    class counts:   676   443   327   224
+   probabilities: 0.405 0.265 0.196 0.134 
+
+Node number 18: 1979 observations
+  predicted class=1  expected loss=0.652855  P(node) =0.1413571
+    class counts:   687   525   424   343
+   probabilities: 0.347 0.265 0.214 0.173 
+
+Node number 19: 1208 observations,    complexity param=0.001761905
+  predicted class=3  expected loss=0.7293046  P(node) =0.08628571
+    class counts:   290   320   327   271
+   probabilities: 0.240 0.265 0.271 0.224 
+  left son=38 (955 obs) right son=39 (253 obs)
+  Primary splits:
+      PurchaseTenure       < 2.5  to the right, improve=6.756296, (0 missing)
+      MembershipPoints     < 6.5  to the right, improve=4.106182, (0 missing)
+      CustomerAge          < 31.5 to the left,  improve=3.548278, (0 missing)
+      ModeOfPayment        splits as  LRLRRRL,  improve=2.246688, (0 missing)
+      LastPurchaseDuration < 13.5 to the left,  improve=2.183510, (0 missing)
+  Surrogate splits:
+      MembershipPoints < 10.5 to the left,  agree=0.791, adj=0.004, (0 split)
+
+Node number 24: 2306 observations,    complexity param=0.001650794
+  predicted class=3  expected loss=0.6947095  P(node) =0.1647143
+    class counts:   527   641   704   434
+   probabilities: 0.229 0.278 0.305 0.188 
+  left son=48 (1098 obs) right son=49 (1208 obs)
+  Primary splits:
+      LastPurchaseDuration < 4.5  to the left,  improve=9.097772, (0 missing)
+      PurchaseTenure       < 12.5 to the right, improve=8.979171, (0 missing)
+      CustomerAge          < 23.5 to the left,  improve=7.614232, (0 missing)
+      CustomerPropensity   splits as  R-L--,    improve=5.934705, (0 missing)
+      IncomeClass          < 6.5  to the left,  improve=3.549887, (0 missing)
+  Surrogate splits:
+      CustomerAge        < 21.5 to the left,  agree=0.587, adj=0.133, (0 split)
+      CustomerPropensity splits as  R-L--,    agree=0.556, adj=0.068, (0 split)
+      PurchaseTenure     < 10.5 to the right, agree=0.548, adj=0.050, (0 split)
+      IncomeClass        < 4.5  to the left,  agree=0.533, adj=0.018, (0 split)
+      ModeOfPayment      splits as  RRLRRRL,  agree=0.526, adj=0.005, (0 split)
+
+Node number 25: 1430 observations
+  predicted class=3  expected loss=0.6468531  P(node) =0.1021429
+    class counts:   224   299   505   402
+   probabilities: 0.157 0.209 0.353 0.281 
+
+Node number 26: 379 observations
+  predicted class=3  expected loss=0.5725594  P(node) =0.02707143
+    class counts:    51    75   162    91
+   probabilities: 0.135 0.198 0.427 0.240 
+
+Node number 27: 1542 observations,    complexity param=0.001650794
+  predicted class=4  expected loss=0.6374838  P(node) =0.1101429
+    class counts:   133   301   549   559
+   probabilities: 0.086 0.195 0.356 0.363 
+  left son=54 (570 obs) right son=55 (972 obs)
+  Primary splits:
+      PurchaseTenure       < 8.5  to the right, improve=6.457291, (0 missing)
+      Channel              splits as  RL,       improve=6.053995, (0 missing)
+      MembershipPoints     < 8.5  to the left,  improve=4.466326, (0 missing)
+      ModeOfPayment        splits as  LLRLLRR,  improve=3.851441, (0 missing)
+      LastPurchaseDuration < 9.5  to the left,  improve=3.778382, (0 missing)
+  Surrogate splits:
+      IncomeClass < 3.5  to the left,  agree=0.636, adj=0.014, (0 split)
+
+Node number 32: 860 observations
+  predicted class=1  expected loss=0.5616279  P(node) =0.06142857
+    class counts:   377   282   108    93
+   probabilities: 0.438 0.328 0.126 0.108 
+
+Node number 33: 284 observations
+  predicted class=2  expected loss=0.6021127  P(node) =0.02028571
+    class counts:    91   113    48    32
+   probabilities: 0.320 0.398 0.169 0.113 
+
+Node number 38: 955 observations,    complexity param=0.001761905
+  predicted class=2  expected loss=0.7162304  P(node) =0.06821429
+    class counts:   248   271   240   196
+   probabilities: 0.260 0.284 0.251 0.205 
+  left son=76 (211 obs) right son=77 (744 obs)
+  Primary splits:
+      MembershipPoints < 6.5  to the right, improve=3.286557, (0 missing)
+      PurchaseTenure   < 19.5 to the right, improve=2.109437, (0 missing)
+      IncomeClass      < 5.5  to the right, improve=1.904093, (0 missing)
+      CustomerAge      < 23.5 to the left,  improve=1.843033, (0 missing)
+      ModeOfPayment    splits as  LRLRRLL,  improve=1.608251, (0 missing)
+  Surrogate splits:
+      Channel splits as  LR, agree=0.81, adj=0.142, (0 split)
+
+Node number 39: 253 observations,    complexity param=0.001333333
+  predicted class=3  expected loss=0.6561265  P(node) =0.01807143
+    class counts:    42    49    87    75
+   probabilities: 0.166 0.194 0.344 0.296 
+  left son=78 (146 obs) right son=79 (107 obs)
+  Primary splits:
+      CustomerAge      < 44.5 to the left,  improve=3.957189, (0 missing)
+      IncomeClass      < 6.5  to the left,  improve=2.881369, (0 missing)
+      ModeOfPayment    splits as  LRLRRRL,  improve=2.695836, (0 missing)
+      MartialStatus    splits as  LR,       improve=1.409718, (0 missing)
+      MembershipPoints < 6.5  to the right, improve=1.130250, (0 missing)
+  Surrogate splits:
+      LastPurchaseDuration < 14.5 to the left,  agree=0.696, adj=0.280, (0 split)
+      ModeOfPayment        splits as  LRLLLLL,  agree=0.593, adj=0.037, (0 split)
+      IncomeClass          < 7.5  to the left,  agree=0.593, adj=0.037, (0 split)
+
+Node number 48: 1098 observations,    complexity param=0.001650794
+  predicted class=2  expected loss=0.7131148  P(node) =0.07842857
+    class counts:   306   315   302   175
+   probabilities: 0.279 0.287 0.275 0.159 
+  left son=96 (439 obs) right son=97 (659 obs)
+  Primary splits:
+      PurchaseTenure       < 8.5  to the right, improve=7.675972, (0 missing)
+      CustomerPropensity   splits as  R-L--,    improve=3.924638, (0 missing)
+      IncomeClass          < 6.5  to the left,  improve=3.757358, (0 missing)
+      CustomerAge          < 23.5 to the left,  improve=3.510121, (0 missing)
+      LastPurchaseDuration < 2.5  to the left,  improve=1.849508, (0 missing)
+  Surrogate splits:
+      CustomerAge   < 21.5 to the left,  agree=0.647, adj=0.116, (0 split)
+      IncomeClass   < 3.5  to the left,  agree=0.632, adj=0.080, (0 split)
+      ModeOfPayment splits as  LRRRRRR,  agree=0.601, adj=0.002, (0 split)
+
+Node number 49: 1208 observations
+  predicted class=3  expected loss=0.6672185  P(node) =0.08628571
+    class counts:   221   326   402   259
+   probabilities: 0.183 0.270 0.333 0.214 
+
+Node number 54: 570 observations
+  predicted class=3  expected loss=0.6421053  P(node) =0.04071429
+    class counts:    67   132   204   167
+   probabilities: 0.118 0.232 0.358 0.293 
+
+Node number 55: 972 observations
+  predicted class=4  expected loss=0.5967078  P(node) =0.06942857
+    class counts:    66   169   345   392
+   probabilities: 0.068 0.174 0.355 0.403 
+
+Node number 76: 211 observations
+  predicted class=1  expected loss=0.6824645  P(node) =0.01507143
+    class counts:    67    44    63    37
+   probabilities: 0.318 0.209 0.299 0.175 
+
+Node number 77: 744 observations
+  predicted class=2  expected loss=0.6948925  P(node) =0.05314286
+    class counts:   181   227   177   159
+   probabilities: 0.243 0.305 0.238 0.214 
+
+Node number 78: 146 observations
+  predicted class=3  expected loss=0.609589  P(node) =0.01042857
+    class counts:    31    27    57    31
+   probabilities: 0.212 0.185 0.390 0.212 
+
+Node number 79: 107 observations
+  predicted class=4  expected loss=0.588785  P(node) =0.007642857
+    class counts:    11    22    30    44
+   probabilities: 0.103 0.206 0.280 0.411 
+
+Node number 96: 439 observations,    complexity param=0.001650794
+  predicted class=1  expected loss=0.6651481  P(node) =0.03135714
+    class counts:   147   144    90    58
+   probabilities: 0.335 0.328 0.205 0.132 
+  left son=192 (88 obs) right son=193 (351 obs)
+  Primary splits:
+      PurchaseTenure       < 16.5 to the right, improve=4.415361, (0 missing)
+      CustomerAge          < 23.5 to the left,  improve=3.440028, (0 missing)
+      ModeOfPayment        splits as  LRLLLRL,  improve=3.199214, (0 missing)
+      LastPurchaseDuration < 1.5  to the left,  improve=2.997970, (0 missing)
+      IncomeClass          < 6.5  to the left,  improve=2.045573, (0 missing)
+  Surrogate splits:
+      IncomeClass   < 3.5  to the left,  agree=0.843, adj=0.216, (0 split)
+      ModeOfPayment splits as  RRLRRRR,  agree=0.802, adj=0.011, (0 split)
+
+Node number 97: 659 observations
+  predicted class=3  expected loss=0.6783005  P(node) =0.04707143
+    class counts:   159   171   212   117
+   probabilities: 0.241 0.259 0.322 0.178 
+
+Node number 192: 88 observations
+  predicted class=1  expected loss=0.5  P(node) =0.006285714
+    class counts:    44    23    10    11
+   probabilities: 0.500 0.261 0.114 0.125 
+
+Node number 193: 351 observations
+  predicted class=2  expected loss=0.6552707  P(node) =0.02507143
+    class counts:   103   121    80    47
+   probabilities: 0.293 0.345 0.228 0.134 
+

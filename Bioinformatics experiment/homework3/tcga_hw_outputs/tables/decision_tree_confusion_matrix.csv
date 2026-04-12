@@ -1,0 +1,5 @@
+actual,predicted,N
+Normal,Normal,14
+Tumor,Normal,4
+Normal,Tumor,1
+Tumor,Tumor,107

@@ -1,0 +1,5 @@
+model,class,precision,recall,f1
+majority_baseline,1,0.25,1,0.4
+majority_baseline,2,0,0,0
+majority_baseline,3,0,0,0
+majority_baseline,4,0,0,0

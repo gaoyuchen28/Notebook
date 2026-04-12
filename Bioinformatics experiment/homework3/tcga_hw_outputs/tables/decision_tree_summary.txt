@@ -1,0 +1,70 @@
+Call:
+rpart(formula = Class ~ ., data = train_df, method = "class", 
+    parms = list(prior = c(0.5, 0.5)), control = rpart.control(cp = 0.001, 
+        maxdepth = 5, minbucket = 4))
+  n= 295 
+
+          CP nsplit   rel error     xerror       xstd
+1 0.97307692      0 1.000000000 1.28791209 0.12481496
+2 0.02307692      1 0.026923077 0.05549451 0.03015688
+3 0.00100000      2 0.003846154 0.03626374 0.02900784
+
+Variable importance
+           GDF2           BMP10         COLEC10           VIPR1         ANGPTL6 
+             19              18              17              15              14 
+          RSPO3 ENSG00000243766           HOXD4 ENSG00000226363 ENSG00000285711 
+             14               1               1               1               1 
+ENSG00000288060            LCAT 
+              1               1 
+
+Node number 1: 295 observations,    complexity param=0.9730769
+  predicted class=Normal  expected loss=0.5  P(node) =1
+    class counts:    35   260
+   probabilities: 0.500 0.500 
+  left son=2 (42 obs) right son=3 (253 obs)
+  Primary splits:
+      GDF2    < 8.436428 to the right, improve=139.7659, (0 missing)
+      BMP10   < 6.584649 to the right, improve=137.6301, (0 missing)
+      VIPR1   < 8.44706  to the right, improve=135.5258, (0 missing)
+      COLEC10 < 8.823353 to the right, improve=131.4091, (0 missing)
+      HHIP    < 7.298328 to the right, improve=126.4286, (0 missing)
+  Surrogate splits:
+      BMP10   < 6.982712 to the right, agree=0.990, adj=0.929, (0 split)
+      COLEC10 < 9.355148 to the right, agree=0.983, adj=0.881, (0 split)
+      VIPR1   < 9.268806 to the right, agree=0.969, adj=0.786, (0 split)
+      ANGPTL6 < 8.625667 to the right, agree=0.963, adj=0.738, (0 split)
+      RSPO3   < 6.522197 to the right, agree=0.959, adj=0.714, (0 split)
+
+Node number 2: 42 observations,    complexity param=0.02307692
+  predicted class=Normal  expected loss=0.02621723  P(node) =0.5134615
+    class counts:    35     7
+   probabilities: 0.974 0.026 
+  left son=4 (36 obs) right son=5 (6 obs)
+  Primary splits:
+      ENSG00000243766 < 1.792481 to the left,  improve=6.603814, (0 missing)
+      HOXD4           < 1.292481 to the left,  improve=6.603814, (0 missing)
+      ENSG00000285711 < 1.5      to the left,  improve=5.482174, (0 missing)
+      ENSG00000226363 < 2.403677 to the left,  improve=5.482174, (0 missing)
+      ENSG00000251026 < 2.292481 to the left,  improve=4.369063, (0 missing)
+  Surrogate splits:
+      HOXD4           < 1.292481 to the left,  agree=1.000, adj=1.000, (0 split)
+      ENSG00000285711 < 1.5      to the left,  agree=0.976, adj=0.833, (0 split)
+      ENSG00000226363 < 2.403677 to the left,  agree=0.976, adj=0.833, (0 split)
+      LCAT            < 11.61959 to the right, agree=0.952, adj=0.667, (0 split)
+      ENSG00000288060 < 0.5      to the left,  agree=0.952, adj=0.667, (0 split)
+
+Node number 3: 253 observations
+  predicted class=Tumor   expected loss=0  P(node) =0.4865385
+    class counts:     0   253
+   probabilities: 0.000 1.000 
+
+Node number 4: 36 observations
+  predicted class=Normal  expected loss=0.003831418  P(node) =0.5019231
+    class counts:    35     1
+   probabilities: 0.996 0.004 
+
+Node number 5: 6 observations
+  predicted class=Tumor   expected loss=0  P(node) =0.01153846
+    class counts:     0     6
+   probabilities: 0.000 1.000 
+
