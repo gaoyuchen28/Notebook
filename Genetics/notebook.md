@@ -1331,3 +1331,54 @@ Treatment:
   > Herceptin:
   > antibody that binds to the Her2 receptor -> prevent activation, results in destruction of cancer cells
 - Immunotherapy
+
+# Chapter 4 Chromosome Aberration
+
+## The Eukaryotic Chromosomes
+
+#### Chromosome structure and compaction
+
+> ATAC-seq for mapping chromatin accessibility
+
+(The nuclear core)
+组蛋白变体可以更换进入组蛋白复合物中，实现相应的功能
+
+一个model of chromosomal packaging
+
+> polytene chromosomes in Drosophila
+> 因为一直在复制但是不分裂，所以有1024copies，很大
+>
+
+#### Key components of a chromosome
+
+Question: essential components of a chromosome
+- replication initiation sites
+- Telomere
+- Centromere
+
+Yeast artificial chromosomes
+1. segregation of condensed chromosomes depends on centromeres
+   - consist of tandem repeats and stelatille DNA
+   - cohesin, seperase cut the cohesin
+  > cohesin and human diseases
+  > Cornelia de lange syndroma-> mutations in NIPBL
+2. Telomeres are "caps" that protect the ends of eukaryotic chromosomes
+   - telomerase is a ribonucleoprotein that extends telomeres
+  > tetrahymena: telomere does not shorten, MAC has 200 chromosomes
+3. Origins of replication in eukaryotes
+   question: how is epigenetic memory preserved
+
+## Chromosomal Rearrangements
+
+Causes:
+1. DNA beaks
+2. Aberrant crossing-over
+  
+#### Deletion
+
+Q: how about deletion homozygote:
+  Probe A 0; Probe B: 1 band ; Probe C: 1 band as usual
+
+Question: individual male, 保证母亲只有一个mutation
+
+## Changes in Chromosome Number
