@@ -1411,8 +1411,170 @@ Many psychoactive srugs act at synpases
 
 
 
-# Chapter 5
-（此处有一节课我都没听）
+# ✅Chapter 5 Intracellular Compartments and Protein Sorting 
+
+### The compartmentalization of cells
+
+**All Eukaryotic Cells Have the Same Basic Set of Membrane-enclosed Organelles**
+- nucleus envelope: very elaborate
+- Golgi apparatus: not big compared to ER, morphology in different cells 
+- ER: almost half of membrane system
+- Arranged by sytoskeleton, and it'll attach to different membrane organelle
+
+![](88.png)
+
+- cytosol: half of the cell
+- 这个分布是在不同细胞有所不同的
+
+**Evolutionary Origins May Help Explain the Topological Relationships of Organelles**
+
+The precursors of the first eukaryotic cells are thought to have been simple organisms that resembled bacteria
+
+symbiotics(内共生学说)
+
+![](89.png)
+
+![](90.png)
+
+![](91.png)
+
+this explain those laminar parts are equivalent to the extracellular part, because they are kind of created by those extracellular part
+
+Compartments are said to be topologically equivalent if they can communicate with one another.
+
+protein into or outof the cell: membrane-enclosed carriers
+
+topologically 2 defined compartment: 
+1. cytosolic inside the cell
+2. extracellular compartment
+  
+Proteins Can Move Between Compartments in Different Ways
+The synthesis of all proteins begins on ribosomes in the cytosol
+Sorting signals that direct their delivery to locations outside the cytosol
+Three fundamentally different transport mechanisms
+- Gated Transport (Nuclear Pore Complex): may be the most priminative one
+- Protein Translocation (Mitochondria/ER)
+- Vesicle Transport
+
+![](92.png)
+
+- ER uses a lot of vesicle transport to deliver cargo
+
+Signal Sequences and Sorting Receptors Direct Proteins to the Correct Cell Address
+- present on the primary sequence of the amino acids
+- Typically 15–60 residues long
+- These signal sequences are often found at the N-terminus(所以到底是为什么在C端)
+
+Most Organelles Cannot Be Constructed *De Novo*: They Require Information in the Organelle Itself
+- no need, two daughter cells will inherit part of the organelle from mother cell 
+
+#### THE TRANSPORT OF MOLECULES BETWEEN THE NUCLEUS AND THE CYTOSOL
+
+![](93.png)
+
+The nuclear envelope encloses the DNA and defines the nuclear compartment
+- inner nuclear membrane and outer nuclear membrane
+Two concentric membranes, which are penetrated by nuclear pore complexes
+- The inner nuclear membrane contains specific proteins that act as anchoring sites for chromatin and for the nuclear lamina
+- the outer nuclear membrane is continued to ER membrane
+- even in inner and outer nuclear membrane, the protein composition is quite different
+
+![](94.png)
+
+Nuclear Pore Complexes Perforate the Nuclear Envelope
+- Estimated molecular mass of about 125 million daltons and is composed of about 30 different NPC proteins, or nucleoporins
+
+fiber & basket, gel-like assembly, phase separation
+
+![](95.png)
+
+Nuclear Localization Signals Direct Nuclear Proteins to the Nucleus
+(also nuclear export signals)
+- Nuclear localization signals can be located almost anywhere in the amino acid sequence and are thought to form loops or patches on the **protein surface**
+- 自发穿过核孔的大小为5000道尔顿, 比如GFP就是大的
+
+Nuclear Import Receptors Bind to Both Nuclear Localization Signals and NPC Proteins
+- the NLS solve the problem of specificity, but how to hand over?: competed with a signal molecule
+  - The Ran GTPase Imposes Directionality on Transport Through NPCs: switches, have off/on states
+  
+![](96.png)
+
+  - two states can interact with their effector proteins
+  - very weak GTPase, so need to rely on GTP avtivated protein(Ran-GAP), and can be turn on by Ran-GEF
+
+- Nuclear Export Works Like Nuclear Import, But in Reverse
+
+![](97.png)
+
+#### THE TRANSPORT OF PROTEINS INTO MITOCHONDRIA AND CHLOROPLASTS
+
+Translocation into Mitochondria Depends on Signal Sequences and Protein Translocators
+- Proteins imported into mitochondria are usually taken up from the cytosol within seconds or minutes of their release from ribosomes
+- Translocated into mitochondria by a post-translational mechanism
+- 4 different destination in mitochondia
+  
+  ![](98.png)
+
+  - TOM: translocon of outer membrane
+  - SAM: Sorting and Assembly Machinery complex
+  - OXA: Oxidase Assembly complex
+
+Mitochondrial Precursor Proteins Are Imported as Unfolded Polypeptide Chains
+
+![](99.png)
+
+- 似乎是想说他们的destination有可能不同
+- ATP Hydrolysis and a Membrane Potential Drive Protein Import Into the Matrix Space
+- mitochondia equivalent:(比刚刚那个循环更加efficient)
+  - 好像就是第三步通过结合ATP和ADP的state互换，然后就能拉着走？
+
+![](100.png)
+
+Transport Into the Inner Mitochondrial Membrane and Intermembrane Space Occurs Via Several Routes
+
+1. importing protein all the way to inner membrane
+   - 2 signals: recognized by TOM & TIM
+   - 如果第二个信号被解离了，这个protein就会滞留在inner membrane
+  
+  ![](101.png)
+
+2. from matrix to inner membrane
+   
+  ![](102.png)
+  
+3. reduced and oxidative
+   - 进入线粒体的蛋白质会表现出reduced的state(二硫键断开)
+   - shaprones in inner mambrane will oxidase the protein
+
+4. TIM22: stay in inner membrane(transporter protein)
+
+Two Signal Sequences Direct Proteins to the Thylakoid Membrane in Chloroplasts
+- Thylakoids are membrane-bound compartments inside chloroplasts and cyanobacteria. They are the site of the light-dependent reactions of photosynthesis. 
+- Thylakoids consist of a thylakoid membrane surrounding a thylakoid lumen. Chloroplast thylakoids frequently form stacks of disks referred to as grana
+
+#### PEROXISOMES
+
+All eukaryotic cells have peroxisomes
+They contain oxidative enzymes, such as catalase （deals with H2O2） and urate oxidase 
+Functions: 
+- lipid catabolism: break down very long fatty acids (VLCFA), “β-oxidation”
+- phospholipid synthesis: cell membrane, plasmalogen (myelin sheath that covers the nerve)
+- reduction of Reactive Oxygen Species
+
+> Peroxisomes defect:
+> accumulation of metabolism intermedia
+> Adrenoleukodystrophy (ALD) is a rare genetic condition that causes the buildup of VLCFAs in the brain. When VLCFAs accumulate, they destroy the protective myelin sheath around nerve cells, responsible for brain function.
+
+enriched with electron
+
+Peroxisomes Use Molecular Oxygen and Hydrogen Peroxide to Perform Oxidation Reactions
+- Catalyze reactions in the formation of plasmalogens, which are the most abundant phospholipids in myelin
+- Peroxisome disorders often lead to neurological disease
+
+A Short Signal Sequence Directs the Import of Proteins into Peroxisomes
+- Ser-Lys-Leu at the C-terminus
+
+
 
 ### Endoplasmic reticulum
 
@@ -1559,3 +1721,5 @@ speed is more important
 
 > OST
 > unknown怎么在细胞质那一侧合成的，也不知道是怎么flip进去的
+
+# Chapter 6 Intracellular Memberane Traffic
