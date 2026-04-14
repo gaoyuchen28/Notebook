@@ -1,9 +1,8 @@
-# Find geometric sum of the series
-def Calculate(n):
-  if n == 0:
-    return 1
-  else:
-    return 1 / pow(3, n) + Calculate(n-1)
+# Convert a String to an Integer
+def Convert(str):
+    if len(str) == 1:
+        return int(str[0])
+    else:
+        return 10*Convert(str[:(len(str)-1)]) + int(str[len(str)-1])
 
-print(Calculate(5))
-    
+print(Convert("02345"))
