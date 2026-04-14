@@ -1,23 +1,14 @@
-# 电影节
+# 找零兑换
 
-class Movie:
-    def __init__(self, s, e):
-        self.s = s
-        self.e = e
-    def __lt__(self, other):
-        return self.e < other.e
+def recMc(coinlist, change):
+    mincoin = change
+    if change in coinlist:
+        return 1
+    else:
+        for i in [c for c in coinlist if c <= change]:
+            numCoin = 1 + recMc(coinlist, change - i)
+            if numCoin < mincoin:
+                mincoin = numCoin
+    return mincoin
 
-n = int(input())
-mov = [Movie(0,0) for i in range (n)]
-for i in range(n):
-    mov[i].s , mov[i].e = list(map(int, input().split()))
-
-mov.sort()
-result = 1
-e = mov[0].e
-for i in range(n):
-    if mov[i].s >= e:
-        result += 1
-        e = mov[i].e
-
-print(result)
+print(recMc([1,5,10,25],63))
