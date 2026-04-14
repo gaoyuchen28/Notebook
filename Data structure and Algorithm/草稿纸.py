@@ -1,18 +1,19 @@
-# 找零兑换优化
+# 斐波那契数优化
 
-def recMc(coinlist, change, knowresult):
-    mincoin = change
-    if change in coinlist:
-        knowresult[change] = 1
+
+def Fib(n):
+    if n == 0:
+        return 0
+    if n == 1 or n == 2:
         return 1
-    elif knowresult[change] > 0:
-        return knowresult[change]
+    elif Fib_res[n] >= 0:
+        return Fib_res[n]
     else:
-        for i in [c for c in coinlist if c <= change]:
-            numCoin = 1 + recMc(coinlist, change - i, knowresult)
-            if numCoin < mincoin:
-                mincoin = numCoin
-                knowresult[change] = mincoin
-    return mincoin
+        Fib_res[n-1] = Fib(n-1)
+        Fib_res[n-2] = Fib(n-2)
+        return Fib_res[n-1] + Fib_res[n-2]
 
-print(recMc([1,5,10,25],63, [0]*64))
+n = int(input())
+Fib_res = [-1]*(n+1)
+for i in range(n):
+    print(Fib(i), end = " ")
