@@ -1,21 +1,29 @@
-# 分发糖果
+# 圣诞礼物
 
-def candy(ratings):
-    cds = [1]*len(ratings)
-    for i in range(1,len(ratings)):
-        if ratings[i-1] < ratings[i]:
-            cds[i] = cds[i-1]+1
-        elif ratings[i-1] == ratings[i]:
-            cds[i] = 1
-        else: # 如果比前面低的话要讨论很多方案
-            cds[i] = 1
-            if cds[i-1] == 1:
-                for k in range(i-1, -1, -1): # 这个必须要倒叙
-                    cds[k] += 1
-                    if k > 0 and (ratings[k] >= ratings[k-1] or cds[k]>cds[k-1]):
-                        break
-    return cds
+eps = 1e-6
 
-ratings = "122"
+class Candy:
+    def __init__(self, v, w):
+        self.v = v
+        self.w = w
+    def __lt__(self, other):
+        return (self.v/self.w - other.v/other.w)>eps
 
-print(candy(ratings))
+n, w = list(map(int, input().split()))
+
+candies = [Candy(0,0) for i in range(n)]
+for i in range(n):
+    candies[i].v, candies[i].w = list(map(float, input().split()))
+
+candies.sort()
+totalv = 0
+totalw = 0
+for i in range(n):
+    if totalw + candies[i].w <= w:
+        totalv += candies[i].v
+        totalw += candies[i].w
+    else:
+        totalv += candies[i].v * (w - totalw)/candies[i].w # 搁不下一整箱了还可以换
+        break
+
+print('%.1f'%totalv)
