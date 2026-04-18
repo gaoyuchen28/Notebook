@@ -23,13 +23,13 @@ Cells are the fundamental unit of life(**The cell theory**)
 This tree is based on comparisons of the nucleotide sequence of a 
 **ribosomal RNA (rRNA)** subunit in the different species.
 
-![](1.png){width=60%}
+<img src="1.png" alt="" width="60%">
 
 There can be other tree of life
 
 The Pfu DNA polymerase(thermostable) from *Pyrococcus furiosus*(Archaea)
 
-![](2.png){width=60%}
+<img src="2.png" alt="" width="60%">
 
 > S=Svedberg(沉降系数,用来衡量超速离心时，颗粒沉降的快慢)
 > The genome of archaea is more closely related to eukaryotes than to bacteria.
@@ -48,7 +48,7 @@ Certain small molecules (monomers) can be joined to form polymers (also called m
 
 **DNA** consists of two complementary strands wound around each other to form a double helix, which is stabilized by weak hydrogen bonds.
 
-![](3.png){width=60%}
+<img src="3.png" alt="" width="60%">
 
 **Phospholipids**: Conserved Building Blocks for All Cellular Membranes
 - the property of the membrane determined by all different component
@@ -67,13 +67,13 @@ All Cells Are Enclosed in a Plasma Membrane Across Which Nutrients and Waste Mat
 
 #### Eukaryotic Cell Structure and Function
 
-![](4.png){width=60%}
+<img src="4.png" alt="" width="60%">
 
 - **3 Types of Cytoskeletal Filaments**: Cell shape, movement, and division
   - Microtubules(20 nm): most rigid, form cilia & flagella
     - Mitotic Spindle
   
-    ![](5.png){width=60%}
+    <img src="5.png" alt="" width="60%">
 
   - Microfilament(7 nm)
   - Intermediate filament(10 nm): maintain cell tension 
@@ -83,7 +83,7 @@ All Cells Are Enclosed in a Plasma Membrane Across Which Nutrients and Waste Mat
   - Chromatin: DNA+ proteins(mostly histones)
 - **Golgi Complex and Endoplasmic Reticulum(ER)**
   
-  ![](6.png){width=60%}
+  <img src="6.png" alt="" width="60%">
 
   - Rough ER: site of protein synthesis (lysosomal, membrane, secreted proteins)
     - protein folding
@@ -103,7 +103,7 @@ All Cells Are Enclosed in a Plasma Membrane Across Which Nutrients and Waste Mat
 
 Cell Cycle
 
-![](7.png){width=60%}
+<img src="7.png" alt="" width="60%">
 
 All Cells Function as Biochemical Factories Dealing with the Same Basic Molecular Building Blocks
 Life Requires Free Energy
@@ -164,7 +164,7 @@ Cell cycle, cell division researches
 Has diploid(2n) state and haploid(n) state
 **Meiosis** is triggered by starvation and gives rise to spores—haploid cells in a dormant state, resistant to harsh environment.
 
-![](8.png){width=60%}
+<img src="8.png" alt="" width="60%">
 
 - Mutations Reveal the Functions of Genes: *Schizosaccharomyces pombe*: A normal yeast is compared with a mutant in which a change in a single gene has converted the cell from a cigar shape (left) to a T shape (right).
 - Autophagy Degrades Unwanted Proteins and Organelles: baker's yeast-- using mutated yeast lacking vacuolar degradation enzymes and simultaneously stimulating autophagy by starving the cells
@@ -222,7 +222,7 @@ vertebrate development
 
 **Magnification progression**
 
-![](22.png)
+<img src="22.png" alt="" width="60%">
 
 - Cells Can Be Isolated from Tissues
   - Trypsin (a pancreatic protease): cleaves at the C-terminal side of lysine and arginine
@@ -254,7 +254,7 @@ vertebrate development
 
 - In the dark-field microscope, oblique rays of light focused on the specimen do not enter the objective lens, but light that is scattered by components in the living cell can be collected to produce a bright image on a dark background.
 
-![](22.png)
+<img src="22.png" alt="" width="60%">
 
 细胞不同部位的厚度不同会影响穿过光的相位，但是人眼不能分辨相位差，所以利用相位干涉效应，将肉眼不可见的相位改变转化为可见的明暗对比，从而实现对透明活细胞的无损观察。
 
@@ -268,7 +268,7 @@ Imaging subcellular details often requires that specimens be fixed, sectioned, a
 **Fluorescence Microscopy**
 Detect specific proteins or other molecules in cells and tissues.
 
-![](24.png)
+<img src="24.png" alt="" width="60%">
 
 Excitation and Emission
 
@@ -297,7 +297,7 @@ Monoclonal Antibodies
 - Hybridoma Cell(杂交瘤细胞) Lines Are Factories That Produce Monoclonal Antibodies
 > Hybrid cell:
 >
-> ![](25.png)
+> <img src="25.png" alt="" width="60%">
 >
 > - Suspension of cells is treated with certain inactivated viruses or with polyethylene glycol, each of which alters the plasma membranes of cells in a way that induces them to fuse and become a heterokaryon(异核体)
 > - Eventually, a heterokaryon proceeds to mitosis and produces a hybrid cell in which the two separate nuclear envelopes have been disassembled, allowing all the chromosomes to be brought together in a single large nucleus.
@@ -319,7 +319,7 @@ Why do indirect Immunostaining?
 Confocal Microscopy:
 - The confocal microscope produces optical sections by excluding out-of-focus light
 
-![](25.png)
+<img src="25.png" alt="" width="60%">
 
 **Individual proteins can be fluorescently tagged in living cells and organisms (ex: GFP)**
 
@@ -385,7 +385,7 @@ Fluorescent in situ hybridization (FISH) can be used to localize genes on chromo
 
 **PCR Is Also Used for Diagnostic Applications**
 
-![](26.png)
+<img src="26.png" alt="" width="60%">
 
 > PCR is used in forensic science
 > Variable Number of Tandem Repeats (VNTR) are used to identify people (also called short tandem repeats STR)(串联重复序列)
@@ -394,7 +394,7 @@ Fluorescent in situ hybridization (FISH) can be used to localize genes on chromo
 > - VNTRs are 2 to 5 nucleotides in length These may be repeated 5 to 15 times in individuals
 > - Law enforcement uses a set of these to identify people
 
-![](27.png)
+<img src="27.png" alt="" width="60%">
 
 **PCR Is Also Used for Diagnostic and Forensic Applications**
 
@@ -414,7 +414,7 @@ Fluorescent in situ hybridization (FISH) can be used to localize genes on chromo
   - Fixed angle rotors
   - Swinging bucket rotors/ Horizontal rotors: collect the materials at bottom
   
-  ![](9.png)
+  <img src="9.png" alt="" width="60%">
 
 **Subcellular Components Separated By Sedimentation**
 
@@ -422,7 +422,7 @@ Velocity sedimentation & equilbrium sedimentation(base on density)
 
 **Proteins Can Be Separated by Chromatography**
 
-![](29.png)
+<img src="29.png" alt="" width="60%">
 
 Depending on the choice of matrix, proteins can be separated according to their charge (**ion-exchange chromatography**), their hydrophobicity(**hydrophobic chromatography**), their size (**gel-filtration chromatography**), or their ability to bind to particular small molecules or other macromolecules(**affinity chromatography**).
 
@@ -430,7 +430,7 @@ Sequential Chromatography: combination of different methods
 
 **Immunoprecipitation Is a Rapid Affinity Purification Method**
 
-![](30.png)
+<img src="30.png" alt="" width="60%">
 
 Co-Immunoprecipitation (Co-IP): A technique to identify physical interactions between proteins using antibodies.
 
@@ -440,7 +440,7 @@ Tagging with epitope or Tagging with whole protein
 
 Double tagging of the protein of interest： Tandem Affinity Purification (TAP)
 
-![](31.png)
+<img src="31.png" alt="" width="60%">
 
 - Protein A (ProtA)： 能够与 IgG 珠子高亲和力结合。
 - TEP 酶切位点 (TEV cleavage site)： 一段特定的氨基酸序列，能被 TEV 蛋白酶识别并切断。
@@ -511,11 +511,11 @@ Purified from bacteria, cut the DNA double helix into fragments of strictly defi
 
 Genomic and cDNA Libraries Have Different Advantages and Drawbacks
 
-![](32.png)
+<img src="32.png" alt="" width="60%">
 
 **PCR Can Be Used to Obtain Specific Genomic or cDNA Clones**
 
-![](33.png)
+<img src="33.png" alt="" width="60%">
 
 DNA Cloning Allows Any Protein to be Produced in Large Amounts
 
@@ -524,7 +524,7 @@ DNA Cloning Allows Any Protein to be Produced in Large Amounts
 Sanger Sequencing: ddNTP的终止延伸的作用
 Second-generation Sequencing Technologies
 
-![](34.png)
+<img src="34.png" alt="" width="60%">
 
 Sequencing Cost Has Been Reduced Dramatically
 
@@ -569,7 +569,7 @@ Reverse genetics: starts with altering a gene of interest
 
 **Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures**
 
-![](35.png)
+<img src="35.png" alt="" width="60%">
 
 - Actin filament(trail,short distance): Determine the shape of cell's surface; Drive the pinching of one cell into two; motility of cell.
   - right underneath the cell memberane
@@ -620,7 +620,7 @@ The shape of neutropil change fast: requires quickly reassembles the dense actin
 > Organization of the cytoskeleton in polarized epithelial cells
 > Apical and Basal
 >
-> ![](36.png)
+> <img src="36.png" alt="" width="60%">
 >
 > - Bundled actin filaments form **microvilli** that increase the cell-surface area available for absorbing nutrients from food.
 > - Below the microvilli, a circumferential band of **actin filaments** is connected to cell–cell adherens junctions that anchor the cells to each other(cell needs to attach to each other, organized in a certain structure).
@@ -629,7 +629,7 @@ The shape of neutropil change fast: requires quickly reassembles the dense actin
 
 **Filaments assemble from protein subunit that impart specific physical and dynamic properties**
 
-![](37.png)
+<img src="37.png" alt="" width="60%">
 
 All three types of filaments form from assemblies of subunits that selfassociate using a combination of end-to-end and side-to-side protein contacts(more stable,但似乎是中间断裂变得更困难，其他的还可以).
 
@@ -650,11 +650,11 @@ Bacteria contain homologs of all three of the eukaryotic cytoskeletal filaments.
 - ParM – actin homolog involved in chromosome separation
 - Crescentin – has coiled-coil domains similar to intermediate filaments
   
-  ![](38.png)
+  <img src="38.png" alt="" width="60%">
 
 #### ACTIN AND ACTIN-BINDING PROTEINS
 
-![](39.png)
+<img src="39.png" alt="" width="60%">
 
 **ACTIN**
 
@@ -669,7 +669,7 @@ Actin subunits assemble head-to-tail to form a tight, right-handed helix, formin
 - Barbed end: Fast-growing plus end
 - Pointed end: Slow-growing minus end
 
-![](40.png)
+<img src="40.png" alt="" width="60%">
 
 **Structural polarity of the actin filament**
 
@@ -677,19 +677,19 @@ Actin subunits assemble head-to-tail to form a tight, right-handed helix, formin
 
 For a new actin filament to form, subunits must assemble into an initial aggregate, or nucleus, that is stabilized by multiple subunit-subunit contacts and can then elongate rapidly by addition of more subunits. This process is called filament nucleation.
 
-![](41.png)
+<img src="41.png" alt="" width="60%">
 
 The system approaches a steady state at which the rate of addition of new subunits to the filament ends exactly balances the rate of subunit dissociation. The concentration of free subunits left in solution at this point is called the critical concentration, Cc.
 
 to make this step faster it can perform a filament seeds here.
 
-![](42.png)
+<img src="42.png" alt="" width="60%">
 
 Nucleation is relatively slow
 
 slow end 是因为要经历 conformation change
 
-![](43.png)
+<img src="43.png" alt="" width="60%">
 
 > The number of monomers that add to the polymer (actin filament or microtubule) per second will be proportional to the concentration of the free subunit (`k_on * C`), but the subunits will leave the polymer end at a constant rate (`k_off`) that does not depend on `C`.
 > As the polymer grows, subunits are used up, and `C` is observed to drop until it reaches a constant value, called the **critical concentration** (`C_c`).
@@ -702,7 +702,7 @@ slow end 是因为要经历 conformation change
 
 **ATP Hydrolysis Within Actin Filaments Leads to Treadmilling at Steady State**
 
-![](44.png)
+<img src="44.png" alt="" width="60%">
 
 Since \(k_{\text{off}}^D\) and \(k_{\text{on}}^T\) refer to different reactions, 
 their ratio 
@@ -743,7 +743,7 @@ Inhibit spindle formation so that it will all stop at G2 phase
 In muscle cell, there's free actin(soluble) and actin-thymosin complex(can't form monomer)/actin-profilin complex
 control by accessory proteins
 
-![](45.png)
+<img src="45.png" alt="" width="60%">
 
 **Some proteins with Filaments**
 
@@ -751,11 +751,11 @@ Help forming actin nucleas
 
 - NFP actually determines where the actin form, attach to cell membrane, Also Arp2 and Arp3 will attach to other filament also control wwhere the filament can go
 
-![](46.png)
+<img src="46.png" alt="" width="60%">
 
 - formins, dimer binding to adding ends, help the growing of plus end; Formin-dependent actin filament growth is strongly enhanced by the association of actin monomers with profilin.
 
-![](47.png)
+<img src="47.png" alt="" width="60%">
 
 - capping protein(CapZ, binding mucle Z band): stabilizes an actin filament at its plus end by rendering it inactive, so it will only depend on minus end which significantl reducing the growth speed
 
@@ -774,15 +774,15 @@ Two type of the shape:
 - **Stress fibers** are contractile and exert tension; **the actin cortex** underlies the plasma membrane and consists of gel-like networks or **dendritic actin** networks that enable membrane protrusion at lamellopodia. (not muscle cell want to move)
 - Filopodia are spike-like projections of the plasma membrane that allow a cell to explore its environment.
 
-![](48.png)
+<img src="48.png" alt="" width="60%">
 
 **The modular structures of four actin-cross-linking proteins**
 
 Each has two acting-binding sites (red)
 
-![](49.png)
+<img src="49.png" alt="" width="60%">
 
-![](50.png)
+<img src="50.png" alt="" width="60%">
 
 **Higher-Order Actin Filament Arrays Influence Cellular Mechanical Properties and Signaling**
 
@@ -802,20 +802,20 @@ Skeletal muscle myosin (myosin II), which generates the force for muscle contrac
 
 put actin filament and ATP, those filament can be moved 
 
-![](51.png)
+<img src="51.png" alt="" width="60%">
 
 Myosin Generates Force by Coupling ATP Hydrolysis to Conformational Changes
 
 **Sliding of Myosin II Along Actin Filaments Causes Muscles to Contract**
 
-![](52.png)
+<img src="52.png" alt="" width="60%">
 
 Thick filament: myosin; thin filament: actin
 
 - The Z discs, at each end of the sarcomere, are attachment sites for the plus ends of actin filaments (thin filaments);
 - the M line, or midline, is the location of proteins that link adjacent myosin II filaments (thick filaments) to one another.
 
-![](53.png)
+<img src="53.png" alt="" width="60%">
 
 - Nebulin stretches from the Z disc toward the minus end of each thin filament, which is capped and stabilized by tropomodulin.
   - Tropomodulin (Tmod) 是一种 薄丝（actin thin filament）末端帽蛋白。它专门结合 actin 薄丝的减端（pointed end），阻止肌动蛋白单体的脱聚或过度聚合。在肌肉中，它主要位于 薄丝的 Z 盘远端（靠近 pointed end）。
@@ -835,7 +835,7 @@ Troponins T，I and C (tropomyosin-binding, inhibitory and Ca2+binding activity)
 
 平滑肌的机理有所不同：
 
-![](54.png)
+<img src="54.png" alt="" width="60%">
 
 when it is dephosphorylated, the myosin head tends to dissociate from actin and becomes inactive.(这些收缩纤维束以 斜向（斜角）方式排列在细胞内，而不是沿着细胞长度或宽度完全平行/垂直)
 
@@ -848,7 +848,7 @@ when it is dephosphorylated, the myosin head tends to dissociate from actin and 
 
 **Heart muscle is a precisely engineered machine**
 
-![](55.png)
+<img src="55.png" alt="" width="60%">
 
 **Actin and Myosin Perform a Variety of Functions in Non-Muscle Cells**
 
@@ -881,7 +881,7 @@ The microtubule lattice has a distinct structural polarity:α-tubulin exposed at
 
 Loss of the GTP cap allows the GDP containing protofilaments to relax into their more curved conformation.
 
-![](56.png)
+<img src="56.png" alt="" width="60%">
 
 **Microtubules Undergo Dynamic Instability**
 
@@ -899,17 +899,17 @@ Embedded in the centrosome are the centrioles, a pair of cylindrical structures 
 
 **Microtubule organization in different cell types**
 
-![](57.png)
+<img src="57.png" alt="" width="60%">
 
 **Microtubule-Binding Proteins Modulate Filament Dynamics and Organization**
 
 MAP2 & Tau:
 
-![](58.png)
+<img src="58.png" alt="" width="60%">
 
 Kinesin-13: binds to microtubule ends and pry them apart
 
-![](59.png)
+<img src="59.png" alt="" width="60%">
 
 XMAP215: binds tubulin dimers and delivers them to the microtubule plus end
 
@@ -939,7 +939,7 @@ The dyneins (1.5mDalton) are a family of minus-end directed microtubule motors
 Microtubules and Motors Move Organelles and Vesicles: 
 - Dynactin mediates the attachment of dynein to a membrane enclosed organelle
 
-![](60.png)
+<img src="60.png" alt="" width="60%">
 
 **Microtubules and microtubule motors organize the ER and the Golgi apparatus**
 
@@ -951,7 +951,7 @@ One type of lissencephaly is caused by defects in Lis1, a dynein-binding protein
 
 **Regulated melanosome(黑色素体) movements in fish pigment cells**
 
-![](61.png)
+<img src="61.png" alt="" width="60%">
 
 **Motile Cilia and Flagella Are Built from Microtubules and Dyneins**
 
@@ -959,15 +959,15 @@ The arrangement of microtubules in a flagellum or cilium (“9+2”): Nine speci
 
 -  flexible protein links prevent the sliding of the doublet. The motor action therefore causes a bending motion, creating waves or beating motions.
   
-  ![](62.png)
+  <img src="62.png" alt="" width="60%">
 
 -  Proteolytic enzyme trypsin breaks the flexible protein links holding adjacent microtubule doublets together
   
-  ![](63.png)
+  <img src="63.png" alt="" width="60%">
 
 **Microtubule-Binding Proteins Modulate Filament Dynamics and Organization**
 
-![](64.png)
+<img src="64.png" alt="" width="60%">
 
 #### INTERMEDIATE FILAMENTS
 
@@ -975,7 +975,7 @@ The arrangement of microtubules in a flagellum or cilium (“9+2”): Nine speci
 
 **Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures**
 
-![](65.png)
+<img src="65.png" alt="" width="60%">
 
 **Intermediate Filament Structure Depends on the Lateral Bundling and Twisting of Coiled-Coils**
 
@@ -995,19 +995,19 @@ Plectin (green): making crosslinks from intermediate filaments (blue) to microtu
 
 **SUN-KASH protein complexes connect the nucleus and cytoplasm through the nuclear envelope**
 
-![](66.png)
+<img src="66.png" alt="" width="60%">
 
 **During Mitosis the Nuclear Envelope Disassembles**
 
-![](67.png)
+<img src="67.png" alt="" width="60%">
 
 #### CELL POLARIZATION AND MIGRATION
 
-![](68.png)
+<img src="68.png" alt="" width="60%">
 
 **Cell polarization is controlled by members of the Rho protein family**
 
-![](69.png)
+<img src="69.png" alt="" width="60%">
 
 # ✅Chapter 4 Biomembranes
 
@@ -1041,9 +1041,9 @@ The lipid bilayer is about **5 nm** or **50 atoms** thick
 - all **Amphipathic** lipid molecules
   Other amphipathic membrane lipids include the sterols (cholesterol) and glycolipids which have sugars attached to their head groups.
 
-  ![](10.png)
+  <img src="10.png" alt="" width="60%">
 
-  ![](11.png)
+  <img src="11.png" alt="" width="60%">
 
 - sterol: stablize the membrane
   -  Cholesterol is an important component of cell membranes
@@ -1066,7 +1066,7 @@ Phospholipids will spontaneously form spherical bilayers called vesicles or lipo
 
 **the lipid bilayer is a teo-dimensianl Fluid**
 
-![](11.png)
+<img src="11.png" alt="" width="60%">
 
 They can diffuse laterally ~2um, the length of a bacterial cell in one second
 They can rotate at speeds up to 30,000 RPM
@@ -1086,17 +1086,17 @@ later membrane more rigid and thicker, contains more cholesterols
 在引入固醇之后，Lateral phase separation in artificial lipid bilayers
 raft domain-> rigidity 
 
-![](13.png)
+<img src="13.png" alt="" width="60%">
 
 **glycolipids are found on the surface of all eukaryotic plasma membranes**
 
-![](15.png)
+<img src="15.png" alt="" width="60%">
 
 #### lipid monolayer
 
 **lipid droplets are surrounded by a phospholipid monolayer**
 
-![](14.png)
+<img src="14.png" alt="" width="60%">
 
 - neutral lipid(triglycerides) form in between of ER bilayer(within hydrophobic space)
 
@@ -1121,7 +1121,7 @@ transmembrane domains
 
 **membrane proteins can be associated with the lipid bilayer in various way**
 
-![](16.png)
+<img src="16.png" alt="" width="60%">
 
 **lipid anchor control the membrane localization of some signaling proteins**
 
@@ -1166,7 +1166,7 @@ Detergents are amphipathic and can disrupt lipid bilayers and solubilize integra
 
 (The use of mild nonionic detergents for solubilizing, purifying, and reconstituting functional membrane protein systems.)
 
-![](18.png)
+<img src="18.png" alt="" width="60%">
 
 **nanodisc**: artificial membrane stablizing 
 
@@ -1181,7 +1181,7 @@ using Retinal as light-sensor, Retinal is vitamin A in its aldehyde form and is 
 
 **Membrane-bending Proteins Deform Bilayers**
 
-![](21.png)
+<img src="21.png" alt="" width="60%">
 
 - Hydrophobic Insertion: 插入动作会增加膜一侧（通常是外层）的表面积，从而产生向外或向内的张力，迫使膜发生弯曲。
 - Scaffolding Mechanism: 这些蛋白通过静电相互作用大量结合到膜表面。由于蛋白质本身的弧度非常大且刚性较强，膜会被迫贴合蛋白质的形状，从而形成管状或球状结构。
@@ -1202,7 +1202,7 @@ memberane proteins often function as large complexes
 
 Tight junctions can result in an asymmetrical distribution of membrane proteins
 
-![](20.png)
+<img src="20.png" alt="" width="60%">
 
 > 表皮细胞：tight(water molecule cant in) junction, prevent apical protein move into basal part, important in bladder
 > sperm cell: protein target to assemble in different part
@@ -1227,7 +1227,7 @@ The spectrin(血影蛋白)-based cytoskeleton on the cytosolic side of the human
 > Fence Model:
 > Corralling plasma membrane proteins by cortical cytoskeletal filaments.
 >
-> ![](20.png)
+> <img src="20.png" alt="" width="60%">
 >
 
 
@@ -1253,11 +1253,11 @@ Electrochemical gradients:** concentration gradients & membrane potential(bigger
 
 transporter: outward-open and inward-open and occluded, energy input can be used to change the conformation
 
-![](70.png)
+<img src="70.png" alt="" width="60%">
 
 transporter-mediated diffusion can't be saturated
 
-![](71.png)
+<img src="71.png" alt="" width="60%">
 
 **Active transport drived by three ways**
 
@@ -1277,7 +1277,7 @@ Transporters built from inverted repeats.
 
 **The serotonin/norepinephrine transporters targeted by antidepressants are Na⁺-dependent**
 
-![](72.png)
+<img src="72.png" alt="" width="60%">
 
 #### Transporters and active membrane transport
 
@@ -1286,7 +1286,7 @@ Transporters built from inverted repeats.
 - ABC (ATP Binding Cassette)
 - F-type/V-type
 
-![](73.png)
+<img src="73.png" alt="" width="60%">
 
 **P-type ATPase pumps Ca2+ into the Sarcoplasmic reticulum in muscle cells**
 > The concentration of Ca2+ is very important for cells(more, toxic)
@@ -1294,7 +1294,7 @@ Transporters built from inverted repeats.
 
 The pumping cycle of the sarcoplasmic reticulum Ca2+ pump.
  
-![](74.png)
+<img src="74.png" alt="" width="60%">
 
 **Plasma Membrane Na+-K+ Pump(3 Na+ in and 2 K+ out) -> create a net negative charge**
 
@@ -1304,14 +1304,14 @@ The pumping cycle of the sarcoplasmic reticulum Ca2+ pump.
 
 different tactics are used to avoid osmotic swelling
 
-![](75.png)
+<img src="75.png" alt="" width="60%">
 
 **ABC Transporters Constitute the Largest Family of Membrane Transport Proteins**
 
 Small-molecule transport by typical ABC transporters
 - Bacterium：大概意思就是有很多家族的蛋白他们是相互合作的
   
-![](76.png)
+<img src="76.png" alt="" width="60%">
 
 - Drug resistance
 
@@ -1321,7 +1321,7 @@ Moves protons down the electrochemical gradient from the intermembrane space to 
 
 Movement of protons powers the synthesis of ATP
 
-![](77.png)
+<img src="77.png" alt="" width="60%">
 
 #### Channels and the electrical properties of membrane
 
@@ -1336,7 +1336,7 @@ One class of channel proteins found in virtually all animals forms gap junctions
 - gated (voltage. extracellular-ligand, intracellular-ligand, mechanically)
 - particular selectivity filter
 
-![](78.png)
+<img src="78.png" alt="" width="60%">
 
 Mechanosensitive Channels Protect Bacterial Cells Against Extreme Osmotic Pressures
 
@@ -1346,7 +1346,7 @@ Mechanosensitive Channels Protect Bacterial Cells Against Extreme Osmotic Pressu
 
 Potassium channel: very selective
 
-![](79.png)
+<img src="79.png" alt="" width="60%">
 
 carbonyl oxygen-> smaller sodium tend to interact with 4 carbonyl oxygen in solvent instead of in channel
 
@@ -1358,18 +1358,18 @@ In nerve and skeletal muscle cells, a stimulus that causes sufficient depolariza
 
 Voltage-gated:
 
-![](80.png)
+<img src="80.png" alt="" width="60%">
 
 voltage sensitive domain(S4 helix)
 
 in electrically excitable cells((closed)rest -> (open)depolarized -> (inactivated)refractory)
 
-![](81.png)
+<img src="81.png" alt="" width="60%">
 
 sodium channel faster than K+ channels
 Hyperpolarization: inactivate the sodium channel
 
-![](82.png)
+<img src="82.png" alt="" width="60%">
 
 **Myelination** create by Schwann cells, has node of Ranvier, Increases the Speed and Efficiency of Action Potential Propagation in Nerve Cells
 
@@ -1384,19 +1384,19 @@ Transmitted-Gated ion channels convert chemical signals into electrical ones at 
 
 - Neurotransmitters can be excitatory or inhibitory
 
-![](83.png)
+<img src="83.png" alt="" width="60%">
 
-![](84.png)
+<img src="84.png" alt="" width="60%">
 
 **neuromuscular junction**
 
 acetylcholine receptor of skeletal muscle cells: Composed of five transmembrane polypeptides, two of one kind and three others, encoded by four separate genes
 
-![](85.png)
+<img src="85.png" alt="" width="60%">
 
 Neuromuscular Transmission Involves the Sequential Activation of Five Different Sets of Ion Channels
 
-![](86.png)
+<img src="86.png" alt="" width="60%">
 
 Many psychoactive srugs act at synpases
 
@@ -1405,7 +1405,7 @@ Many psychoactive srugs act at synpases
 
 > Long-Term Potentiation (LTP) in the Mammalian Hippocampus Depends on Ca2+ Entry Through NMDA-Receptor Channels
 >
-> ![](87.png)
+> <img src="87.png" alt="" width="60%">
 >
 > 哺乳动物海马中的长期增强（LTP）依赖 NMDA 受体介导的 Ca²⁺ 流入，引发突触后 AMPA 受体增加，从而增强突触传递
 
@@ -1421,7 +1421,7 @@ Many psychoactive srugs act at synpases
 - ER: almost half of membrane system
 - Arranged by sytoskeleton, and it'll attach to different membrane organelle
 
-![](88.png)
+<img src="88.png" alt="" width="60%">
 
 - cytosol: half of the cell
 - 这个分布是在不同细胞有所不同的
@@ -1432,11 +1432,11 @@ The precursors of the first eukaryotic cells are thought to have been simple org
 
 symbiotics(内共生学说)
 
-![](89.png)
+<img src="89.png" alt="" width="60%">
 
-![](90.png)
+<img src="90.png" alt="" width="60%">
 
-![](91.png)
+<img src="91.png" alt="" width="60%">
 
 this explain those laminar parts are equivalent to the extracellular part, because they are kind of created by those extracellular part
 
@@ -1456,7 +1456,7 @@ Three fundamentally different transport mechanisms
 - Protein Translocation (Mitochondria/ER)
 - Vesicle Transport
 
-![](92.png)
+<img src="92.png" alt="" width="60%">
 
 - ER uses a lot of vesicle transport to deliver cargo
 
@@ -1470,7 +1470,7 @@ Most Organelles Cannot Be Constructed *De Novo*: They Require Information in the
 
 #### THE TRANSPORT OF MOLECULES BETWEEN THE NUCLEUS AND THE CYTOSOL
 
-![](93.png)
+<img src="93.png" alt="" width="60%">
 
 The nuclear envelope encloses the DNA and defines the nuclear compartment
 - inner nuclear membrane and outer nuclear membrane
@@ -1479,14 +1479,14 @@ Two concentric membranes, which are penetrated by nuclear pore complexes
 - the outer nuclear membrane is continued to ER membrane
 - even in inner and outer nuclear membrane, the protein composition is quite different
 
-![](94.png)
+<img src="94.png" alt="" width="60%">
 
 Nuclear Pore Complexes Perforate the Nuclear Envelope
 - Estimated molecular mass of about 125 million daltons and is composed of about 30 different NPC proteins, or nucleoporins
 
 fiber & basket, gel-like assembly, phase separation
 
-![](95.png)
+<img src="95.png" alt="" width="60%">
 
 Nuclear Localization Signals Direct Nuclear Proteins to the Nucleus
 (also nuclear export signals)
@@ -1497,14 +1497,14 @@ Nuclear Import Receptors Bind to Both Nuclear Localization Signals and NPC Prote
 - the NLS solve the problem of specificity, but how to hand over?: competed with a signal molecule
   - The Ran GTPase Imposes Directionality on Transport Through NPCs: switches, have off/on states
   
-![](96.png)
+<img src="96.png" alt="" width="60%">
 
   - two states can interact with their effector proteins
   - very weak GTPase, so need to rely on GTP avtivated protein(Ran-GAP), and can be turn on by Ran-GEF
 
 - Nuclear Export Works Like Nuclear Import, But in Reverse
 
-![](97.png)
+<img src="97.png" alt="" width="60%">
 
 #### THE TRANSPORT OF PROTEINS INTO MITOCHONDRIA AND CHLOROPLASTS
 
@@ -1513,7 +1513,7 @@ Translocation into Mitochondria Depends on Signal Sequences and Protein Transloc
 - Translocated into mitochondria by a post-translational mechanism
 - 4 different destination in mitochondia
   
-  ![](98.png)
+  <img src="98.png" alt="" width="60%">
 
   - TOM: translocon of outer membrane
   - SAM: Sorting and Assembly Machinery complex
@@ -1521,14 +1521,14 @@ Translocation into Mitochondria Depends on Signal Sequences and Protein Transloc
 
 Mitochondrial Precursor Proteins Are Imported as Unfolded Polypeptide Chains
 
-![](99.png)
+<img src="99.png" alt="" width="60%">
 
 - 似乎是想说他们的destination有可能不同
 - ATP Hydrolysis and a Membrane Potential Drive Protein Import Into the Matrix Space
 - mitochondia equivalent:(比刚刚那个循环更加efficient)
   - 好像就是第三步通过结合ATP和ADP的state互换，然后就能拉着走？
 
-![](100.png)
+<img src="100.png" alt="" width="60%">
 
 Transport Into the Inner Mitochondrial Membrane and Intermembrane Space Occurs Via Several Routes
 
@@ -1536,11 +1536,11 @@ Transport Into the Inner Mitochondrial Membrane and Intermembrane Space Occurs V
    - 2 signals: recognized by TOM & TIM
    - 如果第二个信号被解离了，这个protein就会滞留在inner membrane
   
-  ![](101.png)
+  <img src="101.png" alt="" width="60%">
 
 2. from matrix to inner membrane
    
-  ![](102.png)
+  <img src="102.png" alt="" width="60%">
   
 3. reduced and oxidative
    - 进入线粒体的蛋白质会表现出reduced的state(二硫键断开)
@@ -1726,7 +1726,7 @@ speed is more important
 
 ### Molecular mechanism of membrane transport
 
-![](103.png)
+<img src="103.png" alt="" width="60%">
 
 - In the secretory pathway (red arrows), protein molecules are transported from the ER to the plasma membrane or (via endosomes) to lysosomes.
 - In the endocytic pathway (green arrows), molecules are ingested in endocytic vesicles derived from the plasma membrane and delivered to early endosomes and then (via late endosomes) to lysosomes.
@@ -1740,19 +1740,19 @@ coating proteins
 - The assembly and disassembly of a clathrin coat:
   - daptor Proteins Select Cargo into Clathrin-Coated Vesicles; Each type of adaptor protein is specific for a different set of cargo receptors
   
-  ![](105.png)
+  <img src="105.png" alt="" width="60%">
 
 - dissembly: expose the target protein, serve as a mechanism to recycle coat mechinary
 
 1. LIPID SIGNALS: They are very specialize: in a inositol ring, all the position can be phosphorated, can locolize on specific position; "poster coat"; unique proteins that can recognize and bind to the phosphorate inositol
   
-  ![](106.png)
+  <img src="106.png" alt="" width="60%">
 
 2. PROTEIN LAYERS: signal molecular switches, localize at very specific position in cells(by targeting signals)
    > Sar1 protein is the coat-recruitment GTPase responsible for the assembly of COPII coats at the ER membrane.
    > Sec23 and Sec24 are COPII adaptor coat proteins, which form the inner coat.
    >
-   > ![](107.png)
+   > <img src="107.png" alt="" width="60%">
    >
    > 就是说其实Sar1只是用来招募，但是对于cargo的识别是依赖于后面招募的这些蛋白实现的。
 
@@ -1774,9 +1774,9 @@ Specificity in targeting is ensured because all transport vesicles display surfa
   - dissemble need ATPases(NSF) -> ATP hydrolysis to break down the interaction
   - complexin stabilizes SNARE complex and prevents premature disassembly
   
-  ![](109.png)
+  <img src="109.png" alt="" width="60%">
 
-![](108.png)
+<img src="108.png" alt="" width="60%">
 
 > many virus enter the cells by fusing their membrane with cells' membrane
 
@@ -1794,7 +1794,7 @@ RETRIEVAL PATHWAY:
 - specific recepter will correspond to another protein COPI
 - Soluble ER resident proteins, such as BiP, contain a short ER retrieval signal at their C-terminal end: it consists of a Lys-Asp-Glu-Leu or a similar sequence.
 
-![](110.png)
+<img src="110.png" alt="" width="60%">
 
 The golgi appartus consists of an ordered series of compartments
 - Golgi: 
@@ -1804,7 +1804,7 @@ The golgi appartus consists of an ordered series of compartments
 - one single galgi localize near the nucleus; plant cell 有很多
 - Oligosaccharide Chains Are Processed in the Golgi Apparatus
 
-  ![](111.png)
+  <img src="111.png" alt="" width="60%">
 
   - All of the Golgi glycosidases and glycosyl transferases, for example, are single-pass transmembrane proteins, many of which are organized in multienzyme complexes.
 
@@ -1826,16 +1826,16 @@ lysosome(0.2-0.5um):
 - hetergenous: 
   - Late endosomes containing material received from both the plasma membrane by endocytosis and newly synthesized lysosomal hydrolases fuse with preexisting lysosomes to form structures that are sometimes referred to as **endo-lysosomes**, which then fuse with one another.
   
-  ![](112.png)
+  <img src="112.png" alt="" width="60%">
 
 Plant and fungal vacuoles are remarkably versatile lysosomes
 
 A Mannose 6-Phosphate Receptor Sorts Lysosomal Hydrolases in the Trans Golgi Network
 - are added exclusively to the N-linked oligosaccharides of these soluble lysosomal enzymes as they pass through the lumen of the cis Golgi network.
   
-  ![](113.png)
+  <img src="113.png" alt="" width="60%">
 
-  ![](114.png)
+  <img src="114.png" alt="" width="60%">
 
 - A GlcNAc phosphotransferase recognizes lysosomal hydrolases in the Golgi apparatus; A second enzyme cleaves off the GlcNAc, exposing mannose 6-phosphate.
 
@@ -1853,7 +1853,7 @@ Multiple Pathways Deliver Materials to Lysosomes
     - In selective autophagy, specific cargo is packaged into autophagosomes that tend to contain little cytosol, and their shape reflects the shape of the cargo. Selective autophagy mediates the degradation of worn out, or otherwise unwanted, mitochondria, peroxisomes, ribosomes, and ER; it can also be used to destroy invading microbes.(special organelle or large molecules)
   > 在酵母中同时阻断液泡中的降解酶活性（使自噬内容物无法被分解）并通过饥饿诱导自噬，结果导致自噬体进入液泡后不能被降解而大量积累，从而可以在显微镜下直接观察到这些囊泡结构
 
-![](115.png)
+<img src="115.png" alt="" width="60%">
 
 1. Induction (signaling)
 2. Isolation membrane (membrane cup) formation
