@@ -1381,4 +1381,93 @@ Q: how about deletion homozygote:
 
 Question: individual male, 保证母亲只有一个mutation
 
+#### Translocation
+
+part of one chromosome attach to another homo,, chromosome
+
+t(12;17)(p13.1;p13) translocation, chromosome12 & 17, specific position
+
+Types of translocations:
+- reciprocal translocation
+- non-reciprocal translocation
+> DNA-FISH can show translocation
+
+Types of chromosomes:
+- Metacentric
+- Submetacentric
+- Acrocentric
+  - all mouse chromosomes are acrocentric（从图上可以看到有明显差异）
+  - rDNA repeated sequence 人类会在染色质短臂上，但是小鼠没办法只能在长臂上, RNA polI produce rRNA
+- Telocentric
+
+Robertsonian translocation(罗伯逊易位)
+一段定义....
+- form tiny fragment -> usually lost
+
+1. Why recurrent translocation events
+  有一张图：
+  a DNA repair focus ar each break site(these site are very close to each others), 然后就连上了
+  > SST1(a macrosatellite DNA array)(可能会出现在两个染色体的断裂地方附近)
+  > located near the centromeres of the short arm of acrocentric chromosomes
+  > repeaed sequence & close to each other at spatial spac
+2. this translocations are commonly observed in patients with the familial form of Down syndrome
+   robertsonian translocation in chromosome 21/14
+   有一张图, three 21 -> down syndrome
+
+Phenotypic effects:
+- affect gene expression:
+  - produce oncogenes: 启动子和表达区域重组 & fusion protein
+  - philadelphia chromosome[t(9;22)]:BCR（chr22）+ ABL1（chr9）-> BCR-ABL fusion gene, this fusion protein utilize ATP -> signal of cell proliferation -> Chronic Myeloid Leukemia; can use **Gleevec** to block the ATP binding pocket, and it's very specific!
+  > Question: what makes a good drug:
+  > 1. very specific
+  > 2. very good on delivery
+  > 3. effect time
+  > 4. cost
+  - Burkitt's lymphoma[t(8;14)]: 这个就是启动子换了位置, myc are downstream to the promoter of IgH, B cell division elevate
+  > why B cells?
+  > enhancer only in B cells
+  - tranlocation : form the cruciform structure
+    - adjacent segregation(None-surviving)
+    - Alternate segregation
+- disrupt a gene's function
+
+
 ## Changes in Chromosome Number
+
+Aneuploidy & euploidy
+
+#### Aneuploidy 非整倍体
+
+results in multiple abnormalities or lethality
+> turner syndrome: XO
+> shorter height, infertile
+> 只有一份 due to pseudoautosomal(PAR) genes, haploinsufficiency
+> X-chromosome reactivation
+
+causes of aneuploidy:
+1. meiotic nondisjunction
+mosaic
+2. mitotic nondisjunction
+3. chromosome loss: lagging hromatid that is not pulled to either spindle pole at mitotic anaphase
+   - 所以是去哪里了呢: form a micronuclei, ER tubule will invade, causing collaspe
+  > drosophila 可以成为一个雌雄嵌合体
+
+Chromothripsis
+
+#### euploidy 整倍体
+
+monoploid
+> plant
+> colchicine
+
+Triploid
+会有unbalanced gametes in meiosis cell
+sterile
+
+Tetraploid
+- colchicine present of Diploid
+一张图，比例
+
+polyploidy
+many liver cells are polyploid: mitosis has been skip, cell become bigger and bigger
+supply the function of cell; have advantage in metabolics; stress response(regeneration)

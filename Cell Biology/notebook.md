@@ -1723,3 +1723,152 @@ speed is more important
 > unknown怎么在细胞质那一侧合成的，也不知道是怎么flip进去的
 
 # Chapter 6 Intracellular Memberane Traffic
+
+### Molecular mechanism of membrane transport
+
+![](103.png)
+
+- In the secretory pathway (red arrows), protein molecules are transported from the ER to the plasma membrane or (via endosomes) to lysosomes.
+- In the endocytic pathway (green arrows), molecules are ingested in endocytic vesicles derived from the plasma membrane and delivered to early endosomes and then (via late endosomes) to lysosomes.
+
+vesicle function -- the delivery process
+- cell growth and division
+- endocrine and exocrine physiology
+- neurophysiology
+
+coating proteins
+- The assembly and disassembly of a clathrin coat:
+  - daptor Proteins Select Cargo into Clathrin-Coated Vesicles; Each type of adaptor protein is specific for a different set of cargo receptors
+  
+  ![](105.png)
+
+- dissembly: expose the target protein, serve as a mechanism to recycle coat mechinary
+
+1. LIPID SIGNALS: They are very specialize: in a inositol ring, all the position can be phosphorated, can locolize on specific position; "poster coat"; unique proteins that can recognize and bind to the phosphorate inositol
+  
+  ![](106.png)
+
+2. PROTEIN LAYERS: signal molecular switches, localize at very specific position in cells(by targeting signals)
+   > Sar1 protein is the coat-recruitment GTPase responsible for the assembly of COPII coats at the ER membrane.
+   > Sec23 and Sec24 are COPII adaptor coat proteins, which form the inner coat.
+   >
+   > ![](107.png)
+   >
+   > 就是说其实Sar1只是用来招募，但是对于cargo的识别是依赖于后面招募的这些蛋白实现的。
+
+**recognizing the correct target membrane with which to fuse.**
+
+Specificity in targeting is ensured because all transport vesicles display surface markers that identify them according to their origin and type of cargo, and target membranes display complementary receptors that recognize the appropriate markers. This crucial process occurs in two steps.
+
+- First, Rab proteins and Rab effectors direct the vesicle to specific spots on the correct target membrane.
+  - Docking(Rab effector--tethering proteins): remain weak but long range interaction between
+  - returnable, reversible
+  - Like the coat-recruitment GTPases, they also are monomeric GTPases, and are regulated by specific GEFs (activators) and GAPs (inactivators); very weak enzymes; enable regulate
+  - In their GDP-bound state, they are inactive and bound to another cytosol protein (Rab-GDP dissociation inhibitor, or GDI) that keeps them soluble in the cytosol; in their GTP-bound state, they are active and tightly associated with the membrane of an organelle or transport vesicle.
+
+- Second, SNARE proteins and SNARE regulators mediate the fusion of the lipid bilayers.
+  - very stable, ireversible
+  - *specialized fusion proteins that overcome the energy barrier to catalyze all membrane fusions in cells*
+  - These transmembrane proteins exist as complementary sets, with v-SNAREs usually found on vesicle membranes and t-SNAREs usually found on target membranes.
+  - once they meet each other, they form the hollow complex; the interaction is so strong to provide enough energy to push and overcome the energy barrier
+  - dissemble need ATPases(NSF) -> ATP hydrolysis to break down the interaction
+  - complexin stabilizes SNARE complex and prevents premature disassembly
+  
+  ![](109.png)
+
+![](108.png)
+
+> many virus enter the cells by fusing their membrane with cells' membrane
+
+### The transport from ER to Golgi
+
+also enable by coating transport vesicle: COPI & COPII
+
+General principles:
+- Only Proteins That Are Properly Folded and Assembled Can Leave the ER
+  - Those that are misfolded or incompletely assembled transiently remain in the ER, where they are bound to chaperone proteins such as BiP or calnexin.
+  - The chaperones may cover up the exit signals or somehow anchor the proteins in the ER.
+
+RETRIEVAL PATHWAY:
+- proteins be used in ER
+- specific recepter will correspond to another protein COPI
+- Soluble ER resident proteins, such as BiP, contain a short ER retrieval signal at their C-terminal end: it consists of a Lys-Asp-Glu-Leu or a similar sequence.
+
+![](110.png)
+
+The golgi appartus consists of an ordered series of compartments
+- Golgi: 
+  - cis Golgi network (CGN)
+  - cis cisterna, medial cisterna, trans cisterna
+  - trans Golgi network (TGN)
+- one single galgi localize near the nucleus; plant cell 有很多
+- Oligosaccharide Chains Are Processed in the Golgi Apparatus
+
+  ![](111.png)
+
+  - All of the Golgi glycosidases and glycosyl transferases, for example, are single-pass transmembrane proteins, many of which are organized in multienzyme complexes.
+
+Proteogylcan are assembled in the Golgi Appartus
+- N-LINKED GLYCOSYLATION and O-LINKED GLYCOSYLATION
+- The Golgi apparatus confers the heaviest O-linked glycosylation of all on mucins, the glycoproteins in mucus secretions, and on proteoglycan core proteins, which it modifies to produce proteoglycans.
+
+Purpose of glycosylation:
+- Promote protein folding;
+- Make a glycoprotein more resistant to digestion;
+- Protection;
+- Regulatory roles in signaling.
+
+### The transport from Trans Golgi network to the lysosome
+
+lysosome(0.2-0.5um):
+- enrich in electrons
+- Lysosomes contain about 40 types of hydrolytic enzymes. hydrolases that work best at acidic pH. For optimal activity, they need to be activated by proteolytic cleavage, which also requires an acid environment. 
+- hetergenous: 
+  - Late endosomes containing material received from both the plasma membrane by endocytosis and newly synthesized lysosomal hydrolases fuse with preexisting lysosomes to form structures that are sometimes referred to as **endo-lysosomes**, which then fuse with one another.
+  
+  ![](112.png)
+
+Plant and fungal vacuoles are remarkably versatile lysosomes
+
+A Mannose 6-Phosphate Receptor Sorts Lysosomal Hydrolases in the Trans Golgi Network
+- are added exclusively to the N-linked oligosaccharides of these soluble lysosomal enzymes as they pass through the lumen of the cis Golgi network.
+  
+  ![](113.png)
+
+  ![](114.png)
+
+- A GlcNAc phosphotransferase recognizes lysosomal hydrolases in the Golgi apparatus; A second enzyme cleaves off the GlcNAc, exposing mannose 6-phosphate.
+
+> Defects in the GlcNAc Phosphotransferase Cause a Lysosomal Storage Disease (LSD) in Humans
+> treatment: infusion the proteins to the patients
+
+Multiple Pathways Deliver Materials to Lysosomes
+- Endocytosis: macromolecules taken up from extracellular fluid by endocytosis
+- Phagocytosis: in phagocytic cells, such as macrophages and neutrophils in vertebrates, is dedicated to the engulfment of large particles and microorganisms to form phagosomes.
+- Macropinocytosis specializes in the nonspecific uptake of fluids, membrane, and particles attached to the plasma membrane.
+- Autophagy originates in the cytoplasm of the cell itself and is used to digest cytosol and worn-out organelles.
+  - not only for damage curing but also for recycling
+  - Autophagy can be either nonselective or selective.
+    - In nonselective autophagy, a bulk portion of cytoplasm is sequestered in autophagosomes. It might occur, for example, in starvation conditions: when external nutrients are limiting, metabolites derived from the digestion of the captured cytosol might help the cell survive.
+    - In selective autophagy, specific cargo is packaged into autophagosomes that tend to contain little cytosol, and their shape reflects the shape of the cargo. Selective autophagy mediates the degradation of worn out, or otherwise unwanted, mitochondria, peroxisomes, ribosomes, and ER; it can also be used to destroy invading microbes.(special organelle or large molecules)
+  > 在酵母中同时阻断液泡中的降解酶活性（使自噬内容物无法被分解）并通过饥饿诱导自噬，结果导致自噬体进入液泡后不能被降解而大量积累，从而可以在显微镜下直接观察到这些囊泡结构
+
+![](115.png)
+
+1. Induction (signaling)
+2. Isolation membrane (membrane cup) formation
+3. Closure of the membrane cup around the target to form a sealed double-membrane-enclosed autophagosome.
+4. Fusion of the autophagosome with lysosomes, catalyzed by SNAREs.
+5. Digestion of the inner membrane and the lumenal contents of the autophagosome.
+  
+### Endocytosis
+
+Endocytosis, by which cells take up plasma membrane components, fluid, solutes, macromolecules, and particulate substances.
+- Endocytosed cargo includes receptor–ligand complexes, a spectrum of nutrients and their carriers, extracellular matrix components, cell debris, bacteria, viruses, and, in specialized cases, even other cells. Through endocytosis, the cell regulates the composition of its plasma membrane in response to changing extracellular conditions.
+- prevent the activcation of the down stream
+
+- *pinoytosis* & *phagocytosis*
+
+active recycling of this machinary: not only maintain the recycling of cell membrane,  maintain the proper area of cell surface
+- Since a cell’s surface area and volume remain unchanged during this process, it is clear that the same amount of membrane being removed by endocytosis is being added to the cell surface by the converse process of exocytosis.
+- In this sense, endocytosis and exocytosis are linked processes that can be considered to constitute an endocytic–exocytic cycle.
