@@ -1,10 +1,14 @@
-# 最大上升子列
+# 铺瓷砖问题
 
 n = int(input())
-maxLen = [1 for i in range(n+10)]
-a = list(map(int, input().split()))
-for i in range(n):
-    for j in range(0,i):
-        if a[i] > a[j]:
-            maxLen[i] = max(maxLen[j]+1, maxLen[i])
-print(max(maxLen))
+num = {0:1, 1:1, 2:2, 3:4, 4:8}
+
+def total(n):
+    if n <= 4:
+        return num[n]
+    else:
+        for i in range(5, n+1):
+            num[i] = num[i-1] + num[i-2] + num[i-3] + num[i-4]
+        return num[n]
+
+print(total(n))
