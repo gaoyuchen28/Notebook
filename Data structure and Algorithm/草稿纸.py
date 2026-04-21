@@ -1,25 +1,20 @@
-# 利用动态规划解决找零问题_2(返回找钱组合)
+# 数字三角形_递归+函数值储存
 
+n = int(input())
+D = []
+maxSum = [[-1 for j in range(i+1)] for i in range(n)]
+def Maxsum(i, j):
+    if i == n-1:
+        return D[i][j]
+    if maxSum[i][j] != -1:
+        return maxSum[i][j]
+    x = Maxsum(i+1,j)
+    y = Maxsum(i+1,j+1)
+    maxSum[i][j] = max(x,y)+D[i][j]
+    return maxSum[i][j]
 
-def dpMakeChange(change, coinList, mincoin, coinUsed):
-    for cent in range(1,change+1):
-        count = cent
-        newcoin = 1
-        for i in [c for c in coinList if c <= cent]:
-            if mincoin[cent - i] + 1 < count:
-                count = mincoin[cent - i] + 1
-                newcoin = i
-        mincoin[cent] = count
-        coinUsed[cent] = newcoin
-    return mincoin[change]
+for i in range(n):
+    lst = list(map(int,input().split()))
+    D.append(lst)
 
-def printChange(coinUsed, change):
-    coin = change
-    while coin > 0:
-        print(coinUsed[coin],end = ", ")
-        coin = coin - coinUsed[coin]
-
-coinUsed = [0]*64
-
-dpMakeChange(63, [1,5,10,21,25], [0]*64, coinUsed)
-printChange(coinUsed, 63)
+print(Maxsum(0,0))
