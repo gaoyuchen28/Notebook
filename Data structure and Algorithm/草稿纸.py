@@ -1,17 +1,10 @@
-# 数字三角形_递推
+# 最大上升子列
 
 n = int(input())
-D = []
-maxSum = [[-1 for j in range(i+1)] for i in range(n)]
-def main():
-    for i in range(n):
-        lst = list(map(int, input().split()))
-        D.append(lst)
-    for i in range(n):
-        maxSum[n-1][i] = D[n-1][i]
-    for i in range(n-2, -1,-1):
-        for j in range(0,i+1):
-            maxSum[i][j] = max(maxSum[i+1][j], maxSum[i+1][j+1]) + D[i][j]
-    print(maxSum[0][0])
-
-main()
+maxLen = [1 for i in range(n+10)]
+a = list(map(int, input().split()))
+for i in range(n):
+    for j in range(0,i):
+        if a[i] > a[j]:
+            maxLen[i] = max(maxLen[j]+1, maxLen[i])
+print(max(maxLen))
