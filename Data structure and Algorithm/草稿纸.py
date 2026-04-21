@@ -1,20 +1,17 @@
-# 数字三角形_递归+函数值储存
+# 数字三角形_递推
 
 n = int(input())
 D = []
 maxSum = [[-1 for j in range(i+1)] for i in range(n)]
-def Maxsum(i, j):
-    if i == n-1:
-        return D[i][j]
-    if maxSum[i][j] != -1:
-        return maxSum[i][j]
-    x = Maxsum(i+1,j)
-    y = Maxsum(i+1,j+1)
-    maxSum[i][j] = max(x,y)+D[i][j]
-    return maxSum[i][j]
+def main():
+    for i in range(n):
+        lst = list(map(int, input().split()))
+        D.append(lst)
+    for i in range(n):
+        maxSum[n-1][i] = D[n-1][i]
+    for i in range(n-2, -1,-1):
+        for j in range(0,i+1):
+            maxSum[i][j] = max(maxSum[i+1][j], maxSum[i+1][j+1]) + D[i][j]
+    print(maxSum[0][0])
 
-for i in range(n):
-    lst = list(map(int,input().split()))
-    D.append(lst)
-
-print(Maxsum(0,0))
+main()
