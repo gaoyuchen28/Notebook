@@ -1471,3 +1471,68 @@ Tetraploid
 polyploidy
 many liver cells are polyploid: mitosis has been skip, cell become bigger and bigger
 supply the function of cell; have advantage in metabolics; stress response(regeneration)
+
+
+# Chapter 5 
+
+forward gene screening and reverse gene screening
+
+## forward genetic screening
+
+EMS as mutagen in genetic screen
+EMS: EMS（ethyl methanesulfonate，甲基磺酸乙酯）是经典遗传筛选（genetic screen）中最常用的化学诱变剂（chemical mutagen）之一，核心作用是随机引入点突变（point mutations）
+ENU: ENU（N-ethyl-N-nitrosourea）是遗传筛选中另一类非常重要的化学诱变剂（chemical mutagen），通常被认为比 EMS 更“强力”和“精细”，尤其在**小鼠遗传学（mouse genetics）**中应用极其广泛。
+
+transposons: parents has p element and transposon separately and the offspring can be modified
+- advantage: easy to map
+- in different animals have different transposon
+
+> Question: how to identify the insertion site of a transposon
+> 这里有一张图
+> 自连形成一个环状的DNA，然后就可以进行PCR了
+
+After isolating mutants from a genetic screen:
+1. to map the mutant to a gene locus A
+2. to verify that the expression or acticity of gene A is indeed abolished in the isolated mutants
+3. to test whether inactication of gene A by other approach has same phenotype
+4. [rescue experiment(sometimes is function rescue experiment),knock out the gene]
+
+a large-scale genetic screen
+1. to design an efficient and effective screen strategy
+2. do a small pilot screen
+3. ....
+  
+The heidelberg screen: 在果蝇中进行的大规模 EMS 突变筛选，用来系统性鉴定控制胚胎发育（尤其是体轴分节）的基因
+
+Mis/overexpression screen
+
+RNA interference:RNA interference（RNAi）是一种由小RNA介导的基因沉默机制，双链RNA（dsRNA）在Dicer（RNase III家族酶）的作用下被切割为约21–23 nt的小RNA（siRNA或miRNA），这些小RNA加载到RISC复合体中，由guide strand引导识别靶mRNA：完全配对时引发mRNA切割，不完全配对则抑制翻译。其中，hairpin RNA（发夹RNA）是miRNA通路的重要前体，由单链RNA折叠形成茎环结构（stem-loop），模拟双链RNA。内源miRNA先经Drosha处理生成pre-miRNA，再由Dicer切割成熟；实验中人工设计的shRNA也通过类似机制进入RNAi通路，实现稳定的基因沉默。
+- Transgenic RNAi in Drosophila:有一张图片
+  - 连上UAS和GAl4就可以进行organ specific的knock down
+  - 问题是容易出现off-target
+
+> how to perform a rescue experiment: silent mutation
+>
+> off-target的问题：设计multiple RNAi lines for each gene
+
+Perturb-Seq: CRISPR perturbation + single cell seq
+
+## Gene manipulation
+
+Making transgenic flies using P element transformation: transformation plasmid + helper plasmid(transposase gene),一般gene会匹配一个visible marker
+
+φC31-mediated site-directed transgenesis: attB（质粒） + attP（基因组） → 外源DNA插入这个attP位置
+
+lineage-tracing:
+- FLP-FRT system
+- positive labeling
+- Gal4-UAS
+- MARCM
+  - twin-spot MARCM
+  有一张图，label 2 site, one mutant one WT
+  > application: adaptive resizing of adult organs
+  - MADM(in mice): 在有丝分裂时通过 Cre-loxP 重组，把“分裂出来的两个姐妹细胞”分别变成红/绿，并同时区分基因型。
+
+Gene editing:
+- CRISPR/cas
+- Base editing and gene therapy
