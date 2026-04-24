@@ -1255,7 +1255,7 @@ transporter: outward-open and inward-open and occluded, energy input can be used
 
 <img src="70.png" alt="" width="60%">
 
-transporter-mediated diffusion can't be saturated
+Transporter-mediated diffusion is saturable because it depends on a finite number of transport proteins, whereas simple diffusion increases linearly with concentration and does not saturate.
 
 <img src="71.png" alt="" width="60%">
 
