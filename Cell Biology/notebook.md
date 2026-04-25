@@ -1575,7 +1575,6 @@ A Short Signal Sequence Directs the Import of Proteins into Peroxisomes
 - Ser-Lys-Leu at the C-terminus
 
 
-
 ### Endoplasmic reticulum
 
 nuclear envelope
@@ -1583,23 +1582,27 @@ nuclear envelope
 different part of ER has different morphology: (这一块主要是confocal microscope)
 - tubules
 - sheets
-(figure)
+
+<img src="129.png" alt="" width="60%">
 
 > ER first discovered by **electron microscope**
 
 ER can be very diverse in different cells
 - (most of them under electron microscope)Rough ER
 - smooth ER (enriched in lipid tissue)
-  - 倒数第二个点
+  - Smooth ER in the hepatocyte: principal site of production of lipoprotein particles; contain enzymes for detoxification (e.g. cytochrome 450)
 - transitional ER
 
 **Smooth tubules rough sheets**
 
-(figure)
+<img src="130.png" alt="" width="60%">
+
 Smooth ER: more irregular
 当我们isolate 之后形态就不复从前了
 
 **isolation: obtain rough and smooth microsomes**
+
+<img src="131.png" alt="" width="60%">
 
 reconstitute the functions of ER in body
 
@@ -1610,7 +1613,8 @@ a significant magnitude of energy is invested in protein synthesiz
 Reason why ribosome has to attach to ER: facilitate targeting/sorting; transporting; protein folding
 - co-translational
 - post-translational
-(一张图)
+
+<img src="132.png" alt="" width="60%">
 
 intrinstic property of proteins -> intracellular organization
 
@@ -1632,52 +1636,82 @@ after protein transport in ER, signal peptidase cut the signal peptide, 似乎�
   - Acts as a partner for the signal peptide during translation and is associated with the ribosome
   - Functions as a translational pause factor, temporarily halting translation after the SRP binds to the ER lumen
   - Localizes to the endoplasmic reticulum membrane, further translation can proceed
-  (有一张大图)
+  
+  <img src="133.png" alt="" width="60%">
+
+  <img src="134.png" alt="" width="60%">
 
 ⬆️ 然后这个东西就叫做 co-translational translocation
 
 > 怎么做translocon的实验
-> 一张图
+>
+> <img src="135.png" alt="" width="60%">
+> 
 
 the polypeptide chain passes through an aqueous channel in the translocator
 
 However: can be opened all the time(have to be control)
-(一张图)
+
+<img src="136.png" alt="" width="60%">
 
 signal peptide(short hydrophobic helix) insert into the complex, displace th plug
 
+The assembly of a translocator with the accessory components is called the “translocon.”
+
 也不是所有都需要elongation：
+
 **Post-translational translocation**
 
 invest energy:
-(一张图)
+
+<img src="137.png" alt="" width="60%">
+
+Post-translational translocation in eukaryotic cells requires an additional complex composed of Sec62, Sec63, Sec71, and Sec72 proteins, which is attached to the Sec61 translocator and deposits BiP molecules onto the translocating chain as it emerges from the translocator in the lumen of the ER. 
 
 **transmembrane protein insertion**
+
+In Single-Pass Transmembrane Proteins, a Single Internal ER Signal Sequence Remains in the Lipid Bilayer as a Membrane-spanning a Helix
 
 an ER signal sequence is recognized twice:
 - SRP
 - pore of the protein translocator
 
+<img src="138.png" alt="" width="60%">
+
 heavily charged protein
-(figure)
+
+If there are more positively charged amino acids immediately preceding the hydrophobic core of the start-transfer sequence than there are following it, the membrane protein is inserted into the translocator in the orientation shown in pathway A.
+
+<img src="139.png" alt="" width="60%">
 
 Combinations of start-transfer ans Stop-stransfer signals determine the topology of multipass transmembrane proteins
-(figure)
+
+<img src="140.png" alt="" width="60%">
+
+进一步可以有多个跨膜区域了
 
 **Tail-anchored Protein**
 
-ATPase: provide energ; helping targeting
+ER Tail-anchored Proteins Are Integrated into the ER Membrane by a Special Mechanism
+
+ATPase: provide energy; helping targeting
+
+<img src="141.png" alt="" width="60%">
 
 **Translocated Polypeptide Chain Fold and Assemble in the Luman of the Rough ER**
 
 sugar modified protein(glycosylated: N-linked oligosaccharide)
 start in ER luman, continue in golgi
 90% happens on asparagine region(N-linked)
-(figure)
 
-oligosaccharyl transferase: donor of sugar transport by enzyme to the protein(figure)
+<img src="142.png" alt="" width="60%">
 
-as tags to mark the state of folding(figure):
+oligosaccharyl transferase: donor of sugar transport by enzyme to the protein
+
+Oligosaccharides Are Used as Tags to Mark the State of Protein Folding
+
+<img src="143.png" alt="" width="60%">
+
 - unfolded: 3 glucose
 - glucose trimming: left only 1 glucose
   - **chaperone**: Lectin（凝集素）一类能够特异性识别糖链结构的蛋白质, helping folding
@@ -1686,20 +1720,30 @@ as tags to mark the state of folding(figure):
 
 Improperly Folded proteins are exported from the ER and Degraded in the cytosol
 
+<img src="144.png" alt="" width="60%">
+
 **ER associated degradation**
 
 another ATPase(figure): unfold polypeptide, pull them through a ring structure, each dephopholate pull the chain
+
+<img src="145.png" alt="" width="60%">
 
 **Unfolded Protein Response**
 
 - increase protein folding capacity
 - shutdown gene responsible for protein synthesis
-(figures)
+
+<img src="146.png" alt="" width="60%">
+
+<img src="147.png" alt="" width="60%">
 
 **GPI anchor**
 
+Some Membrane Proteins Acquire a Covalently Attached Glycosylphosphatidylinositol (GPI) Anchor
+
 glycosylphosphatidylinositol
-(figure)
+
+<img src="148.png" alt="" width="60%">
 
 **Lipid bilayers**
 
@@ -1708,6 +1752,8 @@ asymmetric process: alies on the one leaflet of bilayer of ER
 All the substrate are found in cytosolic site
 
 phospholipid translocator: **Scramblase**: ATP-independant enzyme
+
+Lipid scrambling: a regulated lynchpin in a dynamic equilibrium
   
 speed is more important
 
