@@ -1907,14 +1907,3 @@ Multiple Pathways Deliver Materials to Lysosomes
 4. Fusion of the autophagosome with lysosomes, catalyzed by SNAREs.
 5. Digestion of the inner membrane and the lumenal contents of the autophagosome.
   
-### Endocytosis
-
-Endocytosis, by which cells take up plasma membrane components, fluid, solutes, macromolecules, and particulate substances.
-- Endocytosed cargo includes receptor–ligand complexes, a spectrum of nutrients and their carriers, extracellular matrix components, cell debris, bacteria, viruses, and, in specialized cases, even other cells. Through endocytosis, the cell regulates the composition of its plasma membrane in response to changing extracellular conditions.
-- prevent the activcation of the down stream
-
-- *pinoytosis* & *phagocytosis*
-
-active recycling of this machinary: not only maintain the recycling of cell membrane,  maintain the proper area of cell surface
-- Since a cell’s surface area and volume remain unchanged during this process, it is clear that the same amount of membrane being removed by endocytosis is being added to the cell surface by the converse process of exocytosis.
-- In this sense, endocytosis and exocytosis are linked processes that can be considered to constitute an endocytic–exocytic cycle.
