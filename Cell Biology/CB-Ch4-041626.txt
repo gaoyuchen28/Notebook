@@ -1,0 +1,778 @@
+Nucleus and
+Chromosomes
+(Albert’s textbook Chapter 4)
+
+2026/04/16
+
+Topics
+➢ The Nucleus
+➢ The structure and function of DNA
+➢ DNA packaging in chromosomes
+➢ The high-order structure of chromosomes
+➢ Chromosome modifications
+➢ How genomes evolve
+
+NUCLEUS
+
+https://www.genome.gov/genetics-glossary/Nucleus
+
+Nuclear Bodies——Functional Compartmentalization of The Nucleus
+
+Membrane less structures and
+highly dynamic.
+Create distinct biochemical
+environments by immobilizing select
+groups of macromolecules to
+achieve great efficiency through
+Mao et al., Trends Genet., 2011
+complex reaction pathways.
+.
+The largest is nucleolus, which is to synthesize rRNA and assemble ribosomes.
+CBs are relating to RNA processing, specifically small nucleolar RNA (snoRNA) and small
+nuclear RNA (snRNA) maturation.
+Speckles are subnuclear structures that are enriched in pre-messenger RNA splicing factors.
+Refer to Chapter 6 for more.
+
+Nuclear Lamina
+The NL is a dense (~30 to 100 nm thick) fibrous meshwork.
+
+Karoutas et al., Nat Cell Biol (2021)
+
+•
+
+The nuclear lamina consists of two
+components, lamins and nuclear laminassociated membrane proteins.
+
+•
+
+The lamins are type V intermediate
+filaments which can be categorized as
+either A-type (lamin A, C) or B-type (lamin
+B1, B2).
+
+•
+
+Besides providing mechanical support,
+the nuclear lamina regulates important
+cellular events such as DNA
+replication and cell division.
+
+•
+
+NL participates in chromatin organization
+and it anchors the nuclear pore
+complexes embedded in the nuclear
+envelope.
+
+In Eukaryotes, DNA Is Enclosed in a Cell Nucleus
+HeLa cells were stained with the
+blue fluorescent Hoechst dye.
+
+Figure 4-1, 9 Molecular Biology of the Cell (© Garland Science 2015)
+
+dark-staining
+heterochromatin
+
+THE STRUCTURE AND FUNCTION OF DNA
+
+• DNA Is The Hereditary Material.
+• A DNA Molecule Contains Two Complementary Chains of
+Nucleotides.
+• Double Helix Structure Of DNA
+
+DNA is the Particular Transforming Principle
+Griffith’s Transformation
+Experiment (1928)
+
+Avery, McCarty, and
+MacLeod Experiment
+
+Colonies of Rough (top) and Smooth
+(bottom) strains of S. pneumoniae.
+
+The transforming principle
+https://microbenotes.com/dna-experiments-griffith-avery-mccarty-macleod-hershey-chase/
+
+The biochemical
+nature of Griffith’s
+transforming principle
+
+DNA Is The Hereditary Material
+Hershey–Chase experiment
+(1952)
+
+https://openstax.org/books/biology/pages/14-1historical-basis-of-modern-understanding
+
+A DNA Molecule is Built with Nucleotides
+Deoxyribonucleic acid (DNA)
+five-carbon sugar
+（deoxyribose）
+
+nitrogencontaining
+base
+
+chemical polarity
+3ʹ hydroxyl
+Figure 4-3 Molecular Biology of the Cell (© Garland Science 2015)
+
+https://en.wikipedia.org/wiki/Nucleoside_triphosphate
+Figure 4-3 Molecular Biology of the Cell (© Garland Science 2015)
+
+Double Helix Structure Of DNA ——A Turning Point In Science
+
+X-ray diffraction photo of DNA
+1951
+
+1953
+
+1962 Nobel Prize in Physiology or Medicine
+
+https://physicsopenlab.org/2019/10/01/doubl
+e-helix-optical-diffraction-pattern/
+https://www.youtube.com/watch?v=2tMuMRY1oDo
+
+Rosalind Franklin
+(1920–1958)
+
+Maurice Wilkins James Watson Francis Crick
+(1916–2004)
+(1916–2004)
+（1928-）
+
+A DNA Molecule Contains Two Complementary Chains of Nucleotides
+
+• The two complementary strands wound around each other to form a double
+helix, which is stabilized by weak hydrogen bonds.
+• Bases are on the inside and the sugar-phosphate backbones are on the
+outside.
+• Purines pair with pyrimidines: A always pairs with T, and G with C. Each base
+pair is of similar width and is the energetically most favorable arrangement.
+• The two strands of the helix are antiparallel——the polarity of one strand is
+opposite to the other strand.
+Figure 4-3, 4-5 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Structure of DNA Provides a Mechanism for Heredity
+Two most fundamental questions about heredity:
+1. How could the functional information be carried in a chemical form?
+2. How could this information be passed from generation to generation?
+
+The Structure of DNA Provides a Mechanism for Heredity
+Two most fundamental questions about heredity:
+1. How could the functional information be carried in a chemical form?
+2. How could this information be passed from generation to generation?
+
+Sequence and Structure
+DNA is a linear polymer of four
+different kinds of monomers in
+a defined sequence.
+
+The double-stranded structure
+
+DNA as a template for
+its own duplication.
+
+From DNA To Genome
+The complete store of information in an organism’s DNA is called its genome
+Human Genome:
+~3 billions nucleotides
+~2 meters long
+
+Sequence and Structure
+
+What’s the DNA sequence
+of a human genome?
+How the DNA is
+packed in the nucleus?
+
+genome.gov
+
+The Complete Sequence Of A Human Genome
+Telomere-to-Telomere
+
+segmental duplications (SDs)
+centromeric satellites (CenSat)
+
+newly completed regions
+~8% of the human genome
+
+Nurk et al., Science, 2022
+
+The Nucleotide Sequence of the Human Genome
+
+Chromosomes Contain Long Strings of Genes
+
+Chromosomes carry genes
+
+200 times larger
+
+Eukaryotic DNA Is Packaged into a Set of Chromosomes
+
+Chromatin
+
+Sequence and Structure
+
+What’s the DNA sequence
+of a human genome?
+How the DNA is
+packed in the nucleus?
+
+genome.gov
+
+CHROMOSOME PACKAGING
+
+• Eukaryotic DNA Is Packaged into a Set of Chromosomes
+• Chromosomes Contain Long Strings of Genes.
+• Nucleosomes Are a Basic Unit of Eukaryotic Chromosome
+Structure.
+
+Complete Set of Human Chromosomes - Karyotype
+Giemsa banding
+（G-banding）
+
+Karyotype
+
+• The pattern of bands on chromosomes is
+unique.
+• It provided the initial means to identify and
+number each human chromosome reliably.
+• Chromosomes form in pairs are called
+homologous chromosomes (homologs).
+
+Heterochromatin
+Euchromatin
+
+Human genome contains 46
+chromosomes—22 pairs autosomes
+plus two sex chromosomes.
+The sex chromosomes are
+nonhomologous in males.
+Figure 4-10, 11 Molecular Biology of the Cell (© Garland Science 2015)
+
+Aberrant Human Chromosomes
+Spectral karyotyping
+
+chromosome painting （Multiplex-FISH）
+
+Karyotyping is used to detect:
+Aneuploid
+Trisomy
+Structure variations
+
+Figure 4-11, 12 Molecular Biology of the Cell (© Garland Science 2015)
+
+Aberrant Human Chromosomes
+Spectral karyotyping
+
+chromosome painting （Multiplex-FISH）
+
+Karyotyping is used to detect:
+Aneuploid
+Trisomy
+Structure variations
+
+Figure 4-11, 12 Molecular Biology of the Cell (© Garland Science 2015)
+
+chromosomal translocation
+
+Chromosomes Differ Between Eukaryotic Species
+
+Two closely related species of muntjac with very different chromosome numbers.
+
+Chromosome number does not provide a valid indication of genetic complexity
+
+Chromosome Must Contain a Centromere, Two Telomeres, and
+Replication Origins
+
+To replicate and protect the
+end of the chromosome
+
+To start the duplication
+of the DNA
+
+To separate two sister
+chromatids
+
+Nucleosomes Are Basic Units of Eukaryotic Chromosome Structure
+
+Nucleosome
+A chromosome is about
+one-third DNA and twothirds protein by mass.
+
+Figure 4-20, 21 Molecular Biology of the Cell (© Garland Science 2015)
+
+Nucleosomes Are Basic Units of Eukaryotic Chromosome Structure
+
+Nucleosome
+A chromosome is about
+one-third DNA and twothirds protein by mass.
+Chromatin isolated directly from an interphase nucleus appears under EM as a thread
+about 30 nm thick
+
+30 nm
+Chromatin that has been experimentally decondensed, after isolation to show the nucleosomes
+
+11 nm
+
+“beads on a string”
+Figure 4-20, 21 Molecular Biology of the Cell (© Garland Science 2015)
+
+Nucleosomes Are Basic Units of Eukaryotic Chromosome Structure
+N-terminal tails
+are subjected to
+modifications.
+
+Histones are relatively small proteins
+(102–135 amino acids) and among the
+most highly conserved eukaryotic proteins.
+
+3 helices
+and 2 loops
+
+histone
+octamer
+
+2A and 2B
+“handshake” dimer
+Chen et al, Cell Death and Disease, 2014
+
+Figure 4-22, 24 Molecular Biology of the Cell (© Garland Science 2015)
+
+Nucleosomes Are Basic Units of Eukaryotic Chromosome Structure
+
+Histone Octamer
+
+The Structure of the Nucleosome Core Particle
+
+1.7 turns
+
+A diploid human cell contains ~30 million nucleosomes.
+The formation of nucleosomes converts a DNA molecule
+into a chromatin thread about one-third of its initial length.
+Figure 4-23, 24 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Bending of DNA in a Nucleosome
+
+The minor groove is compressed
+on the inside of the turn.
+
+Figure 4-25 Molecular Biology of the Cell (© Garland Science 2015)
+
+•
+
+The DNA helix makes 1.7 tight turns
+around the histone octamer.
+
+•
+
+142 hydrogen bonds are formed
+between DNA and the histone core
+in each nucleosome.
+
+•
+
+~1/5 of the core histones are either
+lysine or arginine that are positively
+charged to neutralize negatively
+charged DNA.
+
+•
+
+The bending requires a substantial
+compression of the inside minor
+groove of the DNA helix.
+
+•
+
+The sequence preference of
+nucleosomes must be weak enough
+to allow other factors to dominate.
+
+Nucleosomes Are Packed Together to Form Compact Chromatin Fiber
+Histone tails in the
+compaction of chromatin.
+
+Linker Histone H1 changes the exit
+path of DNA to help compaction.
+
+Figure 4-29, 30, 61 Molecular Biology of the Cell (© Garland Science 2015)
+
+Nucleosomes Sliding Catalyzed by ATP-Dependent Chromatin
+Remodeling Complexes
+DNA in nucleosomes should be available for binding other proteins.
+Yeast RSC complex
+
+ATP hydrolysis
+
+Chromatin remodeling complexes contain 10 or more subunits.
+
+Figure 4-26 Molecular Biology of the Cell (© Garland Science 2015)
+
+Nucleosome Removal and Histone exchange Catalyzed by ATPDependent Chromatin Remodeling Complexes
+
+A typical nucleosome is replaced on the DNA every one or two hours inside the cell.
+Figure 4-27 Molecular Biology of the Cell (© Garland Science 2015)
+
+Chromatin Acquires Additional Variety Through the Site-Specific
+Insertion of a Small Set of Histone Variants
+
+Centromere Protein-A
+
+The Chromatin in Centromeres Reveals How Histone Variants Can
+Create Special Structures
+A simple centromere in the yeast
+
+CENP-A: Centromere Protein-A
+
+～125 nt
+
+Figure 4-42, 43 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Chromatin in Centromeres Reveals How Histone Variants Can
+Create Special Structures
+A simple centromere in the yeast
+
+Plasticity of human centromere formation
+
+CENP-A: Centromere Protein-A
+
+A-T-rich
+
+～125 nt
+Stable inheritance requires that
+each chromosome should contain
+one centromere, and one only.
+Figure 4-42, 43 Molecular Biology of the Cell (© Garland Science 2015)
+
+CHROMOSOME MODIFICATIONS
+
+• Modifications can happen directly on DNA.
+• The core histones are covalently modified at many different
+sites.
+• Heterochromatin is highly organized and restricts gene
+expression.
+• The heterochromatic state is self-propagating.
+
+DNA Methylation
+
+DNA Methylation Is Maintained In DNA Replication
+
+N. Parveen and S. Dhawan, Front. Endocrinol （2021）
+
+Figure 7-44 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Function of DNA Methylation
+
+Typical Mammalian DNA Methylation landscape
+
+Establishing
+Genomic Imprinting
+
+The Core Histones Are Covalently Modified at Many Different Sites
+
+Acetylation removes the
+plus charge on lysine.
+Reversible modifications with particular enzymes：
++ acetyl/methyl transferases
+- deacetylase/demethylases
+
+phosphorylation adds a
+negative charge to a histone
+
+The Core Histones Are Covalently Modified at Many Different Sites
+
+“Histone Code”
+
+Covalent Modifications – Some Specific Meanings
+
+attracts the heterochromatinspecific protein HP1
+
+Covalent Histone Modifications to Control Chromosome Functions
+The most profound effects of the histone
+modifications lie in their ability to recruit
+specific other proteins to the modified
+stretch of chromatin.
+
+Trimethyl
+group
+
+ING-PHD domain binding to
+methylated H3 histone
+
+The Spreading of Histone Modifications Along a Chromosome
+A Complex of Reader and Writer
+Proteins Can Spread Specific
+Chromatin Modifications
+
+The Spreading of Histone Modifications Along a Chromosome
+A Complex of Reader and Writer
+Proteins Can Spread Specific
+Chromatin Modifications
+
+Barrier DNA Sequences Block the Spread
+
+The Heterochromatic State Is Self-Propagating
+The cause of position effect variegation in Drosophila
+Position Effect
+
+Figure 4-31, 32 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Heterochromatic State Is Self-Propagating
+The cause of position effect variegation in Drosophila
+Position Effect
+
+The White gene in the fruit fly Drosophila
+controls eye pigment production and is named
+after the mutation that first identified it.
+
+Figure 4-31, 32 Molecular Biology of the Cell (© Garland Science 2015)
+
+Some Chromatin Structures Can Be Directly Inherited
+
+Chromatin structures can be inherited——epigenetic inheritance
+Propagation of chromatin modifications across cell generations
+
+Both Activating and Repressive Chromatin Structures Can Be
+Inherited Epigenetically
+
+A mutant form of H3.3 that
+cannot be methylated at
+K4 reduces the epigenetic
+MyoD production.
+
+CHROMOSOME HIGH-ORDER STRUCTURE
+
+• High-order structure involves the folding of the chromatin into
+a series of loops and coils.
+• High-order structure is fluid and hierarchical.
+
+Chromosomes Are Folded into Large Loops of Chromatin
+
+Lampbrush chromosomes
+in an amphibian oocyte
+
+The interphase chromosomes of all eukaryotes are similarly arranged in loops
+but are too small and fragile to be easily observed in a light microscope.
+A typical loop might contain between 50,000 and 200,000 nucleotide pairs of DNA.
+
+Figure 4-46, 47, 49 Molecular Biology of the Cell (© Garland Science 2015)
+
+Methods to Dissect Chromosome High-order Structure
+
+Chromosome conformation capture (3C)
+
+Chromosome Tracing
+
+Bintu et al., Science, 2018
+Lieberman-Aiden et al., Science, 2009
+
+Other Methods:
+SPRITE, Quinodoz et al., Cell, 2018
+GAM, Beagrie et al., Nature, 2017
+
+High-order Chromosome Conformation
+Fractal Globule
+Chromosome Territories
+
+Loops
+Compartment
+
+TADs
+
+Hansen et al., Nucleus, 2018
+
+Homologous chromosomes
+are not in general co-located.
+
+Polytene Chromosomes Are Uniquely Useful for Visualizing
+Chromatin Structures
+Polyploid: multiple cycles of DNA synthesis without cell division
+
+“larval salivary glands of Drosophila”
+
+T.S. Painter, J. Hered, 1934
+
+The four polytene chromosomes are normally linked together by heterochromatic
+regions near their centromeres that aggregate to create a single large chromocenter.
+
+Polytene Chromosomes Are Uniquely Useful for Visualizing
+Chromatin Structures
+
+Light Micrograph
+
+Electron Micrograph
+
+FISH
+
+Eagen et al., Cell, 2015
+
+Scale bar, 2 μm
+
+hundreds or thousands
+of copies of the genome
+
+individual chromatin fibers
+are aligned side by side
+
+Polytene Chromosome Puffs to Promote Gene Expression
+Electron microscopic view
+
+induction
+of
+ecdysone
+
+heat
+shock
+chromosome puff
+
+Polytene Chromosome Puffs to Promote Gene Expression
+Electron microscopic view
+
+induction
+of
+ecdysone
+
+heat
+shock
+chromosome puff
+
+The decondensed portion of the
+chromosome is undergoing RNA synthesis
+and has become labeled with 3H-uridine,
+an RNA precursor molecule that is
+incorporated into growing RNA chains.
+
+Chromatin Loops Decondense When the Genes Within Them Are
+Expressed
+The region of the chromosome adjacent to the
+gene (red) is seen to leave its chromosomal
+territory (green) only when it is highly active.
+
+Figure 4-49, 56 Molecular Biology of the Cell (© Garland Science 2015)
+
+Mitotic Chromosomes Are Especially Highly Condensed
+Additional 10-fold compaction in the passage from interphase to mitosis.
+
+HOW GENOMES EVOLVE
+The genes and genomes have evolved over time to
+produce the vast diversity of modern-day life-forms
+on our planet.
+➢ Sequence similarity has become a major tool for inferring gene and
+protein function.
+➢ DNA sequences that have a function are much more likely to be
+conserved than those without a function.
+➢ Some regions are conserved while the others are nonconserved.
+➢ Homologous genes—genes that are similar in both their nucleotide
+sequence and function because of a common ancestry—can often
+be recognized across vast phylogenetic distances.
+
+The Detection of Multispecies Conserved Sequences
+
+Conservation indicates
+functional importance.
+Some of these code for
+protein, but most of them
+do not, and the function
+remains a mystery.
+Roughly 5% of the human
+genome consists of
+“multispecies conserved
+sequences.”
+
+Figure 4-73 Molecular Biology of the Cell (© Garland Science 2015)
+
+Genome Alterations Are Caused by…
+Errors in DNA replication, DNA repair, as well as by Transposable DNA Elements.
+
+The LINEs (long interspersed nuclear elements), SINEs (short interspersed
+nuclear elements), retroviral-like elements, and DNA-only transposons are
+mobile DNA elements that have multiplied in our genome by replicating
+themselves and inserting the new copies in different positions.
+Figure 4-62 Molecular Biology of the Cell (© Garland Science 2015)
+
+Gene Duplication Provides Source of Genetic Novelty in Evolution
+Evolution depends on the creation of new genes, as well as on the modification of those
+that already exist. Genes without homologous counterparts are relatively scarce.
+Segmental Duplications (1 to 400 kb in length, “low-copy repeats”) have added
+about 5 million nucleotide pairs to each genome every million years.
+
+Samonte, R., Eichler, E. Nat Rev Genet (2002)
+
+Many duplication events are likely to be followed by loss-of-function mutations
+in one or the other gene, which eventually becomes pseudogene.
+
+Genetic Variations Contribute to Organism Evolution
+
+Mutations in the DNA sequences
+that control gene expression have
+driven many of the evolutionary
+changes in vertebrates.
+
+The evolution of the globin
+gene family shows how DNA
+duplications contribute to the
+evolution of organisms
+
+Figure 4-74, 75, 76 Molecular Biology of the Cell (© Garland Science 2015)
+
+Genome Similarity is Corresponding to The Evolution Time
+The basic organizing framework for comparative genomics is the phylogenetic tree,
+which provides a molecular clock for evolution.
+
+divergences
+~1.2%
+
+Figure 4-63, 64, 66 Molecular Biology of the Cell (© Garland Science 2015)
+
+Genome Similarity is Corresponding to The Evolution Time
+The basic organizing framework for comparative genomics is the phylogenetic tree,
+which provides a molecular clock for evolution.
+
+purifying selection
+
+divergences
+~1.2%
+
+The molecular clock for evolution is
+determined not only by the degree of purifying
+selection but also by the mutation rate.
+Figure 4-63, 64, 66 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Divergence of Genome Structures
+Comparison of Human and Mouse Genomes——roughly the same size and
+contain nearly identical sets of genes
+
+According to rough estimates, a total of about
+180 breakage-and-rejoining events have
+occurred in the human and mouse lineages.
+
+Synteny：The stretches of
+conserved gene order in
+chromosomes.
+
+6 million 80 million
+years
+years
+
+Figure 4-66，67, 68 Molecular Biology of the Cell (© Garland Science 2015)
+
+Variation Among Humans——Population Genetics
+Tracing the course of human history by analyses of genome sequences.
+45,000
+years ago
+
+60,000 to 80,000
+years ago
+
+The routes of ancient
+human migrations
+
+Copy Number Variations (CNVs)
+Single-nucleotide Polymorphisms (SNPs)
+
+Figure 4-79 Molecular Biology of the Cell (© Garland Science 2015)
+
+Have substantial effects on
+human health, physiology,
+behavior, and physique.
+
+

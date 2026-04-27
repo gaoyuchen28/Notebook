@@ -7,5 +7,6 @@
     "github.copilot.nextEditSuggestions.fixes": false,
     "chat.agent.codeBlockProgress": false,
     "chat.agent.enabled": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.14"
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.14",
+    "r.lsp.promptToInstall": false
 }

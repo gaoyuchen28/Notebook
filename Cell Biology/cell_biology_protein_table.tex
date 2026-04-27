@@ -1,0 +1,299 @@
+\documentclass[11pt,fontset=none]{ctexart}
+\usepackage[a4paper,margin=0.8in]{geometry}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\setCJKmainfont{STSong}
+\setCJKsansfont{STSong}
+\setCJKmonofont{STSong}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Cell Biology Protein Table}
+\rhead{notebook + PDFs}
+\cfoot{\thepage}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{Cell Biology 资料中出现的蛋白质/蛋白复合体与功能简表}
+\author{}
+\date{2026-04-27}
+
+\begin{document}
+\maketitle
+
+\section*{说明}
+本表依据当前文件夹中的 \texttt{notebook.md}、\texttt{CB-Ch4-041626.pdf} 与 \texttt{CB-Ch67-042326.pdf} 整理。目标是尽量覆盖资料中\textbf{明确提到}的蛋白质和主要蛋白复合体；去掉了纯小分子、细胞器名称、药物、通道状态名和重复项。功能描述故意保持非常简短，方便临考速查。
+
+\small
+
+\section*{1. 细胞骨架与运动}
+\begin{longtable}{L{3.2cm} L{3.8cm} L{8.5cm}}
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Actin & 肌动蛋白 & 形成微丝，参与细胞形态、迁移、收缩和胞质分裂。 \\
+$\alpha$-actin & $\alpha$-肌动蛋白 & 主要在肌细胞中，负责收缩。 \\
+$\beta$-actin & $\beta$-肌动蛋白 & 常见于非肌细胞，偏向迁移与前沿延伸。 \\
+$\gamma$-actin & $\gamma$-肌动蛋白 & 常见于非肌细胞，偏向皮层网络稳定与形态维持。 \\
+Arp2/3 complex & Arp2/3复合体 & 成核分支状 actin network。 \\
+Formin & 成束相关成核蛋白 & 成核并延长长而直的 actin filament。 \\
+Profilin & 辅助蛋白 & 促进 actin 单体加到正端。 \\
+Thymosin & 胸腺素样 actin 结合蛋白 & 结合 actin 单体，限制其聚合。 \\
+CapZ & 正端帽蛋白 & 封住 actin filament 的 plus end。 \\
+Cofilin & 辅助蛋白 & 扭曲并削弱 actin filament，促进切断和去聚合。 \\
+NPF & 成核促进因子 & 激活 Arp2/3 complex。 \\
+Fimbrin & 交联蛋白 & 形成紧密平行 actin bundles。 \\
+$\alpha$-actinin & 交联蛋白 & 形成较疏松的 contractile actin bundles。 \\
+Filamin A & 交联蛋白 & 交联 actin network；突变与神经迁移异常相关。 \\
+Myosin II & 肌球蛋白II & actin 马达蛋白；驱动肌肉收缩和 contractile bundle 收缩。 \\
+Myosin V & 肌球蛋白V & 沿 actin 运输细胞器/货物。 \\
+Tropomyosin & 原肌球蛋白 & 沿薄丝排列，调节 myosin 对 actin 的结合。 \\
+Troponin T & 肌钙蛋白T & 结合 tropomyosin。 \\
+Troponin I & 肌钙蛋白I & 抑制 actin-myosin 相互作用。 \\
+Troponin C & 肌钙蛋白C & 结合 Ca$^{2+}$，启动骨骼肌收缩调控。 \\
+Titin & Titin/连接蛋白 & 肌节分子弹簧，帮助定位粗丝并提供弹性。 \\
+Nebulin & Nebulin & 参与薄丝长度控制。 \\
+Tropomodulin & Tmod/减端帽蛋白 & 封住薄丝 minus end，稳定长度。 \\
+Calmodulin & 钙调蛋白 & 结合 Ca$^{2+}$；平滑肌中激活 MLCK 通路。 \\
+FtsZ & 原核 tubulin 同源蛋白 & 形成 Z-ring，参与细菌胞质分裂。 \\
+MreB & 原核 actin 同源蛋白 & 维持细菌细胞形状。 \\
+ParM & 原核 actin 同源蛋白 & 参与质粒/染色体分离。 \\
+Crescentin & 原核中间丝样蛋白 & 帮助维持弯曲细菌形态。 \\
+Tubulin & 微管蛋白 & 构成微管。 \\
+$\alpha$-tubulin & $\alpha$-微管蛋白 & 构成微管异二聚体；其 GTP 不交换。 \\
+$\beta$-tubulin & $\beta$-微管蛋白 & 构成微管异二聚体；其 GTP 水解驱动动态不稳定。 \\
+$\gamma$-tubulin & $\gamma$-微管蛋白 & 微管成核。 \\
+MAP2 & 微管相关蛋白2 & 稳定并组织微管。 \\
+Tau & Tau蛋白 & 稳定并组织微管。 \\
+Kinesin & 驱动蛋白 & 多数朝微管 plus end 运输。 \\
+Kinesin-13 & 微管动力学马达 & 促进微管末端解聚。 \\
+Dynein & 动力蛋白 & 多数朝微管 minus end 运输。 \\
+Dynactin & Dynein 辅助复合体 & 连接 dynein 与膜性细胞器。 \\
+Arp1 filament & Dynactin 组成部分 & 构成 dynactin 骨架的一部分。 \\
+XMAP215 & 微管生长因子 & 把 tubulin 二聚体送到微管正端，促进生长。 \\
+Katanin & 微管切割蛋白 & 切断微管。 \\
+Lis1 & Dynein 结合蛋白 & 帮助核迁移；缺陷可致 lissencephaly。 \\
+Rac & Rho 家族小GTP酶 & 促进 lamellipodia 和 branched actin network 形成。 \\
+Rho & Rho 家族小GTP酶 & 促进 stress fiber 和 focal adhesion 形成。 \\
+Keratins & 角蛋白家族 & 上皮细胞主要中间丝，提供机械强度。 \\
+Lamins & 核纤层蛋白 & 构成 nuclear lamina。 \\
+Lamin A & A型 lamin & 核纤层结构支持与染色质组织。 \\
+Lamin C & A型 lamin & 核纤层结构支持与染色质组织。 \\
+Lamin B1 & B型 lamin & 核纤层结构支持与核膜组织。 \\
+Lamin B2 & B型 lamin & 核纤层结构支持与核膜组织。 \\
+Plectin & Plakin 家族蛋白 & 连接 intermediate filaments 与微管/其他骨架。 \\
+SUN proteins & SUN 蛋白 & 与 KASH 蛋白跨核膜连接核与细胞质骨架。 \\
+KASH proteins & KASH 蛋白 & 与 SUN 蛋白一起形成核-细胞质力学连接。 \\
+Ankyrin & 锚蛋白 & 把 spectrin 骨架连接到膜蛋白。 \\
+Spectrin & 血影蛋白 & 皮层骨架成分，限制膜蛋白扩散并增强机械强度。 \\
+ActA & 细菌表面蛋白 & 激活宿主 Arp2/3，劫持 actin 运动。 \\
+\end{longtable}
+
+\section*{2. 核、染色质与染色体}
+\begin{longtable}{L{3.2cm} L{3.8cm} L{8.5cm}}
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Histones & 组蛋白 & 与 DNA 形成核小体。 \\
+Histone H1 & 连接组蛋白H1 & 结合 linker DNA，促进染色质进一步压缩。 \\
+Histone H2A & 核心组蛋白H2A & 核小体八聚体成分。 \\
+Histone H2B & 核心组蛋白H2B & 核小体八聚体成分。 \\
+Histone H3 & 核心组蛋白H3 & 核小体八聚体成分；常带多种修饰。 \\
+Histone H4 & 核心组蛋白H4 & 核小体八聚体成分。 \\
+H3.3 & 组蛋白变体H3.3 & 参与表观遗传状态维持。 \\
+CENP-A & 着丝粒组蛋白变体 & 定义 centromere 特化核小体。 \\
+HP1 & 异染色质蛋白1 & 识别抑制性修饰，促进异染色质形成。 \\
+RSC complex & 染色质重塑复合体 & ATP 依赖地滑动/重塑核小体。 \\
+ING-PHD domain protein & 修饰读取蛋白 & 识别特定组蛋白甲基化状态。 \\
+Reader proteins & 修饰读取蛋白 & 识别已有染色质标记。 \\
+Writer proteins & 修饰写入蛋白 & 在邻近染色质上写入相同修饰。 \\
+MyoD & 转录因子 & 与肌细胞命运和表观遗传记忆相关。 \\
+\end{longtable}
+
+\section*{3. 转录、RNA加工与基因调控}
+\begin{longtable}{L{3.2cm} L{3.8cm} L{8.5cm}}
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+RNA polymerase & RNA聚合酶 & 以 DNA 为模板合成 RNA。 \\
+RNA polymerase I & Pol I & 主要转录 rRNA。 \\
+RNA polymerase II & Pol II & 主要转录 mRNA 和部分 noncoding RNA。 \\
+RNA polymerase III & Pol III & 主要转录 tRNA、5S rRNA 和小 RNA。 \\
+General transcription factors (TFII) & 通用转录因子 & 帮助 Pol II 在启动子起始转录。 \\
+Sigma factor & $\sigma$ 因子 & 细菌中帮助 RNA polymerase 识别启动子。 \\
+Topoisomerase & 拓扑异构酶 & 消除复制/转录产生的 superhelical tension。 \\
+Phosphatase & 磷酸酶 & 5' capping 过程中处理 RNA 5' 端。 \\
+Guanyl transferase & 鸟苷转移酶 & 给新生 RNA 加 5' cap。 \\
+Methyltransferase & 甲基转移酶 & 对 cap 或染色质等进行甲基化。 \\
+CPSF & 3'端加工因子 & 识别 poly(A) 信号并参与切割/加尾。 \\
+CSTF & 3'端加工因子 & 参与 pre-mRNA 3' 端切割。 \\
+ADAR & RNA 编辑酶 & 催化 A-to-I RNA editing。 \\
+Dicer & RNA干扰相关酶 & 把双链 RNA 切成 siRNA/miRNA 前体。 \\
+RISC & RNA诱导沉默复合体 & 利用小 RNA 引导抑制或降解靶 RNA。 \\
+Tryptophan repressor & 色氨酸阻遏蛋白 & 细菌中抑制相关基因转录。 \\
+CAP activator & CAP 激活蛋白 & 细菌中促进 lac operon 等转录激活。 \\
+Bicoid & 转录调控蛋白 & 果蝇胚胎前后轴定位信息。 \\
+Hunchback & 转录调控蛋白 & 参与果蝇胚胎图式建立。 \\
+Kr\"uppel & 转录调控蛋白 & 参与果蝇胚胎条带调控。 \\
+Giant & 转录调控蛋白 & 参与果蝇胚胎条带调控。 \\
+Eve protein & Even-skipped 蛋白 & 果蝇胚胎分节调控。 \\
+Eyeless & 转录调控蛋白 & 指定眼发育命运。 \\
+Xist & lncRNA & 介导 X chromosome inactivation。 \\
+\end{longtable}
+
+\section*{4. 膜蛋白、通道与受体}
+\begin{longtable}{L{3.2cm} L{3.8cm} L{8.5cm}}
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Aquaporin & 水通道蛋白 & 高选择性转运水分子。 \\
+Bacteriorhodopsin & 细菌视紫红质 & 光驱动质子泵。 \\
+SGLT2 & Na$^+$-葡萄糖共转运蛋白2 & 肾脏重吸收葡萄糖；抗糖尿病药靶点。 \\
+Serotonin transporter & 5-HT 转运体 & Na$^+$ 依赖再摄取 serotonin。 \\
+Norepinephrine transporter & 去甲肾上腺素转运体 & Na$^+$ 依赖再摄取 norepinephrine。 \\
+ABC transporters & ABC 转运蛋白家族 & ATP 驱动物质跨膜转运。 \\
+Na$^+$/K$^+$ pump & 钠钾泵 & 建立 Na$^+$ / K$^+$ 梯度和膜电位。 \\
+Ca$^{2+}$-ATPase & 钙泵 & 把 Ca$^{2+}$ 泵回 ER/SR 或细胞外。 \\
+F$_1$F$_0$ ATP synthase & ATP 合酶 & 依靠质子梯度合成 ATP。 \\
+Mechanosensitive channel & 机械敏感通道 & 保护细菌抵抗渗透压冲击。 \\
+K$^+$ channel & 钾离子通道 & 选择性通透 K$^+$，参与静息电位。 \\
+Voltage-gated Na$^+$ channel & 电压门控钠通道 & 介导动作电位快速去极化。 \\
+Voltage-gated K$^+$ channel & 电压门控钾通道 & 参与复极化。 \\
+Acetylcholine receptor & 乙酰胆碱受体 & 神经肌接头 ligand-gated cation channel。 \\
+NMDA receptor & NMDA受体 & 允许 Ca$^{2+}$ 内流，参与 LTP。 \\
+AMPA receptor & AMPA受体 & 介导快速兴奋性突触传递。 \\
+GPI-anchored proteins & GPI 锚定蛋白 & 通过糖脂锚连接到膜外侧。 \\
+\end{longtable}
+
+\section*{5. 蛋白分选、细胞器导入与ER质量控制}
+\begin{longtable}{L{3.2cm} L{3.8cm} L{8.5cm}}
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Nucleoporins & 核孔蛋白 & 构成 nuclear pore complex。 \\
+Importin & 核输入受体 & 识别 NLS cargo 并介导入核。 \\
+Exportin & 核输出受体 & 识别 NES cargo 并介导出核。 \\
+Ran & Ran GTPase & 为核进出口提供方向性。 \\
+Ran-GAP & Ran GTP 酶激活蛋白 & 促进 Ran-GTP 水解。 \\
+Ran-GEF & Ran 鸟苷交换因子 & 促进 Ran 结合 GTP。 \\
+TOM complex & 线粒体外膜转位复合体 & 蛋白进入线粒体的总入口。 \\
+TIM23 & 线粒体内膜转位复合体 & 导入基质蛋白或部分内膜蛋白。 \\
+TIM22 & 线粒体内膜转位复合体 & 插入多跨膜载体蛋白到内膜。 \\
+SAM complex & 外膜装配复合体 & 装配线粒体外膜 $\beta$-barrel 蛋白。 \\
+OXA complex & 内膜插入复合体 & 将部分蛋白插入线粒体内膜。 \\
+Hsp70 & Hsp70伴侣蛋白家族 & 帮助蛋白保持可转运状态或辅助导入/折叠。 \\
+Cytosolic Hsp70 & 细胞质 Hsp70 & 保持线粒体前体蛋白未折叠，利于导入。 \\
+Mitochondrial Hsp70 & 线粒体 Hsp70 & ATP 依赖地牵引蛋白进入基质。 \\
+SRP & 信号识别颗粒 & 识别 ER signal peptide 并短暂停止翻译。 \\
+SRP receptor & SRP受体 & 将携带 SRP 的核糖体对接到 ER。 \\
+Sec61 & ER translocon 核心通道 & 多肽进入 ER 或插入膜。 \\
+Sec62 & 辅助转位蛋白 & 参与 post-translational translocation。 \\
+Sec63 & 辅助转位蛋白 & 协助 Sec61/BiP 通路。 \\
+Sec71 & 辅助转位蛋白 & 参与 post-translational translocation。 \\
+Sec72 & 辅助转位蛋白 & 参与 post-translational translocation。 \\
+Signal peptidase & 信号肽酶 & 切除进入 ER 的信号肽。 \\
+BiP & ER 腔内伴侣蛋白 & 帮助折叠并推动蛋白单向进入 ER。 \\
+Calnexin & ER 伴侣蛋白 & 结合糖链，帮助糖蛋白折叠。 \\
+Protein disulfide isomerase & 蛋白二硫键异构酶 & 帮助形成/重排二硫键。 \\
+Lectin & 凝集素类伴侣 & 识别糖链并帮助 ER 质量控制。 \\
+Glucosidase & 葡萄糖苷酶 & 修剪 N-linked 糖链中的葡萄糖。 \\
+Glucosyl transferase & 葡萄糖转移酶 & 给未折好蛋白重新加葡萄糖进入 calnexin 循环。 \\
+Oligosaccharyl transferase (OST) & 寡糖转移酶 & 把预装配糖链转移到 Asn 上。 \\
+IRE1 & ER 应激感受蛋白 & 感知未折叠蛋白并启动 UPR。 \\
+E3 ubiquitin ligase & E3泛素连接酶 & 给错误折叠蛋白加 ubiquitin 标记。 \\
+Ubiquitin & 泛素 & 标记蛋白用于降解或调控。 \\
+N-glycanase & N-聚糖酶 & 去除 ERAD 底物上的糖链。 \\
+AAA-ATPase & AAA ATP酶 & 用 ATP 把 ERAD 底物拉出膜。 \\
+Proteasome & 蛋白酶体 & 降解被泛素化蛋白。 \\
+TMEM41B & 膜蛋白 & 与脂质组织/病毒复制相关。 \\
+Torsin & AAA$^+$ ATPase 家族蛋白 & 与核膜/ER 膜系统稳态相关。 \\
+WRB & Tail-anchored 蛋白受体组分 & 接收 TRC40 递送的 tail-anchored protein。 \\
+CAML & Tail-anchored 蛋白受体组分 & 与 WRB 组成受体复合体。 \\
+TRC40 & 递送 ATPase & 把 tail-anchored protein 送到 ER 膜。 \\
+Get1 & TA蛋白插入受体组分 & 接收 Get3 递送的 tail-anchored protein。 \\
+Get2 & TA蛋白插入受体组分 & 与 Get1 协同插入 tail-anchored protein。 \\
+Get3 & ATPase & 递送 tail-anchored protein 到 ER 受体。 \\
+SGTA & 捕获蛋白 & 先结合 tail-anchored protein 的疏水尾段。 \\
+Bag6 & 分选/质控蛋白 & 参与 tail-anchored protein 分选与质量控制。 \\
+Catalase & 过氧化氢酶 & 分解 H$_2$O$_2$。 \\
+Urate oxidase & 尿酸氧化酶 & 参与过氧化物酶体氧化代谢。 \\
+\end{longtable}
+
+\section*{6. 囊泡运输与膜交通}
+\begin{longtable}{L{3.2cm} L{3.8cm} L{8.5cm}}
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{名称} & \textbf{中文/类别} & \textbf{功能（极简）} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Clathrin & 网格蛋白 & 形成 clathrin-coated vesicle 外壳。 \\
+Adaptor proteins & 接头蛋白 & 选择 cargo 并连接 cargo receptor 与 coat。 \\
+Sar1 & 小GTP酶 & 招募 COPII coat 到 ER 膜。 \\
+Sec23 & COPII 内层被覆蛋白 & 与 Sar1 结合并参与 cargo 选择。 \\
+Sec24 & COPII 内层被覆蛋白 & 识别 cargo。 \\
+COPI coat proteins & COPI 被覆蛋白 & 介导从 Golgi 回 ER 的回收运输。 \\
+Rab proteins & Rab 小GTP酶 & 指定囊泡靶向与 docking 位置。 \\
+Rab effectors & Rab 效应蛋白 & tether 囊泡到正确靶膜。 \\
+GDI & Rab-GDP dissociation inhibitor & 结合 Rab-GDP，使其在胞质中可溶。 \\
+SNARE proteins & SNARE 蛋白 & 直接催化膜融合。 \\
+v-SNARE & 囊泡 SNARE & 位于囊泡膜上，与 t-SNARE 配对。 \\
+t-SNARE & 靶膜 SNARE & 位于靶膜上，与 v-SNARE 配对。 \\
+NSF & ATPase & 解离已经形成的 SNARE 复合体。 \\
+Complexin & SNARE 调控蛋白 & 稳定 SNARE 复合体并防止过早融合。 \\
+BiP (ER retrieval context) & ER 驻留蛋白 & 也是 KDEL 类回收路径 cargo 的例子。 \\
+Mannose 6-phosphate receptor & M6P 受体 & 在 TGN 识别 lysosomal hydrolase。 \\
+GlcNAc phosphotransferase & GlcNAc 磷酸转移酶 & 给 lysosomal hydrolase 打 M6P 前体标记。 \\
+Retromer & 回收被覆/复合体 & 参与从内体回收受体等货物。 \\
+\end{longtable}
+
+\section*{7. 补充说明}
+\begin{itemize}
+\item 若你想要更“考试友好”的版本，我可以继续把这张表改成四列：\textbf{名称、定位、功能、常见考法}。
+\item 若你想要更“背诵友好”的版本，我也可以再导出一个\textbf{只保留英文名 + 一句话功能}的超精简版。
+\end{itemize}
+
+\end{document}

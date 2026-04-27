@@ -1,0 +1,793 @@
+Control of Gene
+Expression
+(Albert’s textbook Chapter 6&7)
+
+2026/04/23
+
+Topics
+➢
+➢
+➢
+➢
+➢
+➢
+➢
+
+The structure and function of RNA
+RNA transcription
+RNA processing
+Transcription regulators
+Cell diversity and cell memory
+Post-transcriptional regulations
+Non-coding RNAs
+
+One Genome, Many Cell Types
+
+One Genome
+Spatiotemporal
+Gene Expression
+and Regulation
+Diverse Cell Types
+
+www.humancellatlas.org
+
+FROM DNA TO PROTEIN: GENE EXPRESSION
+
+RNA Molecule
+Transcription: DNA to RNA
+Translation: RNA to Protein
+
+How Cells Read the Genome: From DNA to Protein
+
+The Central Dogma
+
+One strand of the
+DNA double helix
+acts as a template.
+Same language
+with different
+format
+
+Different
+languages
+
+Figure 6-1, 6-3 Molecular Biology of the Cell (© Garland Science 2015)
+
+The complimentary
+single-stranded
+transcript
+
+RNA Molecules Differ from DNA Chemically
+
+an additional
+–OH group
+
+absence of a
+–CH3 group
+
+Figure 6-4, 6-5, 6-6 Molecular Biology of the Cell (© Garland Science 2015)
+
+The absence of a methyl
+group in U does not affect
+base-pairing; thus, U-A
+base pairs closely
+resemble T-A base pairs.
+
+RNA Is Single-stranded and Can Fold Into Specific Structures
+Slight chemical differences but
+dramatical structure differences.
+
+Conventional
+base-pairing
+
+Non-conventional
+base-pairing
+
+The complex three-dimensional
+shapes allow some RNA
+molecules to have precise
+structural and catalytic functions.
+Figure 6-4, 6-7 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Process of RNA Transcription
+
+• Released immediately from
+the DNA template.
+• Only copied from a region of
+the DNA therefore much
+shorter than DNA.
+RNA
+polymerase
+
+RNA Polymerases Carry Out
+Transcription
+
+Figure 6-9, 6-10 Molecular Biology of the Cell (© Garland Science 2015)
+
+• Many molecules of RNA are
+simultaneously transcribed
+from a gene.
+
+The Transcription Cycle of Bacterial RNA Polymerase
+
+Promoter
+Transcription
+Bubble
+
+Consensus nucleotide sequence and sequence
+logo for the major class of E. coli promoters.
+
+holoenzyme
+Promoter sequences are asymmetric and the
+polymerase can synthesize RNA only in the 5ʹto-3ʹ direction, so the promoter orientation
+specifies the strand to be used as a template.
+
+Terminator
+
+Figure 6-11,12,13 Molecular Biology of the Cell (© Garland Science 2015)
+
+Eukaryotic cells Have Three RNA Polymerases
+Structural similarity between a
+bacterial RNA polymerase and a
+eukaryotic RNA polymerase II.
+
+~50 nt/s
+
+RNA
+polymerase
+
+structurally
+similar
+
+Figure 6-9, 6-14 Molecular Biology of the Cell (© Garland Science 2015)
+
+RNA Polymerase II Requires a Set of General Transcription Factors
+
+Transcription initiation complex (TIC)
+
+distortion
+
+C-terminal
+domain (CTD)
+
+•
+•
+•
+
+“general” because they are needed at nearly all promoters used by RNA polymerase II.
+TFII stands for “transcription factor for polymerase II.
+Carry out functions equivalent to those of the sigma factor in bacteria.
+
+Figure 6-15, 6-17 Molecular Biology of the Cell (© Garland Science 2015)
+
+Eukaryotic Transcription Initiation Requires More Proteins
+
+DNA in eukaryotic cells is
+packaged into nucleosomes and
+higher-order chromatin structures.
+
+To attract RNA
+polymerase II
+
+Hundreds to
+thousands of bps
+
+Figure 6-18 Molecular Biology of the Cell (© Garland Science 2015)
+
+Increase access to
+the DNA in chromatin
+
+Transcription Creates Superhelical Tension
+
+In eukaryotes, DNA
+topoisomerase enzymes
+rapidly remove this
+superhelical tension.
+
+RNA polymerase creates
+superhelical tension as it
+moves along DNA.
+
+Figure 6-19 Molecular Biology of the Cell (© Garland Science 2015)
+
+Cells Produce Different Categories of RNA Molecules
+
+noncoding RNAs
+• Most of the RNA in cells is rRNA.
+• mRNA comprises only 3–5% of the total RNA in a typical mammalian cell.
+• On average only 10–15 molecules of each mRNA species in each cell.
+
+Transcription In Eukaryotic Cells Is More Complex
+
+➢ mRNA molecule contains both
+coding (exon) and noncoding
+(intron) sequences;
+➢ mRNA molecules need to be
+processed in multiple ways;
+➢ Mature mRNA need to be
+transported from the nucleus to
+the cytoplasm.
+
+Figure 6-20 Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription In Eukaryotic Cells Is More Complex
+RNA Processing
+
+Figure 6-21A, 6-22 Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription elongation in
+eukaryotes is tightly
+coupled to RNA processing.
+
+RNA Capping Is the First Modification of Eukaryotic Pre-mRNAs
+5’ Capping
+
+about 25
+nucleotides of RNA
+
+Phosphatase
+
+Guanyl transferase
+
+Methyltransferase
+
+Methyltransferase
+
+Figure 6-21B, 6-23 Molecular Biology of the Cell (© Garland Science 2015)
+
+RNA Splicing Removes Intron Sequences from Pre-mRNAs
+The pre-mRNA
+splicing reaction
+
+alternative splicing
+
+Figure 6-25, 6-26 Molecular Biology of the Cell (© Garland Science 2015)
+
+RNA Splicing Shows Remarkable Plasticity
+
+Splicing Errors
+
+Figure 6-30, 6-33 Molecular Biology of the Cell (© Garland Science 2015)
+
+10% of point mutations in
+human diseases produce
+aberrant splicing of the gene
+containing the mutation
+
+RNA-Processing Enzymes Generate the 3ʹ End of Eukaryotic mRNAs
+CPSF： cleavage and
+polyadenylation specificity factor
+CSTF： cleavage stimulation factor
+
+No template needed
+
+Variable length around 200 nt
+Figure 6-35 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Nucleus Contains a Variety of Subnuclear Aggregates
+
+The main function of these aggregates is to bring
+components together at high concentration in order
+to speed up their assembly.
+“Transcription Factory”
+
+Figure 6-46, 6-47 Molecular Biology of the Cell (© Garland Science 2015)
+
+Green: newly synthesized DNA
+Red: newly synthesized RNA
+
+An mRNA Sequence Is Decoded in Sets of Three Nucleotides
+The genetic code: universal in all present-day organisms
+
+transfer RNAs (tRNAs)
+
+Figure 6-48, 6-49, 6-50A Molecular Biology of the Cell (© Garland Science 2015)
+
+reading frames
+
+Different Cell Types Synthesize Different Sets of RNAs and Proteins
+
+RNA
+
+A cell can change (or regulate) the
+expression of each of its genes by
+controlling the production of its RNA.
+
+Protein
+Red are common
+Blue are specific
+
+Fascinating challenges:
+➢ Variations between organisms
+➢ Products beyond proteins
+➢ Chaotic genome organizations
+
+Figure 6-3, 7-3, 7-4 Molecular Biology of the Cell (© Garland Science 2015)
+
+➢ Multiple-levels regulation
+
+There Are Many Steps From DNA to Protein
+
+• Cells can change the levels of their proteins according to their needs.
+• Gene expression can be regulated at many of the steps in the pathway
+from DNA to RNA to protein.
+• Any or all of the steps in this figure could be regulated for each
+individual protein.
+Figure 7-5 Molecular Biology of the Cell (© Garland Science 2015)
+
+CONTROL OF TRANSCRIPTION BY SEQUENCESPECIFIC DNA-BINDING PROTEINS
+
+Transcription Regulators
+cis-regulatory Sequences
+
+Transcription Regulators Contain Structural Motifs That Can Read DNA
+Sequences
+
+Each transcription regulator makes a series of contacts with the DNA,
+involving hydrogen bonds, ionic bonds, and hydrophobic interactions.
+Majority of their
+contacts with
+the major
+groove
+
+Figure 7-8 Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription Regulators And cis-regulatory Sequences
+CRS Logo: A collection of
+closely related DNA sequences
+
+Dimerization of transcription regulators increases
+their affinity and specificity for DNA.
+
+Figure 7-9 Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription Regulators Bind Cooperatively to DNA
+Non-cooperative binding
+
+Cooperative binding
+Monomers in solution
+
+Weak interaction
+
+Binding of the
+substrate or ligand at
+one binding site
+affects the affinity of
+other sites
+exponential
+
+sigmoidal
+all-or-none
+
+Figure 7-10 Molecular Biology of the Cell (© Garland Science 2015)
+
+Nucleosome Structure Promotes Cooperative Binding of Transcription
+Regulators
+
+Increase the affinity of a second
+transcription regulator for a nearby
+cis-regulatory sequence
+Figure 7-11 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Tryptophan Repressor Switches Genes Off
+A cluster of bacterial genes can be transcribed from a single promoter.
+Operon
+
+The bacterium can respond very rapidly to a rise or fall in tryptophan concentration.
+Figure 7-12, 7-13 Molecular Biology of the Cell (© Garland Science 2015)
+
+Repressors Turn Genes Off and Activators Turn Them On
+
+controlled by the interaction of a
+metabolite or other small molecule
+
+Figure 7-14 Molecular Biology of the Cell (© Garland Science 2015)
+
+An Activator and a Repressor Control the Lac Operon
+
+Logic Gate
+
+CAP activator
+
+Only in this case
+
+Figure 7-15 Molecular Biology of the Cell (© Garland Science 2015)
+
+DNA Looping Can Occur During Bacterial Gene Regulation
+
+DNA looping occurs in the regulation of nearly every eukaryotic gene.
+Figure 7-16 Molecular Biology of the Cell (© Garland Science 2015)
+
+A Eukaryotic Gene Control Region Consists of a Promoter Plus
+Many cis-Regulatory Sequences
+
+Multiple transcription regulators
+Multiple cis-regulatory sequences
+More DNA looping
+Chromosome structure
+
+Figure 7-17 Molecular Biology of the Cell (© Garland Science 2015)
+
+Eukaryotic Transcription Regulators Work in Groups
+
+Do not recognize specific
+DNA sequences directly
+
+Figure 7-18 Molecular Biology of the Cell (© Garland Science 2015)
+
+Eukaryotic Transcription Activators Direct the Modification of Local
+Chromatin Structure
+
+Figure 7-19 Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription Activators Work Synergistically
+Transcriptional synergy: a greater than additive effect
+of multiple activators working together.
+
+1+1>>2
+
+Figure 7-22 Molecular Biology of the Cell (© Garland Science 2015)
+
+Eukaryotic Transcription Repressors Can Inhibit Transcription in
+Several Ways
+
+Figure 7-23 Molecular Biology of the Cell (© Garland Science 2015)
+
+Insulator DNA Sequences Prevent Eukaryotic Transcription
+Regulators from Influencing Distant Genes
+
+Localization of a Drosophila insulator-binding protein on polytene chromosomes
+
+interband
+
+Polytene chromosomes
+
+Figure 7-24, 7-25 Molecular Biology of the Cell (© Garland Science 2015)
+
+Insulator protein
+
+MOLECULAR GENETIC MECHANISMS THAT CREATE
+AND MAINTAIN SPECIALIZED CELL TYPES
+
+Cell Diversity
+Cell Memory
+Transcription Regulation Circuits
+
+Complex Genetic Switches That Regulate Drosophila Development
+Are Built Up from Smaller Molecules
+The non-uniform distribution of transcription
+regulators in an early Drosophila embryo
+
+Giant protein (red)
+
+syncytium
+
+Seven stripes of Eve protein (green)
+
+The modular construction of the Eve gene regulatory region
+
+reporter
+Figure 7-26, 7-27, 7-28 Molecular Biology of the Cell (© Garland Science 2015)
+
+The Drosophila Eve Gene Is Regulated by Combinatorial Controls
+The non-uniform distribution of transcription
+regulators in an early Drosophila embryo
+
+Giant protein (red)
+
+syncytium
+
+Seven stripes of Eve protein (green)
+
+Only in those nuclei located where the
+levels of both Bicoid and Hunchback are
+high and both Krüppel and Giant are absent.
+Figure 7-29, 7-30 Molecular Biology of the Cell (© Garland Science 2015)
+
+positional information
+
+Transcription Regulators Are Controlled in Eukaryotic Cells
+
+Figure 7-32 Molecular Biology of the Cell (© Garland Science 2015)
+
+Combinatorial Gene Control Creates Many Different Cell Types
+
+The context matters.
+The history matters.
+Combinatorial gene control
+causes the effect of adding a
+new transcription regulator to
+a cell to depend on that cell’s
+past history, since it is this
+history that determines which
+transcription regulators are
+already present.
+Figure 7-33 Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription Regulators For The Specification of Cell Types
+
+Liver cells grown in culture were
+converted into neuronal cells via
+the artificial expression of three
+nerve-specific transcription
+regulators.
+
+Expression of the
+Drosophila Eyeless
+gene in precursor cells
+of the leg triggers the
+development of an eye
+on the leg.
+
+Figure 7-34, 7-35 Molecular Biology of the Cell (© Garland Science 2015)
+
+Specialized Cell Types Can Be Experimentally Reprogrammed to Become
+Pluripotent Stem Cells
+
+induced
+Pluripotent
+Stem Cells
+(iPSCs)
+
+Master
+Transcription
+Regulators
+
+A portion of the transcription network
+specifying embryonic stem cells.
+
+Figure 7-76, 7-37A Molecular Biology of the Cell (© Garland Science 2015)
+
+The Nobel Prize in
+Physiology or Medicine 2012
+
+Differentiated Cells Maintain Their Identity
+
+“self-sustaining”
+
+A positive feedback loop
+can create cell memory
+
+Figure 7-39, 7-37B Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription Circuits Allow the Cell to Carry Out Logic Operations
+
+Figure 7-40, 7-41, 7-42 Molecular Biology of the Cell (© Garland Science 2015)
+
+Transcription Circuits Allow the Cell to Carry Out Logic Operations
+
+Network
+
+A feed-forward loop can
+measure the duration of
+a signal
+
+Figure 7-40, 7-41, 7-42 Molecular Biology of the Cell (© Garland Science 2015)
+
+MECHANISMS THAT REINFORCE CELL MEMORY
+
+DNA Methylation
+Genomic Imprinting
+X Chromosome Inactivation
+
+Patterns of DNA Methylation Can Be Inherited When Vertebrate Cells Divide
+
+Figure 7-43, 7-44, 7-47 Molecular Biology of the Cell (© Garland Science 2015)
+
+•
+
+During evolution, more than
+three out of every four CGs
+have been lost.
+
+•
+
+The remaining CG
+sequences are very unevenly
+distributed in the selected
+regions called CG islands.
+
+•
+
+60% of human protein-coding
+genes have promoters
+embedded in CG islands.
+
+Genomic Imprinting
+Genomic imprinting is an
+epigenetic phenomenon which
+results in the monoallelic
+expression of a gene depending
+on the parental origin.
+Roughly 300 genes are
+imprinted in humans.
+
+The Genetic Conflict Hypothesis
+Ritu, Giri P., Mohapatra B. (2018) Genomic Imprinting. In: Vonk J., Shackelford T. (eds) Encyclopedia of Animal Cognition and Behavior
+
+Mechanisms of Imprinting
+
+Figure 7-49 Molecular Biology of the Cell (© Garland Science 2015)
+
+Chromosome-Wide Alterations in Chromatin Structure Can Be Inherited
+
+dosage
+compensation
+mechanism
+Random
+
+mosaics phenotype
+
+Calico female cat
+Figure 7-50 Molecular Biology of the Cell (© Garland Science 2015)
+
+Mammalian X-chromosome Inactivation
+
+X-inactivation center
+(XIC)
+～20,000 nt lncRNA
+
+About 10% of the genes on the X chromosome (including Xist itself )
+escape this silencing and remain active.
+Figure 7-52 Molecular Biology of the Cell (© Garland Science 2015)
+
+POST-TRANSCRIPTIONAL CONTROLS
+
+Alternative RNA Splicing
+3’ Cleavage
+RNA Editing
+UTR Control
+mRNA Decay
+
+Post-transcriptional Controls of Gene Expression
+
+Figure 7-54 Molecular Biology of the Cell (© Garland Science 2015)
+
+Negative And Positive Control of Alternative RNA Splicing
+Alternative RNA Splicing
+
+Negative Control
+
+Positive Control
+
+Figure 7-56, 7-58 Molecular Biology of the Cell (© Garland Science 2015)
+
+A Change in the Site of RNA Transcript Cleavage and Poly-A Addition
+Can Change the C-terminus of a Protein
+alternative cleavage and polyadenylation sites
+
+Figure 7-59 Molecular Biology of the Cell (© Garland Science 2015)
+
+RNA Editing Can Change the Meaning of the RNA Message
+adenine to inosine
+(A-to-I editing)
+
+ADAR (adenosine
+deaminase acting
+on RNA)
+
+I pairs with C
+
+Figure 7-60, 7-61 Molecular Biology of the Cell (© Garland Science 2015)
+
+cytosine to uracil
+(C-to-U editing)
+
+RNA Editing Can Change the Meaning of the RNA Message
+adenine to inosine
+(A-to-I editing)
+
+cytosine to uracil
+(C-to-U editing)
+
+ADAR (adenosine
+deaminase acting
+on RNA)
+
+I pairs with C
+
+Leveraging Endogenous ADAR
+Protein For Targeted RNA Editing
+
+Figure 7-60, 7-61 Molecular Biology of the Cell (© Garland Science 2015)
+
+Yi et al., Nat Biotechnology, 2022
+Qu et al., Nat Biotechnology, 2019
+
+Untranslated Regions of mRNAs Control Their Translation
+
+Shine–Dalgarno sequence
+
+Riboswitches are short sequences of
+RNA that change their conformation
+on binding small molecules.
+Figure 7-66 Molecular Biology of the Cell (© Garland Science 2015)
+
+Changes in mRNA Stability Can Regulate Gene Expression
+Timer
+Eukaryotic mRNA decay, most have
+considerably shorter half-lives,
+typically less than 30 minutes.
+
+The competition between mRNA translation and mRNA decay.
+
+Figure 7-69, 7-70 Molecular Biology of the Cell (© Garland Science 2015)
+
+REGULATION OF GENE EXPRESSION BY
+NONCODING RNAs
+
+Micro RNAs (miRNAs)
+Small interfering RNAs (siRNAs)
+CRISPR
+Long non-coding RNAs (lncRNAs)
+
+RNA Interference In Eukaryotes
+
+RNA Interference: short single-stranded RNAs (20–30 nucleotides)
+serve as guide RNAs that selectively reorganize and bind—through
+base-pairing—other RNAs in the cell. When the target is a mature
+mRNA, the small noncoding RNAs can inhibit its translation or even
+catalyze its destruction.
+
+Figure 7-74 Molecular Biology of the Cell (© Garland Science 2015)
+
+miRNAs Regulate mRNA Translation and Stability
+
+microRNAs
+(miRNAs)
+RNA-induced
+silencing complex
+
+Figure 7-75, 7-76 Molecular Biology of the Cell (© Garland Science 2015)
+
+• Single miRNA can regulate set
+of mRNAs.
+• Regulation by miRNAs can be
+combinatorial.
+• Over 1000 different microRNAs
+(miRNAs) are produced from the
+human genome, and these
+appear to regulate at least onethird of all human protein-coding
+genes.
+
+RNA Interference Directed By siRNAs
+Foreign RNA molecules
+transposable elements and viruses
+
+Dicer
+
+small interfering RNAs
+(siRNAs) ~23 bps
+
+back to complementary RNA molecules
+produced by the virus or transposable
+element, leading to their rapid destruction.
+• RNA interference is used as a cell defense mechanism.
+• In some organisms, the RNAi activity can be spread by transferring the siRNAs
+from cell to cell.
+• RNAi has become a powerful experimental tool.
+Figure 7-77 Molecular Biology of the Cell (© Garland Science 2015)
+
+CRISPR-mediated Immunity In Bacteria And Archaebacteria
+CRISPR (clustered regularly interspersed short palindromic repeat)
+
+Two key differences comparing to RNAi:
+• Bacteria and archaea have a mechanism to integrate
+the viral DNA into their genomes——“vaccination”.
+• The CRISPR system destroys double-stranded DNA
+molecules, rather than single-stranded RNA molecules.
+Figure 7-78 Molecular Biology of the Cell (© Garland Science 2015)
+
+Long Non-coding RNAs Have Diverse Functions in the Cell
+• RNAs longer than 200 nucleotides （arbitrarily） that do not code for protein.
+• Most are background “noise” of transcription and RNA processing.
+Scaffold
+
+Guiding
+
+RNA molecules are well suited
+to act as scaffolds and guiding.
+
+Figure 7-79 Molecular Biology of the Cell (© Garland Science 2015)
+
+
