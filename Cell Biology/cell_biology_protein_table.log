@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.1)  27 APR 2026 00:36
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.1)  27 APR 2026 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -618,8 +618,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [3] [4]
 
 [5]
+Overfull \hbox (0.66129pt too wide) in paragraph at lines 347--347
+[]|\TU/lmr/m/n/10 Immunoprecipitation|  
+ []
 
-[6] (./cell_biology_protein_table.aux)
+[6] [7] [8]
+
+[9] (./cell_biology_protein_table.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -633,12 +638,12 @@ ged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15382 strings out of 473832
- 345000 string characters out of 5729481
- 799655 words of memory out of 5000000
- 38270 multiletter control sequences out of 15000+600000
+ 15431 strings out of 473832
+ 348056 string characters out of 5729481
+ 824706 words of memory out of 5000000
+ 38319 multiletter control sequences out of 15000+600000
  563759 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,11n,95p,1220b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cell_biology_protein_table.pdf (6 pages).
+Output written on cell_biology_protein_table.pdf (9 pages).
