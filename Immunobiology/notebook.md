@@ -155,3 +155,53 @@ TCR受体（T-cell receptor）
 signal I和signal II的**co-stimulatory signal**，二者必须共激活才能产生反应
 
 同时是co-stimulation和co-inhibition信号
+
+# Adaptive immunity: B cells
+
+### B-cell development
+
+在骨髓中发育，pro B-cell还会留在骨髓中
+顺序为：
+（一张图）
+- 先重排重链（DJ->VD），读通之后开始重排轻链（VJ），读通之后重组成一个lgM，然后触发细胞产生alternative splicing然后产生其他Ig，只有IgD和IgM完全发育结束，才是一个完整的B cell
+- 重链读不通怎么办法？
+  - 如果完全不行就直接死掉
+  - DJ重排无法判断是否读通，VDJ读通结束之后会产生一条LgM的重链，但此时轻链还没有重排，这时候会有一个蛋白当作**假的轻链**连到重链上，目的是形成完整组装的BCR，然后呈递到细胞膜上面从而告诉细胞重链已经组装完成，向胞内传递信号然后开始重排轻链，此时那个蛋白的表达会停止，替换为真正的轻链
+  - （一张图）
+- 为什么一定在表面呈递？
+  - positive selection：选择VDJ重排重链和轻链都成功的情况
+    - 在细胞膜表面呈递触发的信号包括：1.重链成功应该活下去，2.改进行轻链重排了
+    - 轻链重排结束后有同样的信号分子，也是告诉细胞活下去开始之后的steps
+  - negative selection：为了选择掉能够与自身抗原产生反应的细胞
+    - 非常粗糙
+    - IgM如果没有任何反应，产生IgM和IgD双群体，然后migrates to periphery
+    - 如果能识别骨髓中任何的多价表位，认为是自免疫B cell，死或者进入另外的通路
+      - receptor editing：再次启动VJ重排重排轻链，看看能否变成没有自我免疫反应的，如果再不行就是杀死
+    - 如果出现soluble self molecule，很难判断属于自我还是非我，如果这个蛋白能够让BCR cross link，被认为是自我的表位，从而B cell进行到休眠状态
+    - 如果low-affinity non-cross-linking self molecule，B cell不会做出任何反应，产生了自免疫性疾病的隐患
+    - peripheral tolerance：不在骨髓和胸腺中完成的负选择
+      - 发生multivalent self melecule的时候B cell直接杀死
+      - soluble self molecule：B cell也被直接杀死
+      - 如果low-affinity non-cross-linking self molecule，B cell依然不会做出任何反应
+  **但是从骨髓到外周的原则是？？？**
+
+### B-cell activation
+
+（一张大图）
+
+B-cell activation often depends on CD4+ T cells: Thymus-dependent antigens（TD抗原）
+
+- 绝大部分的B cell被激活是完全依赖于T cell的：B cell 存在signal1（有病原）和signal2（是非我），T cell代替了树突状细胞传达signal2（在t cell中依赖树突状细胞的共刺激信号）
+- 锚定在细胞膜上的BCR直接和抗原接触，然后内吞进细胞，B cell中同样通过MHC2又呈递到了细胞表面，如果TCR和MHCII接触，然后还有一些共刺激信号（看图），会在胞内产生signal2
+- 时间顺序： T cell首先被激活，然后B cell才能够被激活
+
+B-cell activation often depends on CD4+ T cells: Linked recognition
+
+- 如果一个病毒有包被的话，有可能BCR识别的病毒包被上的表位和MHCII呈递的内容蛋白可能完全脱节，而且对于T cell获得的共刺激信号其实也是蓝色包被蛋白，抗原表位不对应，丧失了T cell提供signal2的意义
+
+Thymus-independent-1(TI-1) and TI-2 antigens(10%-20%)
+- TI-1: B cell自己表达了模式识别受体（比如说表达TLR来识别LPS），从而自己提供signal2
+  - 在此情况下会产生多克隆激活
+- TI-2: signal1和signal2合二为一，也就是BCR同时也是模式识别受体
+  
+  有两页ppt没听

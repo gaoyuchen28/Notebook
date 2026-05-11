@@ -1907,3 +1907,401 @@ Multiple Pathways Deliver Materials to Lysosomes
 4. Fusion of the autophagosome with lysosomes, catalyzed by SNAREs.
 5. Digestion of the inner membrane and the lumenal contents of the autophagosome.
   
+# Chapter 9 cell signaling
+
+Definition of communication process: 
+1. governs basic activities of cells
+2. coordinates all cell actions
+
+affects many aspect: 
+1. Activation of enzyme activity--metabolism, survival, apoptosis, immunity, cell cycle...
+2. Change in cytoskeletal organization--movement, immunity, transportation…
+3. Change in ion permeability--neural transmission, immunity, transportation…
+4. Initiation of DNA synthesis--cell cycle, cell growth, reproduction, differentiation…
+5. Change in gene expression--cell differentiation, development, stress, immunity…
+
+4 forms of cell signaling:
+1. contact-dependent
+2. paracrine(旁分泌)
+3. synaptic
+4. endocrine
+
+Basic elements in a signaling pathway:
+
+<img src="150.png" alt="" width="60%">
+
+1. reception
+2. transfuction
+3. response
+
+### overview of cell signaling
+
+为什么multicellular organisms 会比 unicellular organisms 更晚发生就是因为cell stimulation还没有进化出来
+
+> Multicellular organisms appeared on Earth 2.5 billion years after unicellular organisms did (fossil record). The long delay may reflect the difficulty of evolving the language systems (Cell Signaling) that enables cells to collaborate and coordinate their behavior.
+
+##### Unicelluar organisms:
+
+1. it's nessesary: responding to physical and chemical changes in their environment including the presence of other cells.
+2. To sense and adapt to the fluctuating environment by detecting and responding to temporal and spatial signals, initiating signal transduction cascades that lead to changes in gene expression.(in response to environment gives unicellular organismsthe plasticity to survive in rich, neutral and hostile situations.)
+  
+- quorum sensing: 
+  - QS is a system of stimuli and responses correlated to population density.
+    - coordinate gene expression according to the density of their local population.
+    - some social insects (ants, honeybees) use quorum sensing to determine where to nest.
+  - mechanism: the exchange of small chemicals between unicellular organisms.
+- Yeast mating:
+  - when a haploid individual is ready to mate, it secretes a peptide mating factor that tells cells of the opposite mating type to stop proliferating and prepare to mate
+  - produces a diploid cell, which can undergo meiosis and generate haploid cells with new assortments of genes.
+  - To help a species survive in an unpredicted (harsh) environment.
+
+##### Multicellular animals:
+
+- hundreds of kinds of signal molecules:
+   1. Secreted signal-dependent signaling
+   2. Contact-dependent signaling
+   3. Gap Junctions
+
+- secreted signal-dependednt signaling:
+  - endocrine: signal factor and target have high specifity, long disance
+    - growth hormone
+  - paracrine: usually not same cell type, close distance
+    - rapidly taken up by neighboring target cells
+    - destroyed by extracellular enzymes
+    - immobilized by the extracellular matrix
+  - autocrine: eg cancer cell (一些生长因子)
+  - synaptic: different cell of neuron cell can release same kind of signaling molecule, 就是他们的特异性是靠突触本来距离就很近形成的
+  > Growth hormone is an example of endocrine signaling
+  > - the growth hormone is synthesized in the pituitary, located at the base of the brain, and travels to the liver via the blood.
+
+- contact-dependent signaling:
+  - the signal molecules are transmembrane proteins.
+  - membrane-attached signal & receptor
+  > Class I MHC & Class II MHC
+
+- gap juction:
+  - communicate with each other directly, provide for the most intimate/convenient cell communication
+  - Gap junctions are narrow water-filled channels that directly connect the cytoplasm of adjacent cells, allowing the exchange of ions and small water soluble molecules 大分子是不能通过的
+  - coodinate manner(important): In the heart, GJs mediate the electrical coupling of cardiomyocytes and dictate the speed and direction of cardiac conduction.
+
+##### General principles of cell signaling
+
+- Each cell responds to specific combination of signals:
+  - Cells integrate different information and mounts an appropriate and comprehensive response.
+  
+  <img src="153.png" alt="" width="60%">
+
+  - Two ways of signal integration
+    1. Signals A and B activate different pathways, each leads to the phosphorylation of protein Y at different sites. protein Y is activated only when both sites are phosphorylated.
+    2. Different Y subunits need to be phosphorylated by two pathways.
+
+- Different cells respond to the same molecule differently
+- Four features of cell signaling
+  - specificity: 
+  - amplicication
+  - desenitization/adaptation
+  - integration
+- fate of cells depends on the position:
+  - The same signal on the same cell type has qualitatively different effects depending on the signal’s concentration.
+  - The extracellular signal in these cases is called a morphogen(形态发生素), it diffuses out from a localized cellular source, generating a concentration gradient.
+  - The responding cells adopt different cell fates according to the position in the gradient
+
+##### signal molecules & receptors
+
+Binding of extracellular signaling molecules to cell-surface receptors triggers a conformational change in the receptor, which in turn leads to intracellular signal transduction pathways
+
+extracellular signaling usually involves 8 steps:
+
+<img src="151.png" alt="" width="60%">
+
+1. synthesis
+2. release of the signaling molecule by the signaling cell
+3. transport of the signal to the target cell
+4. binding of the signal by a specific receptor leading to a conformational change
+5. initiation of one or more intracellular signal-transduction pathways by the activated receptor
+6. specific changes in cellular function, metabolism, or development
+7. feedback regulation usually involving deactivation of the receptor
+8. removal of the signaling molecule terminates the cellular response.
+
+slow response: such as cell growth and division, involve changes in gene expression and new protein synthesis; slowly, needs hours or more.
+Fast response: such as changes in cell movement and secretion—need no changes in transcription, occurs very fast, seconds or minutes.
+
+- signal molecules
+  
+  <img src="155.png" alt="" width="60%">
+
+- receptors include two classes: cell-surface receptors/intracellular receptors
+  
+  <img src="156.png" alt="" width="60%">
+
+  for intracellular receptors: A. The nuclear receptors; B. The cytoplasmic receptors
+
+- function of the receptorsL
+  - receptor-mediated endocytosis
+  - signal transduction: 
+    1. The activation of receptor promotes the signaling cascades
+    2. The desensitization of receptor turns off cascades
+    3. The down-regulation of receptor dampens signaling
+  - different protein
+    1. Relay proteins: simply pass the message to the next signaling component in the chain
+    2. Adaptor proteins: link one signaling proteins to another.
+    3. Bifurcation proteins: spread the signal from one signaling pathway to another.
+    4. Amplifier proteins (enzymes or ion channels): signaling cascade
+    5. Transducer proteins: convert the signal into a different form
+    6. Integrator proteins: receive signals from two or more signaling pathways and integrate them before relaying a signal onward (Coincidence detector).
+    7. Messenger proteins: carry the signal from one part to another (from cytosol to nucleus).
+    8. Latent gene regulatory proteins: are activated at the cell surface by activated receptors and then migrate to the nucleus to stimulate gene transcription.
+  
+Three types of intracellular signaling complexes
+- preformed signaling complex on a scaffold protein: near the recptor, charge some signaling proteins on the scaffold -> signaling complexes
+  - The receptor and the intracellular proteins are preassembled into a signaling complex on the inactive receptor by the scaffold protein.
+  - not cross talk 完全线性的信号传播
+  
+  <img src="157.png" alt="" width="60%">
+
+- assembly of signaling complex on an activated receptor: phosphorylate itself on multi-sites
+  - The signaling complex assembles on a receptor only after the binding of signal molecule. The activated receptor phosphorylates itself at multiple sites, which then act as docking sites for the downstream signaling proteins.
+
+  <img src="158.png" alt="" width="60%">
+
+- assembly of signaling complex on phosphoinositide docking site:
+  - Receptor activation leads to the increased phosphorylation of phosphoinositides in adjacent plasma membrane, which serve as docking sites for downstream signaling proteins, which can now interact with each other.
+
+  <img src="159.png" alt="" width="60%">
+
+
+interaction domains/corresponding structural motif
+
+> <img src="160.png" alt="" width="60%">
+
+different domain target to different motif
+
+| Domain（结构域） | 主要识别对象 / motif | 主要功能 | 典型蛋白 |
+|---|---|---|---|
+| PTB domain | NPXY motif | 识别 receptor tail、signal adaptor docking | Shc、IRS-1 |
+| PDZ domain | 膜蛋白 C-terminal motif | scaffold assembly、膜蛋白聚集 | Dishevelled、FAP |
+| SH2 domain | phosphotyrosine | 识别 RTK 磷酸化位点、signal recruitment | Src、Grb2、Shc、STAT |
+| SH3 domain | Proline-rich motif | protein-protein interaction、recruitment | Src、Nck |
+| WW domain | Pro-rich motif | ubiquitination-related interaction | Nedd4、Smurf、Dystrophin |
+| Death domain | Death-domain-containing proteins | apoptosis signaling | Fas、FADD |
+| LIM domain | turn-based motifs | cytoskeleton / transcription regulation | LIM proteins、Zyxin |
+| PH domain | phosphoinositides | membrane targeting | Akt、SOS |
+| FYVE domain | PI3P | endosome targeting | EEA1、SARA |
+
+How cells turn on/off a signaling(一页ppt我看不清楚字)
+- When they receive a signal, they switch from an inactive to an active conformation, until another process switches them off.
+- If a signaling pathway is to recover after transmitting a signal so that it can be ready to transmit another, every activated molecule in the pathway must return to its original, inactivated state.
+- signaling by phosphorylation
+  - 一个诺奖发现
+
+  <img src="159.png" alt="" width="60%">
+
+
+- signaling by GTP binding 
+  - 一个诺奖发现
+  - GEFs (Guanine nucleotide-exchange factors): GEFs are proteins that bind to an inactive G protein and stimulate the dissociation of the GDP in exchange for binding of GTP. **GEFs activates G-protein**
+  - GDIs (Guanine nucleotide-dissociation inhibitors):  GDIs are proteins that inhibit the release of GDP from a G-protein, thus maintaining G-protein in the inactive, GDP-bound state. **GDIs inactivate G-protein**
+  - GAPs (GTPase-activating proteins): Most G proteins possess some capability to hydrolyze a GTP, but this capability is greatly accelerated by interaction with specific GAPs. **GAPs inactivate G-protein by promoting GTP hydrolysis.**
+
+  <img src="162.png" alt="" width="60%">
+
+### Signal transduction mediated by receptors within cells
+
+##### the nuclear receptors:
+
+hydrophobic signal molecules diffuse directly across the plasma membrane of target cells and bind to intracellular receptors that are gene regulatory proteins.
+
+They bind to intracellular receptors and alter the ability of these proteins to control the transcription of specific genes.
+
+Nuclear receptors:
+1. Steroid hormones—Cholesterol
+2. Vitamin D—Secosteroids (Cholesterol-like)
+3. Retinoids —Vitamin A
+4. Thyroid hormone- tyrosine-based
+
+- Nuclear receptors are structurally related and belong to the same protein superfamily.
+- Many nuclear receptors were identified only through DNA sequencing, and their ligands are still unknown; these are called orphan nuclear receptors. 
+
+  <img src="163.png" alt="" width="60%">
+  
+##### the signaling triggerd by gases
+
+- signal triggered by NO: acetylcholine relaxes the smooth muscle cell
+  - nerve terminus in the vessel wall(acetylcholine) -> endothelial cell(NO) -> smooth muscle cells(guanylyl cyclase)
+  
+  <img src="164.png" alt="" width="60%">
+
+  > angina: pain resulting from inadequate blood flow to the heart muscle
+  > nitroglycerine (converted to NO)
+
+##### the cytosolic receptors
+
+  - pattern recognition receptors in cells(PAMPs & DAMPs)
+  - TLR, RNA sensor, DNA sensors, NLRs, ALR
+  
+  <img src="165.png" alt="" width="60%">
+
+### Signaling mediated by receptors on cell surface
+
+##### The ion-channel-coupled receptors:
+  
+- voltage-gated ion channel receptors ligand-gated ion channel receptors
+- involved in synaptic signaling between nerve cells, or nerve cells and other electrically excitable target cells such as muscle cells.
+> Synaptic signaling:
+> 1. Electrical signal activates the Voltage-gated ion channel receptors, causing the release of neurotransmitters (chemical signal);
+> 2. Neurotransmitters (chemical signal) bind to the Ligand-gated ion channel receptors on the postsynaptic cell, causing the change of membrane potential (electrical signal), thus relay the signal.
+>
+> <img src="166.png" alt="" width="60%">
+>
+
+##### G protein-coupled receptors
+
+- the largest family of receptor(一些数量)
+- mediate most responses to signals from the external world as well as signals from other cells, including hormones, neurotransmitters, and local mediators.
+  
+<img src="167.png" alt="" width="60%">
+
+- C-terminal:S/T rich sites of phosphorylation, sites of phosphorylation allow for the desensitization of GPCRs; Ligands bind to the extracellular portion of the receptor.
+- sitimulating/inhibitings: work on the same enzyme, sitimulatory G protein complex, inhibitory G protein complex
+  - Stimulatory Ligands/Receptor---Stimulatory G protein (Gs) to activate adenylyl cyclase
+  - Inhibitory Ligands/Receptor --- Inhibitory G protein (Gi) to inhibit adenylyl cyclase
+- Heterotrimeric G proteins: alpha: bind to GTP/GDP; α and γ have covalently attached lipid molecules that help bind them to PM, activated by G protein-coupled receptors.
+- Monomeric G proteins: homologous to α subunit in heterotrimers, belongs to the Ras superfamily of small GTPases
+  
+> 1. Ras superfamily consists of various monomeric GTPases
+> 2. only Ras and Rho relay signals from cell-surface receptors
+>
+> <img src="169.png" alt="" width="60%">
+> 
+
+- types of G protein α subunit
+  
+| G protein α subunit | 全称 / 类型 | 主要作用靶点 | 下游信号通路 / 效应 | 典型功能 |
+|---|---|---|---|---|
+| Gsα | G stimulatory | 激活 adenylate cyclase (AC) | ↑ cAMP → 激活 PKA/cAMP-dependent pathway | 促进代谢与激素信号 |
+| Giα | G inhibitory | 抑制 adenylate cyclase (AC) | ↓ cAMP | 抑制 cAMP signaling |
+| Goα | G other | 主要通过 βγ subunit 发挥作用 | βγ-mediated signaling | 神经系统信号常见 |
+| Gt | transducin | 激活 cGMP phosphodiesterase (PDE) | ↓ cGMP | 视觉光信号转导 （phototransduction） |
+| Gq/11α | Gq family | 激活 phospholipase C-β (PLCβ) | PIP2 → IP3 + DAG；Ca2+ release；PKC activation | 免疫与 Ca2+ signaling |
+| G12/13α | G12/13 family | 激活 RhoA | 调控 actin cytoskeleton | 细胞骨架重塑与迁移 |
+
+<img src="168.png" alt="" width="60%">
+
+- 不同种类的activation其实是不一样的：一种是本来就会binding，一种是inactive的时候也binding
+  
+<img src="170.png" alt="" width="60%">
+
+1. In the unstimulated state, the G protein α subunit binds GDP, and the G protein remains inactive.
+2. Extracellular ligand binding to a GPCR induces a conformational change in the receptor and then in the G protein.
+3. The activated GPCR functions as a guanine nucleotide exchange factor (GEF), promoting GDP-to-GTP exchange on the α subunit.
+4. GTP binding activates both the α subunit and the βγ complex, which then regulate target proteins at the plasma membrane.
+  
+- The synthesis and degradation of cyclic AMP (cAMP)
+  - cAMP is synthesised from ATP by adenylyl cyclase(AC)
+  - cAMP is unstable in cells because it is hydrolyzed by phosphodiesterases (PDE) to form 5’-AMP
+  - cAMP concentration can increase more than 20x folds in cells following AC activation within seconds, and such a rapid change requires balancing a rapid synthesis of the molecule with its rapid breakdown.
+  
+- cyclic-AMP-dependent protein kinase
+  - PKA phosphorylates serine/threonine in selected target proteins, which differ from one cell type to another
+  - The catalytic subunit of PKA phosphorylates/activates PDE itself, making cAMP degrade rapidly. This makes sure the PKA response brief and strong, instead of a prolonged weak response.
+  
+  <img src="171.png" alt="" width="60%">
+
+  - alter gene transcription
+  
+  <img src="172.png" alt="" width="60%">
+
+
+- another pathway: GPCRs activate PLCβ
+  - PLCβ cleaves PIP2, which generates two second messengers:
+  1. Inositol 1,4,5-trisphosphate (IP3)-- releases Ca2+ from the ER and thereby increases the concentration of Ca2+ in the cytosol.
+  2. Diacylglycerol (DAG)-- remains in the plasma membrane and helps activate protein kinase C (PKC).
+
+> <img src="173.png" alt="" width="60%">
+
+补充了一个例子，heart musle Gi和bata、gama domain
+Gq和PLC的关系
+那个表格还是得看！
+
+- smelling by olfactory GPCR ub olfactory neuron
+ ppt的一张图
+ 依然是cAMP的通路-> ligand gated open -> neurons get depolarized and excited
+
+- visual: GPCR mediated response to photon via ion channels
+  - photosensitive GPCR: rhodopsins
+  - ppt 上有一个流程 
+  - 和K+通道有什么关系
+
+- five ways of desensitization of a signal
+
+- Turn off signal
+  > choleraz
+  > cholera toxin constitutively activates Gs \
+
+##### Enzyme-coupled receptors
+
+v=rg 
+
+Activation of the epidermal growth factor recepter kinase:
+- an activating conformational change in the receiver
+
+Dominant-negatie inhibition by mutant RTK
+- express mutant inside the cell has normal ligand binding domain but not tyrosine kinase domain
+
+differnt positin of tyrosine phosphorylation can activad different protein 于是就可以一口气调控胞内的不同环节
+- 一页ppt
+- different SH2 domain....
+
+RTK & Monomeric small G proteins:
+- steps in axtication of Ras by RTKs
+  一页ppt
+- negative regulation: c-CBL, 主要是去磷酸化和泛素化这个RTK
+- it always works with adaptor protein to either activate....
+
+Ras activates mitogen-activated protein kinase
+- 一页ppt
+- signaling cascade
+- convert short-lived signaling events into long-lasting signal
+
+一个pathway有不同的功能
+一页ppt以酵母为例子
+- must use scaffold proteins-> help prevent cross-talk between parallel MAP kinase modules
+
+RhoA GTPase-mediated growth inhibition: guiding cell migration and nerce axon outgrowth
+- ephrin A1
+
+generation of phosphoinositide docking sites by PI3K:
+PIP2->PIP3
+PIP3 serves as doking site for proteins with PIP3-binding PH domain
+一张ppt的一张图
+
+five parallel intracellular signaling pathways...
+一张图
+
+TYrosine kinase-associated receptors: 
+- cytokines as ligand
+- Janus kinases(JAK)-> doking site of STAT2
+- signal transducers and activators of transcription: dimerize
+- JAK-STAT pathway 的其他ligand
+- 两页ppt
+
+TGF superfamily acts through receptor serine/threonine kinases and smads
+- BMP family &. family
+- 一页ppt
+- negative feedback: 一页ppt
+
+Alternative ...
+
+signaling dependent on regulated proteolysis
+- the notch signaling pathway(一页ppt)
+  - neuronal development: lateral inhibition
+  - procedure(看ppt)
+- the Wnt/beta-catenin signaling pathway(secreted signals)
+  - regulate development
+  - (一页ppt) without Wnt, beta-catenin phophorylated and become unstable; with Wnt recruit the complex to the membrane
+- Hedgehog: drosophila larva(secreted signals)
+  - 一页ppt
+- NF-kB
+  - IkB and NF-kB
+  - 一页ppt
+  - negative feedback in the NF-kB signaling induces oscillations in NF-kB activation

@@ -1200,188 +1200,540 @@ Three-person in vitro fertilization, two ways:
 
 ## Somatic mutation and the genetics of cancer
 
+key words:
+
+#### Characteristics of cancer cells
+
 > 《The emperor of all maladies》
 > 《The selfish gene》
 
-Cancer: a disease in which an individual mutant clone of cells begins by prospering at the enpense of its neighbors, and in the end ...
+Cancer: a disease in which an individualmutant clone of cells begins by prospering at the expense of its neighbors, and in the end destroy the whole cellular society.
+
+- Multiple cancer phenotypes arise from mutations in genes thatregulate cell growth and division
+- Environmental chemicals increase mutation rates and increasechances of cancer
 
 Cancer genetics
-1. 
-2. 
+1. Inherited mutations can predispose to cancer, but the mutationscausing cancer occur in somatic cells
+2. Mutations accumulate in clonal descendants of a single cell
 
 Tumor vs. cancer
-1. benign and malignant
-2. metastases
-一张图
+1. benign and malignant: A tumor is considered a cancer only if it is malignant, that is, only if itscells have acquired the ability to invade surrounding tissue.
+2. metastases: cancer cells break loose, enter blood or lymphatic vessels,and form secondary tumors, or metastases, at other sites in the body.
+
+<img src="67.png" alt="" width="480">
 
 > PET(positron emission tomography)
-> Q: accumulate of glucose(uptake of glucose)
+> Q: PET 为什么能显示肿瘤/高代谢组织？
+> accumulate of glucose(uptake of glucose): PET 常用放射性葡萄糖类似物 FDG。肿瘤细胞或代谢活跃细胞会摄取更多葡萄糖，因此也会摄取并积累更多 FDG，在 PET 图像中显示为高信号区域。
 
 Cancer types:
-- Carcinoma
-- Leukemia
-- Lymphoma
-- Sarcoma
+- Carcinoma: a type of cancer that develops from epithelial cells.
+- Leukemia: a group of cancers that usually begins in the bonemarrow and results in high numbers of abnormal white blood cells.
+- Lymphoma: a group of blood cell tumorsthat develop from lymphatic tissues.
+- Sarcoma: arises from transformed cells of mesenchymalorigin. Thus, malignant tumors made of cancellous bone, cartilage, fat,muscle, vascular, or hematopoietic tissues are, by definition, consideredsarcomas.
 
 The hallmarks of Cancer
-一张图
 
-- evade normal controls on cell growth
-  - 1
-  - 2
-  - 3
-- acquire a potential for immortality
-  - expression of telomerase
-- higher rate of mutation
-  - mismatch not be correxted
-- mistakes in DNA replication and repair
-- ssfa
+<img src="68.png" alt="" width="480">
 
-X inactivation
+- Cancer cells evade normal controls on cell growth
+  1. Produce cell division signals(autocrine stimulation)
+  2. Lose contact inhibition
+  3. Avoid programmed celldeath
+- Cancer cells often acquire a potential for immortality
+  - Expression of telomerase in cancer cells maintains the lengthof chromosome ends.
+- Cancer cells have a higher rate of mutationthan normal cells
+  - Enzymatic systems thatrepair DNA damage ormistakes during replicationare often defective.
+- Mistakes in DNA replication and repair lead togenomic instability
+- Cancer cells acquire the capacity to invade distant tissues
+  - Cancer cells produce substances that encourage blood vessel growth. They use bloodvessels to provide nutrients to themselves and move to other locations (metastasis)through the bloodstream.
 
-这个可以进一步作为evidence that a cancer is a clone of cells
+<img src="69.png" alt="" width="480">
+
+#### The genetic basis of cancers
+
+**Accumulation of mutations results in cancer**
+
+- X inactivation
+  
+  <img src="70.png" alt="" width="480">
+
+**Evidence that a cancer is a clone of cells**
+
+- Sample from normal tissueshas mixture of both alleles
+- Sample from tumor has only one allele: Tumor cells are all derived from a single cancerous founder cell
 
 cancer stem cell:
-这里有一张图
+
+  <img src="71.png" alt="" width="480">
 
 > assay
 >
 > inject a little bit of some type of cell, only cancer stem cell can induce a new tomour
 
-- Childhood Cancer
-- Inherited mutations can increase the predisposition to cancer->accumulate mutation
+**Cancer is generally a disease of old age**
+
+- Tumor progression involvessuccessive rounds of randominherited change followed bynatural selection
+
+**Childhood Cancer**
+
+- The most common cancers in children: leukemia (34%), braintumors (23%), and lymphomas (12%).
+**Inherited mutations can increase the predisposition to cancer**
+
+- Inheritance of some mutations predisposes a personto cancer because they have to accumulate fewermutations.
+
 > FAP(familial adenomatous poplysposis)
 > BRCA1
 
-Sequencing
-- Driver mutations
-- Passenger mutations
+- Sequencing reveals multiple mutations in cancer cells
+  - Driver mutations: Cause cancer phenotypes
+  - Passenger mutations: Occur due to increased mutation rate of cancer cells; Do not contribute to disease
+
+**Feedback results in tumor progression**
+
+- Mutations result in more cancer-like properties (growth, division, and genomic instability)
+- Cells with more cancer-like properties accumulate more mutations.
+
+#### How cell division is normally controlled
 
 signals to cell to divide:
-- extracellular signals
+- extracellular signals: actover long or short distances
+  - Collectively known ashormones
+  - Steroids, peptides, orproteins
   > TSH
-- cell-bound
+- cell-bound signals: require direct contact between cells
 
-- growth factors
-- receptors
-- signal transducers
-- transcription factors
+- growth factors: Extracellular hormones orcell-bound signals thatstimulate or inhibit cell proliferation
+- receptors: Comprised of a signal-bindingsite outside the cell, atransmembrane segment, and an intracellular domain
+- signal transducers: Located in cytoplasm
+- transcription factors: Activate expression ofspecific genes to eitherpromote or inhibit cell proliferation
+
+<img src="72.png" alt="" width="480">
 
 > Notch need cell-cell intact
 > also act as transcription factors
 > 如果notch不能properly degraded, 就会出问题
 
 > Ras-mediayed signal transduction
+>
+> <img src="73.png" alt="" width="480">
+> 
 
 The cell cycle
-> 用了一个temperature-sensitive cell-cycle
+> 用了一个temperature-sensitive cell-cycle(yeast)
 > Q: how to identify human homologs
-> 下一页ppt， rescue
+> A: Functional rescue expreriment
+>
+> <img src="74.png" alt="" width="480">
 
 Q: which one is upstream(28)
 
+<img src="75.png" alt="" width="480">
+
 Different CDK-cyclin complexes govern diffrent cell-cycle transition
+- Cyclin-dependent kinases (CDKs) – family of kinases that regulatethe transition from G1 to S and from G2 to M
+- Cyclin specifies the protein targets for CDK
+- Presence of each type depends on Synthesis of specific cyclins at certain times and Destruction of cyclins that are not needed (protein degradation)
 1. control th dissolution of the nuclear membrane at mitosis(lamins phosporylated->soluble)
-2. G1->S, （有一张图）, E2F no longer been inhibited
-   checkpoint: P53, activated by DNA damage(也有一张图)
-   > P53 and apoptosis
-   > cell arrest at G1, and induce apoptosis
-3. G2 -> M 也有checkpoint
+2. G1->S, E2F no longer been inhibited(Rb)
   
-checkpoint:
-一张图
+  <img src="76.png" alt="" width="480">
 
-Oncogene: dominant fasion & gain of functions
+  checkpoint: P53, activated by DNA damage
+
+  <img src="77.png" alt="" width="480">
+
+  > P53 and apoptosis
+  > If DNA damage is greatenough, cells producing p53not only arrest in G1, but alsocommit to apoptosis
+3. Checkpoints at the G2-to-M transition or during M phase
+  
+  checkpoint:
+  <img src="78.png" alt="" width="480">
+
+> The necessity of checkpoints:
+> Checkpoints help prevent transmission of three kinds of genomicinstability
+> - Aneuploid
+> - Chromosome aberrations
+> - Changes in ploidy
+
+<img src="79.png" alt="" width="480">
+
+#### How mutations cause cancer phenotypes
+
+###### Oncogene: dominant fasion & gain of functions
 conversion of a **proto-oncogene** into an oncogene
-一张图
+- Nonmutant allele is a proto-oncogene
+- Proto-oncogenes often encode proteinsneeded for cell cycle progression
+- Gain-of-function mutation results inincreased proliferation
 
-identifying oncogenes:
-- tumor viruses:
-  - 通过重组让proto-oncogene变得overactive
-- cell tansformation assays
-  - Alu gene?
+<img src="80.png" alt="" width="480">
 
-xxxxx
+Oncogenes are produced when mutations cause improperactivation a gene
+
+Identifying oncogenes:
+- Tumor-causing viruses
+- Tumor DNA
+
+1. Identifying oncogenes throughassociation with tumor viruses
+   
+  After infection, retroviral genome integrates into hostgenome and may activate a proto-oncogeneGenes near viral integration sites in cancer cells may beoncogenes.
+
+  <img src="81.png" alt="" width="480">
+
+2. Identifying oncogenes through cell transformation assays
+  
+  Human gene that is oncogeniccan be identified and clonedfrom transformed mouse cells
+
+  <img src="82.png" alt="" width="480">
+
+  > 
+   元件在小鼠基因组中没有，所以检测到的 Alu 信号一定来自人类 DNA。
+
+Oncogenes: All have a gain-of-function effect
 - Ras: transducer
   - Ras can be activated even without signal binding
-- Her2: gene amplification
+  - usually active when bound to growth factor
+  - oncogenic point mutation makes constitutively active protein（持续结合GTP）
+  > Oncogenic forms of RAS are constitutively activated
+  > 
+  > <img src="83.png" alt="" width="480">
+  > 
+- c-Abl: gene amplification
+  - Chromosomal translocation fuses the c-abl and bcr genes
+  - Hybrid protein encodes a constitutively active tyrosine kinase
+- Her2
+  - Found in 20% of all breast cancers
+  - overexpressed growth factor receptor(Her2 overexpression is due to gene amplification)
 
 > cancer caused by viruses: HPV
 > Rb prevent cell cycle, P53 promote P21 transcription
-> 一张图
+>
+> <img src="84.png" alt="" width="480">
+>
 
-**Tumor suppressors**: act recessively
-- Rb
-- P53
-- BRCA1
+> Cervical cancers
+> 
 
-mechanisms和之前一样说了很多
+###### **Tumor suppressors**: act recessively
+
+Normal alleles of tumor suppressorgenes often encode proteins thatslow down the cell cycle
+
+<img src="85.png" alt="" width="480">
+
+Cancer can be caused by mutations that improperlyinactivate tumor suppressor genes
+
+- Rb: normal protein delays entry into S-phase
+- P53: normal protein functions in G1-S checkpoint
+  > Genomic instability caused by loss of p53
+  >
+  > <img src="87.png" alt="" width="480">
+  >
+- BRCA1: part of the machinery for repairingdouble-strand breaks in DNA
+
+Inheriting a dominant mutated allele can make individuals cancer-prone, and tumors develop when the remaining normal allele is lost or mutated in susceptible cells.
+
+<img src="86.png" alt="" width="480">
 
 > How elephants beat cancer
 > elephants: 20 copies of p53
 
-Treatment:
-- chemotherapy: after surgery
-  - side problem
-- Radiation therapy
-- Drugs target profucts of oncogenes:
+#### Personalized cancer treatment
+
+1. Chemotherapy
+  - Drugs may kill cancer cells that are unreachable or missed by surgery.
+  - Directed against pathways needed for cell proliferation
+  - Side effects are a problem
+
+2. Radiation therapy
+  - Radiation therapy uses high-energy radiation to shrinktumors and kill cancer cells
+  - Radiation therapy can also damage normal cells, leading toside effects, including fibrosis, memory loss and infertility.
+
+3. Drugs target products of oncogenes
   > Gleevec
   > specific binding site
+  > <img src="88.png" alt="" width="480">
 
   > Herceptin:
   > antibody that binds to the Her2 receptor -> prevent activation, results in destruction of cancer cells
-- Immunotherapy
+
+4. Immunotherapy: Immunotherapy involves mobilizing the body's own immune system to fight malignancy.
 
 # Chapter 4 Chromosome Aberration
+
+| English | 中文 |
+|---|---|
+| chromatin | 染色质 |
+| centromere | 着丝粒 |
+| telomere | 端粒 |
+| cohesin | 环形黏连蛋白 |
+| chromosome aberration | 染色体畸变 |
+| deletion, deficiency | 缺失 |
+| duplication, repeat | 重复 |
+| inversion | 倒位 |
+| translocation | 易位 |
+| transposition | 转座 |
+| terminal deletion | 末端缺失 |
+| intercalary deletion | 中间缺失 |
+| interstitial deletion | 中间缺失 |
+| deletion loop, deficiency loop | 缺失环 |
+| pseudo-dominance | 假显性，拟显性 |
+| deletion mapping | 缺失作图 |
+| duplication loop | 重复环 |
+| unequal crossing-over | 不等交换 |
+| tandem duplication, tandem repeat | 串联重复 |
+| nontandem duplication, dispersed duplication | 非串联重复，散在重复 |
+| inversion loop | 倒位环 |
+| pericentric inversion | 臂间倒位 |
+| paracentric inversion | 臂内倒位 |
+| crossover suppressor | 交换抑制因子 |
+| balancer chromosome | 平衡染色体 |
+| reciprocal translocation | 相互易位 |
+| Robertsonian translocation | 罗伯逊易位 |
+| centric fusion | 着丝粒融合 |
+| pseudolinkage | 假连锁 |
+| semisterility | 半不育 |
+| isochromosome | 等臂染色体 |
+| ploidy | 倍性 |
+| chromosome basic number | 染色体基数，x |
+| gametic chromosome number | 配子染色体数，n |
+| aneuploidy | 非整倍性 |
+| monosomy | 单体性 |
+| disomy | 二体性 |
+| trisomy | 三体性 |
+| tetrasomy | 四体性 |
+| aneuploid | 非整倍体 |
+| monosome, monosomic | 单体 |
+| disome, disomic | 二体，双体 |
+| trisome, trisomic | 三体 |
+| tetrasome, tetrasomic | 四体 |
+| nullisome, nullisomic | 缺体 |
+| euploidy | 整倍性 |
+| haploidy | 单倍性 |
+| monoploidy | 一倍性 |
+| monohaploidy | 单元单倍性 |
+| diploidy | 二倍性 |
+| polyploidy | 多倍性 |
+| triploidy | 三倍性 |
+| tetraploidy | 四倍性 |
+| pentaploidy | 五倍性 |
+| hexaploidy | 六倍性 |
+| octoploidy | 八倍性 |
+| autopolyploid | 同源多倍体 |
+| allopolyploid | 异源多倍体 |
+| amphidiploid | 双二倍体 |
 
 ## The Eukaryotic Chromosomes
 
 #### Chromosome structure and compaction
 
-> ATAC-seq for mapping chromatin accessibility
+Chromatin is the generic term for any complexof DNA and protein found in a nucleus of a cell
 
-(The nuclear core)
-组蛋白变体可以更换进入组蛋白复合物中，实现相应的功能
+Chromatin is ~ 1/3 DNA, 1/3 histones, 1/3nonhistone proteins; also contains significantamounts of RNA
+
+**Chromosomes are the separate pieces ofchromatin that behave as a unit during celldivision**
+
+Spacing and structure of nucleosomes affect genetic function in nucleosome:
+- Accessibility for proteins that initiate transcription, replicationand further compaction
+- Arrangement along chromatin is highly defined and varies indifferent cell types and under different conditions.
+
+> ATAC-seq for mapping chromatin accessibility
+>
+> <img src="89.png" alt="" width="480">
+>
+> ATAC-seq 利用 Tn5 转座酶优先切割开放染色质区域，并在切割位点加入测序接头，随后通过测序定位这些开放区域，从而绘制细胞中的染色质可及性图谱。
+
+The nuclear core
+- 组蛋白变体可以更换进入组蛋白复合物中，实现相应的功能
+- 160 bp of DNA wraps twicearound a nucleosome core; 40 bp of linker DNA connectsadjacent nucleosomes
+- Histone H1 associates withlinker DNA as it enters andleaves the nucleosome core
+- The nucleosome core is an octamer of two each of histones H2A,H2B, H3, and H4
 
 一个model of chromosomal packaging
+
+<img src="90.png" alt="" width="480">
+
+Karyotype
+
+Heterochromatin regions tend to associate with each other and form compact nuclear domains-> form chromocenter
+
+Unstructured interactions influence TF localization–using polytene chromosomes
 
 > polytene chromosomes in Drosophila
 > 因为一直在复制但是不分裂，所以有1024copies，很大
 >
+
+Applications of banding patterns:
+1. To help locate genes
+2. To analyze chromosomal differences between species
+3. To reveal chromosome aberrations and cause of genetic disease
+
+Heterochromatin – highly condensed, usually inactivetranscriptionally:
+- Constitutive – condensed in all cells (e.g. most of the Ychromosome)
+- Facultative – condensed in only some cells and relaxed inother cells (e.g. position effect variegation, X chromosome infemale mammals)
+
+Euchromatin – relaxed, usually active transcriptionally
+
+> 花斑化
+> 一个原本应该表达的基因，如果因为染色体重排被移动到异染色质附近，它可能会被异染色质“影响”而沉默。
+
+Transcription requires changes in chromatin structure:
+
+<img src="91.png" alt="" width="480">
+
+> Fluorescent in situ hybridization (FISH) is used to characterize genomes
+> 1. Chromosomes are spreadon a glass slide and denatured to make them single stranded
+> 2. A DNA sequence is labeled with a fluorescent tag to make a probe.
+> 3. The probe hybridizes to chromosomes at complementary regions.
+
 
 #### Key components of a chromosome
 
 Question: essential components of a chromosome
 - replication initiation sites
 - Telomere
-- Centromere
+- Centromere 
 
 Yeast artificial chromosomes
 1. segregation of condensed chromosomes depends on centromeres
-   - consist of tandem repeats and stelatille DNA
-   - cohesin, seperase cut the cohesin
+  - two conserved 10-15 bp DNA sequencesseparated by 90 bp, Consist of tandem repeats of noncoding satellite DNAs
+  
+  <img src="92.png" alt="" width="480">
+
+  - Hold sister chromatids together(through action of **cohesin**)
+    - At anaphase I, cohesin along chromosome arms is enzymatically cleaved but cohesin at centromeres is not cleaved, **Shugoshin** protects centromeric cohesin from degradation
+  
+    <img src="95.png" alt="" width="480">
+
+    <img src="94.png" alt="" width="480">
+
+  - Attachment sites for chromosome segregation machinery (through formation of **kinetochore**)
+    - Chromosomes attach to microtubules of the mitotic spindle at the kinetochore.
+    - H3 is replaced by the histone variant CENP-A
+  
+    <img src="93.png" alt="" width="480">
+
   > cohesin and human diseases
-  > Cornelia de lange syndroma-> mutations in NIPBL
+  > Cornelia de Lange syndrome: a multiple malformation disorder characterized by dysmorphic facial features, mental retardation, growth delay and limb reduction defects-> mutations in NIPBL
 2. Telomeres are "caps" that protect the ends of eukaryotic chromosomes
+   - Telomeres consist of specific repetitive sequences and don't contain genes
+   - Prevent chromosome fusions and maintain integrity of chromosomal ends
+   - Without a special mechanism,newly synthesized DNA strands are shorter by the length of the RNA primer at each cell cycle.
+  
+  <img src="96.png" alt="" width="480">
+
    - telomerase is a ribonucleoprotein that extends telomeres
+     - Most somatic cells have low expression of telomerase
+     - Germ cells, stem cells, and tumor cells have high expression of telomerase
+  
+  <img src="97.png" alt="" width="480">
+
   > tetrahymena: telomere does not shorten, MAC has 200 chromosomes
 3. Origins of replication in eukaryotes
-   question: how is epigenetic memory preserved
+  - Replication unit (replicon) – DNA being replicated in both directions from one origin
+  - New nucleosomes are composed of recycled and new histones, Chromatin is open to histone modification just after replication.
+  Q: how is epigenetic memory preserved
 
 ## Chromosomal Rearrangements
 
+<img src="98.png" alt="" width="480">
+
 Causes:
 1. DNA beaks
+  - Double strand breaks followed by nonhomologous end-joining
 2. Aberrant crossing-over
+
+  <img src="99.png" alt="" width="480">
+
+> 1. Fluorescent in situ hybridization
+> 2. sequencing
+> 3. PCR
+>
+> <img src="100.png" alt="" width="480">
+> 
   
 #### Deletion
+
+<img src="101.png" alt="" width="480">
 
 Q: how about deletion homozygote:
   Probe A 0; Probe B: 1 band ; Probe C: 1 band as usual
 
+Homozygosity for deletions is often lethal or harmful
+
+Deletion heterozygotes:
+1. Can have a mutant phenotype due to gene dosage effects(haploin sufficiency)
+2. Increases risk of phenotype due to mutation in the other copy of the gene
+3. May uncover existing recessive mutant alleles
+  - gene mapping
+  
+  <img src="102.png" alt="" width="480">
+  
+> Cri du Chat Syndrome
+> A rare genetic disorder due to a small deletion of chromosome 5p.
+
+Deletion loops: 
+
+<img src="103.png" alt="" width="480">
+
+**genetic map distances in deletion heterozygotes willnot be accurate**
+
 Question: individual male, 保证母亲只有一个mutation
 
+#### Duplication
+
+Duplication loops: 
+
+<img src="104.png" alt="" width="480">
+
+1. Novel phenotypes may occur because of increased gene copy number or because of altered expression in new chromosomal environment
+2. Homozygosity or heterozygosity for a duplication can be lethal or harmful
+3. Unequal crossing-over between duplicated regions on homologous chromosomes can result in increased and decreased copy number
+
+  <img src="105.png" alt="" width="480">
+
+  Gene duplications provide new genetic material for mutation, drift and selection to act upon, the result of which is specialized or new gene functions.
+
+#### Inversion
+
+1. after double-stranded break
+2. opposite orientation or transposition
+
+<img src="106.png" alt="" width="480">
+
+1. Most inversions do not result in an abnormal phenotype
+2. Abnormal phenotypes can occur if:
+   1. Inversion disrupts a gene
+   2. Inversion places a gene near regulatory sequences for other genes or near heterochromatin
+3. Inversions can act as crossover suppressors
+  **paracentric inversions**
+  - Zygotes formed from union of normal gametes with gametes carrying the broken dicentric recombinant chromatids will be nonviable
+  - Only gametes that did not recombine within inversion loop areviable.
+  
+  <img src="111.png" alt="" width="480">
+
+1. In inversion heterozygotes, no viable offspring are produced that carry chromosomes resulting from recombination in inverted region
+  **pericentric inversions**
+  - Zygotes formed from union of normal gametes with gametes carrying these recombinant chromatids will be nonviable
+  
+  <img src="108.png" alt="" width="480">
+
+
+Inversion loops:
+
+<img src="107.png" alt="" width="480">
+
+> Balancer chromosomes are useful toolsfor genetic analysis
+> 1. No viable recombinant progeny will be produced because of crossover suppression
+> 2. Balancer chromosomes carry both a dominant marker D and inversions (brackets) that prevent recombination with experimental chromosome.
+>
+> <img src="109.png" alt="" width="480">
+>
+
+<img src="110.png" alt="" width="480">
+
 #### Translocation
+
+basis for chronic myelogenous leukemia
 
 part of one chromosome attach to another homo,, chromosome
 
@@ -1536,3 +1888,80 @@ lineage-tracing:
 Gene editing:
 - CRISPR/cas
 - Base editing and gene therapy
+
+# Chapter 6 
+
+# 20250511 Genomics: impact on science
+
+Quesion: Y chromosome is shorter?
+answer: Hill-Robertson 干扰
+
+> 非重组区域基因丢失
+> 假设一个染色体上有多个基因，其中有利突变和有害突变交错分布, 如果这些基因不重组，它们就形成了一个“连锁块”。
+> 在有限群体中：
+> - 有害突变可能固定（drift + selection interference）
+> - 有利突变固定困难
+> - 结果：整个连锁块可能退化或丢失功能基因。
+> Y 染色体上的非重组区域退化
+
+10 aspect (page 9)
+
+1. In metazoans, gene number and complexity...
+2. xxx
+(page 10)
+
+page 11一个功能饼图
+Human genome encodes 2067 transcription factors
+> Gene ontology (GO)
+
+- transcription factors regulate gene expression at transcriptional level: often used in combinations to account for the unique regulation of each gene
+  (page 13一张图)
+- Expansion of domains and architexture of transcription factors in specific lineages
+  - different across species
+  - (page 14)
+> Homeodomain(HD): to recognized the sequence; highly conserved
+> eg: Hox genes, regulate the development of segment in Drosophila
+> 但是HD domain会具有不同的识别motif
+> 一个domain target to hundreds of genes
+- some domain is unique in certain species
+  (page 16)
+  - Exon shuffling is common during evolution
+    1. qq
+    2. qq
+  > mechanism:
+  > 
+  > 1. recombination
+  > 2. cut and paste
+  > 3. retrotransposition
+
+1. transposable element
+eg: DNA transposon-P element (Cut-and-Paste)
+Retrotransposon(from retrovirus, copy and paste)
+不知道为什么又开始讲已经讲过的内容，还持续性地讲了一大坨
+(补充一下LTR的内容在原来的位置上,补充一下Alu在原来的位置上, Alu的活性受其他gene影响，还有一点进化上的内容，Exon shuffling via recombination between Alu elements of 2 gene, 非同源重组)
+
+龙漫远
+
+(page 28/29 飞一样过去了)
+
+Duplication and diversification of genomic regions
+
+1. 1
+2. 2
+3. 3
+4. 4
+  (page 31)
+
+Gene family evolution: duplication and divergence(page 32)
+- orthologous: 
+- paralogous: 
+- homologous: 
+
+Type of duplication(page 33)
+- tandem
+- Nontandem
+
+Gene family
+- ...
+- family members may be clustered together on one chromosome or dispersed on several chromosomes
+- 
