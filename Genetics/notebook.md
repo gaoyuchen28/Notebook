@@ -1735,13 +1735,13 @@ Inversion loops:
 
 basis for chronic myelogenous leukemia
 
-part of one chromosome attach to another homo,, chromosome
+Translocation: part of one chromosome becomes attached to a nonhomologous chromosome
 
 t(12;17)(p13.1;p13) translocation, chromosome12 & 17, specific position
 
 Types of translocations:
-- reciprocal translocation
-- non-reciprocal translocation
+- reciprocal translocation: A **two-way** exchange of segments between the chromosomes
+- non-reciprocal translocation: A **one-way** translocations in which a chromosomal segment is transferred to a nonhomologous chromosome.
 > DNA-FISH can show translocation
 
 Types of chromosomes:
@@ -1750,39 +1750,64 @@ Types of chromosomes:
 - Acrocentric
   - all mouse chromosomes are acrocentric（从图上可以看到有明显差异）
   - rDNA repeated sequence 人类会在染色质短臂上，但是小鼠没办法只能在长臂上, RNA polI produce rRNA
+  
+  <img src="112.png" alt="" width="480">
+
 - Telocentric
 
-Robertsonian translocation(罗伯逊易位)
-一段定义....
-- form tiny fragment -> usually lost
+Robertsonian translocation(罗伯逊易位): The short arm of one **acrocentric chromosome** is exchanged with the long arm of another, creating a large metacentric chromosome and a fragment that often fails to segregate and is lost.
 
-1. Why recurrent translocation events
-  有一张图：
+  <img src="113.png" alt="" width="480">
+
+  - form tiny fragment -> usually lost
+  - reshape genomes
+
+- Why recurrent translocation events
+  
+  <img src="114.png" alt="" width="480">
+
   a DNA repair focus ar each break site(these site are very close to each others), 然后就连上了
-  > SST1(a macrosatellite DNA array)(可能会出现在两个染色体的断裂地方附近)
+  > SST1(a macrosatellite DNA array)(可能会出现在两个染色体的断裂地方附近)，又是一个重复序列
+  >
+  > <img src="115.png" alt="" width="480">
+  >
   > located near the centromeres of the short arm of acrocentric chromosomes
   > repeaed sequence & close to each other at spatial spac
-2. this translocations are commonly observed in patients with the familial form of Down syndrome
-   robertsonian translocation in chromosome 21/14
-   有一张图, three 21 -> down syndrome
+- this translocations are commonly observed in patients with the familial form of Down syndrome
+  
+  robertsonian translocation in chromosome 21/14
+   
+   <img src="118.png" alt="" width="480">
 
 Phenotypic effects:
-- affect gene expression:
+- Translocations can physically link genes that were formerly located on different chromosomes. These new linkage relations may affect gene expression:
   - produce oncogenes: 启动子和表达区域重组 & fusion protein
   - philadelphia chromosome[t(9;22)]:BCR（chr22）+ ABL1（chr9）-> BCR-ABL fusion gene, this fusion protein utilize ATP -> signal of cell proliferation -> Chronic Myeloid Leukemia; can use **Gleevec** to block the ATP binding pocket, and it's very specific!
+  
+  <img src="116.png" alt="" width="480">
+
   > Question: what makes a good drug:
   > 1. very specific
   > 2. very good on delivery
   > 3. effect time
   > 4. cost
-  - Burkitt's lymphoma[t(8;14)]: 这个就是启动子换了位置, myc are downstream to the promoter of IgH, B cell division elevate
+  - Burkitt's lymphoma[t(8;14)]: 这个就是启动子换了位置, myc are downstream to the promoter of IgH,->c-myc protein elevate->B cell division elevate
   > why B cells?
   > enhancer only in B cells
-  - tranlocation : form the cruciform structure
-    - adjacent segregation(None-surviving)
-    - Alternate segregation
-- disrupt a gene's function
+- The chromosome breaks that bring about translocations may disrupt a gene’s function.
+  - neurofibromatosis
+- Translocation carriers face reproductive issues
+  - semisterility: < 50% of gametes arise from alternatesegregation and are viable.
 
+tranlocation : form the cruciform structure
+
+  <img src="117.png" alt="" width="480">
+
+  - Heterozygosity for translocations diminishes fertility and results in pseudolinkage
+  - adjacent segregation(None-surviving)
+  - Alternate segregation
+  
+  <img src="118.png" alt="" width="480">
 
 ## Changes in Chromosome Number
 
@@ -1790,39 +1815,95 @@ Aneuploidy & euploidy
 
 #### Aneuploidy 非整倍体
 
+individuals whose chromosome number is not an exact multiple of the diploid number (2n) for that species
+
 results in multiple abnormalities or lethality
+
 > turner syndrome: XO
 > shorter height, infertile
 > 只有一份 due to pseudoautosomal(PAR) genes, haploinsufficiency
 > X-chromosome reactivation
 
-causes of aneuploidy:
+> Klinefelter syndrome; XXY
+>
+
+> trisomy 21
+> a genetic disorder caused by the presence of all or part of a third copy of chromosome 21. It is typically associated with physical growth delays, characteristic facial features, and mild to moderate intellectual disability.
+
+> Patau syndrome – trisomy 13
+> Edwards syndrome – trisomy 18
+> Trisomy in Jimsonweed
+
+Causes of aneuploidy:
 1. meiotic nondisjunction
-mosaic
+   
+  <img src="120.png" alt="" width="480">
+
 2. mitotic nondisjunction
-3. chromosome loss: lagging hromatid that is not pulled to either spindle pole at mitotic anaphase
+   
+  Mosaics
+  - failure of sisterchromatids toseparate during anaphase of mitosis
+3. Chromosome loss –lagging chromatid that is not pulled to either spindle pole at mitotic anaphase
+
    - 所以是去哪里了呢: form a micronuclei, ER tubule will invade, causing collaspe
+   - During mitotic exit, missegregated chromosomes can recruit their own nuclear envelope (NE) to form micronuclei (MN)
+   - Massive DNA-damage accumulation in micronuclei can occur upon collapse
   > drosophila 可以成为一个雌雄嵌合体
 
-Chromothripsis
+Chromothripsis: 极端的染色体重排现象，染色体在一次事件中被 严重破碎，然后随机拼接回去。
+- tens to hundreds of rearrangements confined to one or a few chromosomes (thripsis: breaking into small pieces).
 
 #### euploidy 整倍体
 
-monoploid
-> plant
-> colchicine
+###### monoploid
 
-Triploid
+- plant:
+  - Can visualize recessive traits directly, without crosses to homozygosity
+  - Introduce mutations into individual monoploid cells
+  - Select for desirable phenotypes (herbicide resistance)
+  - Hormone treatment to grow cells into monoploid plants
+> colchicine: It prevents cells from forming spindles during mitosis, preventing chromosomal segregation during anaphase.
+
+> haploid embryonic stem cells, hESCs
+>
+> <img src="121.png" alt="" width="480">
+> 
+
+###### Triploid
+
+<img src="122.png" alt="" width="480">
+
 会有unbalanced gametes in meiosis cell
-sterile
+- All polyploids with odd numbers of chromosome sets are sterile because they cannot produce balanced gametes
 
-Tetraploid
+###### Tetraploid
+
+Tetraploid cells occur during mitosis in a diploid when chromosomes fail to separate into two daughter cells
+
 - colchicine present of Diploid
-一张图，比例
 
-polyploidy
-many liver cells are polyploid: mitosis has been skip, cell become bigger and bigger
-supply the function of cell; have advantage in metabolics; stress response(regeneration)
+Tetraploids generate unusual Mendelian ratios
+
+<img src="123.png" alt="" width="480">
+
+###### polyploidy
+
+- Autopolyploid - polyploid with multiple chromosome sets derived from a single species. 同源多倍体
+- Allopolyploid – hybrids in which chromosome sets come from distinct, but related, species 异源多倍体
+
+One-third of all known flowering plant species are polyploid
+
+Polyploidy often results in increased size and vigor
+
+Many liver cells are polyploid, containing 4, 8, 16 or more times the haploid chromosome complement, although the significance of the phenomenon remains unclear.
+- mitosis has been skip, cell become bigger and bigger
+
+> Why polypoid?
+> - Polyploid often correlates with cell size. It may represent an energetically efficient alternative to cell proliferation among differentiated cell types.
+> - Increased gene copy number might allow for the mass production of proteins required to meet the metabolic demands
+> - Stress response – liver cells
+
+Livers with more polyploid cells had suppressed tumorigenesis
 
 
 # Chapter 5 
@@ -1964,4 +2045,53 @@ Type of duplication(page 33)
 Gene family
 - ...
 - family members may be clustered together on one chromosome or dispersed on several chromosomes
-- 
+> eg: the olfactory receptor gene family(page 36)
+> pseudogenes
+> mouse has more olfactory gene 
+>
+> eg: photoreceptors
+> 又开始生理学了。。。(until pagen 41)
+> evolution of opsin gene family(一张图)
+> - opsin gene family arose gene duplication and subsequent sequence divergence
+> - red and green genes are the most similar
+> - OWM(RGB) but NWM(BG)
+>
+> 两种opsin的区别
+> Quesion: find the which amino acid is the one before the duplication
+> Answer: 用 outgroup 判断 duplication 之前的状态
+>
+> Convergent
+>
+> 红绿色盲有可能是opsin的点突变影响功能（page49），但是更多是来自于unequal crossing-over（page50）
+
+page 53
+page 55
+
+> anemia
+> 又开始讲生化，lj到底要干嘛。。。。。。。
+> Locus control region control the expresiion of the hemoglobin genes
+> (page 59 1 picutre)
+> 继续婴儿更擅长得到氧气wbxl（page60）
+> 继续贫血症（page61）
+>
+> α-thalassemia is associated with deletions of genes in the α-globin cluster
+> (1 picture 62s)
+>
+> beta-thallasemia
+>
+> 又他妈的疟疾来了
+
+duplication resulting from uneuql cross-over (ectopic recombination)
+
+Duplicated genes can evovle into pseudogenes or evolve new functions
+- pseudogenes
+- new functions can arise in a duplicated gene
+
+four sequences of duplicated genes
+- neo-functionalization
+- Non-functionalization
+- Dosage effect
+- Sub-functionalization
+lj真的知道sy前面讲了什么吗。。。。。
+
+s(page71)
