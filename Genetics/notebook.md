@@ -2094,4 +2094,97 @@ four sequences of duplicated genes
 - Sub-functionalization
 lj真的知道sy前面讲了什么吗。。。。。
 
-s(page71)
+Four levels og gene duplication have feuled evolution of complex genomes(page71)
+
+origin of de novo genes
+- 第一个途径我没听懂
+- 第二个途径我也没听懂
+
+Genome sequence studies affirm evolution from a common ancester
+
+> Phylogenetic trees
+> Molecular clock
+> - basic assumption: rate of molecular evolution is constant over time across all lineages
+
+Protein-coding genes are under dtronger constraints by natural selection
+
+Using syntenic blocks to show that there's frequent chromosomes rearrangement across species
+(page80 & page81)
+
+(page82)
+
+Similarities between chimps and humans
+- 染色质数量的区别: 2 short chromosomes fuse together(Robertson translocation)
+- **chromosomal speciation**
+
+We are 57% microbes and 43% humans （page3????）
+
+Meta-genomics: 不需要先把微生物分离培养出来，而是直接从环境样本中提取所有 DNA，然后测序分析其中有哪些生物、有哪些基因、可能有什么功能。(large scale PCR amplification) (page6)
+
+(page9-10)微生物学
+
+Basic knowledge of Becteria(page 11)
+
+还在微生物学
+
+Phenotypes of bacterial mutations(page 15-16)
+
+E.coil genome wae sequenced in 1997
+- 4288 genes, but function known for only 60%
+- 1 gene per kb
+- No intron
+- very little repetitive DNA
+
+Gene nomenclature
+- "+" WT, "-" mutant
+- prototophy/auxotrophy
+
+penicillin enrichment for aucotrophic mutants（page21-page22）
+
+Insersion sequence elements are transposons in bacterial genomes
+
+- different strains have different numbers and distributions of IS elements
+- small transposable elements(700-5000 bp length)
+
+Using inverse PCR to identify insertion sites of a transposon in the genome
+
+Gene transfer in bacteria:
+- vertical gene transfer
+- Lateral(or horizontal)gene transfer
+
+Donor bacteriu provides the DNA that is transferred, recipient bacterium receives the DNA, which can result in altered phenotype
+
+1. transformation
+  - natural transformation
+  - artificial transformation
+    - chemically(calcium at cold temperature)
+    - electroporation (high-voltage shock)
+2. conjugation
+3. transduction
+
+(page 33 figure)
+
+(page35)
+
+(page38) 通过营养缺陷来selecting and screening for transformation
+
+Competence: the growth stage that the bacteria is...
+
+Co-transformation:(page42)
+
+Conjugation requires direct cell2cell contact
+
+U-tube experiment to prove that bacterial conjugation required direct contact between the 2 bacterial strains
+
+the F plasmid ontains genes for synthesizing connections between donor and recipient cell(page48-49)
+
+Formation of an Hfr chromosome:
+1. F carries one ot more IS element, which permit homol...
+2. High frequency recombinant...
+3. 又transformation，然后再cross-over（page59）
+  
+所以实际上是两种transfer
+
+Faulty out-looping produces F...
+
+complementation studies using F plasmid

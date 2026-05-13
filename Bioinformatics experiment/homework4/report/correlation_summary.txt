@@ -1,0 +1,2 @@
+Pearson correlation between autosome length and RNA sequence count: 0.572
+chr21 RNA sequence count: 1121
