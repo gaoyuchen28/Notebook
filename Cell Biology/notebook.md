@@ -2219,89 +2219,202 @@ Nuclear receptors:
 
 > <img src="173.png" alt="" width="60%">
 
-补充了一个例子，heart musle Gi和bata、gama domain
-Gq和PLC的关系
-那个表格还是得看！
+> **Gi:** 乙酰胆碱作用于 M2 muscarinic receptor → 激活 Gi 蛋白
+> Gαβγ-GDP -> Gα-GTP+Gβγ
+> - 激活后(Gα-GTP)会抑制 adenylyl cyclase, cAMP 下降后，PKA 活性下降
+> - Gβγ 打开 GIRK K⁺ 通道后，K⁺ 更容易外流，使膜电位更加负，也就是发生超极化
 
-- smelling by olfactory GPCR ub olfactory neuron
- ppt的一张图
- 依然是cAMP的通路-> ligand gated open -> neurons get depolarized and excited
+> **Gq:** Gq → PLCβ → IP3 + DAG → Ca²⁺ + PKC
+> PLCβ 把 PIP₂ 切成两个第二信使, 然后具体作用见上
 
-- visual: GPCR mediated response to photon via ion channels
-  - photosensitive GPCR: rhodopsins
-  - ppt 上有一个流程 
-  - 和K+通道有什么关系
+- Olfactory GPCRs in olfactory neurons
+  - Odorant activates GPCR, olfactory-specific G protein (Golf), and adenylyl cyclase
+  - Elevated cAMP opens cAMP-gated channels, causing the influx of Ca2+ & Na+
+  - Olfactory neurons get depolarized and excited
+  
+  <img src="175.png" alt="" width="60%">
 
-- five ways of desensitization of a signal
+- Vision -- GPCR-mediated response to photon via ion channels
+  - Rod photoreceptor cells: There are about 1000 discs in the outer segment. Each disc has many photosensitive GPCR ----rhodopsins, The plasma membrane contains cGMP-gated ion channels.
+  - Photon activates rhodopsins -> Gt (transducin) -> cGMP PDE(分解 cGMP，从而终止或降低 cGMP 介导的信号) -> Reduced cGMP -> Shut off cGMP-channel
+  - 以上流程具有一个amplification的机制
+  
+  <img src="176.png" alt="" width="60%">
 
-- Turn off signal
+- Desensitization of a signal(Negative feedback)
+  1. Activated ligand bound GPCR activates rhodopsin kinase - GRK
+  2. RGS protein (GTPase activating protein GAP) – binds and inactivate Gt
+  3. activates guanylyl cyclase - generates cGMP - open cGMP-gated cation channels again
+  - help rods return to their dark-adapted state, also known as the night vision state.
+  - allow rods to reduce their response during continuous light exposure.
+
+- Five ways of desensitization of a signaling
+  
+  <img src="177.png" alt="" width="60%">
+
+- Turn off signal is as crucial as turn-on!!
   > choleraz
-  > cholera toxin constitutively activates Gs \
+  > Cholera toxin constitutively activates Gs, The resulting prolonged elevation in cAMP concentration within intestinal epithelial cells activates CFTR Cl- channel--causes a large efflux of Cl– and water into the gut, thereby causing the severe diarrhea that characterizes cholera.
 
 ##### Enzyme-coupled receptors
 
-v=rg 
+Whereas a GPCR has seven transmembrane segments, each subunit of an enzyme-coupled receptor typically has only one. 
+
+**Receptor tyrosine kinase(RTK)**
+
+Ligands of RTKs:
+1. Nerve growth factor (NGF)
+2. Platelet-derived GF (PDGF)
+3. Fibroblast GF (FGF)
+4. Epidermal GF (EGF)
+5. Ephrins (Eph)
+6. Insulin and insulin-like GF (IGF)
+7. Vascular endothelial GF (VEGF)
+
+structure:
+
+<img src="178.png" alt="" width="60%">
+
+Activation of RTKs by dimerization
+- For most RTKs, ligand binding causes the receptors to dimerize, bringing the two cytoplasmic kinase domains together and thereby promoting their activation.
+  
+  <img src="179.png" alt="" width="60%">
+
+Insulin and Insulin-like growth factor (IGF)1 signaling
+  
+  <img src="180.png" alt="" width="60%">
 
 Activation of the epidermal growth factor recepter kinase:
-- an activating conformational change in the receiver
+- The asymmetric dimer causes an activating conformational change in the receiver. 
+- The active receiver phosphorylates tyrosines in both receptors to form docking sites.
+- (EGFR 主要通过不对称二聚体中的变构激活，而不是通过 activation loop 的 trans-autophosphorylation 激活。)
+
+<img src="181.png" alt="" width="60%">
 
 Dominant-negatie inhibition by mutant RTK
 - express mutant inside the cell has normal ligand binding domain but not tyrosine kinase domain
 
-differnt positin of tyrosine phosphorylation can activad different protein 于是就可以一口气调控胞内的不同环节
-- 一页ppt
-- different SH2 domain....
+The binding of SH2-containing intracellular signaling proteins to an activated RTK
+- RTK 被激活后会在胞内区产生多个磷酸化酪氨酸位点，这些位点作为 docking sites 招募含 SH2 domain 的信号蛋白。不同 SH2 domain 不仅识别 p-Tyr 本身，还识别其周围氨基酸环境，因此不同磷酸化位点可以招募不同下游蛋白，启动不同信号通路。
+
+<img src="182.png" alt="" width="60%">
 
 RTK & Monomeric small G proteins:
-- steps in axtication of Ras by RTKs
-  一页ppt
+- steps in activation of Ras by RTKs
+  
+  <img src="183.png" alt="" width="60%">
+
 - negative regulation: c-CBL, 主要是去磷酸化和泛素化这个RTK
-- it always works with adaptor protein to either activate....
+- it always works with adaptor protein to either activate a Ras-GEF or inhibit a Ras-GAP.
 
 Ras activates mitogen-activated protein kinase
-- 一页ppt
+
+<img src="184.png" alt="" width="60%">
+
 - signaling cascade
 - convert short-lived signaling events into long-lasting signal
+- function:
+  - Yeast: mating
+  - Flies: differentiation
+  - Plants: pathogen defense
+  - Mammals: proliferation & differentiation
 
-一个pathway有不同的功能
-一页ppt以酵母为例子
-- must use scaffold proteins-> help prevent cross-talk between parallel MAP kinase modules
+>
+> <img src="185.png" alt="" width="60%">
+> 
+> - must use scaffold proteins-> help prevent cross-talk between parallel MAP kinase modules
 
 RhoA GTPase-mediated growth inhibition: guiding cell migration and nerce axon outgrowth
-- ephrin A1
+- Ephrin A1-EphA4 RTKs interaction on the growth cone;
+- P-Y of EphA4 recruit and activate a tyrosine kinase to activate Rho-GEF ephexin
+- Rho-GEF ephexin activates RhoA
+- RhoA stimulates actin contraction and cytoskeleton collapse, stops axon growth
+  
+  <img src="186.png" alt="" width="60%">
 
 generation of phosphoinositide docking sites by PI3K:
-PIP2->PIP3
-PIP3 serves as doking site for proteins with PIP3-binding PH domain
-一张ppt的一张图
+
+<img src="187.png" alt="" width="60%">
+
+- PIP2->PIP3
+- PIP3 serves as doking site for proteins with PIP3-binding PH domain
+
+One way in which signaling through PI 3-kinase promotes cell survival:
+
+<img src="188.png" alt="" width="60%">
 
 five parallel intracellular signaling pathways...
-一张图
 
-TYrosine kinase-associated receptors: 
+<img src="189.png" alt="" width="60%">
+
+**Tyrosine kinase associated receptors**
+
+TYrosine kinase-associated receptors: the JAK-STAT signaling pathway activated by cytokines
+
+<img src="190.png" alt="" width="60%">
+
 - cytokines as ligand
 - Janus kinases(JAK)-> doking site of STAT2
 - signal transducers and activators of transcription: dimerize
 - JAK-STAT pathway 的其他ligand
-- 两页ppt
 
 TGF superfamily acts through receptor serine/threonine kinases and smads
-- BMP family &. family
-- 一页ppt
-- negative feedback: 一页ppt
+- This superfamily includes the TGFβ/activin family and the bone morphogenetic protein (BMP) family.
+  
+  <img src="191.png" alt="" width="60%">
 
-Alternative ...
+  1. TGFβ dimer promotes the assembly of a tetrameric receptor complex containing two copies each of the type-I and type-II receptors.
+  2. Type-II receptors phosphorylate type-I receptors and activate their kinase domains and leading to phosphorylation of R-Smads(Receptor-activated Smads).
+  3. Smads form a trimeric Smad complex containing two R-Smads and the co-Smad, Smad4.
+  4. The phosphorylated Smad complex enters the nucleus and control gene transcription.
+  5.  During the signaling response, the Smads continuously shuttle between the cytoplasm and the nucleus: they are dephosphorylated in the nucleus and exported to the cytoplasm, where they can be rephosphorylated by activated receptors.
+- negative feedback: 
+  1. Inhibitory Smads: Smad6/7 transcriptionally induced by activated Smads and binds to the cytosolic tail of the activated receptor and inhibits its signaling.
+  2. competes with R-Smads for binding sites on the receptor;
+  3. recruits the ubiquitin ligase Smurf to degrade the receptor
+  4. recruits a phosphatase to dephosphorylate and inactivate the receptor
+  5. binds to the co-Smad, Smad4, preventing its binding to R-Smads or promoting its ubiquitylation and degradation
 
 signaling dependent on regulated proteolysis
-- the notch signaling pathway(一页ppt)
+- the notch signaling pathway
+  - It controls cell fate and pattern formation during the development of most tissues
+  - Mammals possess four different notch receptors: Notch1/2/3/4
   - neuronal development: lateral inhibition
-  - procedure(看ppt)
+    - Delta 会结合邻近细胞表面的 Notch
+    - 所有细胞都同时表达 Delta 和 Notch。之后细胞之间发生竞争，其中一个细胞成为“赢家”，强烈表达 Delta，并通过激活邻近细胞的 Notch 来抑制它们。
+  - procedure
+    1. It is cleaved in the Golgi to form a heterodimer, then transported to the cell surface as the mature receptor. 
+    2. The binding of Delta induces a second cleavage, mediated by an extracellular protease. 
+    3. A final cleavage makes the cytoplasmic tail of the activated receptor.
+  
+    <img src="192.png" alt="" width="60%">
+
 - the Wnt/beta-catenin signaling pathway(secreted signals)
   - regulate development
-  - (一页ppt) without Wnt, beta-catenin phophorylated and become unstable; with Wnt recruit the complex to the membrane
+  -  without Wnt, beta-catenin phophorylated and become unstable; with Wnt recruit the complex to the membrane
+  
+   <img src="193.png" alt="" width="60%">
+
 - Hedgehog: drosophila larva(secreted signals)
-  - 一页ppt
+  
+  <img src="194.png" alt="" width="60%">
+
 - NF-kB
-  - IkB and NF-kB
-  - 一页ppt
+  
+  <img src="195.png" alt="" width="60%">
+
+  - are central to many stress, inflammatory, and innate immune responses.
+  - Many cell-surface receptors activate NF-κB pathway.
+  - IkB and NF-kB: Receptor activation -> IKK -> IκB degradation -> NF-κB nuclear entry -> inflammatory genes
+  
+  <img src="196.png" alt="" width="60%">
+
   - negative feedback in the NF-kB signaling induces oscillations in NF-kB activation
+  
+  <img src="197.png" alt="" width="60%">
+
+Convergence: Signals from different unrelated receptors converge to activate a common effector.
+
+Divergence: Signals from the same ligand diverge into different effectors
+
+Crosstalk: Signals passed back and forth in different pathways
