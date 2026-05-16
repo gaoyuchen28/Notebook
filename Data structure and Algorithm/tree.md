@@ -255,3 +255,275 @@ def buildheap(self,alist):
         self.percDown(i)
         i -= 1
 ```
+# 堆排序
+
+- 将待排序列表a变成一个堆(O(n))
+- 将a[1]和a[n-1]交换，然后对新a[1]做下移，维持前n-1个元素依然是堆。此时优先级最高的元素就是a[n-1]
+- 将a[1]和a[n-2]交换，然后对新a[1]做下移, 维持前n-2个元素依然是堆。此时优先级次高的元素就是a[n-2]
+
+> 把新的最大值重新顶到堆顶。
+
+```python
+def heapSort(self, a):
+    self.buildheap(a)
+    n = len(self.heaplist)
+    for i in range(n-1, 0, -1):
+        self.heaplist[1],self.heaplist[i] = self.heaplist[i], self.heaplist[1]
+        self.size -= 1
+        self.percDown(1)
+    for i in range(n//2):
+        self.heaplist[1],self.heaplist[n-1-i] = self.heaplist[n-1-i], self.heaplist[1]
+    return self.heaplist[1:]
+```
+
+用Python 自带的堆模块`heapq`，它默认实现的是小顶堆
+
+```python
+import heapq
+def heapsorted(s):
+    h = []
+    for value in s:
+        h.append(value)
+    heapq.heapify(h)
+    return [headq.heapop(h) for i in range(n)]
+```
+
+# 二叉查找树及操作
+
+```python
+class TreeNode:
+    def __init__(self, key, val, left=None, right=None, parent=None):
+        self.key = key
+        self.payload = val
+        self.leftChild = left
+        self.rightChild = right
+        self.parent = parent
+
+    def hasLeftChild(self):
+        return self.leftChild
+
+    def hasRightChild(self):
+        return self.rightChild
+
+    def isLeftChild(self):
+        return self.parent and self.parent.leftChild == self
+
+    def isRightChild(self):
+        return self.parent and self.parent.rightChild == self
+
+    def isRoot(self):
+        return not self.parent
+
+    def isLeaf(self):
+        return not (self.leftChild or self.rightChild)
+
+    def hasAnyChildren(self):
+        return self.leftChild or self.rightChild
+
+    def hasBothChildren(self):
+        return self.leftChild and self.rightChild
+
+    def replaceNodeData(self, key, value, lc, rc):
+        self.key = key
+        self.payload = value
+        self.leftChild = lc
+        self.rightChild = rc
+
+        if self.hasLeftChild():
+            self.leftChild.parent = self
+
+        if self.hasRightChild():
+            self.rightChild.parent = self
+
+    def __iter__(self):
+        if self.leftChild:
+            for elem in self.leftChild:
+                yield elem
+
+        yield self.key
+
+        if self.rightChild:
+            for elem in self.rightChild:
+                yield elem
+```
+
+# 二叉查找树实现及算法分析
+
+### put(key, val)方法：插入key构造BST
+
+```python
+def put(self,key,val):
+    if self.root:
+        self._put(key, val, self.root)
+    else:
+        self.root = TreeNode(key, val)
+    self.size += 1
+```
+
+_put函数作为辅助方法:
+
+```python
+def _put(self, key, value, currentNode):
+    if key < currentNode.key:
+        if currentNode.hasLeftChild:
+            self._put(key, value,currentNode.leftChild)
+        else:
+            currentNode.leftChild = TreeNode(key, val, parent = currentNode)
+    else:
+        if currentNode.hasRightChild:
+            self._put(key, value, currentNode.rightChild)
+        else:
+            currentNode.rightChild = TreeNode(key,val,parent = currentNode)
+```
+
+__setitem__函数方法: 
+
+```python
+def __setitem__(self, key, value):
+    self.put(key, value)
+```
+
+### BST.get方法: 在树中找到key所在的节点取到payload
+
+```python
+def get(self,key):
+    if self.root:
+        res = _get(key, self.root)
+        if res is None:
+            return None
+        else:
+            return res.value
+    else:
+        return None
+def _get(key,currentNode):
+    if not currentNode:
+        return None
+    elif currentNode.key == key:
+        return currentNode
+    elif key < currentNode.key:
+        return self._get(key, currentNode.leftChild)
+    else:
+        return self._get(key, currentNode.rightChild)
+```
+
+### BST.delete方法: 用_get找到要删除的节点，然后调用remove来
+
+```python
+def delete(self,key):
+    if self.size > 1:
+        nodeToRemove = self._get(key, self.root)
+        if nodeToRemove:
+            self.remove(nodeToRemove)
+            self.size -= 1
+        else:
+            raise KeyError("Error, key not in tree")
+    elif self.size == 1 and self.root.key == key:
+        self.root = None
+        self.size -= 1
+    else:
+        raise KeyError("Error, key not in tree")
+```
+
+### BST.remove方法: 需要分类讨论
+
+###### 没有子节点的情况
+
+```python
+if currentNode.isLeaf():
+    if currentNode == currentNode.parent.leftChild:
+        currentNode.parent.leftChild = None
+    else:
+        currentNode.parent.rightChild = None
+```
+
+###### 第2种情形稍复杂
+
+- 被删除节点X只有左子结点，则其左子结点取代X的地位
+- X只有右子结点：则其右子结点取代X的地位
+
+```python
+else:
+    if currentNode.hasLeftChild():
+        if currentNode.isleftChild():
+            currentNode.leftChild.parent = currentNode.parent
+            currentNode.parent.leftChild = currentNode.leftChild
+        elif currentNode.isrightChild():
+            currentNode.rightChild.parent = current.parent
+            currentNode.parent.rightChild = currentNode.leftChild
+        else:
+        currentNode.replaceNodeData(
+            currentNode.leftChild.key,
+            currentNode.leftChild.payload,
+            currentNode.leftChild.leftChild,
+            currentNode.leftChild.rightChild
+        )
+    else:
+        if currentNode.isleftChild():
+            currentNode.leftChild.parent = currentNode.parent
+            currentNode.parent.leftChild = currentNode.rightChild
+        elif currentNode.isrightChild():
+            currentNode.rightChild.parent = current.parent
+            currentNode.parent.rightChild = currentNode.rightChild
+        else:
+        currentNode.replaceNodeData(
+            currentNode.rightChild.key,
+            currentNode.rightChild.payload,
+            currentNode.rightChild.leftChild,
+            currentNode.rightChild.rightChild
+        )
+```
+
+###### 第三种情况，含有两个孩子
+
+```python
+def findsuccessor(self):
+    succ = None
+    if self.hasRightChild():
+        # 如果有右子树，则后继是右子树的最小值
+        succ = self.rightChild.findMin()
+    else:
+        # 否则往上找父节点，找到一个是其左孩子的节点
+        if self.parent:
+            if self.isLeftChild():
+                succ = self.parent
+            else:
+                # 如果自己是右孩子，继续向上找
+                self.parent.rightChild = None  # 临时断开右孩子
+                succ = self.parent.findsuccessor()
+                self.parent.rightChild = self
+    return succ
+
+    # 查找以当前节点为根的最小节点
+def findMin(self):
+    current = self
+    while current.hasLeftChild():
+        current = current.leftChild
+    return current
+def spliceOut(self):
+    # 节点是叶子
+    if self.isLeaf():
+        if self.isLeftChild():
+            self.parent.leftChild = None
+        else:
+            self.parent.rightChild = None
+    # 节点有一个孩子
+    elif self.hasAnyChildren():
+        if self.hasLeftChild():
+            if self.isLeftChild():
+                self.parent.leftChild = self.leftChild
+            else:
+                self.parent.rightChild = self.leftChild
+            self.leftChild.parent = self.parent
+        else:
+            if self.isLeftChild():
+                self.parent.leftChild = self.rightChild
+            else:
+                self.parent.rightChild = self.rightChild
+            self.rightChild.parent = self.parent
+    elif currentNode.hasBothChildren():
+        # 节点有两个孩子
+        succ = currentNode.findsuccessor()  # 找后继节点
+        succ.spliceOut()                    # 移除后继
+        currentNode.key = succ.key          # 替换 key
+        currentNode.payload = succ.payload  # 替换 value
+```
