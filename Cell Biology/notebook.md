@@ -1907,7 +1907,7 @@ Multiple Pathways Deliver Materials to Lysosomes
 4. Fusion of the autophagosome with lysosomes, catalyzed by SNAREs.
 5. Digestion of the inner membrane and the lumenal contents of the autophagosome.
   
-# Chapter 9 cell signaling
+# ✅Chapter 9 cell signaling
 
 Definition of communication process: 
 1. governs basic activities of cells
@@ -2418,3 +2418,270 @@ Convergence: Signals from different unrelated receptors converge to activate a c
 Divergence: Signals from the same ligand diverge into different effectors
 
 Crosstalk: Signals passed back and forth in different pathways
+
+# Chapter 17
+
+The Eukaryotic Cell Cycle Usually Consists of Four Phases
+
+<img src="198.png" alt="" width="60%">
+
+### THE CELL-CYCLE CONTROL SYSTEM
+
+The Cell-Cycle Control System Triggers the Major Events of the Cell Cycle in **a Set Sequence**
+- 3 Checkpoints
+  
+  <img src="199.png" alt="" width="60%">
+
+Noble prizes:
+- Leland Hartwel: CDC28, controls the first step in the progression through the G1-phase of the cell cycle, and was therefore also called "start
+- Paul Nurse: 
+  - discovered the gene cdc2 that had a key function in the control of cell division (transition from G2 to M);
+  - cdc2 was identical to the gene ("start") that Hartwell had identified in baker's yeast, controlling the transition from G1 to S
+  - solated the corresponding gene in humans, and it was later given the name CDK1 (cyclin dependent kinase 1)
+  - showed that activation of CDK is dependent on reversible phosphorylation
+- Tim Hunt:
+  - cyclins are proteins formed and degraded during each cell cycle
+  - cyclins bind to the CDK molecules, thereby regulating the CDK activity and selecting the proteins to be phosphorylated
+
+Systems Used to Study Cell Cycle:
+- yeast:
+  - Temperature sensitive mutations： cdc mutants，conditional phenotype
+  
+  <img src="200.png" alt="" width="60%">
+
+- Xenopus:
+  - Simplified cell cycle： Cleavage division， S and M phase only， 15 minutes each
+  - In vitro reconstitution of cell cycle events
+  
+  <img src="201.png" alt="" width="60%">
+
+- Mammalian Cells:
+  - Senescence: 25-40 divisions
+  - Cell with mutation immortalized: unlimited source
+  - Molecular mechanisms controlling cell proliferation in multicellular organisms: normal control or loss of control in cancer
+
+Techniques to study cell cycle:
+- BrdU: artificial thymidine analog, BrdU 阳性 = 正在 S 期
+- Flow cytometry: 
+  
+  <img src="202.png" alt="" width="60%">
+
+The Cell-Cycle Control System Depends on cyclically activated CDKs
+- controlled by:
+  - Interaction with cyclins and CKIs (CDK inhibitory proteins)
+  - phosphorylation – dephosphorylation
+  - APC/C and SCF –ubiquitin-mediated proteolysis (irreversible)
+  - transcription regulation (cyclin and CDK regulators)
+
+- CDKs are kept at constant levels while cyclins are cycled through production and degradation
+  - 不同阶段有不同 Cyclin-CDK
+  
+  <img src="203.png" alt="" width="60%">
+
+  <img src="204.png" alt="" width="60%">
+
+  <img src="205.png" alt="" width="60%">
+
+Cdk Activity Can Be Suppressed By Inhibitory Phosphorylation and Cdk Inhibitor Proteins (CKIs)
+- M-cdk inactivation is not by CKIs:
+  
+  <img src="206.png" alt="" width="60%">
+
+- G1/S-Cdk and S-Cdk
+  
+  <img src="207.png" alt="" width="60%">
+
+- G1 phase: check if DNA content is intact
+  - p53 normally has a half-life of 5 min.
+  - p53 mutations are found in ~50% cancers.
+  - If DNA damage can’t be repaired, cells will undergo apoptosis.
+  
+  <img src="208.png" alt="" width="60%">
+
+Metaphase – Anaphase transition requires two multisubunit E3 ubiquitin ligases: APC complex and SCF complex:
+- Ubiquitination requires three types of enzyme: ubiquitin-activating enzymes, ubiquitin-conjugating enzymes, and ubiquitin ligases, known as E1s, E2s, and E3s
+
+APC/C: Anaphase Promoting Complex or Cyclosome
+- Binds to Cdc20 (anaphase) or Cdh1 (late mitosis to early G1)
+- Major targets of APC/C:
+  - Securin (protects the protein linkages that hold sister-chromatid pairs together): securin 抑制separase, 而 separase 本来应该切断：cohesin
+  - S- & M-cyclins， inactivates CDKs and is required for the final steps of mitosis and cytokinesis.
+- APC/C activation is also required for maintaining G1 phase:
+  - In early mitosis: M-Cdk activates Cdc20/APC/C while phosphorylates Cdh1 and inactivates Cdh1-APC/C.
+  - M-Cdk inactivation by Cdc20/APC complex activates Cdh1/APC, which ensures continued suppression of M-Cdk activity.
+  - G1/S-Cdk activation in late G1 phase turns off APC/C, leads to cyclin accumulation for starting the next cell cycle.
+  
+  <img src="209.png" alt="" width="60%">
+
+SCF (ubiquitin ligase): Skp, Cullin and F-box containing complex
+- SCF Regulated Proteolysis controls the activation of S-CDKs and DNA replication
+- The activity of SCF depends on substrate-binding subunits called F-box proteins. 
+  
+  <img src="210.png" alt="" width="60%">
+
+<img src="211.png" alt="" width="60%">
+
+<img src="212.png" alt="" width="60%">
+
+### S PHASE
+
+S-CDK initiates DNA replication once per cycle
+
+- Late mitosis and early G1: pre-replicative complex (pre-RC) assembles at the origin of replication (ori) – licensing of replication origin.
+- Onset of S phase: S-Cdk activates pre-RC, which nucleates the larger complex called preinitiation complex – initiating DNA synthesis (promoted by S-CDK).
+- Origin recognition complex (ORC) is phosphorylated and activated - Pre-RC is dismantled – pre-RC cannot be reassembled till next cell cycle.
+
+<img src="213.png" alt="" width="60%">
+
+解释了为什么S-Cdk Initiates DNA Replication Once Per Cycle:
+- Dismantling pre-RC and phosphorylation of ORC during S Phase ensures DNA replicates once per cycle
+  
+  <img src="214.png" alt="" width="60%">
+
+The end of S phase: Cohesins Hold Sister Chromatids Together
+
+<img src="215.png" alt="" width="60%">
+
+### MITOSIS/CYTOKINESIS
+
+<img src="216.png" alt="" width="60%">
+
+**Prophase**
+- following ‘start’ checkpoint
+  
+  <img src="217.png" alt="" width="60%">
+
+**Prometaphase**
+
+  <img src="218.png" alt="" width="60%">
+
+**Metaphase**
+
+  <img src="219.png" alt="" width="60%">
+
+**Anaphase**
+
+  <img src="221.png" alt="" width="60%">
+
+**Telaphase**
+
+  <img src="220.png" alt="" width="60%">
+
+**Cytokinesis**
+
+  <img src="222.png" alt="" width="60%">
+
+Dephosphorylation Activates M-CDK at the Onset of Mitosis
+- 实现了一个大量M-CDk积累，然后快速打开
+  
+
+Condensin Helps Configure Duplicated Chromosomes for Separation
+- 5-subunit protein complex
+- phosphorylated by M-Cdk promotes coiling activity
+- provide energy by ATP hydrolysis
+  
+  <img src="223.png" alt="" width="60%">
+
+  <img src="224.png" alt="" width="60%">
+
+The Mitotic Spindle Is a Microtubule-Based Machine
+
+  <img src="225.png" alt="" width="60%">
+
+- Kinetochores Attach Sister Chromatids to the Spindle
+  - a giant, multilayered protein structure that is built on the heterochromatin that forms at the centromeric region of the chromosome.
+- In somatic animal cells, spindle pole is focused at centrosome
+  - Duplicated centrosome in S-phase: Centrosome Duplication Occurs Early in the Cell Cycle
+    - duplicated only once during each cell cycle
+    - triggered by the activation of G1/S-Cdk
+    - Mother and daughter centrioles: mother centriole associates with pericentriolar matrix that nucleates microtubules
+  - centrioles（中心粒） + pericentriolar matrix, PCM（中心粒周物质）
+  - Pericentriolar matrix nucleates microtubules, - end inside; +end out
+- Microtubule-Dependent Motor Proteins Govern Spindle Assembly and Function
+  
+  <img src="226.png" alt="" width="60%">
+
+Bi-orientation Is Achieved by Trial and Error:
+
+  <img src="227.png" alt="" width="60%">
+
+Forces moving chromosomes on the microtubules
+- The first major force pulls the kinetochore and its associated chromosome along the kinetochore microtubule toward the spindle pole.
+  
+  <img src="228.png" alt="" width="60%">
+
+- A second poleward force is provided in some cell types by microtubule flux, whereby the microtubules themselves are moved toward the spindle poles and dismantled at their minus ends.
+(有些细胞中，微管本身会整体向 spindle pole 移动。同时，微管的 minus end（-端） 在纺锤体极附近不断被拆解。)
+
+  <img src="229.png" alt="" width="60%">
+
+- A third force acting on chromosomes is the polar ejection force. Plus-end directed kinesin-4 and 10 motors on chromosome arms interact with interpolar microtubules and transport the chromosomes away from the spindle poles. 平衡在赤道板上
+  
+  <img src="230.png" alt="" width="60%">
+
+**承上启下之图**
+
+  <img src="231.png" alt="" width="60%">
+
+Regulated Proteolysis Triggers the Metaphase-to-Anaphase Transition
+
+APC/C-Cdc20 降解 securin，释放并激活 separase，separase 切断 cohesin，使姐妹染色单体分离，从而触发 metaphase 到 anaphase 的转换。
+
+  <img src="232.png" alt="" width="60%">
+
+The spindle assembly checkpoint:
+- Mad2 (mitotic arrest deficient 2): recognizes unattached kinetochores -> Mad2 change conformation -> bind and inhibit Cdc20-APC/C Complex.
+
+Chromosomes Segregate in Anaphase A and B
+- Anaphase A：染色体向两极移动，主要是 kinetochore microtubules 缩短/去聚合，把姐妹染色单体拉向 spindle poles。
+- Anaphase B：纺锤体两极彼此远离，主要是 interpolar microtubules 相互滑动变长，以及 astral microtubules 拉动 spindle poles，使两个极点距离增大。
+  
+  <img src="233.png" alt="" width="60%">
+
+CYTOKINESIS: Anaphase to telophase: appearance of cleavage furrow
+- Local Activation of RhoA Triggers Assembly and Contraction of the Contractile Ring
+  
+  <img src="234.png" alt="" width="60%">
+
+The Microtubules of the Mitotic Spindle Determine the Plane of Animal Cell Division (furrow positioning)
+
+  <img src="235.png" alt="" width="60%">
+
+  astral stimulation 认为星状微管激活中部；central spindle stimulation 认为中央纺锤体激活中部；astral relaxation 认为星状微管抑制两极，使中部相对收缩。
+
+  确定是astral stimulation，塞入玻璃珠子
+
+  <img src="236.png" alt="" width="60%">
+
+Membrane-Enclosed Organelles Must Be Distributed to Daughter Cells During Cytokinesis
+- Organelles such as Mitochondria cannot be assembled de novo from their individual components; they can arise only by the growth and division of the preexisting organelles.
+- The ER in interphase cells is continuous with the nuclear membrane and is organized by the microtubule cytoskeleton. Upon entry into M phase, the reorganization of the microtubules and breakdown of thenuclear envelope releases the ER. In most cells, the ER remains largely intact and is cut in two during cytokinesis.
+- The Golgi apparatus is reorganized and fragmented during mitosis. Golgi fragments associate with the spindle poles and are thereby distributed to opposite ends of the spindle, ensuring that each daughter cell inherits the materials needed to reconstruct the Golgi during telophase.
+
+
+### CONTROL OF CELL DIVISION AND CELL GROWTH
+
+1. Mitogens, which stimulate cell division, primarily by triggering a wave of G1/S-CDK activity that relieves intracellular negative controls that otherwiseblock progress through the cell cycle.
+2. Growth factors, which stimulate cell growth (an increase in cell mass) by promoting the synthesis of proteins and other macromolecules and by inhibiting their degradation.
+3. Survival factors, which promote cell survival by suppressing the form of programmed cell death known as apoptosis.
+
+Cells Can Enter a Specialized non-dividing State: G0
+- Most cells in our body are in G0 stage – they are terminally differentiated (neuron/muscle cells), and their cell cycle control system is completely dismantled.
+- In the absence of a mitogenic signal, CDK inhibition in G1 is maintained and cell cycle is blocked.
+  - Some cells transiently enter G0 stage but can reenter cell cycle upon right stimulation or damage (liver cells).
+
+<img src="237.png" alt="" width="60%">
+
+E2F: gene regulatory factor that stimulates gene expression required for S phase entry
+
+Telomerase (deficient in normal cells): repetitive telomere DNA replication and protein cap synthesis to protect chromosome ends.
+- Telomere shortening caused by telomerase deficiency.
+- Protective protein cap progressively deteriorate
+- Exposed chromosome ends are sensed as DNA damage, which activate p53-dependent cell cycle arrest.
+
+Most cancer cells have regained the ability to produce telomerase
+
+Cell Proliferation is Accompanied by Cell Growth
+- Cell growth is controlled by growth factors and their corresponding receptors.
+  
+<img src="23.png" alt="" width="60%">
