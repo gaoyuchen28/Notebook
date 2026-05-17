@@ -2419,7 +2419,7 @@ Divergence: Signals from the same ligand diverge into different effectors
 
 Crosstalk: Signals passed back and forth in different pathways
 
-# Chapter 17
+# ✅Chapter 17
 
 The Eukaryotic Cell Cycle Usually Consists of Four Phases
 
@@ -2684,4 +2684,389 @@ Most cancer cells have regained the ability to produce telomerase
 Cell Proliferation is Accompanied by Cell Growth
 - Cell growth is controlled by growth factors and their corresponding receptors.
   
-<img src="23.png" alt="" width="60%">
+<img src="238.png" alt="" width="60%">
+
+# Chapter 19 
+
+Two main ways in which animal cells are bound together
+
+<img src="239.png" alt="" width="60%">
+
+- Cell junctions
+- Extracellular matrix
+
+In epithelial tissues, such as the lining of the gut or the epidermal covering of the skin, cells are tightly bound together into sheets called epithelia.
+
+Connective tissues, such as bone or tendon, are formed from an extracellular matrix produced by cells that are distributed sparsely in the matrix.
+
+### CELL-CELL JUNCTIONS
+
+Various cell junctions found in a vertebrate epithelial cell
+
+- Two types of anchoring junctions link the cytoskeletons of adjacent cells: adherens junctions are anchorage sites for actin filaments; desmosomes are anchorage sites for intermediate filaments.
+  - Tight junctions hold the cells closely together near the apex, sealing the gap between the cells and thereby preventing molecules from leaking across the epithelium.
+  - Near the basal end of the cells are channel-forming junctions, called gap junctions, that create passageways linking the cytoplasms of adjacent cells.
+  
+  <img src="240.png" alt="" width="60%">
+
+Transmembrane adhesion proteins link the cytoskeleton to extracellular structures:
+Integrins and cadherins are two major classes of adhesion receptors.
+
+<img src="241.png" alt="" width="60%">
+
+<img src="242.png" alt="" width="60%">
+
+- **Integrins** mediate adhesion between the cell and its extracellular matrix (ECM).
+- **Cadherins** mediate homotypic adhesion between cells.
+  
+  <img src="243.png" alt="" width="60%">
+
+  - **Classical cadherins**
+    - E-cadherin on epithelial cells;
+    - N-cadherin on nerve, muscle, and lens cells;
+    - P-cadherin on placenta and epidermis
+  - **Nonclassical cadherins**
+    the diverse protocadherins found in the brain, and the desmocollins and desmogleins that form desmosomes
+    
+  - Anchoring junctions between cells are usually symmetrical with the binding between cadherins generally homophilic:
+    1. cadherin molecules of a specific subtype on one cell bind to cadherin molecules of the same or closely related subtype on adjacent cells
+    2. homophilic attachments explain why there are so many different family members.
+
+    <img src="246.png" alt="" width="60%">
+   
+  - The cadherin-based anchoring junctions are calcium-dependent adhesions:
+    1. Without Ca²⁺, cadherins become flexible and adhesion weakens.
+    2. Single cadherin-cadherin binding has relatively low affinity, but many interactions together produce strong adhesion.
+    3. The length and structure of cadherins determine the spacing between adjacent cell membranes. 
+  
+  <img src="244.png" alt="" width="60%">
+
+  <img src="245.png" alt="" width="60%">
+
+  - Cadherin-Dependent Cell–Cell Adhesion Guides the Organization of Developing Tissues
+    - they mediate highly selective recognition, enabling cells of a similar type to stick together and stay segregated from other types of cells.
+  
+    <img src="248.png" alt="" width="60%">
+  
+  > Cells from different layers of an early amphibian embryo will sort out （selective cell–cell recognition）according to their origins.
+  > 
+  > <img src="247.png" alt="" width="60%">
+
+  - The homophilic binding of cadherins controls tissue segregation
+    1. E-cadherin 多见于外胚层/上皮区域，N-cadherin 多见于神经组织区域。
+    2. 细胞会改变表达的 cadherin 类型，从而改变与周围细胞的黏附关系。
+    3. 神经嵴细胞迁移需要降低与神经管的黏附
+    4. N-cadherin 过表达会阻碍迁移：如果神经嵴细胞持续高表达 N-cadherin，会和 neural tube 黏得太紧，导致无法逃离神经管。
+   
+   <img src="249.png" alt="" width="60%">
+
+  - Epithelial-Mesenchymal Transitions Depend on Control of Cadherins
+    - Epithelial-mesenchymal transition (EMT) is a physiological process in which epithelial cells acquire the motile and invasive characteristics of mesenchymal cells.
+    - Epithelial cells express high levels of E-cadherin, whereas mesenchymal cells express those of N-cadherin
+    - Losing of E-cadherin is considered to be a fundamental event in EMT
+  
+  <img src="250.png" alt="" width="60%">
+
+  - Catenins Link Classical Cadherins to the Actin Cytoskeleton
+    - Cadherins interact with filaments of the cytoskeleton through an adaptor protein complex.
+
+    <img src="251.png" alt="" width="60%">
+
+    - The intracellular domains of typical cadherins, including all classical and some nonclassical ones, interact with filaments of the cytoskeleton: actin at adherens junctions and intermediate filaments at desmosomes.
+  
+   <img src="252.png" alt="" width="60%">
+
+  - β-catenin 的“双重功能”: The moonlighting of β-catenin:
+    - β-catenin 的 ARM domain 是一个“多功能结合平台”，不同结合伙伴竞争这个区域，从而决定 β-catenin 去做黏附、降解，还是转录调控。
+  
+    <img src="253.png" alt="" width="60%">
+
+    <img src="254.png" alt="" width="60%">
+
+  - Wnt/β-catenin signaling
+    1. is necessary for embryonic development and adult tissue homeostasis regeneration.
+    2. secreted glycolipoproteins via the transcription co-activator β-catenin controls embryonic development and adult homeostasis.
+    3. β-Catenin is a proto-oncogene. Mutations of this gene are commonly (~10%) found in a variety of cancers.
+   
+    <img src="255.png" alt="" width="60%">
+  
+- Adherens Junctions Respond to Forces Generated by the Actin Cytoskeleton
+  - 肌动蛋白-肌球蛋白产生拉力
+    - 拉动 cadherin-catenin 复合物
+    - α-catenin 构象改变
+    - 招募 vinculin
+    - cadherin 与 actin 的连接更强
+    - 黏着连接被加固
+  
+  <img src="257.png" alt="" width="60%">
+
+  - Pulling on a junction makes it stronger in one cell and will increase the contractile force generated in the attached cell.
+
+- Tissue Remodeling Depends on the Coordination of Actin-Mediated Contraction With Cell–Cell Adhesion
+  - Adherens junctions indirectly link the actin filaments in one cell to those in its neighbors, forms extensive transcellular network.
+  1. Cadherin-based adhesion belts form a transcellular actin network across epithelial tissues.
+  2. Apical constriction causes epithelial sheet invagination.
+  3. Invagination of epithelial sheets contributes to the formation of tubes and vesicles during development.
+  4. Coordinated contraction of this network provides the motile force for the folding of epithelial cell sheets into tubes, vesicles, and other related structures
+  
+  <img src="258.png" alt="" width="60%">
+
+  <img src="259.png" alt="" width="60%">
+
+Germ-band extension is driven by cell intercalation
+- Cell intercalation means neighboring cells exchange positions, Cell intercalation causes convergent extension.
+- Actin-myosin contraction provides the mechanical force for cell rearrangement.
+- Specific adherens junctions are selectively lost or remodeled during intercalation, New cadherin-based junctions form after cells exchange neighbors.
+
+Desmosomes Give Epithelia Mechanical Strength
+- Desmosomes use nonclassical cadherins, mainly desmoglein and desmocollin.
+- Desmosomes link to intermediate filaments instead of actin filaments.
+- Adaptor proteins connect desmosomal cadherins to intermediate filaments, Key adaptor proteins include plakoglobin, plakophilin, and desmoplakin.
+
+  <img src="260.png" alt="" width="60%">
+
+  <img src="261.png" alt="" width="60%">
+
+Tight Junctions Form a Seal Between Cells and a Fence Between Plasma Membrane Domains:
+1. All epithelia are structurally polarized and serve as selective permeability barriers.
+2. The role of tight junctions in allowing epithelia to serve as barriers to solute diffusion.
+3. The permeability to ions and other small molecules varies in different tissues
+  
+  <img src="262.png" alt="" width="60%">
+
+> Pemphigus（天疱疮）
+> - is an autoimmune disease in which the immune system mistakenly attacks cells in the top layer of the skin (epidermis) and the mucous membranes.
+> - People with the disease produce antibodies against desmogleins, proteins that bind skin  cells to one another
+
+Tight Junctions Contain Strands of Transmembrane Adhesion Proteins
+- A branching network of sealing strands that completely encircles the apical end of each cell in the epithelial sheet.
+- The claudins are the main transmembrane proteins forming these strands, which are essential for tight-junction formation and function while occludin is not essential.
+- The claudin protein family has many members (24 in humans), and these are expressed in different combinations in different epithelia to confer particular permeability properties on the epithelial sheet.
+  
+  <img src="264.png" alt="" width="60%">
+
+Scaffold Proteins Organize Junctional Protein Complexes
+- The key organizational proteins at tight junctions are the zonula occludens (ZO) proteins. The three major members of the ZO family—ZO-1, ZO-2, and ZO-3—are large scaffold proteins that provide a structural support on which the tight junction is built.
+  
+  <img src="265.png" alt="" width="60%">
+
+Gap Junctions Couple Cells Both Electrically and Metabolically
+- Gap junctions bridge gaps between adjacent cells to create direct channels from the cytoplasm of one to that of the other.
+- Gap junctions have a pore size of about 1.4 nm, which allows the exchange of inorganic ions and other small water-soluble molecules, but not of macromolecules such as proteins or nucleic acids
+- The sharing of small metabolites and ions provides a mechanism for coordinating the activities of individual cells.
+- 还是会和筛选大小
+  
+  <img src="266.png" alt="" width="60%">
+  
+- A Gap-Junction Connexon
+  - Connexins are the predominant gap-junction proteins in vertebrates, with 21 isoforms in humans. Innexins are found in the gap junctions of invertebrates.
+  - Connexins are four-pass transmembrane proteins, six of which assemble to form ahemichannel or connexon. When the connexons in the plasma membranes of two cells in contact are aligned, they form a continuous aqueous channel that connects the two cell interiors.
+  - Each gap-junctional plaque is a dynamic structure that can readily assemble, and disassemble, with the connexin molecules having a half-life of only a few hours.
+  
+  <img src="267.png" alt="" width="60%">
+
+- In Plants, Plasmodesmata Perform Many of the Same Functions as Gap Junctions
+  - Plant cells have cell walls so no need for anchoring junctions but still need cell-cell communications.
+  - Only one class of intercellular junctions, plasmodesmata, which is similar to gap junctions.
+  - The center of the channel in most plasmodesmata is a narrower cylindrical structure, the **desmotubule（连丝微管）**, which is continuous with elements of the smooth endoplasmic reticulum (ER)in each of the connected cells.
+  - Plasmodesmata allow the passage of molecules less than about 800MW.
+  
+  <img src="268.png" alt="" width="60%">
+
+Selectins Mediate Transient Cell–Cell Adhesions in the Bloodstream
+- Selectins are cell-surface carbohydrate-binding proteins (lectins) that mediate a variety of transient cell–cell adhesion interactions in the bloodstream (Ca2+ dependent).
+- The selectins control the binding of white blood cells to the endothelial cells lining blood vessels, thereby enabling the blood cells to migrate out of the bloodstream into a tissue.
+- Each selectin is a transmembrane protein with a conserved lectin domain that binds to a specific oligosaccharide on another cell heterophilically(异源性地结合)
+  1. L-selectin on white blood cells
+  2. P-selectin on blood platelets(血小板)
+  3. E-selectin on activated endothelial cells
+  
+  <img src="269.png" alt="" width="60%">
+
+The Immunoglobulin Superfamily Mediate Ca2+-Independent Cell–Cell Adhesion
+- Immunoglobulin (Ig) superfamily contain one or more extracellular Ig-like domains that are characteristic of antibody molecules. They have many functions unrelated to immune defenses.
+- Molecules such as NCAM seem to contribute more to the **fine-tuning** of these adhesive interactions during development and regeneration.
+
+  <img src="270.png" alt="" width="60%">
+
+### THE EXTRACELLULAR MATRIX OF ANIMALS
+
+##### The major classes of macromolecules in the matrix
+
+The Extracellular Matrix Is Made and Oriented by the Cells Within It
+- The EM contains many different proteins and polysaccharides that are secreted locally and assembled into an organized meshwork in close association with the surfaces of the cells that produce them.
+- In most connective tissues, the matrix macromolecules are secreted by cells called fibroblasts.
+
+The extracellular matrix is constructed from three major classes of macromolecules:
+1. glycosaminoglycans (GAGs), which are large and highly charged polysaccharides that are usually covalently linked to protein in the form of proteoglycans
+2. fibrous proteins, which are primarily members of the collagen family;
+3. a large class of noncollagenous glycoproteins, which carry conventional asparagine-linked oligosaccharides
+
+- The proteoglycan molecules in connective tissue typically form a highly hydrated, **gel-like** “ground substance” in which collagens and glycoproteins are embedded.
+- The polysaccharide gel resists compressive forces on the matrix while permitting **the rapid diffusion** of nutrients.
+- The collagen fibers strengthen and help organize the matrix.
+- Many matrix glycoproteins help cells migrate, settle, and differentiate in the appropriate locations.
+  
+- Glycosaminoglycan (GAG) Chains Occupy Large Amounts of Space and Form 
+Hydrated Gels
+  - Glycosaminoglycans (GAGs) are unbranched polysaccharide chains composed of repeating disaccharide units.
+  - One of the two sugars in the repeating disaccharide is always an amino sugar.
+  - Because there are sulfate or carboxyl groups on most of their sugars, GAGs are highly negatively charged.
+  - Polysaccharide chains are too stiff to fold into compact globular structures, and they are strongly hydrophilic. Thus, GAGs tend to adopt highly extended conformations that occupy a huge volume relative to their mass.
+  - so EM withstands compressive forces.
+
+  <img src="271.png" alt="" width="60%">
+
+  <img src="272.png" alt="" width="60%">
+
+  > Hyaluronan Acts as a Space Filler During Tissue Morphogenesis and Repair
+  > - Hyaluronan (hyaluronic acid) is the simplest of the GAGs.
+  > - Hyaluronan is not a typical GAG because it contains no sulfated sugars, all its disaccharide units are identical, its chain length is enormous, and it is not generally linked covalently to any core protein.
+  > - Hyaluronan is thought to be a space filler and has a role in resisting compressive forces in tissues and joints.
+  > - hyaluronan is spun out directly from the cell surface by an enzyme complex embedded in the plasma membrane.
+
+  - Proteoglycans Composed of GAG Chains Covalently Linked to a Core Protein
+    - Proteoglycans are clearly distinguished from other glycoproteins: at least one CAG in the side chain.
+
+    <img src="274.png" alt="" width="60%">
+
+    - In principle, proteoglycans have the potential for almost limitless heterogeneity
+  
+    <img src="273.png" alt="" width="60%">
+
+  - The GAGs and proteoglycans can associate to form even larger polymeric complexes
+    - Molecules of aggrecan(聚集蛋白聚糖) assemble with hyaluronan in cartilage matrix(软骨基质) to form aggregates that are as big as a bacterium.
+  
+    <img src="275.png" alt="" width="60%">
+
+- Collagens Are the Major Proteins of the Extracellular Matrix
+  - The collagens are a family of fibrous proteins found in all multicellular animals.
+  - They are secreted in large quantities by connective-tissue cells, and in smaller quantities by many other cell types.
+  - As a major component of skin and bone, collagens are the most abundant proteins in mammals
+  - The primary feature of a typical collagen molecule is its long, stiff, triple-stranded helical structure, in which three collagen polypeptide chains, called α chains, are wound around one another in a ropelike superhelix.
+  - Collagens are extremely rich in proline and glycine.
+  - The human genome contains 42 distinct genes coding for different collagen α chains, but only 40 types of collagen molecules have been found.
+  - Collagen genes are very large (up to 44 kilobases in length) and contain about 50 exons,most of which are 54, or multiples of 54, nucleotides long (**gene duplications**)
+
+  - Fibrillar collagens assemble into higher-order polymers called collagen fibrils(10–300 nm in diameter)
+    - In contrast to GAGs, which resist compressive forces, collagen fibrils form structures that resist **tensile forces**.
+    - The fibrils have various diameters and are organized in different ways in different tissues.
+  - Secreted Fibril-Associated Collagens(原纤维相关胶原) Help Organize the Fibrils
+    - Cells can regulate the disposition of the collagen molecules after secretion by guiding collagen fibril formation.
+    - Fibril-associated collagens are thought to mediate the interactions of collagen fibrils with one another and with other matrix macromolecules to help determine the organization of the fibrils in the matrix.
+    > - If two small pieces of embryonic tissue containing fibroblasts are placed far apart on a collagen gel, the intervening collagen becomes organized into a compact band of aligned fibers that connect the two explants.
+    > - The fibroblasts subsequently migrate out from the explants along the aligned collagen fibers.
+    > - The fibroblasts subsequently migrate out from the explants along the aligned collagen fibers. Thus, the fibroblasts influence the alignment of the collagen fibers, and the collagen fibers in turn affect the distribution of the fibroblasts.
+  
+- Elastin Gives Tissues Their Elasticity
+  - The main component of elastic fibers is elastin, a highly hydrophobic protein.
+  - The elastin protein is composed largely of two types of short segments that alternate along the polypeptide chain.(Hydrophobic segments（疏水片段）, Cross-linking segments（交联片段）)
+  - Elastin is the dominant extracellular matrix protein in arteries, comprising 50% of the dry weight of the largest artery—the aorta(主动脉).
+
+- Fibronectin and Other Multidomain Glycoproteins Help Organize the Matrix
+  - Many matrix glycoproteins are large scaffold proteins containing multiple copies of specific protein-interaction domains.
+  - These proteins contribute to both organizing the matrix and helping cells attach to it
+  - further expanded by assembly into multimeric forms.
+  - The Fibronectin gene contains about 50 exons that can be spliced in different ways to produce multiple fibronectin isoforms.
+  - Fibronectin Binds to Integrins.
+
+##### Structure and function of the basal lamina
+
+The Basal Lamina Is a Specialized Form of Extracellular Matrix
+- a thin, tough, flexible sheet of matrix molecules is an essential underpinning of all epithelia.
+- Basal laminae are typically 40–120 nm thick.
+- The basal lamina separates epithelia from the underlying or surrounding connective tissue and forms the mechanical connection between them
+- Basal laminae have structural and filtering roles to determine cell polarity; influence cell metabolism; organize the proteins in adjacent plasma membranes; promote cell survival, proliferation, or differentiation;
+- Serve as highways for cell migration.
+
+<img src="276.png" alt="" width="60%">
+
+Laminin and Type IV Collagen Are Major Components of the Basal Lamina
+- The basal lamina is synthesized by the cells on each side of it.
+- Typically contains the glycoproteins laminin(层粘连蛋白), type IV collagen, and nidogen(巢蛋白), along with the proteoglycan perlecan.
+- Laminins are multidomain glycoproteins composed of three polypeptides (α, β, and γ) that are disulfidebonded into an asymmetric crosslike structure: Five types of α chains, four types of β chains, and three types of γ chains.
+  
+  <img src="277.png" alt="" width="60%">
+
+Laminin and Type IV Collagen Are Major Components of the Basal Lamina
+- Type IV collagen molecules consist of three separately synthesized long protein chains that twist together to form a ropelike superhelix.
+- Laminin and type IV collagen interact with other basal lamina components, such as the glycoprotein nidogen and the proteoglycan perlecan, resulting in a highly cross-linked network of proteins and proteoglycans
+  
+  <img src="278.png" alt="" width="60%">
+
+Basal Laminae Have Diverse Functions
+- The basal lamina can act as a selective barrier to the movement of cells, as well as a filter for molecules.
+- The basal lamina is also important in tissue regeneration after injury. When cells in tissues such as muscles, nerves, and epithelia are damaged or killed, the basal lamina often survives and provides a scaffold along which regenerating cells can migrate.
+
+  <img src="279.png" alt="" width="60%">
+
+### CELL–MATRIX JUNCTIONS
+
+Integrins: the matrix receptors
+
+Integrins Are Transmembrane Heterodimers That Link the Extracellular Matrix to the Cytoskeleton
+- An integrin molecule is composed of two noncovalently associated glycoprotein subunits called α and β. Both subunits span the cell membrane, with short intracellular C-terminal tails and large N-terminal extracellular domains.
+- The best-understood binding site for integrins is the RGD sequence in fibronectin and other extracellular matrix proteins.
+- The binding of integrins to their matrix ligands is also affected by the concentration of Ca2+ and Mg2+ in the extracellular medium.
+- Humans contain 24 types of integrins, formed from the products of 8 different β-chain genes and 18 different α-chain genes
+  
+  <img src="280.png" alt="" width="60%">
+
+- In epithelia, the most prominent cell–matrix attachment sites are the hemidesmosomes, where a specific type of integrin anchors the cells to laminin in the basal lamina.
+  
+  <img src="281.png" alt="" width="60%">
+
+  <img src="282.png" alt="" width="60%">
+
+Integrins Can Switch Between an Active and an Inactive Conformation
+- A cell has to be able both to make and to break attachments to the matrix, and to do so rapidly if it is to travel quickly.
+- The switch from inactive to active states depends on a major conformational change that simultaneously exposes the external and internal ligand-binding sites at the ends of the integrin molecule
+- Switching between the inactive and active states can be regulated by “outside-in” or“inside-out” mechanisms.
+  
+  <img src="283.png" alt="" width="60%">
+
+  <img src="284.png" alt="" width="60%">
+
+上面那个是“inside-out”
+
+Extracellular Matrix Attachments Act Through Integrins to Control Cell Proliferation and Survival
+- “outside-in” integrin-mediated cell signaling
+- anchorage dependence, which is mediated mainly by integrins and the intracellular signals they generate
+  
+  <img src="285.png" alt="" width="60%">
+
+- Integrins recruit intracellular signaling proteins at sites of cell–matrix adhesion
+  - Tyrosine phosphorylation at focal adhesions
+  - Integrins can serve not only to transmit mechanical and molecular signals but also to convert one type of signal into the other.
+
+Integrins Cluster to Form Strong Adhesions
+- Integrins usually bind their ligand with lower affinity and are present at a 10–100-fold higher concentration on the cell surface.
+
+  <img src="286.png" alt="" width="60%">
+
+- Focal adhesion kinase (FAK), which interacts with multiple components in the junction and serves an important function in signaling
+
+Cell–Matrix Adhesions Respond to Mechanical Forces
+- The cell–matrix junctions can sense and respond to the mechanical forces that act on them. Talin is a tension sensor at cell–matrix junctions.
+  - Junctional proteins that change their structure when the junction is stretched by tension
+  - The long C-terminal tail domain of talin includes a large number of binding sites for the actin regulatory protein vinculin.
+  - Many of these sites are hidden inside folded protein domains but are exposed when those domains are unfolded by stretching the protein
+  
+  <img src="287.png" alt="" width="60%">
+
+The Primary Cell Wall Is Built from Cellulose Microfibrils Interwoven with a Network of Pectic Polysaccharides
+- Pectins are a heterogeneous group of branched polysaccharides that contain many negatively charged galacturonic acid units.
+  
+  <img src="288.png" alt="" width="60%">
+
+Different ways to record location and species of mRNA transcripts
+- in situ hybridization，原位杂交
+- in situ sequencing，原位测序
+- Arrays（空间条形码阵列）
+  - 把组织切片放在带有空间 barcode 探针的芯片上，mRNA 被捕获后测序，再根据 barcode 还原表达位置。
+- Microdissection（显微切割）
+  - 先在显微镜下确定感兴趣区域（ROI），再用激光或毛细管收集该区域的 RNA/探针，最后进行测序。
+
+<img src="289.png" alt="" width="60%">
+
+<img src="290.png" alt="" width="60%">
