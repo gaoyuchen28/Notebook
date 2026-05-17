@@ -213,3 +213,145 @@ Thymus-independent-1(TI-1) and TI-2 antigens(10%-20%)
 
 ![](8.png)
 
+B-cell activation mainly occurs in secondary lymphoid organs
+淋巴结结构：两套完全独立的循环系统——淋巴循环&血液循环
+- T cell 和 B cell会通过血液循环进入淋巴结，形成两个area
+- 树突状细胞，抗原呈递细胞会从淋巴循环进入淋巴结与TB cells进行反应，产生获得性免疫反应
+- B cell过程：B cell先进入HEV区（血液循环与淋巴结之间的特殊结构）
+  1. primary focus: T cell和B cell的area交点区域，发生反应为B cells 捕获抗原之后被第一次激活，一部分B cell可以发生功能，而相当一部分则是迁移到B cell区进行进一步激活
+  2. germinal center
+  
+  ![](9.png)
+
+- 树突状细胞带着呈递的抗原进入T细胞区激活T细胞，T细胞会在TBcell的交界处碰到B cell，从而来第一次激活Bcell ，进一步大量B细胞会在Bcell区内产生生发中心，完成进一步的改变，包括一些随机的突变，进一步还会进行一些class switch，选择不同种类的重链 
+- FDC: 有免疫学功能但是完全不起源于造血干细胞的细胞
+
+  ![](10.png)
+
+Somatic hypermutation of BCR
+- hypermutation：在B细胞中的突变率比正常DNA复制的突变率高了几个数量级
+- somatic: 这个突变不是生殖遗传的，而是只能发生在B cell里面
+- 超突变所出现区域只出现在Fab与抗原所联系的区域，不会在重链上发生，另外针对的对象是已经完成VDJ重排的B cell，和VDJ重排也没有任何关系 
+- 明显聚集在CDR区域，随着突变的增加，affinity在增加，进化与筛选，蛋是为什么有基因组的选择性至今无法回答
+- 体细胞的超突变是由AID介导的（只在Bcell中出现），激活induced胞嘧啶脱氨酶（C->U）机体判断为DNA损伤，因此切掉并且产生DNA repair，而这个过程是会引入突变的，AID只在b cell receptor基因脱氨基（）
+  
+  ![](11.png)
+
+- 在somatic hypermutation之后会进行筛选，在germinal centers进行不断的筛选
+  - dark zone: 细胞非常密集，有大量细胞增殖，不停的分裂并且引入突变，迁移到⬇️
+  - light zone：细胞稍微稀疏，以FDC（follicular dendritic cells）为主，也是进行抗原选择
+  - mantal zone：依然存在少量T cell，在与T cell的过程中再次完成抗原选择
+
+Follicular dendritic cells provide antigens for affinity maturation in germinal centers
+- 像是一个抗原富集的细胞
+> 实验：人为向小鼠中注射一个同位素标记的蛋白，发现放射性聚集在唯一的一个细胞上，就是FDC
+
+- 小小念珠状态，形成了抗原富集聚集物
+- 通过细胞表面一些特殊的受体，没有MHC，抗原是完整呈递的
+- 在light zone中，不同mutation进行竞争，看谁能够从FDC上拉一个抗原下来
+- 拉一个后就可以内吞然后进行MHC呈递，从而有了T cell的第二次激活和支持，否则就无法被支持 
+
+  ![](12.png)
+
+Class switch of BCR
+- 由一些特殊的细胞因子决定的
+- 基因组本身结构发生了变化
+  - VDJ重排完了会进行IgD和IgM，但是二者的功能是有限的
+- IL-4 二型细胞因子，真菌和寄生虫，IgG1和IgE的促进
+- IFN-gama 病毒，IgG3和IgG2a的中和效应
+- 感染类型决定的重链
+
+  ![](13.png)
+
+- 基因组水平产生了重排，并且不是VDJ重排，不是alternative splicing（IgM还是IgG是由这个决定的
+- 细胞因子介入下可以直接删除掉不需要的序列
+
+  ![](14.png)
+
+- 机制：在细胞因子作用下对应的switch region出现了结构变化，进一步IgG和IgM的switch region也会出现变化双链结构打开，AID会在数以百计的重复序列中把C变成U，切碎之后就直接断开了，剩下的地方通过DNA损伤修复重新连在一起，使得VDJ直接连在了其他重链的地方
+
+  ![](15.png)
+
+  ![](16.png)
+
+- summary：值得注意的是就是从surface上的IgG更多改成了secretion
+  
+  ![](17.png)
+
+### BCR/antibody functions
+
+Different properties and functions of BCR isotypes
+
+![](18.png)
+
+- IgM要么就是单体然后锚定在细胞膜上，要么就是五聚体分泌（J chain）
+- IgA也一样
+
+![](19.png)
+
+- 母胎屏障和血脑屏障
+- IgA黏膜（乳腺）、IgM心脏、IgE拓扑学角度分布在与外界相连的地方
+- 不同功能还有不同亚型，他们的大小->扩散能力，血浆浓度、半衰期-> 功能和分布
+
+- 生物学过程完全不同
+  - 中和病毒和中和有毒物质，敏化反应，有一些有但有一些完全没有
+  - 激发NK细胞，从而算是有一定的抗原特异性（间接的）
+  - IgA黏膜免疫，必须从机体内进入机体外，跨粘膜分泌
+  
+  ![](20.png)
+
+Properties and functions of different Fc receptors
+- 重链部分也有特异性的受体
+- Fc受体并不保守，与不同抗体的affinity完全不同，表达这个receptor的细胞截然不同，从而生物学功能完全不同
+
+(I) Neutralization:
+- Antibodies block toxins from entering cells（蓖麻毒素）
+  阻断与细胞受体的结合（大部分为蛋白毒素）
+
+  ![](21.png)
+
+- Antibodies block viral infection
+  介导与细胞产生相互作用或者进行内吞的蛋白进行中和
+
+  ![](22.png)
+
+- Antibodies block bacterial infection
+  和病毒类似
+
+  ![](23.png)
+
+- 没有发现真菌的和寄生虫的
+
+(II) Complement activation:
+- Antibodies trigger classical pathway
+
+  ![](24.png)
+
+(III) Opsonization(敏化效应): 使得病原体更容易被其他杀死
+- Antibodies facilitate phagocytosis of bacteria
+  抗体和细菌表面结合，然后通过结合到抗体的重链更容易进行一个内吞
+- Antibodies facilitate phagocytosis of bacteria
+  对于有被膜的细菌也有关系，对被膜上的抗体可以介导吞噬
+
+(IV) Antibody-dependent cellular cytotoxicity
+- 一个肿瘤细胞会表达不正常的蛋白，然后会激活一些抗体识别这个细胞，然后可以激活NK cell上的一些Fc receptor，激活这个NK cell的杀伤特异性
+
+Memory of B cell responses
+
+- 进行抗体类型测试：
+  - IgM应该首先上升
+  - 经过一些变化后IgG后来会赶上
+  - 第二次感染后IgM不会增高了，IgG会增高
+- 不仅能记住抗原种类（IgG浓度），而且能提高非常强的affinity
+  - 第二次刺激可以有更多IgG
+  - 可以再次发生somatic hypermutation
+  
+  ![](25.png)
+
+Established memory dominates latter responses: "Original antigenic sin"
+
+  ![](26.png)
+
+  - 病毒出现变种之后其实之前的免疫就没有意义了，会无视后面的抗原的变异
+  - 所以只有第一次接触的变异类型会伴随人类的一生
+  - 
