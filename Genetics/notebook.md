@@ -1970,7 +1970,7 @@ Gene editing:
 - CRISPR/cas
 - Base editing and gene therapy
 
-# Chapter 6 
+# Chapter 6 Genetic Analysisin Prokaryotes
 
 # 20250511 Genomics: impact on science
 
@@ -2117,74 +2117,516 @@ Similarities between chimps and humans
 - 染色质数量的区别: 2 short chromosomes fuse together(Robertson translocation)
 - **chromosomal speciation**
 
-We are 57% microbes and 43% humans （page3????）
+# Chapter 6 Genetic Analysisin Prokaryotes
 
-Meta-genomics: 不需要先把微生物分离培养出来，而是直接从环境样本中提取所有 DNA，然后测序分析其中有哪些生物、有哪些基因、可能有什么功能。(large scale PCR amplification) (page6)
+1. A 70kg male has 3x1013 human cells and 3.8 x1013microbial cells.
+2. Almost every epithelial surface of our body containsa complex microbial community.
+3. Microbes can liveeven in the highlyacidic environment of the stomach(pH=2).
+4. Microbiota weigh up to 2 kg.
+5. One third of our gutmicrobiota is common to most people, while two thirds are specific to each one of us.
 
-(page9-10)微生物学
+Meta-genomics: 不需要先把微生物分离培养出来，而是直接从环境样本中提取所有 DNA，然后测序分析其中有哪些生物、有哪些基因、可能有什么功能。
+- Large-scale PCR amplification and next generationsequencing can be used to survey composition of micro-bial communities and metabolic status
 
-Basic knowledge of Becteria(page 11)
+<img src="124.png" alt="" width="480">
 
-还在微生物学
+Bacteria sizes and characteristics:
+- All bacteria are prokaryotes, which lack a defined nuclear membrane
+- All bacteria lack membrane-bounded organelles
+- Typical bacterial chromosomes are circular
+- Bacterial chromosomes fold to form a nucleoid body that excludes ribosomes
+- Most bacteria have a cell wall made of carbohydrate and peptide polymers that surrounds the cell membrane
 
-Phenotypes of bacterial mutations(page 15-16)
+Basic knowledge of Becteria
+- Cells divide by binary fission
+- Colony: asexual descendants(无性后代) of a single cell
+- Prototroph (原养型, 即野生型): wild-type bacterium that produces colonies on minimal medium (基本培养基)
+- Auxotroph (营养缺陷型): mutant that requires one or more nutrients in addition to minimal medium
 
-E.coil genome wae sequenced in 1997
+*E. coli*
+- Inhabits intestines of warm-blooded animals
+- Can grow in complete absence of oxygen or in air
+- Lab strains are not pathogenic, but other strains can cause variety of intestinal diseases
+- Prototrophic, can grow in minimal media
+
+Phenotypes of bacterial mutations
+- Altered colony morphology
+- Resistance to bactericides
+- Auxotrophs – unable to reproduce in minimal media(Defective in enzymes required to synthesize complex compounds)
+- Defective in using complex chemicals from the environment(breaking down lactose into glucose and galactose)
+- Defective in proteins essential for growth(Conditional lethal mutations)
+
+*E.coil* genome wae sequenced in 1997
+- 4.6 Mb, ~ 90% of genome encodes protein
 - 4288 genes, but function known for only 60%
 - 1 gene per kb
-- No intron
+- No introns
 - very little repetitive DNA
+- Small intergenic regions
 
 Gene nomenclature
 - "+" WT, "-" mutant
 - prototophy/auxotrophy
+  - met+: can synthesize methionine, a wild-type prototroph
+  - met–: requires methionine, a mutant auxotroph
+- Energy extraction
+  - gal +: can utilize galactose, wild-type
+  - gal –: can not utilize galactose, a mutant
+- Drug resistance
+  - str r: resistant to streptomycin in medium
+  - str s: sensitive to streptomycin in medium
 
-penicillin enrichment for aucotrophic mutants（page21-page22）
+Finding mutations in bacterial genes
+- Rapid bacterial multiplication allows detection of very rare genetic events
+- Effectively haploid – straight forward relationship between mutation and phenotypic variation
+- Selection – establish conditions in which only the desired mutant will grow
 
-Insersion sequence elements are transposons in bacterial genomes
+Techniques used to identify rare mutants
+1. Mutagens(诱变剂) – used to increase the frequency ofmutations
+2. Enrichment – increases the proportion of mutant cells. e.g. Penicillin kills only cells that are dividing but not cells that are unable to divide
+3. Replica plating – simultaneous transfer of thousands of colonies from one plate to another
+4. Testing for visible phenotypes: lacZ
+  
+> penicillin enrichment for auxotrophic mutants
+> 1. The key component of bacterial cell wall is peptidoglycan. It is made of long chains of alternating NAG and NAM sugar molecules
+> 2. The transpeptidase enzyme synthesizes short peptides that are attached to NAMs to cross link the NAG/NAM chains
+>
+> <img src="125.png" alt="" width="480">
+> 3. Penicillin prevents cross-linking by binding transpeptidase and inhibiting its enzymatic activity
+> 4. When penicillin is present, the bacteria cannot rebuild their cell walls after cell division, so the cells die.
 
+The typical bacterial genome iscomposed of one circular chromosome
+- 4 to 5 Mb of DNA in most commonly studied bacterial species
+- DNA molecule condenses by supercoiling and looping
+- Each bacterium replicates and then divides by binary fission into two daughter cells
+
+Insertion sequence (IS) elements are transposons in bacterial genomes
 - different strains have different numbers and distributions of IS elements
 - small transposable elements(700-5000 bp length)
+  - Inverted repeats (IRs) at ends
+  - Carry transposase gene
+  - Can move to other locations in genome
+  - Can disrupt genes by insertion into coding regions
 
 Using inverse PCR to identify insertion sites of a transposon in the genome
+>
+> <img src="127.png" alt="" width="480">
+>
+
+Plasmids are smaller circles of DNA that carry genes beneficial to the host cell
+- Plasmids vary in size from 1 kb to several Mb in length
+- Plasmids don't carry genes that are essential to the host
+- plasmid genes that are beneficial to the host
+  - Genes that protect host against toxic chemicals (e.g.mercury) and metabolize environmental pollutants (e.g.toluene, napthalene, petroleum products)
+  - Pathogenic genes (e.g. toxins produced by S.dysenteriae)
+  - Genes encoding resistance to antibiotics
+- Some plasmids contain multiple antibiotic resistance genes and transposons
+  - Movement of antibiotic resistance genes to the plasmid was facilitated by transposons
+  - Multiple antibiotic resistance genes can be transposed from the plasmid as a unit
+
+Genomic analyses in bacteria have created an information explosion
+- Metagenomics – analysis of genomic DNA from acommunity or habitat
+- Comparative genome analysis – identify similarities and differences between genomes of different species
+- Genome studies and public health – aid indevelopment of vaccines, identify new drug targets,identify specific bacterial strains in epidemiological studies
 
 Gene transfer in bacteria:
 - vertical gene transfer
 - Lateral(or horizontal)gene transfer
 
-Donor bacteriu provides the DNA that is transferred, recipient bacterium receives the DNA, which can result in altered phenotype
+Donor bacteriu provides the DNA that is transferred,
+recipient bacterium receives the DNA, which can result in altered phenotype
 
-1. transformation
-  - natural transformation
-  - artificial transformation
-    - chemically(calcium at cold temperature)
-    - electroporation (high-voltage shock)
-2. conjugation
-3. transduction
+<img src="128.png" alt="" width="480">
 
-(page 33 figure)
+#### transformation
 
-(page35)
+the recipient takes up naked DNA fragments from surrounding environment
+- natural transformation
+- artificial transformation
+  - chemically: Treat cells by suspending in calcium atcold temperatures to make the cells competent
+  - electroporation: Mix donor DNA with recipientbacteria and subject to very brief high-voltage shock
 
-(page38) 通过营养缺陷来selecting and screening for transformation
+Natural transformation in *B.subtilis*
 
-Competence: the growth stage that the bacteria is...
+<img src="129.png" alt="" width="480">
 
-Co-transformation:(page42)
+Competence: the growth stage that the bacteria isable to take up DNA from the media.
+- Competent cell: Thebacterial cells that are inthe competence stage.
+- Competence factor: Enzyme or proteins that promote transformation efficiency.
 
-Conjugation requires direct cell2cell contact
+
+Co-transformation(在这里指的是一种特定的现象): Genes that are located close toeach other in a bacterial species can be simultaneously transformed into other bacterial cells.
+(Genes that are distant from each other have a lower possibility to be transformed into other species at the same time.)
+
+#### Conjugation
+
+Conjugation requires direct cell-to-cell contact
+
+<img src="130.png" alt="" width="480">
+
+To prove cell contact, we have to exclude the following possibilities:
+1. DNA transformation, but not cell contact
+2. Syntrophism(类似共生), mutual dependence of different typesof organisms for the satisfaction of their respectivenutritional needs.
 
 U-tube experiment to prove that bacterial conjugation required direct contact between the 2 bacterial strains
 
-the F plasmid ontains genes for synthesizing connections between donor and recipient cell(page48-49)
+<img src="131.png" alt="" width="480">
+
+The F plasmid contains genes for synthesizing connections between donor and recipient cells
+1. The F factor (F因子, sex factor) is a circular plasmid that may exist free in the cytoplasm or integrated into the chromosome of *E. coli*.
+2. F factor contains genes encoding synthesis of pili(菌毛) for cell contact
+3. F factor replicates inside host cell
+
+Gene transfer between F+ donors and F−recipients:
+1. Mating only between cell with F (F+) and cell without F (F–)
+2. Transfer of F factor is one-way from donor to recipient
+3. Donors for conjugation are F+ bacteria
+4. Recipients for conjugation are F− bacteria
+
+<img src="132.png" alt="" width="480">
+
+<img src="133.png" alt="" width="480">
 
 Formation of an Hfr chromosome:
-1. F carries one ot more IS element, which permit homol...
-2. High frequency recombinant...
-3. 又transformation，然后再cross-over（page59）
-  
-所以实际上是两种transfer
+1. F carries one or more IS element , which permit homologous recombination with same IS in genome
+2. High frequency recombinant (Hfr) cells are formedwhen an F plasmid integrates into the bacterial chromosome through recombination between IS elements.
+> 20–30 different Hfr strainscan be generated that differin the location andorientation of the integratedF plasmids.
+> Hfr strains retain all Fplasmid functions and canbe a donor for conjugation with an F− strain.
+> - 染色体 DNA（含整合的 F 因子）开始通过滚环复制转移到 F⁻ 细胞, Hfr 可以将部分染色体基因一并转移，而不仅仅是 F 因子本身。
+> - 受体 F⁻ 细胞通常 不成为完整 F⁺，因为整条 F 因子不一定完全转移。
 
-Faulty out-looping produces F...
+<img src="134.png" alt="" width="480">
+
+After conjugation, crossovers are needed to integrate genes from the donor fragment into the recipient’s chromosome
+
+<img src="135.png" alt="" width="480">
+  
+Summary: Two types of DNA transferduring conjugation
+
+<img src="136.png" alt="" width="480">
+
+Faulty out-looping produces F’, a F plasmid that contains genomic DNA
+- F’ plasmids replicateas discrete circles ofDNA inside host cells.
+- Transferred in same manner as F plasmids.
+- A few chromosomal genes will always be transferred as part of the F’ plasmid.
 
 complementation studies using F plasmid
+
+<img src="137.png" alt="" width="480">
+
+#### transduction
+
+a phage transfers DNA from a donor bacterium to a recipient bacterium
+
+Structure and life cycle of bacteriophageT2 (virulent)
+
+<img src="138.png" alt="" width="480">
+
+T2噬菌体
+- Lytic and lysogenic modes of reproduction
+  - Lytic cycle: produce viral proteins,cell burst
+  - Lysogenic cycle: phage DNAinserted into bacterial chromosome, do not produce theviral proteins needed for morevirus particles
+- virulent and temperate phages (page 75)
+  - Virulent phages – always enter lytic cycle after infecting bacterial cells, multiply rapidly, and killcells
+  - Temperate phages – can enter either lytic cycle orenter an alternative lysogenic cycle
+
+The lytic cycle of phage multiplication: cell lysis and release of progeny phage
+1. Phage injects its DNA into bacteria.
+2. Phage proteins are expressed and take over protein synthesis and DNA replication machinery of infected cell.
+3. Phage DNA replication.
+4. Phage particles are assembled with phage DNA and phage protein.
+5. Infected cell bursts (lyses) and releases 100-200 new viral particles able to infect other cells.
+  
+Lysate – the population of phage particles released from host bacteria at the end of the lytic cycle
+
+<img src="139.png" alt="" width="480">
+
+Generalized transduction:(page79)
+1. Incorporation of random fragments of bacterial DNAfrom donor into phage particles.
+2. DNA from donor cell injected into infected recipient cells via phage infection.
+3. Transduced chromosomal DNA recombines into homologous DNA in recipient.
+
+<img src="140.png" alt="" width="480">
+
+> mapping genes by co-transduction frequencies
+> - Frequency of co-transduction is higher for genes thatare close together compared to genes that are further apart.
+>
+> <img src="141.png" alt="" width="480">
+> 
+
+Temperate phages: Choice of lytic or lysogenic cycle depends on many factors, including environmental conditions
+- Lysogen（溶源菌）: 寄宿有整合型噬菌体（temperate phage）的细菌, 噬菌体 DNA 已整合到宿主染色体, 细菌不会被裂解，正常生长, 可以在未来某些条件下诱导噬菌体进入裂解循环
+- Prophage（前噬菌体）: 已经整合进宿主染色体的 噬菌体 DNA 本身。
+
+Phage lambda (λ) is the most commonly usedtemperate phage
+
+integration of the phage DNA initiates the lysogenic cycle
+- Recombination between att sites on phage λ and the bacterial chromosome allows integration of the prophage
+- Phage lambda canintegrate into bacterial chromosome by integratase.
+  
+  <img src="142.png" alt="" width="480">
+
+  <img src="143.png" alt="" width="480">
+
+Specializaed transduction: abnormal excision of prophage from a lysogen
+1. abnormal excision produces a specialized transducing phage
+2. Bacterial DNA adjacent to integration site can bepackaged with viral DNA and then transferred to a recipient cell
+
+<img src="144.png" alt="" width="480">
+
+Comparison of generalized and specialized transduction
+- when donor DNA is packaged by phage
+- what donor DNA is packaged by phage
+
+Genomic islands originated from transfer of foreign DNA(page91)
+- Genomic islands carry many different types of genesthat are involved in newly derived functions.
+- G+C content is different from the rest of the genome
+- Presence of direct repeats at each end
+- Found at sites where tRNAs genes are located because tRNAs are highly conserved and promote homologous recombination
+- Contain integrase genes and sites for integration
+> genomic islands每一种都可以造成
+
+pathogenicity islands contain many genes involved in causing disease
+- Pathogenic genes are often clustered in a subtypeof genomic islands, called pathogenicity islands.
+- With such an arrangement, the lateral transfer of a“package” of genes from one species to anothercan turn a nonpathogenic strain into a pathogenicstrain.
+- Pathogenicity islands including genes for adhesion to eukaryotic (host) cells, toxins, and secretion systems that allow the bacteria to transport substances into eukaryotic cells that disrupt the cells.
+
+> E. coli strain O157:H7 – causes diarrhea (腹泻) ormeningitis (脑膜炎)
+> - The DNA sequence shows that this toxin gene wastransferred into E. coli by bacteriophage transductionand became part of the large pathogenicity island
+
+
+# gene expression and function
+
+<img src="145.png" alt="" width="480">
+
+Gene regulation occurs in any stage of gene transcription and translation
+1. transcription
+2. RNA processing and mature
+3. regulation of RNA stability
+4. translation
+5. modification on the protein sequence
+
+Expression of genes is affected by many factors
+1. Regulation of gene expression includes changes in activating, increasing, diminishing,and preventing the transcription and translation of genes.
+2. In prokaryotes, nutritional conditions and environmental factors are important factors to regulate gene expression.
+3. In eukaryotes, hormones, developmental stagesand tissue specificity are important factors to regulate gene expression.
+
+An overview of bacterial gene expression(page6 figure)
+- The transcription is dissected into three steps,initiation, elongation and termination.
+
+**initiation: core RNA polymerase plus sigma (σ) factor**
+
+Core RNA polymerase and σ factor form aholoenzyme to initiate transcription:
+
+<img src="146.png" alt="" width="480">
+
+1. Core RNA polymerase has five subunits: two alpha(α), one beta (β), one beta prime (β'), and ω.
+2. Sigma factor recognize the DNA sequence at the promoter region.
+3. DNA is unwound and polymerization begins.
+4. The initiation of transcription is completed when sigma factor is released.
+
+sigma factor recognized conserved DNA motifs (-35->-10) in promoter regions
+- Usually the 7bp at the -35 region and the 6 bp at the -10 regions are recognition sites for σ factors.
+
+<img src="147.png" alt="" width="480">
+
+**elongation: core RNA polymerase without sigma factor**
+
+Continues until RNA polymerase recognizestermination signal
+
+<img src="148.png" alt="" width="480">
+
+**termination:**
+- when Rho protein recognized a sequence of mRNA and pull mRNA away from RNA polymerase
+- Rho independent: a stem-loop forms in mRNA and cause the release of mRNA and RNA polymerase
+
+<img src="149.png" alt="" width="480">
+
+Regulation of expression can occur at many steps
+- Transcriptional control:
+  - Binding of RNA polymerase to promoter. This is the most critical step in regulation of most prokaryoticgenes
+  - Shift from initiation to elongation
+  - Release of mRNA at termination
+- Posttranscriptional control
+  - Stability of mRNA
+  - Efficiency of translation initiation
+  - Stability of polypeptide
+
+#### Operon theory: pne signal can simultaneously regulate expression of several clustered genes
+
+Utilization of lactose by E. coli provides a model system of gene regulation
+  - **permease** transports lactose into cell
+  - **β-Galactosidase** (β-Gal) converts lactose into glucose and galactose
+  
+  | 基因 | 功能 |
+  |---|---|
+  | lacZ | 编码 β-galactosidase，分解乳糖 |
+  | lacY | 编码 lactose permease，帮助乳糖进入细胞 |
+  | lacA | 编码 transacetylase |
+
+Without lactose, both permease and β-gal are presentat very low levels in the cell
+- Induction – stimulationof synthesis of a specific protein
+- Inducer – moleculeresponsible for induction
+
+> Hypothesized that lac genes are transcribed together as a single mRNA (polycistron) froma single promoter
+
+The lactose operon in E. coli
+- promotor: DNA sequences to which RNA polymerase binds
+- operator: DNA sequences controls transcription initiation(cis,有点像enhancer)
+- Repressor – binds to the operator (encoded by lacI gene)
+  - lacI binds to the operator andprevents transcription.
+  
+  <img src="150.png" alt="" width="480">
+
+  <img src="151.png" alt="" width="480">
+
+- Inducer – prevents repressor from binding to operator, in this model lactose is the inducer
+
+Induction ofthe lac operonin E. coli
+- when lactose is present:
+  - lactose binds to the lacI protein
+  - lacI protein changes shape and cannot bind to operator.
+  - RNA polymerase binds to the promoter because promoter regions is accessible.
+  - Transcription of the lac genes is initiated.
+
+complementation analysis identified three genes in a tightly linked cluster & Continuous expression of β-gal and permease was caused by mutations in the lacI gene
+
+> a experiment provided evidence that lacI encodes a repressor
+> 1. lacI+ lacZ+ DNA transferred into lacI− lacZ− cells
+> 2. β-gal levels increased initially
+> 3. β-gal levels decreased as repressor accumulated
+> 4. β-gal accumulation resumed after addition of lactose
+
+lacl− mutant that cannot bind to operator
+lacls mutants have a super-repressor that binds to operator but cannot bind to the inducer: 可以正常结合 operator, 不能与乳糖/inducer 结合 -> 不会从 operator 脱落
+
+lacI has two separate domains
+1. N-terminal DNA-binding domain, which binds opera-tor sequence
+  - The DNA binding domain of lacI has a helix-turn-helix (HTH) motif to recognize DNA sequences
+  - A protein with an HTH motif has two α-helical regions separated by a turn in the protein
+  - One of the α-helices recognizes a specific DNA sequence
+2. Inducer-binding domain, which binds allolactose, an derivative of lactose
+3. A linker that connects the DNA-binding domain with the core domain, which is important for allosteric communication
+4. Mutated sequences in many different lacI−mutants clustered in the DNA-binding domain, cause continuous expression
+5. Mutated sequences in many different lacIS mutants clustered in the inducer-binding domain, cause super-repression
+   
+lac repressor tetramer binds to two operators
+1. lacI is a tetramer, with each subunit containing a DNA-binding HTH motif.
+2. lac operon has three operators (O1, O2, and O3)each of which contains two recognition sequences for lac repressor. O1 has the strongest binding affinity for lacI.
+3. Two repressor subunits bind toO1 and two repressor subunitsbind to either O2 or O3.
+4. This binding pattern allows tetrameric lacI to induce DNA looping.
+  
+  <img src="152.png" alt="" width="480">
+
+  <img src="153.png" alt="" width="480">
+
+Allosteric protein: undergoes reversible changes in conformation when bound to another molecule
+- Binding of inducer (effector) to activator or repressor changes the shape of the activator or repressor.
+  
+  <img src="154.png" alt="" width="480">
+
+Each operator of lac operon have two DNA sequence motifs
+
+  <img src="155.png" alt="" width="480">
+
+lacOc mutants have a mutant operator that cannot bind the repressor
+- In lacOc mutants, lac genes are expressed in the absence and the presence of inducer (continous expression)
+
+> DNase footprint detects the binding of lacI and operator DNA
+> - Incubate radio labeled DNA from lac+ operonwith partially purified protein from lacI+ cells
+> - Partial digest of DNA with DNase I
+> - If protein is bound to DNA, then specific fragments will be protected from DNase digestion
+>
+> <img src="156.png" alt="" width="480">
+>
+
+Proteins act in trans, DNA sites act in cis
+（F’ lac plasmids were used to generate partial diploids）
+- Trans-acting factor: lacI
+  - Can diffuse through the cytoplasm and act at target DNA sites on any DNA molecule in the cell
+  - lacI expressed from the plasmid can diffuse through the cytoplasm and bind to the operator on the chromosome.
+- Cis-acting elements: lacO
+  - Can only influence expression of adjacent genes on the same DNA molecule
+  - The lacOC mutation affects expression of genes only on the DNA that it is located on.
+  
+  <img src="157.png" alt="" width="480">
+
+The lac operon of E.coli is regulated by both lactose and glucose
+- When both glucose and lactose are present,only glucose is utilized
+- Lactose induces lac mRNA expression, but only in the absence of glucose
+- lac mRNA expression cannot be induced if glucose is present
+  - Glucose decreases the levels of cAMP
+  - cAMP binds to cAMP receptor protein (CRP)
+  - CRP-cAMP is a positive regulator of lactranscription
+
+  <img src="158.png" alt="" width="480">
+
+Positive regulation of lac operon by CRP-cAMP, glucose negatively regulate cAMP
+- CRP-cAMP binds as a dimer toa regulatory region
+- CRP-binding site consists of two recognition sequences, one for each subunit of the CRP dimer
+  
+  <img src="159.png" alt="" width="480">
+
+<img src="160.png" alt="" width="480">
+
+<img src="161.png" alt="" width="480">
+
+- Without interaction with CRP-cAMP, RNA polymerase can bind to the promoter but is less likely to unwind DNA and initiate transcription
+
+overlapping binding sites for RNA polymerase and lacI
+- When lac repressor is bound to lac operator, functional binding of RNA polymerase to the promoter is blocked
+
+model:
+- Lac− mutants can be maintained on media with glucose and so lac genes are not essential for survival(研究 lac operon 的调控不会影响细菌存活)
+- Simple assays for lac expression - use of ONPG or X-gal as substrates for β-gal (color change)
+- 可以作为Reporter gene： protein-encoding gene whose expression in the cell is quantifiable by sensitive and reliable techniques
+- Fuse the lac regulatory sequences to the coding regionof a foreign gene, Inducible expression of the foreign gene controlled by IPTG
+- 可以Using lacZ to identify sets of genes regulated by the same stimulus
+  
+  <img src="162.png" alt="" width="480">
+
+> Expression of human growth hormone in E. colicontrolled by lac control region
+>
+> <img src="163.png" alt="" width="480">
+> 
+
+Dual positive and negative regulation of the araBAD operon by AraC: Arabinose genes are in an operon and are induced when arabinose is present.
+- Three structural genes required in the breakdown of the sugar arabinose – araB, araA, and araD.
+- AraC is a either a positive or negative regulator of the araBAD operon.
+  - AraC can bind to three DNA sequences sites(araO, araI1, and araI2) with different affinities
+    - No arabinose present: When AraC is bound to araO and to araI1, looping of DNA occurs and prevents transcription
+
+    <img src="164.png" alt="" width="480">
+
+    - Arabinose present: Arabinose causes allosteric change in AraC so that it cannot bind to araO; AraC interacts with RNA polymerase only when botha raI1 and araI2 are occupied
+  
+    <img src="165.png" alt="" width="480">
+
+
+Regulation of the typtophan operon in E.coli: act as a co-repressor
+1. Tryptophan operon has five structural genes:trpA, B, C, D and E
+2. Structural genes for tryptophan (Trp) biosynthesis are expressed only in the absence of Trp
+3. TrpR is the repressor
+   
+  <img src="166.png" alt="" width="480">
+
+Tryptophan acts as a co-repressor
+- TrpR gene encodes the trp repressor that can bind to the Trp operator (TrpO)
+- When Trp is present, binding of tryptophan to TrpR repressor allows TrpR to bind to TrpO and inhibit transcription of the five structural genes
+- When Trp is absent, TrpR repressor cannot bind to TrpO
+
+> TrpR repressor is not the only regulator of the trp operon
+> 1. Continuous expression of tryptophan biosynthesis doesn't occur in TrpR− mutant
+> 2. Second regulatory mechanism is attenuation: control of gene expression by premature termination of transcription
+> Attenuation controls termination of transcription in thetrp leader (TrpL)
+> - Truncated mRNA - terminates in TrpL, only 140 bases
+> - Full-length mRNA - continues through TrpL and encodes all five structural genes
+>
+> <img src="167.png" alt="" width="480">
+>
+> - Different regions of trpL have complementary base-pairing
+> - Formation of the 1-2 stem-loop allows formation of the 3-4 stem-loop
+> - Formation of the 2-3 stem-loop prevents formation of the 3-4 stem-loop
+> - The 3-4 stem loop is a transcription terminator
+> When Trp is present, tRNATrp is available and rapid ribosome movement allows the formation of 3-4 stem-loop
+> When tryptophan isn’t present,transcription doesn't terminate in trpL
