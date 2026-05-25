@@ -398,10 +398,108 @@ Gut-associated lymphoid tissues (GALT)
   ![](30.png)
 
 - 小肠绒毛中本身具有淋巴器官，小肠绒毛中如果存在抗原，会通过淋巴引流的方式一直从小肠绒毛向下引流直到肠系膜淋巴结（Mesenteric lymph node），这个过程是单向的
-- payer's patch派尔集合淋巴结，直接嵌入小肠绒毛，其中有非常明确的Tcell区
+  - 有比较特殊的抗原捕获方式，需要经典的树突状细胞
+  - IgA可以在肠道上皮细胞处完成跨细胞转运，在从体外到体内的过程中很有可能会捕获抗原然后交给树突状细胞，再引流
+  - 肠道出现损伤/感染，直接被树突状细胞捕获
 
-##### Antigen presentation
+  ![](33.png)
 
-##### T-cell and B-cell responses
+- payer's patch派尔集合淋巴结，直接嵌入小肠绒毛，其中有非常明确的Tcell区、Bcell区和 germinal centre，然后也可以引流到肠系膜淋巴结
+  
+  ![](31.png)
+
+  - 有明显分区而且所有树突状细胞都在Tcell区
+  - M cell: 在显微镜下观察冲向食物的一侧皱皱巴巴，作为上皮细胞但可以捕获抗原，树突状细胞不作为捕获抗原+迁移的工作，只用守株待兔
+  - Transcytosis of antigens by microfold (M) cells in Peyer's patches, M cell像是一个门，从一侧打开然后将抗原送到另一侧去
+  
+  ![](32.png)  
+
+- 肠道中树突状细胞的奇怪功能：
+  - CD103 dendrite cell：通过CX3CR1（阳性吞噬细胞，阻滞驻留吞噬细胞，起源非常特殊），伸小管抓抗原，然后送给树突状干细胞
+  - 杯状细胞不光可以分泌黏膜，跨细胞转运抗原
+  - 树突状细胞可以迁移，捕获抗原后再转运回来
+
+  ![](34.png)  
+
+Innate immune respones trigger protective adaptive immunity
+
+  ![](35.png)  
+
+后续工作：以细菌为例
+
+  ![](36.png)  
+
+##### antigen presentation/T-cell and B-cell responses
+
+- payer's patch局部就可以进行TB细胞激活，其他地方则是引流到肠系膜淋巴结发挥对应功能
+
+Activated T and B cells are re-distributed to the lamina propria and epithelium
+- 必须先到thoracic，然后进入血液循环才能到该地方
+- 回到肠道这部分的TBcell功能与一般情况下类似
+
+  ![](37.png)  
+
+产生了一种特殊的T cell: Intraepithelial lymphocytes (IELs)上皮内淋巴细胞
+- 精准嵌入上皮细胞间隙
+- 存在的意义是第一次发现被病原体侵入的上皮细胞
+- CD8
+
+  ![](38.png)  
+
+IELs can exert cytotoxicity via MHC-I/TCR-dependent or -independent pathways
+- 在标准T cell中，CD8为二聚体分为alpha和beta异源二聚体
+
+  ![](39.png)  
+
+- 有时会出现alpha-alpha同源二聚体，这个时候完全获得了NK细胞的功能，完全不需要T cell receptor的方式进行杀伤（激活抗体/抑制抗体）
+
+  ![](40.png)  
+
+IgA is the predominant immunoglobulin in mucosal immunity
+- IgA有单体结构和双体结构，双体是由J chain和secretory component实现
+  
+  ![](41.png)  
+
+- 能特异性产生IgA的浆细胞回到肠道以后，会特异性产生二聚体IgA，一开始只有J chain，然后结合肠道上皮细胞的膜蛋白plgR，会带着IgA进行跨细胞转运，最后一步这个plgR蛋白被切断了，留下来的一段就是secretory protein
+
+  ![](42.png) 
+
+IgA has multiple functions in the gut
+- 先发制人的把可能的有害物质运输走
+- 把上皮细胞囊泡中的有害物质转运走
+- 将已经在体内的毒素转运走
+- 潜在的辅助了抗原在机体外的捕获，带进来给树突状细胞
+
+summary
+
+  ![](43.png) 
 
 ##### Immune tolerance 对于外源病原体无视
+
+在人体中有很多的共生菌，那么我们的黏膜如何进行immune tolerance呢
+
+这些最终产生的是调节性T cell（Treg），而调节性T cell产生两类重要的细胞因子：
+- 白细胞介素10：唯一一个能够抑制炎症反应的因子
+- TGF-beta：对常见T cell有比较强的抑制
+⬆️免疫耐受有抗原特异性
+
+> Rag2-/- 对于TBcell重排有重要作用
+>
+> ![](44.png) 
+>
+
+Immune tolerance to food-derived antigens
+机制是类似的
+食物是比较难触发天然免疫反应的，所以即便被捕获但是没有共刺激信号，所以就会产生耐受
+
+  ![](45.png) 
+
+如何解决血液循环进入身体各处的问题：
+- Mucosal immunity in the gut may designate systemic immune tolerance
+- 全身都会跟着血液建立耐受，因此其实全身上下的菌群也是稳定的，因为免疫耐受是同步建立的
+
+  ![](46.png) 
+
+SUMMARY
+
+![](47.png)
