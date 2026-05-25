@@ -2395,7 +2395,7 @@ pathogenicity islands contain many genes involved in causing disease
 > - The DNA sequence shows that this toxin gene wastransferred into E. coli by bacteriophage transductionand became part of the large pathogenicity island
 
 
-# gene expression and function
+#### gene expression and function
 
 <img src="145.png" alt="" width="480">
 
@@ -2630,3 +2630,117 @@ Tryptophan acts as a co-repressor
 > - The 3-4 stem loop is a transcription terminator
 > When Trp is present, tRNATrp is available and rapid ribosome movement allows the formation of 3-4 stem-loop
 > When tryptophan isn’t present,transcription doesn't terminate in trpL
+
+# Chapter 7 Genetic Analysisin Prokaryotes
+
+compared to prokaryotes, eukaryotes are much more complex in regulating gene expression
+(page 2)
+
+Differences betweem prokaryotes and eukaryotes in gene expression
+原核细胞的转录和翻译是并行的，但是真核生物不是这样的因为有完整的细胞核
+page4
+转录过程其实也不太一样（page7）
+- prokaryotes: not protected will
+- Eukaryotes: methylated
+> 5‘ capping of eukaryotic mRNAs prevent degradation and promote translation(page10)
+> backward guanine: capping 过程叫 backward guanine，是因为加到 mRNA 5′ 端的那个鸟嘌呤核苷酸并不是像普通 RNA 延伸那样按正常方向连接，而是“反着”接上去的。普通 RNA 中相邻核苷酸通常通过 3′–5′ phosphodiester bond 连接，也就是前一个核苷酸的 3′-OH 连到下一个核苷酸的 5′ 磷酸；但在 mRNA capping 中，一个 GMP 会通过自己的 5′ 磷酸连接到 mRNA 第一个核苷酸的 5′ 磷酸上，形成特殊的 5′–5′ triphosphate linkage。因此这个 G 的连接方向和普通 RNA 链中的核苷酸方向相反，就像一个“倒着接上去的 guanine”，所以被称为 backward guanine。
+> page11,就是细胞生物学里讲的怎么加尾部的AAA
+> 1. a ribonuclease recognizes AAUAAA and cleaves the transcript 11-30 nucleotides downstream to creat a new 3' end.
+> 2. poly....
+翻译过程其实也不太一样（page8）
+- eukaryotes更大，这个看一下细胞生物学笔记
+
+Three types of RNA polymerases for wukaryotic nuclear gene transcription
+page6
+
+Eukaryotic mRNAs form a pseufocircular molecule during translation
+- elF4E: recognize the cap
+- PABP / poly(A)-binding protein: mRNA 3′ 端的 poly(A) tail
+- elF4G: bridge -> pseudocircular
+
+Overview of eukaryotic gene regulation:
+(page13，page14)
+
+RNA poll II(page15)
+
+cis-acting elements: promoters and enhancers(page16)
+- promoters: TATA box
+  - page17
+- Enhancers:...(operator is kind of enhancers)
+
+trans-acting factors interact with cis-acting elements to control transcription initiation
+
+Basal factors bind to promoters of all protein-encoding genes:
+1. TBP binds to TATA box
+2. (page19)
+
+binding of activators to enhancers increases transcriptional levels:
+> transcription genome: 2000~
+（page21）
+1. stimulate recruitment of basal factors and RNA poll II to promoters
+2. stimulate activity of basal factors already assembled on promoter
+3. facilitate caanges in chromatin structure
+
+activators:
+1. DBD
+   1. page 24
+2. TAD
+3. SSD(page23)
+  
+steroid hormone receptors are activators only in the presence of specific hormones:
+就是实际上是receptor的coactivator(page25)
+
+repressor proteins suppress transcription initiation through different machanisms
+page 27
+1. competition: repressor binds to the same enhancer sequence as the activator(page28)
+2. quenching(淬灭): bind to the activator but do not bind to DNAs
+   1. blocks the DBD
+   2. blocks the activation domain
+3. cytoplasmic sequestration(隔离): an actiator can be sequesteres in the cytoplasm when bound to an indirect repressor.
+4. heterodimerization(异源二聚)
+
+The Myc-Max mechanism can activate or repress transcription
+- c-Myc, N-Myc, L-Myc是为什么
+- （page34）
+  
+a single transcription factor can be both an activator and a repressor
+page35
+- 当 Dorsal 进入细胞核后，它可以结合到某些 target gene 的 enhancer 上，招募 coactivator 和 transcription machinery，从而促进基因表达，例如激活腹侧命运相关基因的转录。但在另一些 enhancer 上，Dorsal 也可以和其他 repressor 协同作用，并招募 Groucho 这样的 corepressor，使染色质更紧密或阻碍转录起始，从而抑制某些基因的表达。
+
+page37
+
+different enhancers for the string gene in drosophila are used in different cell type
+- different cell, string activation are different
+- and the string gene product activates the 14th mitosis
+
+mRNA splicing（page41）
+（page43）
+- splicing has different function(page44)
+
+Alternative splicing of the Dscam gene mRNA in drosophila
+page45
+- Dscam 是神经系统发育中非常重要的细胞表面蛋白，参与神经元之间的识别、轴突导向和自我排斥。它的基因中有几组可变外显子，例如 exon 4、exon 6、exon 9 和 exon 17，每一组中只能选择其中一个外显子进入成熟 mRNA。不同选择组合起来后，可以产生非常多种 mRNA 变体（page45-46）
+
+page47
+
+page48
+alternative splicing of FGFR2 produces isoforms that bind different fibroblast grouth factors(FGF)
+- FGFR2 这个基因的 pre-mRNA 可以通过 alternative splicing 产生不同版本的 FGFR2 受体蛋白，而这些不同 isoforms 会结合不同类型的 FGF 配体。
+
+Drosophila life cycle:
+
+page52-53-54
+
+Key factors of sex determination that regulate expression of the sex lethal(sxl) gene:
+1. key factors in the X chromosome:
+  - numerator elements--monitor the X:
+2. Key factors in the autosomes:
+(page55-56)
+
+sxl protein regulates alternative splicing of its own mRNA
+- sxl protein triggers a cascade of alternative splicing
+  page62
+
+Dsx-F is a transcriptional activator and Dsx-M is a transcriptional repressor
+
+Fruitless(page64)

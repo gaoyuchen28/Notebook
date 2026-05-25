@@ -3398,3 +3398,339 @@ Necrosis: animal cells that die in response to an acute insult, such as trauma o
   <img src="324.png" alt="" width="60%">
 
 <img src="325.png" alt="" width="60%">
+
+# Chapter 20
+
+### What is cancer
+
+Cancer is a disease caused when cells divide uncontrollably （neoplasm，benign） and spread into surrounding tissues （cancer，malignant，metastases）.
+
+Types of Cancer:
+- Carcinomas(上皮来源癌)： the most common type of cancer (~80%) that are arising from epithelial cells.
+  - Adenocarcinoma(腺癌) is a cancer that forms in epithelial cells with a glandular organization. Most cancers of the breast, colon, and prostate are adenocarcinomas.
+- Sarcomas(肉瘤) arise from connective tissue and muscle cells, including muscle, fat, blood vessels, lymph vessels, and fibrous tissue.
+- Leukemia(白血病): cancers that begin in the blood-forming tissue of the bone marrow are called leukemias. These cancers do not form solid tumors.
+- Lymphoma(淋巴瘤): cancer that begins in lymphocytes (T cells or B cells)
+Carcinomas and Sarcomas are called as solid cancers
+- Benign: the neoplastic cells have not yet become invasive
+- Malignant: the cells have acquired the ability to invade surrounding tissue → cancer
+
+### The genetic bases of cancer
+
+Theodor Boveri’s Predictions
+
+**Philadelphia Chromosome**: Fusion of two chromosome fragments that is detected in the blood cells of patients with chronic myeloid leukemia (CML)(慢性粒细胞白血病)
+> Fusion gene coding for a hybrid tyrosine kinase signaling protein that is "always on"
+> The targeted therapy: imatinib (Gleevec®).
+>
+> <img src="326.png" alt="" width="60%">
+>
+
+Cancer-critical Genes Are Grouped Into Two Broad Classes
+- An oncogene is a gene that codes for a protein that potentially can transform a normal cell into a malignant cell.
+- Tumor suppressor gene: Inherited recessive mutation in one copy, and subsequently acquired mutation in the other copy somatically.
+
+<img src="327.png" alt="" width="60%">
+
+Retroviruses Are The Original Source Of Oncogenes.
+> experiment: Rous’ experiment in 1909
+> 1. Cut off a piece of the sarcoma, ground it up, and passed it through a filter to remove all cells.
+> 2. Injected this cell-free liquid into other chickens.
+> 3. Within a few weeks, they too developed sarcoma.
+> **Rous sarcoma virus**.
+
+RNA Tumor Viruses (Retroviruses)
+
+<img src="328.png" alt="" width="60%">
+
+- Src is not needed for viral replication.
+- It is an extra gene to those (gag/pol/env) necessary for the continued reproduction of the virus.
+- Deletions/mutations in src abolish transformation and tumor promotion but the virus is still capable of other functions.
+> Why does RSV carry a transforming gene that is not required for replication? 
+> Where did this gene come from?
+> 因为 v-src 不是用来帮助病毒复制的，而是让感染细胞发生转化，也就是变成肿瘤样细胞。
+> - 而 src 是额外携带的基因。它不是病毒复制必需基因，但它能让 RSV 具有很强的致癌能力 / 转化能力。
+> - 这个transforming gene 从哪里来的？它来自宿主细胞自己的基因组。
+
+The Cellular Origin of Oncogenes
+- The oncogene in the virus did not represent a true viral gene but a cellular gene that the virus had picked up far back during its replication in cells and carried along.
+
+Different Searches for Oncogenes Converged on the Same Gene—Ras
+- Foci formation is a powerful way for isolating oncogenes.
+- Normal Ras proteins are monomeric GTPases that help transmit signals from cell-surface receptors to the cell interior.
+- Ras family members is mutated in perhaps 30% of all human cancers, Ras point mutations create a hyperactive Ras protein.
+- Ras genes are thus among the most important of all cancer-critical genes.
+
+<img src="329.png" alt="" width="60%">
+
+Oncogenes in Cancer Can Be Made Overactive in Many Ways
+
+<img src="330.png" alt="" width="60%">
+
+<img src="331.png" alt="" width="60%">
+
+<img src="332.png" alt="" width="60%">
+
+Tumor Suppressor Gene-
+- Discover of the 1st Tumor Suppressor Gene: Rare Hereditary Cancer Syndromes(罕见遗传性癌症综合征)
+  - The Rb gene encodes the Rb protein, which is a universal regulator of the cell cycle present in almost all cells of the body. It acts as one of the main brakes on progress through the cell-division cycle, and its loss can allow cells to enter the cell cycle inappropriately.
+
+Two-hit hypothesis
+- 正常细胞中，一个抑癌基因通常有来自父母双方的两个拷贝，只有当两个拷贝都失活时，细胞才容易癌变。在非遗传性癌症中，细胞一开始两个基因拷贝都是正常的，因此需要先后发生两次罕见突变，分别破坏两个拷贝，才可能形成癌细胞；而在遗传性癌症易感个体中，患者从出生起就已经遗传了一个突变拷贝，相当于已经完成了“第一击”，所以只要某个细胞中另一个正常拷贝再发生突变，也就是“第二击”，就更容易发生癌变
+
+<img src="333.png" alt="" width="60%">
+
+Both Genetic and Epigenetic Mechanisms Can Inactivate Tumor Suppressor Genes
+
+
+
+### Epigenetic mechanisms in cancer
+
+Epigenetic Gene Silencing Is A Frequent Event In Tumor Progression
+
+<img src="334.png" alt="" width="60%">
+
+Many Cancers Have an Extraordinarily Disrupted Genome
+- Genetic disruption in cancer cells varies greatly from one type of cancer and one cancer patient to another.
+- Some changes occur repeatedly, suggesting cancer-critical genes with selective advantage.
+
+Many Mutations in Tumor Cells are Merely Passengers
+- Drivers: causal factors in the development of the disease(Cells with driver mutations have selective advantage.)
+- Passengers: mutations that happen to have occurred in the same cell as the driver mutations owing to genetic instability, but are irrelevant to the development of the disease
+- **Frequency** of occurrence: Driver mutations affect many patients while passenger mutations occur randomly and less frequently.
+
+A Single Mutation Is Not Enough to Form Cancer Cell
+- The development of a cancer requires a gradual accumulation of mutations in a number of different genes
+- Cancers develop gradually from increasingly aberrant cells
+- Cancer incidence as a function of age
+
+The Steps of Tumor Progression Often Correlate with Specific Mutations
+
+<img src="335.png" alt="" width="60%">
+
+Key Genetic Lesions Are Common to a Large Fraction of Colorectal Cancers
+**APC gene**
+- APC is an inhibitory component of the Wnt signaling pathway and binds to the b-catenin protein.
+- Loss of APC results in an excess of free b-catenin and thus leads to an uncontrolled expansion of the stem-cell population.
+- Loss of APC appears to increase the frequency of mitotic spindle defects, leading to chromosome abnormalities when cells divide.
+
+### TUMOR HETEROGENEITY
+
+Genetic Intratumor Heterogeneity and Phylogeny(肿瘤内遗传异质性与系统发育)
+
+Cancers Become More and More Heterogeneous as They Progress
+- Cancer cells are constantly mutating, multiplying, competing, evolving, and diversifying
+- Darwinian evolution governed by the same rules of natural selection.
+
+Models Of Tumor Evolution
+1. Linear evolution（线性进化）: 肿瘤细胞依次获得新的优势突变，每一次更有优势的克隆都会取代前一个克隆，形成连续的 clonal sweep。最终肿瘤主要由最后一个优势克隆占据，因此空间上看起来比较均一。
+2. Branched evolution（分支进化）: 肿瘤在早期分化出多个不同亚克隆，这些亚克隆各自继续积累突变并同时存在。不同区域可能由不同克隆占据，所以肿瘤内部异质性明显。
+3. Macroevolution（宏观进化 / 跳跃式进化）: 肿瘤不是逐渐积累小突变，而是在某些时间点发生大规模基因组改变，例如染色体重排或拷贝数剧变。一次大的 punctuated event 可以迅速产生优势克隆，使肿瘤结构突然改变。
+4. Neutral evolution（中性进化）: 许多突变对细胞适应度影响不大，不会被强烈选择，克隆主要随机扩张。肿瘤中会同时存在大量小亚克隆，呈现高度混杂但没有明显优势克隆主导的模式。
+
+<img src="336.png" alt="" width="60%">
+
+Scales Of Tumor Evolution
+
+<img src="337.png" alt="" width="60%">
+
+Impact of The Cell of Origin On Cancer Development
+- Oncogenic mutation can drive distinct cancer subtypes depending on the cell of origin.
+- The epigenetic and transcriptional context of the cell of origin can be selectively permissive for specific tumor types and a determinant of tumorigenesis beyond the driver mutations.
+> Genetic mutation model 认为不同肿瘤亚型主要由不同的致癌突变决定：同一种起源细胞如果获得不同 oncogenic events，就会形成不同 subtype。
+> 
+> Cell-of-origin model 认为不同肿瘤亚型主要由突变发生在哪一种细胞决定：即使是同一个 oncogenic event，发生在不同分化阶段或不同谱系的细胞中，也会形成不同 subtype。
+
+<img src="338.png" alt="" width="60%">
+
+### The hallmarks of cancer
+
+Pathways That Are Commonly Disrupted In Cancers
+- Cell cycle progression: Rb
+- Cell growth: RTK/Ras/PI3K pathway
+- Control of responses to stress and DNA damage: p53
+- Tissue-specific pathways:
+  - Prostate cancer: androgen receptor;
+  - Colorectal cancer: Wnt signaling;
+  - Pancreatic cancer: TGFβ signaling
+  
+Cancer Cells Are Genetically Unstable
+- Most human cancer cells accumulate genetic changes at an abnormally rapid rate and are said to be genetically unstable.
+- maybe abnormalities in structure and number.
+
+Cancer Cells Display an Altered Control of Growth
+- Loss of contact inhibition by cancer cells in cell culture
+
+<img src="339.png" alt="" width="60%">
+
+Mutations in the PI3K/Akt/mTOR Pathway Drive Cancer Cells to Grow
+- The abnormal activation of the PI3K/Akt/mTOR pathway occurs in the early tumor progression.
+
+<img src="340.png" alt="" width="60%">
+
+- 癌细胞常通过生长因子受体/PI3K-Akt-mTOR 通路增强葡萄糖摄取、糖酵解、蛋白质合成和脂质合成，从而把营养物质转化为细胞生长所需的生物大分子。
+- 同时，PTEN 是 PI3K-Akt 通路的抑制因子；如果 PTEN 失活或该通路异常激活，就会促进癌细胞代谢重编程和持续增殖。
+- 不再被原来的signals所control或者regulate
+
+Cancer Cells Have an Altered Sugar Metabolism
+- Tumor cells de-emphasize oxidative phosphorylation even when oxygen is plentiful, while at the same time taking up large quantities of glucose to generate raw materials for synthesis of the proteins, nucleic acids, and lipids required for tumor growth
+- Most tumors have a metabolism more similar to that of a growing embryo than to that of normal adult tissue
+
+<img src="341.png" alt="" width="60%">
+
+Cancer cell glycolysis is the basis of 18-FDG PET imaging
+- Positron Emission Tomography (PET): An imaging test that can help reveal the metabolic or biochemical function of your tissues and organs. The PET scan uses a radioactive drug (tracer) to show both normal and abnormal metabolic activity
+- 18F-fluorodeoxyglucose (FDG, a glucose analog)
+
+Cancer Cells Escape a Built-in Limit to Cell Proliferation
+- Most normal human somatic cells stop dividing after a finite number of cell divisions and enter a state of irreversible cell proliferation arrest.
+- Human cancer cells avoid replicative cell senescence:
+  - Maintain the activity of telomerase as they proliferate, so that their telomeres do not shorten or become uncapped.
+  - Alternate mechanism based on homologous recombination (called ALT) for elongating their chromosome ends.
+  - Telomerase is active in 85–95% of cancers
+
+Cancer Cells Have Ability to Survive Stress and DNA Damage
+- Cell Stress: DNA damage, chromosome breakage, metabolic disturbance, etc
+- Cancer cells break through the normal safety/defensive mechanisms (DNA repair, apoptosis, etc) to overcome cell stress.
+- eg: in cancer cells, The p53 gene is mutated in about 50% of all cases of cancer—a higher proportion than for any other known cancer-critical gene, Mutations in the p53 Pathway Enable Cancer Cells to Survive and Proliferate Despite Stress and DNA Damage
+
+<img src="342.png" alt="" width="60%">
+
+The Tumor Microenvironment Influences Cancer Development
+- Pericytes: vascular smooth muscle cells(周细胞：血管平滑肌细胞)
+- Only the cancer cells are thought to be genetically abnormal in a tumor.
+- Supporting connective tissue--stroma: The tumor and its stroma evolve together
+
+<img src="345.png" alt="" width="60%">
+
+Cancer Cells Must Survive and Proliferate in a Foreign Environment
+**metastasis**
+- 癌症转移是一个多步骤过程：肿瘤细胞先在原位增殖，随后侵袭穿过基底膜并进入血管，成为 循环肿瘤细胞（CTCs），再随血液到达远处器官、黏附血管壁、穿出血管并形成微转移灶。
+- 检测血液中的 CTCs 可用于癌症转移的早期监测。
+
+<img src="343.png" alt="" width="60%">
+
+EMT for Cancer Metastasis
+- During EMT, cell–cell and cell–extracellular matrix interactions are remodeled, which leads to the detachment of epithelial cells from each other and the underlying basement membrane, and a new transcriptional program is activated to promote the mesenchymal fate.
+- EMT is important in embryogenesis such as gastrulation, tissue morphogenesis and wound healing in the adult.
+
+<img src="344.png" alt="" width="60%">
+
+Many Properties Typically Contribute to Cancerous Growth
+- Accumulate multiple changes in their chromosomes
+- Grow in the absence of signals telling them to grow.
+- Ignore signals for programmed cell death, or apoptosis.
+- Make blood vessels to grow toward tumors to supply oxygen and nutrients.
+- Rely on different kinds of nutrients than normal cells.
+- Invade into nearby areas and spread to other areas of the body.
+- Hide from the immune system.
+
+### Cancer prevention and treatment
+
+Chemical Carcinogenesis:
+- Environmental factors play a large part in determining the risk for cancer.
+- In 1915, Katsusaburo Yamagiwa successfully induced squamous cell carcinoma by painting crude coal tar on the inner surface of rabbits' ears.
+
+Sensitive Assays Can Detect Those Cancer-Causing Agents
+- A few of these carcinogens act directly on DNA. Some become damaging only after being converted to a more reactive molecule by metabolic processes.
+  - 黄曲霉毒素本身需要先被细胞色素 P450 酶代谢活化为高反应性的环氧化物，随后与 DNA 中的鸟嘌呤结合形成 DNA 加合物，从而诱发突变并增加癌症风险。
+- Ames test（艾姆斯试验） 是用一种不能自己合成组氨酸的沙门氏菌来检测某种化合物是否具有致突变性：如果测试化合物诱导细菌发生回复突变，使其重新获得合成组氨酸的能力，就能在缺乏组氨酸的培养基上长出较多菌落。
+  
+  <img src="346.png" alt="" width="60%">
+  
+Viruses and Other Infections Contribute to a Significant Proportion of Human Cancers
+- Cervical cancer is the second most common cancer in women worldwid, Persistent infection with carcinogenic human papillomavirus (HPV) causes almost all cases.
+
+Mechanisms Of Viral Carcinogenesis
+- Direct mechanisms: 病毒感染后直接表达病毒癌基因，或激活/改变细胞自身癌基因，从而影响增殖、生存、DNA 修复、基因组稳定性等过程，直接推动细胞癌变。
+  
+  <img src="348.png" alt="" width="60%">
+
+- Indirect mechanisms: Chronic inflammation & Immunosuppression 病毒或感染通过诱发慢性炎症、组织损伤、ROS 致突变，或通过免疫抑制削弱免疫清除能力，间接增加癌症发生风险。
+
+  <img src="347.png" alt="" width="60%">
+
+Cancer Treatment Options
+
+Targeted Therapy
+- drugs can kill cancer cells selectively by targeting specific mutations or pathways.
+  - kinase & receptors 比较容易
+  - TF很难
+  
+  <img src="349.png" alt="" width="60%">  
+
+Small Molecules Can Be Designed to Inhibit Specific Oncogenic Proteins
+- Imatinib (Gleevec) blocks the activity of Bcr-Abl protein and halts chronic myelogenous leukemia
+- Imatinib sits in the ATP-binding pocket of the tyrosine kinase domain of Bcr-Abl and thereby prevents Bcr-Abl from transferring a phosphate group from ATP onto a tyrosine residue in a substrate protein.
+
+Targeting Multiple Knots Of The Same Pathway
+- Protein kinases have been relatively easy to inhibit with small molecules.
+
+<img src="350.png" alt="" width="60%"> 
+
+Combination Therapies May Succeed Where Treatments with One Drug at a Time Fail(鸡尾酒疗法)
+
+<img src="351.png" alt="" width="60%"> 
+
+PARP Inhibitors Kill Cancer Cells That Have Defects in BRCA1 or BRCA2 Genes
+- 正常细胞有两套 DNA 损伤修复途径，即使 PARP inhibitor 阻断了其中一条，另一条由 BRCA1/BRCA2 参与的修复途径仍可工作，所以细胞能存活；但带有 BRCA1/BRCA2 缺陷 的癌细胞本来已经失去一条重要修复途径，再被 PARP inhibitor 阻断另一条修复途径后，DNA 损伤无法修复，复制被永久阻断，最终癌细胞死亡。
+- **Synthetic lethality** is a lethal phenomenon in which the occurrence of a single genetic event is tolerable for cell survival, whereas the co-occurrence of multiple genetic events results in cell death.
+
+<img src="352.png" alt="" width="60%"> 
+
+CRISPR Screen For Pairwise Genetic Interactions
+- eg: 先把针对不同药物靶基因的 sgRNA 两两组合成一个 pooled library，然后感染 Cas9 细胞并筛选培养；经过一段时间后，通过深度测序统计每种 sgRNA 组合的丰度变化，判断哪些双基因敲除会显著影响细胞生长。最后根据这些 genetic interactions 找到可能具有协同杀伤效果的药物组合，例如同时抑制 Gene A 和 Gene B。
+
+The Microenvironment in a Tumor is Immunosuppressive, Cancer Can Be Cured with Immune Checkpoint Inhibitors
+
+<img src="353.png" alt="" width="60%"> 
+
+Tumor Mutation Burden As An Immunotherapy Biomarker
+- TMB 越高，肿瘤产生新抗原的可能性越大，因此更容易被免疫系统识别，也更可能对免疫检查点治疗敏感。
+- TMB is a measure of the number of mutations carried by tumor cells.
+- Tumors with many mutations have a high mutational burden (high TMB).
+- TMB is currently used as a predictive biomarker for immune checkpoint inh
+- Somatic Mutations Can Give Rise To Neoantigens, Neoantigens are irregular markers unique to cancer cells that can potentially trigger an immune response
+
+CAR T-cell Therapy
+- CARs are fusion proteins consisting of an extracellular antigen-binding domain (usually the single-chain variable fragment of an antibody) linked to an intracellular signaling domain — usually the CD3ζ chain of the T cell receptor (TCR), with CAR-T cell activity enhanced by the addition of a costimulatory domain such as CD28 or CD137 to support the expansion and persistence of the genetically engineered cells in vivo.
+
+<img src="354.png" alt="" width="60%"> 
+
+Many Cases of Cancer Are Preventable
+
+Early Detection is the Key to Prevent and Cure
+- Patients survive longer when cancer is detected at an early stage.
+- Colonoscopy: 结肠镜检查 / 肠镜检查
+- Preventive Cancer Screening
+  > Pap Smear: cervix cancer
+  > Mammogram: breast cancer
+  > Physical exam: prostate & colon cancers
+  > X-ray: lung cancer
+
+<img src="355.png" alt="" width="60%"> 
+
+Liquid Biopsy For Early Cancer Detection
+- 液体活检（liquid biopsy）可以通过血液等体液检测 ctDNA、循环肿瘤细胞 CTCs、外泌体、RNA、蛋白等肿瘤相关分子，用于癌症早筛、分型、疗效监测和复发/耐药追踪。
+- 相比传统组织活检，液体活检的优势是创伤小、速度快、可重复取样、能实时反映肿瘤演化和异质性；但缺点是目前部分应用仍缺乏充分临床验证，且不能像组织活检一样提供完整的病理组织学信息。
+
+### Model systems to study cancer
+
+- Genetically engineered mouse/rat models
+- Human isogenic cell lines
+- Human 3D organoid culture
+- Human xenograft models on immuno-deficient mice
+- Humanized mouse models (replacing murine hematopoietic system with human one)
+
+Transgenic Mice Help to Define the Functions of Cancer-Critical Genes
+
+Human Cancer Organoid
+- Organoids are microscopic self-organizing, three-dimensional structures that are grown from stem cells in vitro.
+- They recapitulate many structural and functional aspects of their in vivo counterpart organs.
+- Tumor organoids become models for the cancer microenvironment enabling immune-oncology applications
+
+Mouse Xenograft Model
+- Patient-derived xenograft (PDX)models are created by engraftment of patient tumor tissues into immunocompromised mice.
+- PDX model retains the characteristics of the primary patient tumor including gene expression profiles and drug responses, which has become the most reliable in vivo human cancer model.
+
+<img src="356.png" alt="" width="60%"> 

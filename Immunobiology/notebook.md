@@ -343,7 +343,8 @@ Memory of B cell responses
   - 经过一些变化后IgG后来会赶上
   - 第二次感染后IgM不会增高了，IgG会增高
 - 不仅能记住抗原种类（IgG浓度），而且能提高非常强的affinity
-  - 第二次刺激可以有更多IgG
+  - 第二次刺激可以有更多
+  IgG
   - 可以再次发生somatic hypermutation
   
   ![](25.png)
@@ -354,4 +355,53 @@ Established memory dominates latter responses: "Original antigenic sin"
 
   - 病毒出现变种之后其实之前的免疫就没有意义了，会无视后面的抗原的变异
   - 所以只有第一次接触的变异类型会伴随人类的一生
-  - 
+
+# Tissue immunity（以黏膜组织为例）
+
+天然免疫和获得性免疫连接问题——树突状细胞
+
+![](27.png)
+
+树突状细胞的特殊性：
+1. 同时起源于髓系和淋系
+2. 连接天然免疫和获得性免疫：在天然免疫中感知病原相关分子模式，从而获取到共刺激信号，同时捕获抗原完成抗原呈递功能
+  
+### Mucosal immunity
+
+##### Anatomy
+
+黏膜组织种类：呼吸道、消化道、眼睛、乳腺、泌尿道
+
+Mucosa-associated lymphoid tissues (MALT)：黏膜相关淋巴器官
+- 全部是次级淋巴器官
+- NALT: nasal-associated lymphoid tissues
+- BALT: bronchus-associated lymphoid tissues
+- GALT: gut-associated lymphoid tissues
+
+![](28.png)
+
+Nasal-associated lymphoid tissues (NALT)
+- Waldeyer's ring(⽡尔代尔淋巴环): 当口腔完全张开时，口腔中的所有淋巴器官基本形成一个完整的环
+  - Palatine tonsil: 腭扁桃体
+  - Lingual tonsil: ⾆扁桃体
+  - Adenoid: 增殖腺
+  - 目的：对于食物和呼吸的摄入可以第一时间进行监测
+  - 在解剖学上不依赖于显微镜就可以被看到
+
+  ![](29.png)
+
+Bronchus-associated lymphoid tissues (BALT)
+- 尺寸非常小，不借助显微镜很难看到，但是每个点都是非常完整的淋巴器官
+
+Gut-associated lymphoid tissues (GALT)
+
+  ![](30.png)
+
+- 小肠绒毛中本身具有淋巴器官，小肠绒毛中如果存在抗原，会通过淋巴引流的方式一直从小肠绒毛向下引流直到肠系膜淋巴结（Mesenteric lymph node），这个过程是单向的
+- payer's patch派尔集合淋巴结，直接嵌入小肠绒毛，其中有非常明确的Tcell区
+
+##### Antigen presentation
+
+##### T-cell and B-cell responses
+
+##### Immune tolerance 对于外源病原体无视
