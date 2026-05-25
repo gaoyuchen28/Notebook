@@ -2686,7 +2686,7 @@ Cell Proliferation is Accompanied by Cell Growth
   
 <img src="238.png" alt="" width="60%">
 
-# Chapter 19 
+# ✅Chapter 19 
 
 Two main ways in which animal cells are bound together
 
@@ -3070,3 +3070,331 @@ Different ways to record location and species of mRNA transcripts
 <img src="289.png" alt="" width="60%">
 
 <img src="290.png" alt="" width="60%">
+
+# Chapter 18
+
+### Types of cell death 
+
+**program cell death**
+
+- Development:
+  - Sculp tissue structure
+  > developing mouse paw by apoptosis:
+  > - Locally produced bone morphogenic proteins (BMPs) stimulate cells between developing fingers and toes to kill themselves.
+  > frog's tail
+  > - Thyroxine - dependent: Increase in thyroid hormone in the blood, apoptosis of tail tissues, CNS neurogenesis, apoptosis
+  - Remove unwanted tissue
+  - Regulate cell number: (nerve cells match the number of target cells that nerve cells connect to)
+  - Quality control
+  - Suicide for damage that cannot be repaired
+- Adult
+  - Regeneration/renewal
+  - Maintain tissue homeostasis
+  - Maintain large pool of immune cells to fight infection
+  - Quality control
+  - Suicide for damage that cannot be repaired
+
+分类方法一：Programmed vs Non-programmed
+- Apoptosis: Immune silent, least immunogenic form
+- Inflammatory cell death: Lytic, release cellular contents, Immunostimulatory, immunogenic cell death
+- Necrosis: is caused by factors external to the cell or tissue, especially severe insults of physical (e.g., high pressures, temperatures, or osmotic forces), chemical (e.g., extreme pH variations), or mechanical (e.g., shear forces) nature; inflammatory response
+
+分类方法二：Noninflammatory vs. Inflammatory forms of cell death
+
+<img src="291.png" alt="" width="60%">
+
+<img src="292.png" alt="" width="60%">
+
+### Apoptosis: features and mechanisms
+
+Apoptosis: describe a common type of cell death characterized by **membrane blebbing**, **cell shrinkage**, **protein fragmentation**, **chromatin condensation** and **DNA degradation** followed by rapid engulfment of corpses by surrounding cells.
+- It rapidly cleans out dysfunctional cells, limits toxic effects, saves energy and recycles molecules for future de novo synthesis.
+- 由brenner在线虫中发现
+- Cell intrinsic suicide program; Cell autonomous
+- 2 pathways: extrinsic vs. intrinsic
+- Caspases (cysteine-containing aspartate-specific protease) are regulators and effectors of apoptosis
+
+Characteristic morphology of apoptotic cells:
+- Cell shrinkage and condensation is shown because of the breakdown of cytoskeleton by caspases.
+- The cytoplasm appears dense, and the organelles appear tightly packed.
+- Chromatin undergoes condensation into compact patches against the nuclear envelope (also known as the perinuclear envelope) in a process known as pyknosis(核固缩), a hallmark of apoptosis.
+- The nuclear envelope becomes discontinuous and the DNA inside it is fragmented in a process referred to as karyorrhexis(核碎裂). The nucleus breaks into several discrete chromatin bodies or nucleosomal units due to the degradation of DNA.
+- The cell membrane shows irregular buds known as blebs(膜泡).
+- The cell breaks apart into several vesicles called apoptotic bodies, which are then phagocytosed.
+
+Biochemical features of apoptotic cells:
+- DNA fragmentation: DNA electrophoresis & TUNEL staining
+  - In healthy cells, the endonuclease CAD(Caspase-Activated DNase) associates with its inhibitor, iCAD. Activation of executioner caspases in the cell leads to cleavage of iCAD, which unleashes the nuclease.
+  - TUNEL assay (TdT-mediated dUTP nick end labeling): the enzyme terminal deoxynucleotidyl transferase (TdT) adds chains of labeled deoxynucleotide (dUTP) to the 3ʹ-OH ends of DNA fragments
+
+  <img src="293.png" alt="" width="60%">
+
+- Phosphatidylserine flips to the outer leaflet in apoptotic cells: 
+  - Annexin V staining; eat me signal that notify neighboring cells and phagocytes
+
+  <img src="294.png" alt="" width="60%">
+
+- Reduced mitochondria membrane potential (MMP)
+  - Electrochemical gradient across inner membrane generates MMP
+  - MMP indicator: lipophilic positively charged fluorescent dye
+  
+  <img src="295.png" alt="" width="60%"> 
+
+- Cytochrome c release: mitochondria to cytosol
+  - Cell fractionation and Western blot and Immunofluorescent staining
+
+  <img src="296.png" alt="" width="60%">
+
+**Intrinsic pathway**
+
+Activation signal: Injury, stress: DNA damage, lack of oxygen, lack of nutrients, lack of extracellular survival signals
+
+1.  Release of cytochrome c from mitochondria to activate caspase cascade in cytoplasm
+  
+  <img src="301.png" alt="" width="60%">
+
+2.  Lipid asymmetry — phosphatidylserine flipped out
+3.  Permeable plasma membrane – allow for small molecules to get in and stain (ex: for DNA)
+
+  <img src="302.png" alt="" width="60%">
+
+A major class of intracellular regulators of the intrinsic pathway of apoptosis: the Bcl2 family of proteins, highly conserved in evolution
+- Works mainly by controlling the release of cyto. c and other intermembrane mitochondria proteins.
+- The pro-apoptotic and anti-apoptotic proteins can bind to each other in various combinations to form heterodimers in which the two proteins inhibit each other’s function.
+- The balance between the activities of these two functional classes of Bcl2 family proteins largely determines whether a mammalian cell lives or dies by the intrinsic pathway of apoptosis.
+
+  <img src="303.png" alt="" width="60%">
+
+  - pro-apoptotic effector: 
+    1. When activated by an apoptotic stimulus, the proapoptotic BH123 proteins aggregate on the outer mitochondrial membrane.
+
+    <img src="304.png" alt="" width="60%">
+  
+  - pro-apoptotic BH3-only and anti-apoptotic Bcl2 family proteins
+    1. Without apoptotic stimuli, the pathway is inactive: Anti-apoptotic Bcl-2 proteins, such as Bcl-2 and Bcl-XL, inhibit Bax and Bak.
+    2. Anti-apoptotic Bcl-2 proteins protect mitochondria: They prevent mitochondrial outer membrane permeabilization and block cytochrome c release.
+    3. Apoptotic stimuli activate BH3-only proteins: Different stresses, such as DNA damage or growth factor withdrawal, activate different BH3-only proteins.
+    4. BH3-only proteins inhibit anti-apoptotic Bcl-2 proteins: They bind to anti-apoptotic Bcl-2 proteins and release Bax/Bak from inhibition.
+    5. Bax and Bak promote mitochondrial protein release: Once activated, Bax and Bak aggregate on the mitochondrial outer membrane and form pores.
+    6. p53 connects DNA damage to apoptosis: When DNA damage cannot be repaired, p53 induces Puma and Noxa expression to trigger apoptosis.
+
+    <img src="305.png" alt="" width="60%">
+  
+  - Bcl2 family proteins: Roles of IAPs and anti-IAPs in the control of apoptosis
+    1. IAPs are inhibitors of apoptosis: They suppress apoptosis mainly by binding to and inhibiting caspases.
+    2. IAPs inhibit caspases through their BIR domains: bind activated caspases and block their activity.
+    3. IAPs can also promote caspase degradation:
+    4. IAPs set an inhibitory threshold for apoptosis: Activated caspases must overcome this IAP-mediated inhibition before apoptosis can proceed.
+    5. Even if some procaspases are spontaneously activated, IAPs can prevent them from triggering full apoptosis.
+    6. Anti-IAP proteins promote apoptosis: They are released from the mitochondrial intermembrane space and bind to IAPs
+    7. IAPs and anti-IAPs are especially important in flies, whereas Bcl-2 family proteins are more dominant in mammals.
+   
+   <img src="306.png" alt="" width="60%">
+
+Intracellular proteolytic cascade by Caspases leads to apoptosis
+- Cysteine dependent aspartate-directed protease
+- Caspases cut the C-terminal side of aspartic acid residues.
+- Procaspase activation by cleavage at one or two aspartic acids
+
+  <img src="297.png" alt="" width="60%">
+
+  <img src="298.png" alt="" width="60%">
+
+**extrinsic pathway**
+
+The extrinsic pathway of apoptosis activated through Fas death receptors
+- The death receptors are homotrimers and belong to the tumor necrosis factor (TNF) receptor family, which includes a receptor for TNF itself and the Fas death receptor.
+  - FADD: Fas-associated death domain
+  - DISC: death-inducing signaling complex
+  - (inhibitory)Decoy receptor: compete with death receptor
+  - (inhibitory)FLIP: initiator procaspase decoy (no proteolytic domain)
+
+  <img src="299.png" alt="" width="60%">
+
+- Death receptor signaling leads to NF-B activation
+  
+  <img src="300.png" alt="" width="60%">
+
+Link between extrinsic and intrinsic pathway of apoptosis
+- BH3 only protein Bid is the link between two pathways.
+- Extrinsic pathway → activated Caspase 8 → Bid Cleavage to tBid →tBid translocates to mitochondria membrane and inhibits anti-apoptotic Bcl2 protein; triggers aggregation of BH123 protein → activate intrinsic pathway
+  
+  <img src="306.png" alt="" width="60%">
+
+### Examples of apoptosis during development and diseased state
+
+##### Development of Vertebrate Limbs
+
+locally produced bone morphogenetic proteins (BMPs; members of the TGF-beta superfamily) are expressed by interdigital cells and induce apoptosis.
+
+##### Selection (eliminates useless cells)
+
+The role of survival factors and cell death in adjusting the number of developing nerve cells to the amount of target tissue:
+- Most animal cells need to compete for survival factors to survive
+- Cells survive only when and where they are needed.
+
+  <img src="308.png" alt="" width="60%">
+
+Three ways that extracellular survival factors can inhibit apoptosis:
+
+  <img src="309.png" alt="" width="60%">
+
+One way in which signaling through PI3-kinase promotes cell survival
+
+  <img src="310.png" alt="" width="60%">
+
+Either excessive or insufficient apoptosis can contribute to disease
+- Excessive apoptosis causes tissue damage:
+  - Heart attacks, strokes
+  - (In acute conditions, ischemia缺血 (inadequate blood supply) triggers necrosis.)
+- Insufficient apoptosis
+  - Autoimmune diseases: Inactivation of Fas/FasL genes in some lymphocytes causes accumulation of excessive numbers of lymphocytes in the spleen and lymph glands.
+  - Tumors: excessive production of Bcl2; mutated p53 no longer promotes apoptosis or cell-cycle arrest in response to DNA damage
+
+  <img src="311.png" alt="" width="60%">
+
+the chemical ABT-737 inhibits anti-apoptotic Bcl2 family proteins:
+- By binding to the hydrophobic grove of anti-apoptotic Bcl2 protein with high affinity, the drug promotes apoptosis in any cell that depends on them for survival.
+
+### Inflammatory cell death – Pyroptosis
+
+- Fiery(炽热), Rapid, Lytic
+- Highly inflammatory
+- Trigger: Cytosolic sensing of invasive pathogens and other danger signals
+
+Pattern Recognition Receptors (PRRs): 
+1. PAMPs usually indicate infection: PAMPs come from pathogens, Pathogen-associated molecular patterns are microbial components, such as bacterial LPS, flagellin, or viral RNA.
+2. DAMPs usually indicate tissue damage: DAMPs come from damaged host cells, Damage-associated molecular patterns are endogenous molecules released during tissue stress, injury, or cell death.
+3. Toll-like receptors, or TLRs, recognize microbial and cell-derived patterns.
+4. Nod-like receptors, or NLRs, are cytosolic sensors: They recognize intracellular bacterial components, such as peptidoglycan-derived molecules.
+5. PRR activation triggers transcription factor activation.
+6. PRRs induce inflammatory cytokines, interferons, and chemokines.
+7. PRRs promote costimulatory molecule expression.
+
+  <img src="312.png" alt="" width="60%">
+
+Innate immune sensing of invading pathogens by inflammasome sensors
+1. Pathogens / danger signals are detected.
+2. Inflammasome sensors are activated.
+   - NAIP-NLRC4: Sense pathogen-derived proteins
+  
+  <img src="313.png" alt="" width="60%">
+
+  - AIM2: Sense dsDNA
+
+  <img src="314.png" alt="" width="60%">
+
+  - NLRP3: 
+
+  <img src="315.png" alt="" width="60%">
+
+<img src="316.png" alt="" width="60%">
+
+3. ASC adaptor proteins are recruited.
+4. Caspase-1 is activated.
+5. IL-1β and IL-18 are produced.
+6. Pyroptosis is triggered.
+7. Intracellular pathogens are exposed.
+
+> Consequence of Overt Inflammation：Sepsis
+
+Pyroptosis is executed by pore-forming proteins named Gasdermin (GSDM)
+- Gasdermin D 被 caspase 或 granzyme 切割后释放出 N 端活性结构域，该结构域插入细胞膜并寡聚化形成大孔，从而导致膜通透性增加并触发焦亡。
+
+<img src="318.png" alt="" width="60%">
+
+- GSDMD 被切割后释放的 N 端片段 GSDMD-NT 能特异性结合细胞膜内侧的酸性磷脂以及线粒体/细菌膜中的 cardiolipin，从而定位到膜上并进一步形成孔道。
+
+<img src="317.png" alt="" width="60%">
+
+> GSDMD-NT 可以在由 PC、PE、PS 这三种脂质组成的人工脂质体膜上形成孔道。
+
+- GSDMs are cleaved by Caspases and other Proteases
+
+> Cleavage of GSDME by caspase-3 converts noninflammatory apoptosis into inflammatory pyroptosisin GSDME-expressing cells
+
+- GSDME-mediated tumor inhibition depends on cytotoxic granule-mediated, perforin (PFN)-dependent cell killing
+  - Perforin (PFN): A pore-forming protein released by CD8+ T and NK cells
+  - Granzyme (Gzm): Cytotoxic serine protease released by CD8+ T and NK cells
+
+  <img src="319.png" alt="" width="60%">
+
+Killer lymphocytes induce GSDME-mediated pyroptosis in GSDME-expressing target cells
+- 杀伤性淋巴细胞不仅可以诱导靶细胞 apoptosis；如果靶细胞表达 GSDME，它们还可以通过 GSDME 介导膜孔形成，从而诱导 pyroptosis
+
+Killer lymphocytes induced GSDME-mediated pyroptosis could effectively promote tumor immunity
+
+  <img src="320.png" alt="" width="60%">
+
+### Inflammatory cell death – Necroptosis 
+
+- Triggered by certain changes in cellular homeostasis and when apoptosis is blocked
+- External or Internal Trigger: TNF, TRAIL, IFN-, Genotoxic stress, viral DNA/RNA, bacterial LPS
+- Receptors: TLR, TNFR1, FAS
+- Complex I: RIPK1, TRADD, TRAF2 & -5, cIAP1 & -2, and LUBAC
+- Complex IIa: TRADD, FADD, and RIPK1
+- Complex IIb: FADD, RIPK1
+- Role in normal biological processes (inflammation, would healing) or disease states (cancer, neurodegenerative disease, chronic inflammation)
+- Protect or kill tumor cells: context-dependent
+
+Necrosome triggers pMLKL multimer to induce Ca2+/Na+ influx
+- Caspase 8 inhibition/Absent: RIPK3 recruitment, oligomerization, autophosphorylation
+- RIPK1/RIPK3 complex: Necrosome(坏死体)
+- MLKL phosphorylation and homotrimer/tetramer formation: induces Na+/Ca2+ influx, cell membrane perforation(穿孔)
+  > ROS 增加
+  > ↓
+  > RIPK1 被磷酸化激活
+  > ↓
+  > RIPK3 被磷酸化激活
+  > ↓
+  > MLKL 被激活
+  > ↓
+  > 细胞膜破裂
+  > ↓
+  > necroptosis
+- Key player in pathologies (neurodegeneration, inflammation, kidney damage, cancer): small molecule modulators targeting
+- RIPK1/RIPK3/MLKL in clinical trials for cancer and inflammatory diseases (e.g., Colitis, Arthritis, Alzheimer’s).
+
+Necroptosis in tumor promotes antitumor immunity
+- RIPK1/RIPK3 不只是导致细胞死亡，它们还可以激活 NF-κB，从而诱导一系列炎症或免疫相关信号。
+
+  <img src="321.png" alt="" width="60%">
+
+### Inflammatory cell death – Ferroptosis 
+
+A form of programmed cell death that is caused by iron-dependent accumulation of lipid peroxides, which is formed by oxidation of polyunsaturated fatty acids (PUFA) in membrane phospholipids, with iron suggested to be involved.
+
+Iron accumulation
+铁积累
+↓
+Direct oxidation by free iron
+游离铁直接促进氧化反应
+↓
+Lipid peroxidation
+脂质过氧化积累
+↓
+Inactivation of GPX4
+GPX4 失活，无法清除脂质过氧化物
+↓
+Ferroptosis
+铁死亡
+
+- Intracellular iron accumulation causes ROS formation through a Fenton-like reaction
+- ROS is normally reduced by glutathione (GSH) under the action of glutathione peroxidases (GPXs), especially GPX4.
+- Reduced cysteine-glutamate Xc- amino acid anti-transporter activity reduces cystine uptake, reduces GSH synthesis and leads to decreased GPX4 activity.
+- GPX4 inactivation reduces cells’ antioxidant capacity, which leads to accumulation of lipid hydroperoxides, H2O2, and ultimately the occurrence of oxidative damage and ferroptosis.
+
+  <img src="322.png" alt="" width="60%">
+
+Ferroptosis plays important roles in multiple system diseases
+
+  <img src="323.png" alt="" width="60%">
+
+### Necrosis
+
+Necrosis: animal cells that die in response to an acute insult, such as trauma or a lack of blood supply.
+- Necrotic cells swell and burst, spilling their contents over their neighbors and eliciting an inflammatory response.
+
+  <img src="324.png" alt="" width="60%">
+
+<img src="325.png" alt="" width="60%">
