@@ -802,3 +802,1013 @@ def knightTour(n, path, u, limit):
     # 返回是否成功找到完整路径
     return done
 ```
+
+【关键思路】
+1. 如果沿着单支深入搜索到无法继续（所有合法移动都已经被走过了）时路径长度还没有达到预定值（8×8棋盘为63）那么就清除颜色标记，返回到上一层换一个分支继续深入搜索
+2. 引入一个栈来记录路径，并实施返回上一层的回溯操作
+
+以上算法存在的问题：
+1. 上述算法的性能高度依赖于棋盘大小：
+2. 目前实现的算法，其复杂度为O(kn)，其中n是棋盘格数目，其搜索过程表现为一个层次为n的树
+
+##### Warnsdorff算法
+
+【思路】
+1. 将u的合法移动目标棋盘格排序为：具有最少合法移动目标的格子优先搜索
+
+```python
+def orderByAvail(n):
+    # resList 用来保存形如 (可继续走的数量, 顶点) 的元组
+    resList = []
+
+    # 遍历当前顶点 n 的所有邻接点
+    # 对骑士周游来说，就是马从当前位置下一步可以跳到的位置
+    for v in n.getConnections():
+
+        # 只考虑还没有访问过的点
+        if v.getColor() == 'white':
+
+            # c 记录从 v 出发还能走到多少个未访问点
+            c = 0
+
+            # 遍历 v 的所有邻接点
+            for w in v.getConnections():
+
+                # 如果 w 还没有访问过，说明从 v 之后还可以继续走到 w
+                if w.getColor() == 'white':
+                    c = c + 1
+
+            # 把 v 以及它后续可走的数量 c 一起保存
+            # c 越小，说明 v 越“紧张”，应该越早尝试
+            resList.append((c, v))
+
+    # 按照 c 从小到大排序
+    # 也就是优先尝试后续选择最少的点
+    resList.sort(key=lambda x: x[0])
+
+    # 只返回排序后的顶点，不返回 c
+    return [y[1] for y in resList]
+```
+```python
+def knightTour(n, path, u, limit):
+    # 将当前顶点 u 标记为 gray
+    # gray 表示：这个点已经在当前路径中，不能重复访问
+    u.setColor('gray')
+
+    # 把当前顶点 u 加入路径
+    path.append(u)
+
+    # 如果当前路径长度还没有达到目标长度，就继续搜索
+    if n < limit:
+
+        # 原来的写法是：
+        # nbrList = list(u.getConnections())
+        #
+        # 现在替换为 orderByAvail(u)
+        # 这样邻接点会按照“后续可走位置数量”从少到多排序
+        # 即优先尝试最容易被堵死的位置
+        nbrList = orderByAvail(u)
+
+        # i 用来遍历排序后的邻接点列表
+        i = 0
+
+        # done 表示是否已经找到一条完整路径
+        done = False
+
+        # 只要还有邻接点没有尝试，并且还没有找到完整路径，就继续尝试
+        while i < len(nbrList) and not done:
+
+            # 由于 orderByAvail(u) 已经只返回 white 顶点，
+            # 这里其实可以不再判断颜色。
+            # 但为了代码安全和逻辑清晰，保留这个判断。
+            if nbrList[i].getColor() == 'white':
+
+                # 递归搜索这个邻接点
+                # n + 1 表示路径长度增加 1
+                done = knightTour(n + 1, path, nbrList[i], limit)
+
+            # 如果当前邻接点不成功，就尝试下一个邻接点
+            i = i + 1
+
+        # 如果所有邻接点都尝试完了，仍然没有找到完整路径
+        # 说明从当前点继续走不通，需要回溯
+        if not done:
+
+            # 从路径中移除当前顶点
+            path.pop()
+
+            # 把当前顶点重新标记为 white
+            # 表示它可以在其他路径尝试中再次被访问
+            u.setColor('white')
+
+    else:
+        # 如果 n 已经达到 limit
+        # 说明已经找到一条覆盖目标数量顶点的路径
+        done = True
+
+    # 返回是否成功找到完整路径
+    return done
+```
+
+### 通用的深度优先搜索
+
+骑士周游问题是一种特殊的对图进行深度优先搜索: 其目的是建立一个没有分支的最深的深度优先树, 表现为一条线性的包含所有节点的退化树
+
+1. 一般的深度优先搜索目标是在图上进行尽量深的搜索，连接尽量多的顶点，必要时可以进行分支（创建了树）
+    有时候深度优先搜索会创建多棵树，称为“深度优先森林”
+2. 深度优先搜索同样要用到顶点的“前驱”属性，来构建树或森林
+   另外要设置“发现时间”和“结束时间”属性
+   - 前者是在第几步访问到这个顶点（设置灰色）
+   - 后者是在第几步完成了此顶点探索（设置黑色）
+3. 带有DFS算法的图实现为Graph的子类
+   - 顶点Vertex增加了成员Discovery及Finish
+   - 图Graph增加了成员time用于记录算法执行的步骤数目
+
+```python
+# 从 pythonds.graphs 模块中导入 Graph 类
+# Graph 是图结构的基础类，DFSGraph 会继承它
+from pythonds.graphs import Graph
+
+
+# 定义 DFSGraph 类，继承自 Graph
+# 这个类在普通图的基础上，增加了深度优先搜索 DFS 的功能
+class DFSGraph(Graph):
+
+    def __init__(self):
+        # 调用父类 Graph 的初始化方法
+        # 这样 DFSGraph 就具有 Graph 原本的属性和方法
+        super().__init__()
+
+        # time 用来记录 DFS 过程中的时间戳
+        # 每发现一个顶点或完成一个顶点，time 都会增加
+        self.time = 0
+
+
+    def dfs(self):
+        
+        # 第一步：初始化所有顶点的状态
+        for aVertex in self:
+
+            # white 表示这个顶点还没有被访问过
+            aVertex.setColor('white')
+
+            # pred 表示前驱顶点
+            # 一开始还没有搜索，所以所有顶点的前驱都设为 -1
+            aVertex.setPred(-1)
+
+        # 第二步：开始遍历所有顶点，这个部分是因为我们不能保证所有的顶点开始都能深度搜索完，所以要有第二遍的调用
+        for aVertex in self:
+
+            # 如果某个顶点仍然是 white
+            # 说明它还没有被 DFS 访问过
+            if aVertex.getColor() == 'white':
+
+                # 从这个顶点开始进行一次 DFS 访问
+                self.dfsvisit(aVertex)
+
+
+    def dfsvisit(self, startVertex):
+
+        # 将当前顶点标记为 gray
+        # gray 表示这个顶点已经被发现，但还没有搜索完成
+        startVertex.setColor('gray')
+
+        # DFS 时间戳加 1
+        self.time += 1
+
+        # 记录当前顶点被发现的时间
+        startVertex.setDiscovery(self.time)
+
+        # 遍历当前顶点的所有邻接点
+        for nextVertex in startVertex.getConnections():
+
+            # 如果邻接点还是 white
+            # 说明这个邻接点还没有被访问过
+            if nextVertex.getColor() == 'white':
+
+                # 设置邻接点的前驱为当前顶点
+                # 表示 nextVertex 是从 startVertex 访问到的
+                nextVertex.setPred(startVertex)
+
+                # 递归访问这个邻接点
+                self.dfsvisit(nextVertex)
+
+        # 当当前顶点的所有邻接点都处理完之后
+        # 将当前顶点标记为 black
+        # black 表示这个顶点已经完全搜索完成
+        startVertex.setColor('black')
+
+        # DFS 时间戳再次加 1
+        self.time += 1
+
+        # 记录当前顶点搜索完成的时间
+        startVertex.setFinish(self.time)
+```
+
+### 深度优先遍历/搜索的非递归形式
+
+```python
+def dfs_norecursion(self):
+    # 遍历图中的所有顶点
+    # 这样即使图不是连通图，也可以保证所有顶点都被访问到
+    for x in self:
+
+        # 如果当前顶点 x 还没有被访问过
+        if x.getColor() == 'white':
+
+            # 建立一个栈 stack
+            # 栈中的每个元素是 [顶点, 已经检查到第几个邻点]
+            #
+            # [x, 0] 表示：
+            # 当前顶点是 x，
+            # 并且还没有检查 x 的任何邻接点
+            stack = [[x, 0]]
+
+            # 将起点 x 标记为 gray
+            # gray 表示：该顶点已经被发现，但还没有完全处理完
+            x.setColor('gray')
+
+            # 只要栈不为空，就继续 DFS
+            while len(stack) > 0:
+
+                # 取出栈顶元素
+                # 注意：这里不是 pop，而是先查看栈顶
+                nd = stack[-1]
+
+                # nd[0] 是当前正在处理的顶点
+                v = nd[0]
+
+                # nd[1] 表示当前顶点 v 已经检查到第几个邻接点
+                #
+                # 如果 nd[1] == len(v.getConnections())，
+                # 说明 v 的所有邻接点都已经检查完了
+                if nd[1] == len(v.getConnections()):
+
+                    # 将 v 标记为 black
+                    # black 表示：这个顶点已经完全处理完成
+                    v.setColor('black')
+
+                    # 从栈中弹出 v
+                    # 相当于递归 DFS 中函数返回上一层
+                    stack.pop()
+
+                else:
+                    # 如果 v 还有邻接点没有检查，
+                    # 就继续从当前记录的位置 nd[1] 开始检查
+
+                    # 遍历 v 的邻接点
+                    # 从 nd[1] 开始，而不是从 0 开始
+                    # 这样可以避免重复检查已经看过的邻接点
+                    for i in range(nd[1], len(v.getConnections())):
+
+                        # 取出 v 的第 i 个邻接点
+                        u = list(v.getConnections())[i]
+
+                        # 更新 nd[1]
+                        # 表示下一次再回到 v 时，
+                        # 应该从第 i + 1 个邻接点继续检查
+                        nd[1] += 1
+
+                        # 如果邻接点 u 还是 white
+                        # 说明它还没有被访问过
+                        if u.getColor() == 'white':
+
+                            # 将 u 入栈
+                            # [u, 0] 表示接下来要开始处理 u，
+                            # 并且 u 的邻接点还一个都没检查
+                            stack.append([u, 0])
+
+                            # 设置 u 的前驱为 v
+                            # 表示 u 是从 v 访问到的
+                            u.setPred(v)
+
+                            # 将 u 标记为 gray
+                            # 表示 u 已经被发现，但还没完全处理完
+                            u.setColor('gray')
+
+                            # 找到一个新的 white 邻接点后，
+                            # 立刻深入这个点，不再继续检查 v 的其他邻接点
+                            #
+                            # 这正是 DFS 的特点：
+                            # 一条路先走到底，再回溯
+                            break
+```
+
+##### 城堡问题
+
+【问题定义】下图是一个城堡的地形图。请你编写一个程序，计算城堡一共有多少房间，最大的房间有多大。城堡被分割成m×n(m≤50，n≤50)个方块，每个方块可以有0~4面墙。
+
+【解题思路】对每一个房间，深度优先搜索，从而给这个房间能够到达的所有位置染色。最后统计一共用了几种颜色，以及每种颜色的数量。
+
+```python
+# maxRoomArea：记录所有房间中最大的面积
+# roomNum：记录房间数量
+# roomArea：记录当前正在搜索的这个房间的面积
+maxRoomArea = roomNum = roomArea = 0
+
+def Dfs(i, k):
+    # 声明要修改全局变量 roomNum 和 roomArea
+    # roomNum：总房间数量
+    # roomArea：当前房间面积
+    global roomNum, roomArea
+
+    # 如果当前位置已经被访问过
+    # color[i][k] == 1 表示这个格子已经属于某个房间
+    if color[i][k]:
+        return
+
+    # 当前房间面积加 1
+    # 因为现在访问到了一个新的格子
+    roomArea = roomArea + 1
+
+    # 给当前格子染色
+    # roomNum 当前是第几个房间
+    # 所以 color[i][k] = roomNum 表示：
+    # 这个格子属于第 roomNum 个房间
+    color[i][k] = roomNum
+
+    # 判断当前格子的西边是否没有墙
+    # rooms[i][k] & 1 表示检查二进制中的第 1 位
+    # 如果结果是 0，说明西边没有墙，可以向左走
+    if (rooms[i][k] & 1) == 0:
+        Dfs(i, k - 1)
+
+    # 判断当前格子的北边是否没有墙
+    # rooms[i][k] & 2 表示检查二进制中的第 2 位
+    # 如果结果是 0，说明北边没有墙，可以向上走
+    if (rooms[i][k] & 2) == 0:
+        Dfs(i - 1, k)
+
+    # 判断当前格子的东边是否没有墙
+    # rooms[i][k] & 4 表示检查二进制中的第 3 位
+    # 如果结果是 0，说明东边没有墙，可以向右走
+    if (rooms[i][k] & 4) == 0:
+        Dfs(i, k + 1)
+
+    # 判断当前格子的南边是否没有墙
+    # rooms[i][k] & 8 表示检查二进制中的第 4 位
+    # 如果结果是 0，说明南边没有墙，可以向下走
+    if (rooms[i][k] & 8) == 0:
+        Dfs(i + 1, k)
+
+
+# 读取第一行输入
+# 有些题目的输入可能是：
+# R C
+# 也有些可能是：
+# R
+# C
+# 所以这里做了兼容处理
+RC = list(map(int, input().split()))
+
+# 如果第一行只输入了一个数
+if len(RC) == 1:
+
+    # 第一个数是 R，即行数
+    R = RC[0]
+
+    # 再单独读取一行作为 C，即列数
+    C = int(input())
+
+# 如果第一行输入了两个数
+else:
+
+    # 分别赋值给 R 和 C
+    R, C = RC
+
+
+# rooms 用来保存城堡地图
+# 第 0 行不用，所以先放一个空列表
+# 这样后面可以从下标 1 开始访问，和题目中的行列编号保持一致
+rooms = [[]]
+
+
+# color 用来记录每个格子是否被访问过
+# 0 表示未访问
+# 非 0 表示已经访问，并且值表示它属于第几个房间
+#
+# 这里创建一个 (R+2) 行、(C+2) 列的二维数组
+# 多出来的边界可以减少越界问题
+color = [[0 for i in range(C + 2)] for i in range(R + 2)]
+
+
+# 读取 R 行城堡数据
+for i in range(R):
+
+    # 每一行前面加一个 0
+    # 这样每一行也从下标 1 开始使用
+    rooms.append([0] + list(map(int, input().split())))
+
+
+# 遍历每一个格子
+for i in range(1, R + 1):
+
+    for k in range(1, C + 1):
+
+        # 如果当前格子还没有被访问过
+        # 说明它属于一个新的房间
+        if not color[i][k]:
+
+            # 房间数量加 1
+            roomNum += 1
+
+            # 开始搜索一个新房间之前
+            # 先把当前房间面积清零
+            roomArea = 0
+
+            # 从当前格子开始 DFS
+            # 找出整个连通房间
+            Dfs(i, k)
+
+            # DFS 结束后，roomArea 就是当前房间的面积
+            # 用它更新最大房间面积
+            maxRoomArea = max(roomArea, maxRoomArea)
+
+
+# 输出房间总数
+print(roomNum)
+
+# 输出最大房间面积
+print(maxRoomArea)
+```
+
+##### 踩方格问题
+
+【问题定义】有一个方格矩阵，矩阵边界在无穷远处。我们做如下假设：
+  1. 每走一步时，只能从当前方格移动一格，走到某个相邻的方格上；
+  2. 走过的格子立即塌陷无法再走第二次；
+  3. 只能向北、东、西三个方向走；
+请问：如果允许在方格矩阵上走n步(n<=20)，共有多少种不同的方案。2种走法只要有一步不一样，即被认为是不同的方案。
+
+【思路】递归
+从 (i,j) 出发，走n步的方案数，等于以下三项之和：
+- 从(i+1,j)出发，走n-1步的方案数。前提：(i+1,j)还没走过
+- 从(i,j+1)出发，走n-1步的方案数。前提：(i,j+1)还没走过
+- 从(i,j-1)出发，走n-1步的方案数。前提：(i,j-1)还没走过
+
+```python
+# visited 用来记录某个位置是否已经走过
+# 这里建立一个 30 行、50 列的二维数组
+# visited[i][j] == 0 表示没有访问过
+# visited[i][j] == 1 表示已经访问过
+visited = [[0 for i in range(50)] for i in range(30)]
+
+def ways(i, j, n):
+    # 如果 n == 0，说明不需要继续走了
+    # 当前路径已经满足要求，所以返回 1，表示找到了一种走法
+    if n == 0:
+        return 1
+
+    # 将当前位置标记为已经访问
+    # 防止后续路径再次走回同一个位置
+    visited[i][j] = 1
+
+    # num 用来统计从当前位置出发的总走法数
+    num = 0
+
+    # 如果左边的位置没有访问过，就向左递归搜索
+    if not visited[i][j - 1]:
+        num += ways(i, j - 1, n - 1)
+
+    # 如果右边的位置没有访问过，就向右递归搜索
+    if not visited[i][j + 1]:
+        num += ways(i, j + 1, n - 1)
+
+    # 如果下面的位置没有访问过，就向下递归搜索
+    if not visited[i + 1][j]:
+        num += ways(i + 1, j, n - 1)
+
+    # 回溯：
+    # 当前路径搜索结束后，把当前位置重新标记为未访问
+    # 这样其他路径仍然可以经过这个位置
+    visited[i][j] = 0
+
+    # 返回从当前位置出发的所有走法数
+    return num
+
+
+# 输入需要走的总步数
+n = int(input())
+
+# 从起点 (0, 25) 开始，计算走 n 步的方案数
+print(ways(0, 25, n))
+```
+
+##### 算24问题
+
+【问题定义】给出4个小于10个正整数，你可以使用加减乘除4种运算以及括号把这4个数连接起来得到一个表达式。现在的问题是，是否存在一种方式使得得到的表达式的结果等于24。
+
+【解题思路】先做一步，即拿两个数来算一下，剩下的问题就变成了3个数算24
+
+```python
+import math
+# EPS 是一个很小的误差范围
+# 因为除法和浮点数计算可能产生精度误差
+# 例如 23.999999999 和 24 在数学意义上可以认为相等
+EPS = 1e-6
+
+
+def isZero(x):
+    # math.fabs(x) 表示取 x 的绝对值
+    # 如果 abs(x) 小于 EPS，就认为它等于 0
+    return math.fabs(x) <= EPS
+
+
+def count24(a, n):
+    # 如果当前只剩下 1 个数
+    # 那么直接判断这个数是否等于 24
+    if n == 1:
+
+        # 如果 a[0] 与 24 的差接近 0
+        # 说明当前结果可以认为等于 24
+        if isZero(a[0] - 24):
+            return True
+
+        # 否则说明这条计算路径不能得到 24
+        else:
+            return False
+
+    # b 用来保存下一轮递归要用的数字
+    # 每次会把 a[i] 和 a[j] 合并成一个新数
+    # 原来的 n 个数会变成 n - 1 个数
+    #
+    # 这里开 5 个位置，是因为 24 点通常输入 4 个数
+    # 运算过程中最多不会超过 4 个数
+    b = [float() for i in range(5)]
+
+    # 枚举第一个数的位置 i
+    # i 的范围是 0 到 n-2
+    for i in range(n - 1):
+
+        # 枚举第二个数的位置 j
+        # j 从 i+1 开始，避免重复选择同一对数字
+        for j in range(i + 1, n):
+
+            # m 表示 b 中当前已经放入了多少个数
+            m = 0
+
+            # 先把 a[i] 和 a[j] 以外的其他数字复制到 b 里面
+            for k in range(n):
+
+                # 如果 k 不是 i，也不是 j
+                # 说明 a[k] 是没有被合并的数字，需要保留下来
+                if k != i and k != j:
+                    b[m] = a[k]
+                    m = m + 1
+
+            # 情况 1：把 a[i] 和 a[j] 相加
+            # 新数字放到 b[m] 位置
+            b[m] = a[i] + a[j]
+
+            # 递归判断合并后剩下 m+1 个数时，能否得到 24
+            if count24(b, m + 1):
+                return True
+
+            # 情况 2：a[i] - a[j]
+            b[m] = a[i] - a[j]
+
+            if count24(b, m + 1):
+                return True
+
+            # 情况 3：a[j] - a[i]
+            # 减法不满足交换律，所以两个方向都要尝试
+            b[m] = a[j] - a[i]
+
+            if count24(b, m + 1):
+                return True
+
+            # 情况 4：a[i] * a[j]
+            b[m] = a[i] * a[j]
+
+            if count24(b, m + 1):
+                return True
+
+            # 情况 5：a[i] / a[j]
+            # 除法不满足交换律，而且除数不能为 0
+            if not isZero(a[j]):
+
+                b[m] = a[i] / a[j]
+
+                if count24(b, m + 1):
+                    return True
+
+            # 情况 6：a[j] / a[i]
+            # 反方向除法也要尝试
+            # 同样需要保证除数 a[i] 不为 0
+            if not isZero(a[i]):
+
+                b[m] = a[j] / a[i]
+
+                if count24(b, m + 1):
+                    return True
+
+    # 如果所有数字组合、所有运算方式都尝试完
+    # 仍然不能得到 24，就返回 False
+    return False
+```
+
+# 图的应用
+
+### 拓扑排序
+
+- 从工作流程图得到工作次序排列的算法，称为“拓扑排序”
+- 拓扑排序处理一个DAG（有向无环图），输出顶点的线性序列，使得两个顶点v,w，如果G中有(v,w)边，在线性序列中v就出现在w之前。
+- 拓扑排序广泛应用在依赖事件的排期上，还可以用在项目管理、数据库查询优化和矩阵乘法的次序优化上
+- 拓扑排序可以采用DFS很好地实现：
+  1. 将工作流程建立为图，工作项是节点，依赖关系是有向边
+  2. 工作流程图一定是个DAG图，否则有循环依赖
+  3. 对DAG图调用DFS算法，以得到每个顶点的“结束时间”
+  4. 按照每个顶点的“结束时间”从大到小排序，输出这个次序下的顶点列表
+
+![](11.png)
+
+AOV网络(Activity on Vetext Nextwork):
+- 将有向图中的顶点看作活动，边看作活动的先后关系，A->B就意味着B活动进行前必须先进行A活动，则有向图可以看作是AOV网络
+
+拓扑排序算法
+1. 从图中任选一个没有前驱（入度为0）的顶点 x 输出
+2. 从图中删除 x 和所有以它为起点的边
+- 重复 1 和 2 直到图为空或当前图中不存在无前驱的顶点为止(后一种情况说明图中有环，无法拓扑排序)
+- 具体实现：用队列存放入度变为0的点。每个顶点出入队列一次，每个顶点连的边都要看一次，复杂度O(E+V)
+
+Genealogical tree
+【问题定义】给一个有向无环图，输出任一拓扑排序
+【输入be like】
+样例输入<br>
+5	#5个点<br>
+0          #1号点没出边<br>
+4 5 1 0 #2号点有边连到 4,5, 1<br>
+1 0<br>
+5 3 0<br>
+3 0<br>
+
+样例输出<br>
+2 4 5 3 1<br>
+
+```python
+# 定义一条有向边
+class Edge:
+
+    def __init__(self, v, w):
+        self.v, self.w = v, w
+
+
+def topoSort(G):
+    # n 表示图中顶点的数量
+    n = len(G)
+
+    # 导入队列模块
+    # queue.Queue() 是先进先出队列
+    import queue
+
+    # inDegree[i] 表示顶点 i 的入度
+    # 入度：有多少条边指向这个顶点
+    inDegree = [0] * n
+
+    # 创建一个队列 q
+    # 用来存放当前入度为 0 的顶点
+    q = queue.Queue()
+
+    # 统计每个顶点的入度
+    for i in range(n):
+
+        # 遍历从顶点 i 出发的所有边
+        for e in G[i]:
+            # e.v 是边的起点
+            # e.w 是边的终点
+            # 所以有一条边 i -> e.w
+            # 终点 e.w 的入度加 1
+            inDegree[e.w] += 1
+
+    # 把所有入度为 0 的顶点放入队列
+    # 入度为 0 表示：
+    # 没有任何其他顶点必须排在它前面
+    for i in range(n):
+
+        if inDegree[i] == 0:
+            q.put(i)
+
+    # seq 用来保存最终得到的拓扑排序结果
+    seq = []
+
+    # 只要队列不为空，就继续处理
+    while not q.empty():
+
+        # 取出一个当前入度为 0 的顶点
+        k = q.get()
+
+        # 把这个顶点加入拓扑序列
+        seq.append(k)
+
+        # 删除所有从 k 出发的边
+        # 实际上代码并不是真的删除边，
+        # 而是把这些边指向的终点的入度减 1
+        for e in G[k]:
+
+            # e.w 是边 k -> e.w 的终点
+            # 因为 k 已经被加入拓扑序列，
+            # 所以相当于删除了 k -> e.w 这条边
+            inDegree[e.w] -= 1
+
+            # 如果删除这条边后，e.w 的入度变成 0
+            # 说明它前面的依赖都已经处理完了
+            # 可以加入队列，等待后续输出
+            if inDegree[e.w] == 0:
+                q.put(e.w)
+
+    # 如果拓扑序列长度小于顶点总数
+    # 说明还有一些顶点没有被加入序列
+    # 这些顶点无法变成入度为 0
+    # 因此图中存在环
+    if len(seq) != n:
+        return None
+
+    # 否则说明所有顶点都成功排序
+    # 返回拓扑排序结果
+    else:
+        return seq
+```
+
+AOE网络：
+1. 带权有向无环图
+2. 顶点表示事件，事件不需要花时间
+3. 有向边表示活动，边权值表示活动需要花的时间
+4. 先后顺序无关的活动可以同时进行
+5. 当且仅当一个顶点的入边代表的活动都已经完成，该顶点表示的事件会发生。顶点代表的事件一旦发生，其出边代表的活动就都可以(不是必须)开始
+
+**关键是求每个事件i的最早发生时间earliestTime[i]和最晚发生时间 latestTime[i]**
+
+![](12.png)
+
+- 递推求earliestTime[i]
+  1. 对每个入度为0的顶点k(事件k)，earlistTime[k] = 0
+  2. 拓扑排序
+  3. 按拓扑序列的顺序递推每个事件的最早开始时间:
+   对拓扑序列中的顶点 i,若边<i, j>存在且权值为Wij ，则: earliestTime[j] = max(earliestTime[j], earliestTime[i] + Wij )
+- 递推求latestTime[i]
+  1. 求出全部活动都完成的最早时刻 T 
+  2. 初始条件：对每个出度为0的顶点k(事件k)，latestTime [k] = T
+  3. 拓扑排序
+  4. 按拓扑序列的逆序递推每个事件的最晚开始时间：
+    对拓扑逆序列中的顶点 j,若边<i , j>存在且权值为Wij ，则: latestTime[i] = min(latestTime[i], latestTime[j] - Wij )
+
+### 强连通分支
+
+强连通分支，定义为图G的一个子集C，C中的任意两个顶点v,w之间都有路径来回，即(v,w)(w,v)都是C的路径，而且C是具有这样性质的最大子集
+
+转置概念:
+- 一个有向图G的转置GT，定义为将图G的所有边的顶点交换次序，如将(v,w)转换为(w,v)
+- 可以观察到图和转置图在强连通分支的数量和划分上，是相同的
+
+Kosaraju算法：
+- 首先，对图G调用DFS算法，为每个顶点计算“结束时间”
+- 然后，将图G进行转置，得到GT；
+- 再对GT调用DFS算法，但在dfs函数中，对每个顶点的搜索循环里，要以顶点的“结束时间”倒序的顺序来搜索
+- 最后，深度优先森林中的每一棵树就是一个强连通分支
+
+![](13.png)
+
+![](14.png)
+
+![](15.png)
+
+### 最短路径问题
+
+Dijkstra算法：
+- 这是一个迭代算法，得出从一个顶点到其余所有顶点的最短路径，很接近于广度优先搜索算法BFS的结果
+- 具体实现上，在顶点Vertex类中的成员dist用于记录从开始顶点到本顶点的最短带权路径长度（权重之和），算法对图中的每个顶点迭代一次
+- 贪心思想，若离源点s前k-1近的点已经被确定，构成点集P，那么从s到离s第k近的点t的最短路径，{s,p1,p2…pi,t}满足s,p1,p2…pi∈P。
+- d[i]=min(d[pi]+cost(pi,i)),i∉P,pi∈P；d[t]=min(d[i]) ,i∉P
+
+- 顶点的访问次序由一个优先队列来控制，队列中作为优先级的是顶点的dist属性。
+- 最初，只有开始顶点dist设为0，而其他所有顶点dist设为sys.maxsize（最大整数），全部加入优先队列。
+- 随着队列中每个最低dist顶点率先出队
+- 并计算它与邻接顶点的权重，会引起其它顶点dist的减小和修改，引起堆重排
+- 并据更新后的dist优先级再依次出队
+
+```python
+def dijkstra(aGraph, start):
+    """
+    使用 Dijkstra 算法计算从起点 start 到图中所有顶点的最短路径。
+
+    参数：
+    aGraph：图对象，里面包含所有顶点以及顶点之间的边
+    start ：起点顶点
+
+    前提：
+    图中所有边的权重必须是非负数。
+    """
+
+    # 创建一个优先队列
+    # 优先队列中会按照“当前距离”从小到大取出顶点
+    pq = PriorityQueue()
+
+    # 设置起点到自己的距离为 0
+    # 因为从 start 到 start 不需要走任何边
+    start.setDistance(0)
+
+    # 将图中所有顶点加入优先队列
+    # 每个元素是一个二元组：
+    # (顶点当前距离, 顶点对象)
+    #
+    # 起点的距离是 0
+    # 其他点的距离通常在初始化时应该是无穷大
+    pq.buildHeap([(v.getDistance(), v) for v in aGraph])
+
+    # 只要优先队列不为空，就继续处理
+    while not pq.isEmpty():
+
+        # 从优先队列中取出当前距离最小的顶点
+        # 这个点的最短路径已经可以被确定
+        currentVert = pq.delMin()
+
+        # 遍历 currentVert 的所有邻接点
+        # 也就是从 currentVert 可以直接走到的点
+        for nextVert in currentVert.getConnections():
+
+            # 计算一条新的候选路径长度：
+            # 起点 start 到 currentVert 的距离
+            # 加上 currentVert 到 nextVert 的边权重
+            newDist = currentVert.getDistance() \
+                      + currentVert.getWeight(nextVert)
+
+            # 如果通过 currentVert 到达 nextVert 更短
+            # 就更新 nextVert 的当前最短距离
+            if newDist < nextVert.getDistance():
+
+                # 更新 nextVert 到起点 start 的最短距离
+                nextVert.setDistance(newDist)
+
+                # 记录 nextVert 的前驱节点
+                # 表示当前最短路径中，nextVert 是从 currentVert 走过来的
+                nextVert.setPred(currentVert)
+
+                # 因为 nextVert 的距离变小了
+                # 所以需要更新它在优先队列中的优先级
+                pq.decreaseKey(nextVert, newDist)
+```
+
+floyd算法：
+- 边上有负权重的边，但是不能有负权回路
+- 假设求从顶点vi到vj的最短路径。如果从vi到vj有边，则从vi到vj存在一条长度为cost[i,j]的路径，该路径不一定是最短路径，尚需进行n次试探。
+- 考虑路径（vi, v1, vj）是否存在（即判别弧（vi, v1）和（v1,vj）是否存在）。如果存在，则比较cost[i,j]和（vi,v1,vj）的路径长度，取长度较短者为从vi到vj的中间顶点的序号不大于1的最短路径，记为新的cost[i,j] 。
+- 假如在路径上再增加一个顶点v2 ，如果（ vi，…， v2 ）和（ v2 ，…，vj ）分别是当前找到的中间顶点的序号不大于2的最短路径，那么（ vi，…， v2 ，… ， vj ）就有可能是从vi到 vj的中间顶点的序号不大于2的最短路径。将它和已经得到的从vi到 vj的中间顶点的序号不大于1的最短路径相比较，从中选出中间顶点的序号不大于2的最短路径之后，再增加一个顶点v3 ，继续进行试探。依次类推。
+- 在一般情况下，若（vi，…，vk ）和（ vk，…，vj ）分别是从vi到vk和从vk到vj的中间顶点的序号不大于k-1的最短路径，则将（ vi，…， vk ，… ， vj ）和已经得到的从vi到vj且中间顶点的序号不大于k-1的最短路径相比较，其长度较短者便是从vi到vj的中间顶点的序号不大于k的最短路径。这样，在经过n次比较后，最后求得的必是从vi到vj的最短路径。按此方法，可以同时求得各对顶点间的最短路径。
+
+```python
+def floyd(G):
+   # n 表示图中顶点的个数
+    n = len(G)
+
+    # INF 表示无穷大
+    # 用来表示两个顶点之间没有直接路径
+    INF = 10**9
+
+    # prev[i][j] 记录从 i 到 j 的最短路径中，j 的前驱顶点
+    # 一开始全部设为 None
+    prev = [[None for i in range(n)] for j in range(n)]
+
+    # dist[i][j] 记录从 i 到 j 的当前最短距离
+    # 一开始全部设为 INF
+    dist = [[INF for i in range(n)] for j in range(n)]
+
+    # 初始化 dist 和 prev
+    for i in range(n):
+        for j in range(n):
+
+            # 如果起点和终点相同
+            # 那么从 i 到 i 的距离为 0
+            if i == j:
+                dist[i][j] = 0
+
+            else:
+                # 如果 G[i][j] != INF
+                # 说明 i 到 j 存在一条直接边
+                if G[i][j] != INF:
+
+                    # 直接边的距离就是 G[i][j]
+                    dist[i][j] = G[i][j]
+
+                    # 如果从 i 直接走到 j
+                    # 那么 j 的前驱就是 i
+                    prev[i][j] = i
+
+    # Floyd 算法核心部分
+    # 枚举中转点 k
+    for k in range(n):
+
+        # 枚举起点 i
+        for i in range(n):
+
+            # 枚举终点 j
+            for j in range(n):
+
+                # 判断是否可以通过 k 作为中转点
+                # 让 i 到 j 的路径变得更短
+                #
+                # 原来的路径是：
+                # i -> j，距离为 dist[i][j]
+                #
+                # 新的路径是：
+                # i -> k -> j，距离为 dist[i][k] + dist[k][j]
+                if dist[i][k] + dist[k][j] < dist[i][j]:
+
+                    # 如果经过 k 更短，就更新 i 到 j 的最短距离
+                    dist[i][j] = dist[i][k] + dist[k][j]
+
+                    # 更新前驱信息
+                    # prev[k][j] 表示从 k 到 j 的最短路径中，
+                    # j 前面的那个点
+                    #
+                    # 因为现在 i 到 j 的最短路变成：
+                    # i -> ... -> k -> ... -> j
+                    # 所以 j 的前驱应该沿用 k 到 j 路径中的前驱
+                    prev[i][j] = prev[k][j]
+
+    # 返回最短距离矩阵和前驱矩阵
+    return dist, prev
+```
+
+### 最小生成树
+
+- 信息广播问题的最优解法，依赖于路由器关系图上选取具有最小权重的生成树（minimum weight spanning tree）生成树：拥有图中所有的顶点和最少数量的边，以保持连通的子图
+
+Prim算法：
+- 解决最小生成树问题的Prim算法，属于“贪心算法”，即每步都沿着最小权重的边向前搜索。
+- 构造最小生成树的思路很简单，如果T还不是生成树，则反复做：找到一条最小权重的可以安全添加的边，将边添加到树T
+- “可以安全添加”的边，定义为一端顶点在树中，另一端不在树中的边，以便保持树的无圈特性
+
+```python
+# 从 pythonds.graphs 中导入优先队列、图、顶点类
+from pythonds.graphs import PriorityQueue, Graph, Vertex
+
+# 导入 sys，用来使用 sys.maxsize 表示一个很大的数
+import sys
+
+
+def prim(G, start):
+    # 创建一个优先队列
+    # 队列中每个顶点的优先级是它当前连接到生成树的最小边权
+    pq = PriorityQueue()
+
+    # 初始化图中的所有顶点
+    for v in G:
+
+        # 一开始认为每个顶点到生成树的距离都是无穷大
+        # sys.maxsize 可以理解为一个非常大的数
+        v.setDistance(sys.maxsize)
+
+        # 一开始每个顶点都没有前驱
+        # 前驱用来记录这个顶点是通过哪一个顶点连入最小生成树的
+        v.setPred(None)
+
+    # 起始点 start 的距离设为 0
+    # 表示从 start 开始构建最小生成树
+    start.setDistance(0)
+
+    # 把图中所有顶点加入优先队列
+    # 每个元素是一个二元组：
+    # (顶点当前距离, 顶点对象)
+    #
+    # 起点 start 的距离是 0，所以它会最先被取出
+    pq.buildHeap([(v.getDistance(), v) for v in G])
+
+    # 只要优先队列不为空，就继续选择顶点加入最小生成树
+    while not pq.isEmpty():
+
+        # 取出当前 distance 最小的顶点
+        # 这个顶点就是当前最适合加入生成树的顶点
+        currentVert = pq.delMin()
+
+        # 遍历 currentVert 的所有邻接点
+        # 也就是所有和 currentVert 直接相连的顶点
+        for nextVert in currentVert.getConnections():
+
+            # currentVert 到 nextVert 这条边的权重
+            newCost = currentVert.getWeight(nextVert)
+
+            # 判断 nextVert 是否还在优先队列中
+            # 如果 nextVert 还在 pq 中，说明它还没有被正式加入最小生成树
+            #
+            # 同时判断 newCost 是否比 nextVert 当前记录的 distance 更小
+            # 如果更小，说明可以用 currentVert 以更低代价连接 nextVert
+            if nextVert in pq and newCost < nextVert.getDistance():
+
+                # 更新 nextVert 的前驱
+                # 表示在最小生成树中，nextVert 是从 currentVert 连过来的
+                nextVert.setPred(currentVert)
+
+                # 更新 nextVert 当前连接到生成树的最小边权
+                nextVert.setDistance(newCost)
+
+                # 因为 nextVert 的 distance 变小了
+                # 所以要更新它在优先队列中的优先级
+                pq.decreaseKey(nextVert, newCost)
+```
+
+Kruskal算法：
+- 假设G=(V,E)是一个具有n个顶点的连通网，T=(U,TE)是G的最小生成树，U=V,TE初值为空。
+- 将图G中的边按权值从小到大依次选取，**若选取的边使生成树不形成回路，则把它并入TE中，若形成回路则将其舍弃**，直到TE中包含N-1条边为止，此时T为最小生成树。
+
+![](16.png)
+
