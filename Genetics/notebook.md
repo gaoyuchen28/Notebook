@@ -2744,3 +2744,199 @@ sxl protein regulates alternative splicing of its own mRNA
 Dsx-F is a transcriptional activator and Dsx-M is a transcriptional repressor
 
 Fruitless(page64)
+
+# Chapter 8 Small RNAs and epigenetics
+
+Small RNAs regulate mRNA Stability and Translation
+- micro-RNAs(miRNAs)
+- small interfering RNAs
+- piwi-interfering RNAs
+(page 2)
+
+### micro-RNAs
+
+Most miRNAs are ....(page4)
+
+miRNA processing（page5）
+- Drosha excises stem-loop from primary miRNA to generate pre-miRNA of ~70nt(从长的 pri-miRNA 中切出发夹结构，生成大约 70 nt 的pre-miRNA)
+- Dicer processes pre-miRNA to a mature duplex miRNA(Dicer 会进一步切割 pre-miRNA 的 loop 部分，生成一段短的双链 RNA)
+- One strand is incorporated into miRNA-induced silencing complex that contains Argonaute protein(Argonaute / RISC：装配成沉默复合体)(AGO1)
+- They are not always 100% paired to each others
+> exportin-5: transport pre-miRNA from nucleus to cytoplasm
+
+miRNAs are produced from precursors with stable hairpin structures
+
+Mechanisms of miRNA repression in metazoans
+1. inhibit translation ot degrade mRNAs of target genes
+2. **Seed**(2-8 of miRNA) paring in 3'UTR is crucial
+3. 1800 miRNA loci identified in human genomes, and 60% of human protein coding genes are regulated by miRNAs
+page7
+
+page8
+
+The first discoverd miRNA: *lin-4*
+- in-4 is the first discovered miRNA in C. elegans. It is a small non-coding RNA that regulates developmental timing by base-pairing with complementary sequences in the 3' UTR of lin-14 mRNA, thereby reducing LIN-14 protein expression. Its discovery revealed that small RNAs can regulate gene expression post-transcriptionally without encoding proteins.
+page 9
+- lin-4 loss-of-function mutants develop vertain....(page10)
+
+### small interfering RNA
+
+1. processing the dsRNA into 20-22nt fragments in **cytoplasm**
+  siRNAs have a defined structure after processing by Dicer(两端不是完全平齐，而是有小突出的 3' overhang) 
+  compared to miRNA, siRNA are perfectly paried to each other
+2. the siRNAs duplex is loaded into RISC and unwind(AGO2)
+3. The antisense strand recognize target mRNA
+4. RISC cleave the mRNA in the middle, and the mRNA is degraded further(当 guide strand 与 target mRNA 完全或高度互补配对后，AGO2 会切割 target mRNA, 之后被切开的 mRNA 会进一步被细胞内的核酸酶降解。)
+
+RNAi is used to inhibit transposable elements and viruses（page18）
+
+Practical aspects of RNAi:
+- biological research:
+  - defining gene fuction
+  - ,,,,
+- (page 19)
+
+> RNAi-based therapies for HIV treatment
+> - using RNAi to target HIV RNAs at different stages of infection
+
+Transposable elements(TEs) are deleterious to host organisms
+- TEs decrease fitness of D.melanigaster bby 0.4%-5% because
+  - insertions disrupt genes
+  - transcription and translation of TEs are costly(很多 TE 不是静止的 DNA，它们可能被转录，甚至有些 TE 会编码转座相关蛋白,这会消耗宿主细胞资源)
+  - TEs mediate ectopic recombination(同源重组发生在“不应该配对的位置”之间) to cause deleterious chromosomal rearangement
+> human: DNA methylation
+> Drosophila: pi-RNA
+
+The classic P-M hybrid dysgenesis:
+- P element is polymorphic in the glocal population of Drosophila melanogaster
+- P strain(carries P element); M strain(doesn't carry M element)
+- when a sperm from a P strain fertilizes an egg from a M-strain, the P element transpos throughout the genome, which causes F1 to be sterile, leading to hybrid dysgenesis(P-M hybrid dysgenesis 是因为 父本提供 P element，而母本 M strain 的卵细胞没有提供抑制 P element 的母源因子，导致 F1 生殖系中 P element 大量转座，造成基因组损伤、性腺发育异常和不育。)
+
+(page23) 正反交结果不一样
+
+### piRNAs
+ 
+an adaptive immune system against TE invasion in drosophila
+
+piRNAs are:
+- 24-30 nts in length
+- Mainly expressed in germlines
+- generated from long transcripts of clusters of TEs
+- perfect antisense matching with target mRNAs
+- targets: Usually transcripts of active TEs; degraded through a **"Ping-Pong" model**
+
+1. P-element is repressed by piRNAs in germline cells.
+2. piRNAs are located in the cytoplasm and maternally transmitted to off-springs
+3. In the embryos of P-female offsprings, there is piRNAs to repress P element.
+4. in the embryos of M-female offsprings, there's no piRNAs to repress P element.
+  
+page27
+
+Origin and evolution of RNAi and miRNA pathways:
+- The RNAi pathway is most ancient. The last common ancestors of eukaryotes already possessed the miRNA pathway. Differences in miRNA pathways and miRNA repertoires among animal and plant lineages primarily arise from lineage-specific miRNA pathway innovations, losses of miRNA pathways, miRNA acquisition, and loss of miRNAs after they diverged from the last common ancestor of eukaryotes.
+
+### Epigenetics
+
+- genetic: Sequence-information of a gene is fixed, not dependent on environment
+- Epigenetic: Stably inherited phenotype resulting from changes in a chromosome without changes in DNA sequences
+> waddington
+
+1. Chromatin modifications
+2. DNA methylation
+3. X-chromosome inanctivation
+4. Genomic imprinting
+  
+Chromosomes have a versatile modular structure for packaging DNA
+- chromatin is ~1/3 DNA, 1/3 histones, 1/3 nonhistone, proteins
+
+DNA is packaged into nucleosomes:
+1. nucleosome core is an octamer of two each of histones H2A,H2B,H3 and H4
+2. ~146bp of DNA wraps twice around a nucleosome core
+3. 40bp of linker DNA connects neighboring nucleosomes
+4. H(page32)
+  
+(page34)
+
+Histone proteins--small, positively-charged, and highly conserved
+- bind to and neutralize negatively charged DNA
+- (page35)
+- posttranslational modification of core histones:
+  - methylation and scetylation of histone tails
+  - affect chromatin structure and gene expression in specific chromosomal regions
+
+Nonhistone protein
+
+(page38)
+
+> DAvid Allis and histone code -> histone code
+
+Histone Code: histone modifiations have predictable effects on transcription
+1. covalent modifications occur on the histone tail domains
+2. histone tail modications are induced by enzymes that are highly specific for particular amino acid positions.
+3. Distinct modifications of the histone tails would induce interaction affinities for chromatin-associated protein
+4. (page40)
+
+Histone tail modifications:
+- The N-terminal tails of the core histone proteins extend outward from nucleosome
+- various amino acids in these tails are targets for modifications such as methylation and acetylation that can alter chromatin structure.
+- for each histone, different amino acid position has unique modification pattern
+- 。。。
+
+**Histone acetylation:**
+- usually occures on lysine
+- HAT enzyme/HDAC enzyme
+- linked to transcriptional activation and associateed with euchromatin(loose)
+
+**Histone methylation:**
+- Histone methyltransferase will ad  methy group on a lysine, and histone demethylase will remove the....
+
+page45
+Readers of histone modifications
+
+HIstone modifications change chromatin structure
+1. remodeling proteins cause specific...(page 46)
+
+Active (page47)
+
+(page48)
+
+DNA methylation
+1. addition of methly group to cytosine base
+2. Done by DNA methyltransferase enzymes: Dnmt1(maintenance methylase,DNMT1 会识别 hemimethylated CpG sites，然后在新合成的 DNA 链上对应的 cytosine 加上甲基), Dnmt3(de novo methylase,Dnmt3 负责建立新的甲基化模式)
+3. Blocks transcripyion factors binding
+4. Crucial role for cell differentiation and embryonic development
+5. repression of transposable elements
+  
+Cytosine methylation is maintained during DNA replication
+  page 52
+
+Generally, methylation blocks transcription:
+- DNA methylation inhibits transcription, either by preventing the binding of an activator protein, or by recruiting proteins that change the structure of chromatin that inhibits transcription.
+
+DNA methylation and CpG islands
+- page55-56
+
+5-Methyl cytosine often mutates to thymine due to DNA replication errors
+- methylation of cytosine will from 5-methylcytosine, and spontaneous deamination of 5-methylcytosine converts it to thymine
+
+Derermining methylation state of DNA using two restriction enzymes:
+- HpaII and MspI have the same recognition sequence(CCGG), but different sensiticity to DNA methylation
+- HpaII doesn't out if 2nd C is methylated
+- but doesn't affect MspI
+
+Detecting CpG methylation with bisulfite sequencing:
+- treatment of DNA with bisulfite converts cytosine to uracil, but lleaves 5-methylcytosine residues unaffected
+
+Heterochromatin are highly condensed chromosome regions
+1. constitutive-condensed in all cells
+2. Facultative-condensed in only some cells and relaxed in other cells
+3. Euchromatin - relaced, usually active transcriptionally
+
+Position-effect variegation(PEV) in drosophila
+- white+ gene is normally located in euchromatin
+- chromosomal inversion can result in w+ gene being lovated adjacent to hetrochromatin
+page61
+> w+ gene is expressed in all cells
+> w+ gene is silenced in some cells but is expressed in other cells
+
+page62
