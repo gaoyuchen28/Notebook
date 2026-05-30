@@ -503,3 +503,129 @@ Immune tolerance to food-derived antigens
 SUMMARY
 
 ![](47.png)
+
+# Immunological disorders
+
+### Immunodeficiency
+
+##### Primary (or inherited) immunodeficiency
+
+基因编码导致的免疫缺陷
+
+- IL2RG mutation blocks T-cell development: 目前已知的能存活的最严重的免疫缺陷
+  - IL2RG辅因子：介导一系列干扰素
+  - 白细胞介素的受体必须要IL2RG辅因子
+  - 此基因缺失会广谱的阻断信号，从而产生免疫抑制
+> X-linked severe combined immunodeficiency (X-SCID)
+> - 相当一部分免疫相关基因都在X染色体上，男性也更容易得病
+> - 核心表征：从出生开始就会感染非常罕见的免疫疾病（比如说真菌感染）
+> - 血浆中完全缺失T cell，但是B cell大量存在（流式细胞分选结果），不过？
+
+- Mutations of exocytosis affect CD8+ T cells: 识别MHC1抗原表位，胞吐穿孔素，然后分泌颗粒酶，激活apoptosis
+  - 变异可能出现一系列的错误（胞吐作用中的一系列缺陷）
+  
+  ![](48.png)
+
+> Hemophagocytic lymphohistiocytosis (HLH)
+> - 噬血细胞性：外周组织的巨噬细胞和嗜酸性粒细胞开始吞噬血细胞（失去判断识别自我和非我的能力）
+> - 外周血中CD8中含量非常高
+> - 淋系反而影响了髓系
+> - 病毒始终潜伏在被感染细胞内，此时机体会不断出发免疫反应，比如不停产生CD8细胞，I型免疫反应，髓系的中性粒细胞和巨噬细胞也会被非常大的加强（代偿性功能），导致了很强烈的误伤
+> - 完全致命，导致不可逆转的贫血
+
+- BTK mutation interrupts B-cell development
+> X-linked agammaglobulinemia (XLA)
+> - 假的BCR会触发一种BTK的激酶，这种激酶是用来向胞内传播信号触发轻链重排
+> - BTK缺陷会无法合成正常的BCell（无法正常成熟）
+> - 丙种球蛋白=血浆中的抗体
+> - 流式细胞分选：血液中完全没有CD19阳性Bcell，但是有Tcell
+
+- CD40L mutation prevents B-cell maturation
+  - Bcell吞噬抗原后呈递让Tcell产生signal2
+  - 而CD40L是Tcell上提供signal2的重要东西
+> X-linked hyper-IgM syndrome
+> - 在病人的血液中只能测到IgM
+> - 没有共刺激信号，无法完成class switch，所以只能表达IgM，也无法完成之后的作用
+> - 无法找到生发中心
+
+SCID: 重度联合免疫缺陷
+- 由于B cell后续功能完全依赖于Tcell
+- 所以Tcell的mutation最容易导致SCID
+
+##### secondary (or acquired) immunodeficiency
+
+HIV，放疗、化疗（造血干细胞产生的免疫细胞仍然是会在DNA复制的，所以不可避免的会杀伤）或者一些不良食物的摄入
+
+不是由于基因决定也不会有生殖遗传
+
+- Human immunodeficiency virus (HIV)
+  - 在电镜下重染色区域
+  - 膜结构，均匀排列受体gp120
+  
+  ![](50.png)
+
+  - HIV infects and destructs CD4+ T cells: 进化上非常古老，进化策略上很神奇，可以借助免疫系统进行传播
+  - 吞噬病毒后开始往淋巴结转移，但是此时树突状细胞无法讲解                                                                                            
+  - HIV病毒的corecepter是CCR5
+  - RNA逆转录为DNA，DNA会插入基因组，与CD4细胞共存
+  - 基因组中没有功能的都是逆转录病毒留下的哼痕迹
+  
+  ![](51.png)
+
+  - HIv一旦感染是不能够被清楚的，
+
+page23page24
+
+### Allergy
+
+- IgE-mediated allergic reactions
+  - Harmful immunologically mediated hypersensitivity reactions to harmless antigens, i.e., pollen, food, and drugs.
+  - Der p1: 污尘螨的排泄物，很容易穿过呼吸道，进而触发树突状细胞激活，进而激活了IgE（黏膜中存在激活的因子）
+  - 产生的大量IgE，如果再出现Der p1，会激活一种mast cell（脱颗粒效应，本身是一种自我反应），但是此时没有真正的寄生虫存在，这种强烈的免疫反应无处攻击
+  - mast cell被激活后会产生一系列过敏性反应
+  - 脱颗粒：在光学显微镜下有非常明显的颗粒（促炎物质），激活完了的肥大细胞在电镜下看颗粒消失了（颗粒里面的物质被释放出来）
+
+  ![](52.png)
+
+  ![](53.png)
+
+  - 呼吸道：局部血管通透性增加（组织水肿），平滑肌增殖（呼吸道狭窄，哮喘发生）
+  - 血液中：作用于血管内皮细胞，造成全身性水肿或者局部大规模水肿
+  
+  ![](54.png)
+
+  - 嗜碱性粒细胞：功能上和mast cell类似，可以通过IgE受体，过敏原出现后，进一步触发了过敏反应
+    - 除了能脱颗粒促进免疫反应，同时可以表达CD40L，为Bcell提供signal2，进一步加强IgE的分泌，产生有害的正反馈，自加强过程，所以必须要介入治疗
+
+- Early phase and late phase of allergic reactions：
+  - Early phase：IgE介导的mastcell和basophil
+  - late phase：可以产生更多IgE的自加强反应
+  
+  ![](55.png)
+
+> 以哮喘为例：
+> - PEFR: peak expiratory flow rate, a common measurement of lung function，正常人在400L，哮喘出现后，潮气量在极限情况下可以到40L
+> - 哮喘的early phase很容易死人
+> - 哮喘的late phase：从分钟级到小时级，潮气量持续降低
+>
+> ![](56.png)
+>
+> - 机制：呼吸道上皮细胞下面的组织内产生的脱颗粒反应，黏液层增厚，整个空腔明显出现收缩（mast cell激活的平滑肌细胞）
+> - 死于不可逆的呼吸衰竭
+
+- Non-IgE-mediated allergic reactions
+  - Antigen-IgG immune complex: 同样有mast cell的脱颗粒反应，IgG与mast cell表面的IgG抗体结合，血管通透性改变...介导的过敏反应很快
+  
+  ![](57.png)
+
+  - CD4+ TH1 cells: 反应时间比较慢，因为过敏反应不是简单的脱颗粒，抗原必须先被邻近组织的抗原呈递细胞消化，然后MHC2呈递，T cell分泌细胞因子，通过富集更多的免疫细胞，从而实现过敏反应
+  
+  ![](58.png) 
+
+  - CD8+ T cells: 寻麻（分泌有毒物质），会出现迅速的组织溃烂，产生疱疹，烃类物质会穿过物理屏障进入到细胞层面，毁于蛋白产生不特异性的连接，获得了一个新的抗原表位，当作我们的细胞被病毒侵染，激活了抗病毒免疫反应，激活了CD8，再一次激活后就会把所有修饰了的细胞标记为病毒侵染，所有接触的细胞全部被杀死（超敏反应），同样反应速度比较慢
+  
+  ![](59.png)
+
+看似水、空气、阳光，其实是对神经递质过敏，因为这些刺激会导致局部产生神经递质（胆碱能过敏反应）
+
+### Autoimmunity
