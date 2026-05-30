@@ -1552,6 +1552,214 @@ AOE网络：
   4. 按拓扑序列的逆序递推每个事件的最晚开始时间：
     对拓扑逆序列中的顶点 j,若边<i , j>存在且权值为Wij ，则: latestTime[i] = min(latestTime[i], latestTime[j] - Wij )
 
+【示例输入】
+6 8<br>
+0 1 3<br>
+0 2 2<br>
+1 3 2<br>
+2 3 4<br>
+1 4 3<br>
+3 5 2<br>
+4 5 1<br>
+2 4 2<br>
+【含义】
+一共有 6 个事件顶点：0, 1, 2, 3, 4, 5<br>
+一共有 8 条活动边<br>
+0 -> 1 持续 3<br>
+0 -> 2 持续 2<br>
+...<br>
+【示例输出】
+拓扑序列:
+[0, 1, 2, 3, 4, 5]
+
+earliestTime:
+[0, 3, 2, 6, 6, 8]
+
+latestTime:
+[0, 4, 2, 6, 7, 8]
+
+工程最短完成时间 T:
+8
+
+关键活动:<br>
+0 -> 2, duration = 2<br>
+2 -> 3, duration = 4<br>
+3 -> 5, duration = 2<br>
+
+```python
+from collections import deque
+
+
+# 定义一条活动边
+# u -> v，持续时间为 w
+class Edge:
+    def __init__(self, u, v, w):
+        self.u = u          # 起点事件
+        self.v = v          # 终点事件
+        self.w = w          # 活动持续时间
+
+
+def topo_sort(G, n):
+
+    # inDegree[i] 表示顶点 i 的入度
+    inDegree = [0] * n
+
+    # 统计每个点的入度
+    for u in range(n):
+        for e in G[u]:
+            inDegree[e.v] += 1
+
+    # 队列中存放当前入度为 0 的点
+    q = deque()
+
+    # 一开始把所有入度为 0 的点入队
+    for i in range(n):
+        if inDegree[i] == 0:
+            q.append(i)
+
+    # topo 用来保存拓扑排序结果
+    topo = []
+
+    # 开始拓扑排序
+    while q:
+        u = q.popleft()
+        topo.append(u)
+
+        # 删除 u 发出的所有边
+        for e in G[u]:
+            v = e.v
+            inDegree[v] -= 1
+
+            # 如果 v 的入度变成 0，就可以入队
+            if inDegree[v] == 0:
+                q.append(v)
+
+    # 如果没有把所有点都加入拓扑序列，说明图中有环
+    if len(topo) != n:
+        return None
+
+    return topo
+
+
+def critical_path(G, n):
+
+    # 先求拓扑序列
+    topo = topo_sort(G, n)
+
+    # 如果拓扑排序失败，说明图中有环，不是合法 AOE 网络
+    if topo is None:
+        print("图中存在环，无法进行 AOE 关键路径分析")
+        return
+
+    # -----------------------------
+    # 1. 求 earliestTime
+    # -----------------------------
+
+    # earliestTime[i] 表示事件 i 最早发生时间
+    earliestTime = [0] * n
+
+    # 按照拓扑序列正向递推
+    for u in topo:
+        for e in G[u]:
+            v = e.v
+            w = e.w
+
+            # 如果 u -> v 这条活动存在
+            # 那么 v 至少要等 u 发生之后，再经过 w 时间才能发生
+            earliestTime[v] = max(
+                earliestTime[v],
+                earliestTime[u] + w
+            )
+
+    # 所有活动完成的最早时间 T
+    T = max(earliestTime)
+
+    # -----------------------------
+    # 2. 求 latestTime
+    # -----------------------------
+
+    # latestTime[i] 表示事件 i 最晚发生时间
+    # 初始都设为 T
+    latestTime = [T] * n
+
+    # 按照拓扑序列逆序递推
+    for u in reversed(topo):
+        for e in G[u]:
+            v = e.v
+            w = e.w
+
+            # 对于边 u -> v
+            # 如果 v 最晚 latestTime[v] 发生
+            # 那么 u 最晚必须在 latestTime[v] - w 发生
+            latestTime[u] = min(
+                latestTime[u],
+                latestTime[v] - w
+            )
+
+    # -----------------------------
+    # 3. 求关键活动
+    # -----------------------------
+
+    critical_edges = []
+
+    for u in range(n):
+        for e in G[u]:
+            v = e.v
+            w = e.w
+
+            # 活动 u -> v 的最早开始时间
+            earliest_start = earliestTime[u]
+
+            # 活动 u -> v 的最晚开始时间
+            latest_start = latestTime[v] - w
+
+            # 如果最早开始时间 == 最晚开始时间
+            # 说明这个活动没有机动时间，是关键活动
+            if earliest_start == latest_start:
+                critical_edges.append((u, v, w))
+
+    return earliestTime, latestTime, T, critical_edges, topo
+
+
+# -----------------------------
+# 主程序
+# -----------------------------
+
+# 输入顶点数 n 和边数 m
+n, m = map(int, input().split())
+
+# G[u] 存放所有从 u 出发的边
+G = [[] for _ in range(n)]
+
+# 读入 m 条边
+for _ in range(m):
+    u, v, w = map(int, input().split())
+    G[u].append(Edge(u, v, w))
+
+# 求关键路径
+result = critical_path(G, n)
+
+# 如果结果不为空，输出结果
+if result is not None:
+    earliestTime, latestTime, T, critical_edges, topo = result
+
+    print("拓扑序列:")
+    print(topo)
+
+    print("earliestTime:")
+    print(earliestTime)
+
+    print("latestTime:")
+    print(latestTime)
+
+    print("工程最短完成时间 T:")
+    print(T)
+
+    print("关键活动:")
+    for u, v, w in critical_edges:
+        print(f"{u} -> {v}, duration = {w}")
+```
+
 ### 强连通分支
 
 强连通分支，定义为图G的一个子集C，C中的任意两个顶点v,w之间都有路径来回，即(v,w)(w,v)都是C的路径，而且C是具有这样性质的最大子集

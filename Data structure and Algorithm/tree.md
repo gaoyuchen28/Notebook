@@ -527,3 +527,393 @@ def spliceOut(self):
         currentNode.key = succ.key          # 替换 key
         currentNode.payload = succ.payload  # 替换 value
 ```
+
+# 哈夫曼树(最优二叉树)
+
+最优二叉树的定义: 给定n个结点，结点i有权值Wi。要求构造一棵二叉树，叶子结点为给定的结点，且`WPL =	∑_i=1^nWi×Li`最小。
+
+最优二叉树的构造:
+1. 开始n个结点位于集合S
+2. 从S中取走两个权值最小的结点n1和n2，构造一棵二叉树，树根为结点r，r的两个子结点是n1和n2，且Wr=Wn1+Wn2，并将r加入S
+3. 重复2）,直到S中只有一个结点，最优二叉树就构造完毕，根就是S中的唯一结点
+
+【计算最小的WPL】
+
+```python
+import heapq
+
+def optimal_binary_tree(weights):
+    # 1. 开始 n 个结点位于集合 S
+    heapq.heapify(weights)
+
+    total_wpl = 0
+
+    # 2. 每次取出两个权值最小的结点
+    while len(weights) > 1:
+        n1 = heapq.heappop(weights)
+        n2 = heapq.heappop(weights)
+
+        # 构造新结点 r
+        r = n1 + n2
+
+        # 这一次合并产生的代价
+        total_wpl += r
+
+        # 将 r 加回集合 S
+        heapq.heappush(weights, r)
+
+    # 3. total_wpl 就是最小 WPL
+    return total_wpl
+
+
+weights = [8, 3, 1, 1, 1, 1, 1, 1]
+print(optimal_binary_tree(weights))
+```
+
+【真正构造最优二叉树】
+```python
+import heapq
+
+# 定义树结点
+class Node:
+    def __init__(self, weight, name=None):
+        # weight 表示当前结点的权值
+        # 如果是叶子结点，weight 就是原始权值
+        # 如果是内部结点，weight 就是左右子树权值之和
+        self.weight = weight
+
+        # name 表示结点名字
+        # 只有叶子结点有名字，比如 A、B、C
+        # 内部结点没有名字，所以默认为 None
+        self.name = name
+
+        # left 和 right 分别表示左孩子和右孩子
+        self.left = None
+        self.right = None
+
+
+def build_huffman_tree(weights):
+    """
+    根据权值列表构造最优二叉树，也就是哈夫曼树。
+    """
+
+    # heap 是最小堆
+    # 它用来表示集合 S
+    # 堆的特点是：每次可以快速取出权值最小的结点
+    heap = []
+
+    # count 是辅助变量
+    # 因为如果两个结点权值相同，Python 不知道怎么比较 Node 对象
+    # 所以加一个 count 来保证每个元素都可以被比较
+    count = 0
+
+    # 1. 开始 n 个结点位于集合 S
+    # 把每个权值都包装成一个叶子结点，然后放入堆中
+    for i, w in enumerate(weights):
+        # 创建一个叶子结点
+        # name 用 A、B、C... 表示
+        node = Node(w, name=chr(ord('A') + i))
+
+        # 放入堆中
+        # 堆里的元素是三元组：
+        # (结点权值, 编号, 结点对象)
+        heapq.heappush(heap, (node.weight, count, node))
+
+        count += 1
+
+    # 2. 不断从 S 中取出两个权值最小的结点
+    # 直到 S 中只剩一个结点为止
+    while len(heap) > 1:
+
+        # 取出权值最小的结点 n1
+        w1, _, n1 = heapq.heappop(heap)
+
+        # 取出权值第二小的结点 n2
+        w2, _, n2 = heapq.heappop(heap)
+
+        # 构造一个新的父结点 r
+        # r 的权值 = n1 的权值 + n2 的权值
+        r = Node(w1 + w2)
+
+        # 让 n1 和 n2 成为 r 的两个子结点
+        # 这一步就是真正在“建树”
+        r.left = n1
+        r.right = n2
+
+        # 把新结点 r 放回集合 S
+        # 后面 r 还可能继续和别的结点合并
+        heapq.heappush(heap, (r.weight, count, r))
+
+        count += 1
+
+    # 3. 最后堆中只剩一个结点
+    # 这个结点就是整棵最优二叉树的根结点
+    root = heap[0][2]
+
+    return root
+
+
+def print_tree(root, depth=0):
+    """
+    按层次打印树结构。
+    depth 表示当前结点在第几层。
+    """
+
+    if root is None:
+        return
+
+    # 根据 depth 控制缩进
+    indent = "  " * depth
+
+    # 如果 name 不是 None，说明它是叶子结点
+    if root.name is not None:
+        print(indent + f"叶子结点 {root.name}, weight = {root.weight}")
+    else:
+        print(indent + f"内部结点, weight = {root.weight}")
+
+    # 继续打印左子树和右子树
+    print_tree(root.left, depth + 1)
+    print_tree(root.right, depth + 1)
+
+
+def get_wpl(root, depth=0):
+    """
+    计算这棵树的 WPL。
+    WPL = 所有叶子结点的 权值 × 深度 之和。
+    """
+
+    if root is None:
+        return 0
+
+    # 如果是叶子结点
+    if root.left is None and root.right is None:
+        return root.weight * depth
+
+    # 如果不是叶子结点，就递归计算左右子树的 WPL
+    return get_wpl(root.left, depth + 1) + get_wpl(root.right, depth + 1)
+
+
+# 测试
+weights = [8, 3, 1, 1, 1, 1, 1, 1]
+
+root = build_huffman_tree(weights)
+
+print("最优二叉树结构：")
+print_tree(root)
+
+print("最小 WPL =", get_wpl(root))
+```
+
+哈夫曼编码树:
+1. 二叉树
+2. 叶子代表字符，且每个叶子结点有个权值，权值即该字符的出现频率
+3. 非叶子结点里存放着以它为根的子树中的所有字符，以及这些字符的权值之和
+4. 权值仅用来建树，对于字符串的解码和编码没有用处
+
+![](17.png)
+
+【解码过程】从树根开始，在字符串编码中碰到一个0，就往左子树走，碰到1，就往右子树走。走到叶子，即解码出一个字符。然后回到树根重复前面的过程。
+> eg: 10001010 -> BAC
+
+【构造思路】
+1. 开始时，若有n个字符，则就有n个结点。每个结点的权值就是字符的频率，每个结点的字符集就是一个字符。
+2. 取出权值最小的两个结点，合并为一棵子树。子树的树根的权值为两个结点的权值之和，字符集为两个结点字符集之并。在结点集合中删除取出的两个结点，加入新生成的树根。
+3. 如果结点集合中只有一个结点，则建树结束。否则，goto 2
+（其实就是构建最优二叉树）
+
+```python
+import heapq
+
+class Node:
+    def __init__(self, weight, chars):
+        # weight 表示权值，也就是字符出现频率之和
+        self.weight = weight
+
+        # chars 表示这个结点包含哪些字符
+        # 叶子结点只包含一个字符
+        # 非叶子结点包含左右子树所有字符
+        self.chars = chars
+
+        # 左右孩子
+        self.left = None
+        self.right = None
+
+
+def build_huffman_tree(freq):
+    """
+    构造哈夫曼编码树
+
+    参数：
+        freq: 字典，表示每个字符的出现频率
+              例如 {'A': 8, 'B': 3, 'C': 1}
+
+    返回：
+        root: 哈夫曼树的根结点
+    """
+
+    heap = []
+    count = 0
+
+    # 1. 开始时，每个字符都是一个单独的叶子结点
+    for ch, w in freq.items():
+        node = Node(w, ch)
+
+        # 放入最小堆
+        # 按 weight 从小到大排序
+        heapq.heappush(heap, (node.weight, count, node))
+        count += 1
+
+    # 2. 不断取出权值最小的两个结点合并
+    while len(heap) > 1:
+        w1, _, n1 = heapq.heappop(heap)
+        w2, _, n2 = heapq.heappop(heap)
+
+        # 新结点 r
+        # 权值 = 两个子结点权值之和
+        # 字符集 = 两个子结点字符集之并
+        r = Node(w1 + w2, n1.chars + n2.chars)
+
+        # 设定左右孩子
+        # 这里规定：左边为 0，右边为 1
+        r.left = n1
+        r.right = n2
+
+        # 把新结点放回集合
+        heapq.heappush(heap, (r.weight, count, r))
+        count += 1
+
+    # 3. 最后剩下的唯一结点就是根结点
+    return heap[0][2]
+```
+
+```python
+import heapq
+
+def optimal_binary_tree(weights):
+    """
+    构造最优二叉树，也就是哈夫曼树。
+    
+    参数：
+        weights: 一个列表，表示每个叶子结点的权值
+                 例如 [8, 3, 1, 1, 1, 1, 1, 1]
+    
+    返回：
+        最小 WPL，也就是最小带权路径长度
+    """
+    # heapq 是 Python 里的最小堆工具
+    # 最小堆的特点是：每次都能快速取出当前最小的元素
+
+    # 把普通列表变成最小堆
+    # 这一步相当于：
+    # 开始 n 个结点都放在集合 S 中
+    heapq.heapify(weights)
+
+    # total_wpl 用来记录最终的最小 WPL
+    # 也可以理解为“总合并费用”
+    total_wpl = 0
+
+    # 只要集合 S 中还有两个及以上的结点，就继续合并
+    while len(weights) > 1:
+
+        # 从集合 S 中取出权值最小的结点 n1
+        n1 = heapq.heappop(weights)
+
+        # 再从集合 S 中取出权值第二小的结点 n2
+        n2 = heapq.heappop(weights)
+
+        # 构造一个新的父结点 r
+        # r 的权值等于 n1 和 n2 的权值之和
+        r = n1 + n2
+
+        # 为什么要把 r 加入 total_wpl？
+        # 因为每合并一次，都会让 n1 和 n2 这两棵子树中的所有叶子深度 +1
+        # 这次增加的 WPL 正好等于 n1 + n2，也就是 r
+        total_wpl += r
+
+        # 将新结点 r 放回集合 S
+        # 后面它还可能继续和别的结点合并
+        heapq.heappush(weights, r)
+
+        # 可以打印过程，帮助理解
+        print(f"合并 {n1} 和 {n2}，得到新结点 {r}，当前总费用 = {total_wpl}")
+
+    # 当集合 S 中只剩下一个结点时，说明整棵最优二叉树构造完成
+    # weights[0] 就是整棵树的根结点权值
+    return total_wpl
+
+# 测试数据
+weights = [8, 3, 1, 1, 1, 1, 1, 1]
+
+answer = optimal_binary_tree(weights)
+
+print("最小 WPL =", answer)
+```
+
+```python
+def decode(root, code):
+    """
+    使用哈夫曼树解码字符串。
+
+    参数：
+        root: 哈夫曼树的根结点
+        code: 由 0 和 1 组成的编码字符串，例如 "10001010"
+
+    返回：
+        解码后的原字符串
+    """
+
+    result = ""
+
+    # cur 表示当前走到树中的哪个结点
+    # 解码一开始从根结点出发
+    cur = root
+
+    for bit in code:
+        # 遇到 0，往左子树走
+        if bit == "0":
+            cur = cur.left
+
+        # 遇到 1，往右子树走
+        elif bit == "1":
+            cur = cur.right
+
+        # 如果不是 0 或 1，说明编码非法
+        else:
+            raise ValueError("编码中只能包含 0 和 1")
+
+        # 如果走到了叶子结点，说明解码出了一个字符
+        if cur.left is None and cur.right is None:
+            result += cur.chars
+
+            # 解出一个字符后，重新回到根结点
+            cur = root
+
+    return result
+```
+
+example: 一块长木板，要切割成长度为L1,L2...Ln的n块板子。每切一刀的费用，等于被切的那块板子的长度。求最少费用。
+
+```python
+import heapq
+
+def min_cut_cost(lengths):
+    heapq.heapify(lengths)
+
+    total = 0
+
+    while len(lengths) > 1:
+        a = heapq.heappop(lengths)
+        b = heapq.heappop(lengths)
+
+        cost = a + b
+        total += cost
+
+        heapq.heappush(lengths, cost)
+
+    return total
+
+
+lengths = [2, 3, 5]
+print(min_cut_cost(lengths))  # 15
+```
+
