@@ -69,6 +69,71 @@ def bfs(root):
 
 ### 重建二叉树
 
+从层次遍历建树
+```python
+def build_tree_level(level_list):
+    if not level_list:
+        return None
+    root_val = level_list[0]
+    root = Node(int(root_val))
+    queue = deque([root])
+    i = 1
+    while queue and i < len(level_list):
+        node = queue.popleft()
+        # 左孩子
+        if i < len(level_list):
+            if level_list[i] != '#':
+                node.left = Node(int(level_list[i]))
+                queue.append(node.left)
+            i += 1
+        # 右孩子
+        if i < len(level_list):
+            if level_list[i] != '#':
+                node.right = Node(int(level_list[i]))
+                queue.append(node.right)
+            i += 1
+    return root
+```
+
+从一个正常的树以“左兄弟右儿子”的办法转换成一个二叉树
+```python
+class TreeNode:
+    def __init__(self, key):
+        self.key = key
+        self.children = []   # 普通树：可以有多个孩子
+
+
+class BinaryNode:
+    def __init__(self, key):
+        self.key = key
+        self.left = None     # 左儿子
+        self.right = None    # 右兄弟
+
+
+def convert(root):
+    if root is None:
+        return None
+
+    # 创建对应的二叉树结点
+    b_root = BinaryNode(root.key)
+
+    # 如果没有孩子，直接返回
+    if len(root.children) == 0:
+        return b_root
+
+    # 第一个孩子变成左儿子
+    b_root.left = convert(root.children[0])
+
+    # 其余孩子依次变成右兄弟
+    current = b_root.left
+
+    for child in root.children[1:]:
+        current.right = convert(child)
+        current = current.right
+
+    return b_root
+```
+
 基本原则：
 1) P[0]是树的树根
 2) 找到树根P[0]在中序序列中的位置X，并将中序序列以树根为界分为左子树的中序序列Q[:X]和右子树的中序序列Q[X+1:]
@@ -76,20 +141,24 @@ def bfs(root):
 
 ```python
 def Buildtree(preorder, inorder):
-    if not preorder: # 这个判断是非常有意义的
-        return 
-    root_val = preorder[0] # 赋值
-    root = Treenode(root_val) # 赋一个结点
+    if not preorder:
+        return None
+
+    root_val = preorder[0]
+    root = TreeNode(root_val)
 
     x = inorder.index(root_val)
 
-    ino_left = inorder[1:x]
-    ino_right = inorder[x:]
+    # 中序遍历：左子树 根 右子树
+    ino_left = inorder[:x]
+    ino_right = inorder[x + 1:]
 
-    l = len(root_left)
+    # 左子树结点个数
+    l = len(ino_left)
 
-    pre_left = preorder[1:1+l]
-    pre_right = preoder[1+l:]
+    # 前序遍历：根 左子树 右子树
+    pre_left = preorder[1:1 + l]
+    pre_right = preorder[1 + l:]
 
     root.left = Buildtree(pre_left, ino_left)
     root.right = Buildtree(pre_right, ino_right)
@@ -280,12 +349,16 @@ def heapSort(self, a):
 
 ```python
 import heapq
+
 def heapsorted(s):
     h = []
+
     for value in s:
         h.append(value)
+
     heapq.heapify(h)
-    return [headq.heapop(h) for i in range(n)]
+
+    return [heapq.heappop(h) for i in range(len(h))]
 ```
 
 # 二叉查找树及操作
