@@ -598,13 +598,170 @@ while len(q) > 0:
 > father : 父顶点在队列中的下标(从a走到b,则a是b的父顶点)
 > 判重的二维列表：flags[i][j]表示 (i,j)那个位置是否走过，即是否入过队列
 
-page78
+```python
+import collections
+
+
+class Step:
+    def __init__(self, x, y, steps, parent=None):
+        self.x = x              # 当前行
+        self.y = y              # 当前列
+        self.steps = steps      # 从起点到当前位置的步数
+        self.parent = parent    # 指向上一步，用来还原路径
+
+
+maze = [
+    [0, 1, 0, 0, 0],
+    [0, 1, 0, 1, 0],
+    [0, 0, 0, 0, 0],
+    [0, 1, 1, 1, 0],
+    [0, 0, 0, 1, 0]
+]
+
+M = 5
+N = 5
+
+# 四个方向：上、下、左、右
+directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+
+q = collections.deque()
+
+visited = [[False] * N for _ in range(M)]
+
+# 起点是左上角 (0, 0)
+start = Step(0, 0, 0, None)
+q.append(start)
+visited[0][0] = True
+
+end = None
+
+while len(q) > 0:
+    s = q.popleft()
+
+    # 如果到达右下角
+    if s.x == M - 1 and s.y == N - 1:
+        end = s
+        break
+
+    for dx, dy in directions:
+        nx = s.x + dx
+        ny = s.y + dy
+
+        # 判断是否越界
+        if nx < 0 or nx >= M or ny < 0 or ny >= N:
+            continue
+
+        # 判断是否是墙
+        if maze[nx][ny] == 1:
+            continue
+
+        # 判断是否访问过
+        if visited[nx][ny]:
+            continue
+
+        # 加入队列
+        q.append(Step(nx, ny, s.steps + 1, s))
+        visited[nx][ny] = True
+
+
+# 输出结果
+if end is None:
+    print("No path")
+else:
+    print("最短步数:", end.steps)
+
+    path = []
+    current = end
+
+    while current is not None:
+        path.append((current.x, current.y))
+        current = current.parent
+
+    path.reverse()
+
+    print("最短路线:")
+    for p in path:
+        print(p)
+```
 
 ### 迷宫变形问题
 
 【问题】给定一个二维网格地图，地图中的每个位置均可移动，但部分位置为特殊障碍区域。一个人在地图上从起点出发，每次只能向上、下、左、右四个方向移动一格，每移动一格花费 1 单位时间。该人拥有有限次数的特殊能力，可以消除障碍并进入障碍区域，每次进入障碍区域会消耗一次能力次数；当能力次数耗尽后，将无法再进入障碍区域。已知地图、起点、终点以及可使用的能力次数，求从起点到终点所需的最短时间。
 
 【解题思路】解题时，将每个状态定义为当前位置和剩余能力次数的组合，即 ((r, c, k))，其中 (r) 和 (c) 表示当前所在的行和列，(k) 表示当前还剩多少次消除障碍的机会。搜索从起点状态开始，使用广度优先搜索逐层扩展，每次可以向上下左右四个方向移动。如果下一个位置是普通位置，则可以直接进入，状态中的 (k) 不变；如果下一个位置是障碍位置，则只有在 (k>0) 时才能进入，并将 (k) 减 1。由于同一个位置在剩余能力次数不同时代表不同状态，因此判重时不能只记录位置，而应记录 ((r,c,k)) 是否已经访问过。BFS 第一次到达终点时，对应的移动次数就是最短时间。
+
+```python
+import collections
+
+class Step:
+    def __init__(self, x, y, steps, remaining):
+        self.x = x              # 当前行
+        self.y = y              # 当前列
+        self.steps = steps      # 已走步数
+        self.remaining = remaining  # 剩余消除障碍能力次数
+
+# 示例地图
+# 0 普通位置，可走
+# 1 障碍，需要消除能力
+maze = [
+    [0, 0, 1, 0],
+    [1, 1, 0, 0],
+    [0, 0, 0, 1],
+    [0, 1, 0, 0]
+]
+
+M = len(maze)
+N = len(maze[0])
+
+# 起点、终点
+start_x, start_y = 0, 0
+end_x, end_y = M-1, N-1
+
+# 能力次数
+K = 2
+
+# BFS 队列
+q = collections.deque()
+
+# visited[r][c][k] 是否访问过位置(r,c)且剩余能力k
+visited = [[[False]*(K+1) for _ in range(N)] for _ in range(M)]
+
+# 将起点加入队列
+q.append(Step(start_x, start_y, 0, K))
+visited[start_x][start_y][K] = True
+
+directions = [(-1,0), (1,0), (0,-1), (0,1)]
+
+found = False
+
+while q:
+    s = q.popleft()
+
+    # 到达终点
+    if s.x == end_x and s.y == end_y:
+        print("最短时间:", s.steps)
+        found = True
+        break
+
+    for dx, dy in directions:
+        nx = s.x + dx
+        ny = s.y + dy
+
+        if 0 <= nx < M and 0 <= ny < N:
+            if maze[nx][ny] == 0:
+                # 普通位置，能力不变
+                if not visited[nx][ny][s.remaining]:
+                    visited[nx][ny][s.remaining] = True
+                    q.append(Step(nx, ny, s.steps+1, s.remaining))
+            elif maze[nx][ny] == 1 and s.remaining > 0:
+                # 障碍位置，消耗一次能力
+                if not visited[nx][ny][s.remaining-1]:
+                    visited[nx][ny][s.remaining-1] = True
+                    q.append(Step(nx, ny, s.steps+1, s.remaining-1))
+
+if not found:
+    print("无法到达终点")
+```
 
 【问题】给定一个二维迷宫地图，地图中的每个位置可能是可通行区域、不可通过的障碍区域，或带有额外代价的特殊区域。一个人从起点出发，需要移动到终点位置，每次只能向上、下、左、右四个方向移动一格。进入普通可通行区域需要花费 1 单位时间，而进入特殊区域时，除了移动所需时间外，还需要额外支付一定代价。障碍区域无法进入。求从起点到终点所需的最少时间。
 
@@ -622,6 +779,78 @@ page78
    1. int flag[M][N][2];
    2. flag[r][c][0]表示在坐标(r,c)，尚未杀死守卫的情况
    3. flag[r][c][1]表示在坐标(r,c)，已经杀死守卫的情况
+
+```python
+import collections
+
+class Step:
+    def __init__(self, x, y, kill, t):
+        self.x = x          # 当前行
+        self.y = y          # 当前列
+        self.kill = kill    # 是否已经杀过守卫
+        self.t = t          # 到当前位置所用时间
+
+# 输入迷宫行列
+M, N = map(int, input().split())
+maze = []
+for _ in range(M):
+    maze.append(input().strip())
+
+# 找起点 r 和终点 a
+for i in range(M):
+    for j in range(N):
+        if maze[i][j] == 'r':
+            sx, sy = i, j
+        elif maze[i][j] == 'a':
+            ex, ey = i, j
+
+# BFS 队列
+q = collections.deque()
+q.append(Step(sx, sy, 0, 0))
+
+# 判重数组
+visited = [[[False]*2 for _ in range(N)] for _ in range(M)]
+visited[sx][sy][0] = True
+
+directions = [(-1,0), (1,0), (0,-1), (0,1)]
+
+found = False
+
+while q:
+    s = q.popleft()
+
+    if s.x == ex and s.y == ey:
+        print(s.t)
+        found = True
+        break
+
+    for dx, dy in directions:
+        nx = s.x + dx
+        ny = s.y + dy
+
+        if nx < 0 or nx >= M or ny < 0 or ny >= N:
+            continue
+        if maze[nx][ny] == '#':
+            continue
+
+        if maze[nx][ny] == '@' or maze[nx][ny] == 'a':
+            if not visited[nx][ny][s.kill]:
+                visited[nx][ny][s.kill] = True
+                q.append(Step(nx, ny, s.kill, s.t + 1))
+
+        elif maze[nx][ny] == 'x':
+            if s.kill == 0 and not visited[nx][ny][1]:
+                # 第一次遇到守卫，需要杀死
+                visited[nx][ny][1] = True
+                q.append(Step(nx, ny, 1, s.t + 2))
+            elif s.kill == 1 and not visited[nx][ny][1]:
+                # 已经杀过守卫，可以正常走
+                visited[nx][ny][1] = True
+                q.append(Step(nx, ny, 1, s.t + 1))
+
+if not found:
+    print("Impossible")
+```
 
 【解题思路二】
 由于该问题中不同位置的移动代价并不相同：进入普通位置只需要花费 1 单位时间，而进入守卫所在位置除了移动时间外还需要额外花费 1 单位时间，因此不同路径之间的总代价不再仅由“步数”决定，普通 BFS 按层扩展的方法已经无法保证第一次到达终点时得到的就是最优解。为了解决这一问题，可以将队列中的状态定义为 ((r,c,steps))，其中 (r,c) 表示当前位置坐标，`steps` 表示到达该位置所花费的总时间。当扩展到普通位置时，总代价增加 1；当扩展到守卫位置时，总代价增加 2。由于搜索过程中必须始终优先扩展总代价较小的状态，因此普通先进先出的队列需要改为优先队列，使得当前总代价最小的状态始终位于队首并优先出队。这样才能保证搜索过程始终按照最小总代价进行扩展，从而正确求得从起点到终点的最短时间。本质上，该问题已经从普通 BFS 转化为了带权最短路径问题，其思想与 Dijkstra 算法一致。
@@ -1856,6 +2085,58 @@ def dijkstra(aGraph, start):
                 pq.decreaseKey(nextVert, newDist)
 ```
 
+不用优先队列
+
+```python
+def dijkstra_no_pq(aGraph, start):
+    """
+    使用 Dijkstra 算法计算从起点 start 到图中所有顶点的最短路径。
+    该版本不使用优先队列，而是每次遍历所有未访问顶点找到当前最小距离顶点。
+
+    参数：
+    aGraph：图对象，里面包含所有顶点以及顶点之间的边
+    start ：起点顶点
+
+    前提：
+    图中所有边的权重必须是非负数。
+    """
+
+    # 设置起点到自己的距离为 0
+    start.setDistance(0)
+
+    # 已经确定最短路径的顶点集合
+    visited = set()
+
+    # 只要还有未访问顶点，就继续循环
+    while len(visited) < aGraph.numVertices:
+
+        # 在所有未访问顶点中，找到距离起点最小的顶点
+        currentVert = None
+        currentDist = float('inf')
+        for v in aGraph:
+            if v not in visited and v.getDistance() < currentDist:
+                currentDist = v.getDistance()
+                currentVert = v
+
+        # 如果没有可访问顶点，说明剩余顶点不可达，结束循环
+        if currentVert is None:
+            break
+
+        # 把当前顶点加入已访问集合
+        visited.add(currentVert)
+
+        # 遍历 currentVert 的所有邻接点
+        for nextVert in currentVert.getConnections():
+
+            # 计算通过 currentVert 到 nextVert 的新距离
+            newDist = currentVert.getDistance() + currentVert.getWeight(nextVert)
+
+            # 如果新距离更短，更新 nextVert 的最短距离
+            if newDist < nextVert.getDistance():
+                nextVert.setDistance(newDist)
+                nextVert.setPred(currentVert)
+```
+
 floyd算法：
 - 边上有负权重的边，但是不能有负权回路
 - 假设求从顶点vi到vj的最短路径。如果从vi到vj有边，则从vi到vj存在一条长度为cost[i,j]的路径，该路径不一定是最短路径，尚需进行n次试探。
@@ -2012,6 +2293,106 @@ def prim(G, start):
                 # 因为 nextVert 的 distance 变小了
                 # 所以要更新它在优先队列中的优先级
                 pq.decreaseKey(nextVert, newCost)
+```
+
+```python
+import heapq
+import sys
+
+
+def prim(G, start):
+    # heapq 实现的优先队列
+    pq = []
+
+    # 记录哪些顶点已经加入最小生成树
+    inTree = set()
+
+    # 初始化所有顶点
+    for v in G:
+        v.setDistance(sys.maxsize)
+        v.setPred(None)
+
+    # 起点距离设为 0
+    start.setDistance(0)
+
+    # 修改：heapq 里面放三元组
+    # (当前最小边权, 顶点编号, 顶点对象)
+    # 加顶点编号是为了防止两个 Vertex 对象不能比较而 Runtime Error
+    heapq.heappush(pq, (0, start.getId(), start))
+
+    totalCost = 0
+
+    while pq:
+        # 相当于 pq.delMin()
+        currentDistance, currentId, currentVert = heapq.heappop(pq)
+
+        # 修改：如果这个点已经加入生成树，就跳过
+        # 因为 heapq 没有 decreaseKey，旧的较大距离可能还留在堆里
+        if currentVert in inTree:
+            continue
+
+        # 当前顶点正式加入最小生成树
+        inTree.add(currentVert)
+
+        # 当前边权加入答案
+        totalCost += currentDistance
+
+        # 遍历邻接点
+        for nextVert in currentVert.getConnections():
+
+            newCost = currentVert.getWeight(nextVert)
+
+            # 修改：原来是 if nextVert in pq
+            # heapq 不能直接判断某个点是否还在队列中
+            # 所以改成判断 nextVert 是否还没加入生成树
+            if nextVert not in inTree and newCost < nextVert.getDistance():
+
+                nextVert.setPred(currentVert)
+
+                nextVert.setDistance(newCost)
+
+                # 修改：heapq 没有 decreaseKey
+                # 所以直接把新的更小距离重新压入堆
+                heapq.heappush(pq, (newCost, nextVert.getId(), nextVert))
+
+    return totalCost
+```
+基于临界矩阵
+```python
+
+def prim(G, start):
+    # pq 中存的是：边权、顶点编号
+    pq = []
+
+    # visited[i] 表示顶点 i 是否已经加入最小生成树
+    visited = [False] * G.numVertices
+
+    # 从起点 start 开始，代价为 0
+    heapq.heappush(pq, (0, start))
+
+    totalCost = 0
+
+    while pq:
+        # 取出当前边权最小的顶点
+        currentCost, currentVert = heapq.heappop(pq)
+
+        # 如果这个点已经加入生成树，就跳过
+        if visited[currentVert]:
+            continue
+
+        # 把当前点加入最小生成树
+        visited[currentVert] = True
+
+        # 加上连接这个点的边权
+        totalCost += currentCost
+
+        # 遍历 currentVert 的所有邻居
+        for nextVert in G.get_neighbors(currentVert):
+            if not visited[nextVert]:
+                newCost = G.getWeight(currentVert, nextVert)
+                heapq.heappush(pq, (newCost, nextVert))
+
+    return totalCost
 ```
 
 Kruskal算法：
