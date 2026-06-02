@@ -2357,7 +2357,7 @@ def prim(G, start):
 
     return totalCost
 ```
-基于临界矩阵
+基于邻接矩阵
 ```python
 
 def prim(G, start):
