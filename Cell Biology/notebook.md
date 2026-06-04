@@ -2349,7 +2349,7 @@ five parallel intracellular signaling pathways...
 
 **Tyrosine kinase associated receptors**
 
-TYrosine kinase-associated receptors: the JAK-STAT signaling pathway activated by cytokines
+Tyrosine kinase-associated receptors: the JAK-STAT signaling pathway activated by cytokines
 
 <img src="190.png" alt="" width="60%">
 
@@ -4100,3 +4100,338 @@ A Strategy Used to Select Cells That Have Converted to An iPSC
 ES and iPS Cells Are Useful for Drug Discovery and Analysis of Disease
 
 <img src="401.png" alt="" width="60%">
+
+# Chapter 22
+
+### Stem cells and renewal in epithelial tissues
+
+Structures Of The Small Intestine: Single-layered epithelium, only one cell thick
+
+The Four Main Differentiated Cell Types Found In The Epithelial Lining Of The Small Intestine
+- Absorptive cell(Microvilli): Also called brush-border cells or enterocytes; major cell type in the epithelium; secrete hydrolytic enzymes; take up nutrients
+- Goblet cell: Secrete mucus to protect epithelium
+- Paneth cell: Secrete proteins that kill bacteria (innate immune system)
+- Enteroendocrine cell: Secrete hormones that act on other cells
+
+Stem Cells of the Small Intestine Lie at or Near the Base of Each Crypt
+- Stem cells are required wherever there is a recurring need to replace differentiated cells that cannot themselves divide.
+- Committed precursors or transit amplifying cells
+- Dividing cells are restricted to the crypts
+
+<img src="403.png" alt="" width="60%">
+
+Wnt Signaling Maintains the Gut Stem-Cell Compartment
+- APC codes for a protein that prevents inappropriate activation of the Wnt signaling pathway.
+- beta-catenin(之前都讲过的)
+
+Clonal Analysis Using A Genetic Marker (heritable marker)
+- Lgr5 gene: encodes a G-protein-linked transmembrane receptor; expressed specifically in stem cells near the crypt base
+> 这张图展示了利用 **Lgr5-CreERT2/LoxP-LacZ 系统**对肠道干细胞进行谱系追踪的原理：在 Lgr5 启动子下表达的 GFP 标记干细胞，同时 CreERT2 处于失活状态，加入 tamoxifen 激活 Cre 重组酶后切除阻断序列，使 LacZ 在干细胞及其所有后代中持续表达，从而证明 Lgr5⁺ 干细胞能够产生肠上皮的所有细胞类型。
+>
+> <img src="402.png" alt="" width="60%">
+>
+
+Lgr5-expressing Stem Cells And Their Progeny in The Small Intestine
+- All of the blue cells in these images derive from a single Lgr5-expressing stem cell.
+- After 60 days, the blue progeny of this cell are seen to extend all the way up a villus.
+- These progeny can be shown to include all types of differentiated cells, as well as persistent Lgr5-expressing cells at the crypt base.
+- This proves that Lgr5-expressing cells are multipotent stem cells.
+
+<img src="404.png" alt="" width="60%">
+
+Single-cell Lineage Tracing
+- 有很多方法可以去建树
+  - somatic mutations
+  - reporter systems
+  - cell barcoding
+  - dynamic lineage tracing
+
+<img src="405.png" alt="" width="60%">
+
+The Two Daughters of a Stem Cell Face a Choice
+
+- A stem cell is not itself terminally differentiated: that is, it is not at the end of a pathway of differentiation.
+- It can divide without limit (or at least for the lifetime of the animal).
+- When it divides, each daughter has a choice: it can either remain a stem cell, or it can embark on a course that commits it to terminal differentiation
+- 有时候也不会直接分化，可能会变成precursor cell
+
+Two Ways For A Stem Cell To Produce Daughters With Different Fates
+
+<img src="406.png" alt="" width="60%">
+
+> Clonal analysis gives a way to distinguish between the two strategies, since they give quite different predictions as to the expected number of clones of different sizes produced from individual stem cells.
+>
+> 追踪单个干细胞通常通过 **遗传标记或转基因报告系统** 实现。例如，可以在特定干细胞上驱动 **Cre-LoxP 或其他可诱导报告基因（如 GFP、LacZ）**，通过 tamoxifen 等诱导剂激活 Cre，使这个干细胞及其所有后代永久表达标记物。这样，随着时间推移观察组织中带标记的细胞群，就能清楚地看到单个干细胞产生的克隆大小、形态和扩展情况，从而分析干细胞的分裂策略。
+
+Paneth Cells Create the Stem-Cell Niche
+- The intestinal stem-cell niche: the Paneth cells generate signals, including a strong Wnt signal, that act over a short range to maintain the stem-cell state
+- A stem-cell niche is an area of a tissue that provides a specific microenvironment in which stem cells are present in an undifferentiated and self-renewable state.
+- The interactions between stem cells and their niches are bidirectional and reciprocal.
+  
+  <img src="407.png" alt="" width="60%">
+  
+Genesis Of A Minigut From A Single Lgr5-expressing Cell Cultured in A Cell-free Matrix
+
+<img src="408.png" alt="" width="60%">
+
+Ephrin–Eph Signaling Drives Segregation of the Different Gut Cell Types
+- Wnt expression
+- EphB is induced by Wnt.
+- EphrinB expressing cells have Repulsive Interaction with EphB expressing cells,  help maintain tissue boundaries.
+
+Notch Signaling Controls Gut Cell Diversification and Helps Maintain the Stem-Cell State
+- Wnt signaling leads to expression of Notch and Delta in the cells of the crypt.
+- Cells expressing higher levels of Delta eventually activate Notch in their neighbors.
+- Notch signaling: lateral inhibition—a competitive interaction that drives neighboring cells toward different fates
+- 这一页PPT展示了肠道隐窝中Notch信号在干细胞维持和细胞命运决定中的作用机制。Wnt信号首先促使隐窝细胞中表达Notch受体和Delta配体，而那些高表达Delta的细胞会通过横向抑制（lateral inhibition）激活邻近细胞的Notch信号，使邻近细胞受到抑制并分化为不同类型的细胞。通过这种竞争性相互作用，干细胞能够维持自身状态，同时保证邻近细胞按照特定的分化路径形成吸收细胞或分泌细胞等多样化的肠道上皮细胞类型。
+
+<img src="409.png" alt="" width="60%">
+
+<img src="410.png" alt="" width="60%">
+
+The Epidermal Stem-Cell System Maintains a Self-Renewing Waterproof Barrier
+- multilayered structure of the epidermis
+- signaling from niches, stochastic independent-choice mechanism dictates the fates of the daughters.
+- Granular cells are sealed together to form a waterproof barrier
+- Basal cells: usually the only cells that divide: the basal cell population includes relatively small numbers of stem cells along with larger numbers of transit amplifying cells derived from them.
+- Dermis: tough, collagen-rich (from which leather is made)
+
+<img src="411.png" alt="" width="60%">
+
+### The connective tissue cell family
+
+The Four Primary Tissue Types
+
+<img src="412.png" alt="" width="60%">
+
+connective tissue:
+- Originate from the mesodermal layer of the early embryo
+- Unlike epithelial tissue, which is composed of cells closely packed together, cells of connective tissue are more widely dispersed within an extracellular matrix (ECM).
+- Responsible for the architectural framework of the body：Connection and Protection
+
+Types of Connective Tissues
+
+<img src="413.png" alt="" width="60%">
+
+The Family Of Connective Tissue Cells
+- Connective tissues typically consist of cells dispersed in an extracellular matrix that they themselves secrete.
+- They originate from the mesodermal (middle) layer of the early embryo, and are remarkably interconvertible.
+- All cell types are specialized for secreting collagenous extracellular matrix and are jointly responsible for the body's architectural framework.
+- Fibroblasts seem to be the least specialized cells in the connective-tissue family. They are dispersed in connective tissue throughout the body, where they secrete a nonrigid extracellular matrix that is rich in type I or type III collagen.
+
+Fibroblasts Change Their Character in Response to Chemical and Physical Signals
+- The fate of the cells depends on physical as well as chemical signals.
+- Because of these self-renewing, multipotent character, the bone marrow stromal cells, and other cells with similar properties, are referred to as **mesenchymal stem cells**.
+
+<img src="414.png" alt="" width="60%">
+
+Bone Marrow Stromal Cells
+- Bone marrow stromal cells: a class of connective-tissue cells in the bone marrow, which can be regarded as a kind of fibroblast.
+- They can differentiate as fat cells, cartilage cells(软骨细胞), or bone cells.
+
+Supportive Connective Tissue
+- Two major forms of supportive connective tissue, cartilage and bone, allow the body to maintain its posture and protect internal organs.
+- cartilage cell embedded into different types of matrix
+  
+  <img src="415.png" alt="" width="60%">
+
+1. The most common type of cartilage that covers bones where they meet to form moveable joints, provides support with some flexibility
+2. The intervertebral discs are examples of fibrocartilage.
+3. The external ear contains elastic cartilage
+
+The Growth Of Cartilage
+- Cartilage tissue consists of a single cell type—chondrocytes—embedded in a highly hydrated matrix consisting of proteoglycans and type II collagen.
+- The cartilage matrix is deformable, and the tissue grows by expanding as the chondrocytes divide and secrete more matrix.
+- Cartilage may also grow by recruiting fibroblasts from the surrounding tissue and converting them into chondrocytes.
+
+<img src="416.png" alt="" width="60%">
+
+Apposition Of Bone Matrix By Osteoblasts
+- The bone grows by apposition—by forming new layers on the surface of pre-existing layers, a process of increasing in thickness rather than length.
+
+Bone Is Continually Remodeled by the Cells Within It
+- About 5–10% of the bone in a healthy adult mammal is replaced each year.
+- The creation, maintenance, and repair of this structure depend not only on osteoblasts that synthesize matrix but also on a separate class of cells called osteoclasts that degrade it.
+- Osteoclasts are large, multinucleated cells, and often send out processes to resorb bone at multiple sites.
+- They develop from monocytes and can be viewed as specialized macrophages.
+- Osteopetrosis: the bone becomes excessively thick and dense
+- Osteoporosis: excessive erosion of the bone matrix and weakening of the bone
+- The osteoblasts that make the matrix also produce the signals that recruit and activate the osteoclasts to degrade it.
+- Osteoclasts are capable of tunneling deep into the substance of compact bone, forming cavities that are then invaded by other cells.(like blood system to provide oxigen and nuritient)
+
+Structure and Properties of Muscle Cell Types
+- All of them generate contractile forces by using organized filament systems based on actin and myosin II.
+
+<img src="417.png" alt="" width="60%">
+
+<img src="418.png" alt="" width="60%">
+
+Myoblasts Fuse to Form New Skeletal Muscle Fibers
+- Myoblasts are the embryonic precursors of myocytes
+- Myoblasts differentiate into muscle cells through a process called myogenesis.
+- During myogenesis, myocytes fuse into multinucleated myotubes (syncytium), which later become muscle fibers.
+- Once differentiation and cell fusion have occurred, the cells do not divide, and the nuclei never again replicate their DNA.
+
+<img src="419.png" alt="" width="60%">
+
+Satellite Cells Repair Skeletal Muscle Fibers
+- Satellite cells, muscle stem cells or MuSCs, are small multipotent cells with very little cytoplasm found in mature muscle.
+- Satellite cells are precursors to skeletal muscle cells, able to give rise to satellite cells or differentiated skeletal muscle cells when needed.
+- Normally reserve in a **quiescent** state but available when needed.(hurt then activated)
+
+Healthy Quiescence Requires Periodic Activation
+- Physical training can alter the appearance of skeletal muscles and produce changes in muscle performance.
+- When you work out, you make tiny tears in your muscle fibers. These tears are then repaired and built upon, resulting in stronger connective tissue and stronger muscles. The diameter of your muscle fibers increases.
+  
+  <img src="420.png" alt="" width="60%">
+
+### BLOOD VESSELS, LYMPHATICS, AND ENDOTHELIAL CELLS
+
+Organization Of The Vasculature
+- Heart + blood vessels + blood
+- Oxygen and nutrients supply + metabolic wastes removal
+- Blood vasculature: arteries + veins + capillaries
+- Lymphatic vessels are much thinner and more permeable walls than the blood vessels
+- A drainage system for the fluid. An exit route for white blood cells.
+
+Endothelial Cells Line All Blood Vessels and Lymphatics
+- Endothelial cells form the linings of the blood vessels, extending by cell migration into almost every region of the body
+
+Capillaries and Pericytes
+- the walls consist of a single layer of endothelial cells and a basal lamina together with a few scattered pericytes.
+- Pericytes
+  - Wrap around the small vessels and strengthen them
+  - Regulate capillary blood flow and permeability of blood-brain barrier
+
+  <img src="421.png" alt="" width="60%">
+
+Vasculogenesis and Angiogenesis
+- In the early embryo, endothelial progenitor cells (EPC) differentiate and gradually form a primitive vascular network, which is called vasculogenesis.
+- Angiogenesis is described as when endothelial cells (EC) form new blood vessels in the form of germination and this process is based on the original blood vessels.
+- Mesoderm → Hemangioblasts → angioblasts→ angioblasts differentiation sand specification → arteries and veins
+
+<img src="422.png" alt="" width="60%">
+
+Endothelial Tip Cells Pioneer Angiogenesis
+- Each new vessel originates as a capillary sprout from the side of an existing capillary or small venule.
+- tip cell have the filopodia to sense the environment
+- The regulation of blood vessel growth to match the needs of the tissue depends on the control of vascular endothelial growth factor (VEGF) production.
+
+<img src="423.png" alt="" width="60%">
+
+Tissues Requiring a Blood Supply Release VEGF
+- The primary driver of angiogenesis is hypoxia (lack of oxygen).
+- HIF1 stimulates transcription of VEGF
+
+<img src="424.png" alt="" width="60%">
+
+<img src="425.png" alt="" width="60%">
+
+
+### Blood Cell Formation
+
+Major Blood Components
+- The red blood cells, or erythrocytes, are all alike, and remain within the blood vessels and transport O2 and CO2 bound to hemoglobin.
+- Leukocytes, unlike erythrocytes, must make their way across the walls of small blood vessels and migrate into tissues to perform their tasks.
+- Platelets, which are not entire cells but small, detached cell fragments or “minicells” derived from the cortical cytoplasm of large cells called megakaryocytes. Platelets adhere specifically to the endothelial cell lining of damaged blood vessels, where they help to repair breaches and aid in blood clotting.
+
+<img src="426.png" alt="" width="60%">
+
+The Various Types Of Blood Cells And Their Functions
+
+<img src="427.png" alt="" width="60%">
+
+Chemotaxis Of White Blood Cells To Damaged Tissue
+- Most white blood cells function in tissues other than the blood to fight the infection or heal the wound (inflammatory response).
+> Chemokines are a family of chemoattractant cytokines which play a vital role in cell migration through venules from blood into tissue and vice versa, and in the induction of cell movement in response to a chemokine gradient by a process known as chemotaxis.
+
+Selectins Mediate Transient Cell–Cell Adhesions in the Bloodstream
+- Selectins are cell-surface carbohydrate-binding proteins (lectins) that mediate a variety of transient cell–cell adhesion interactions in the bloodstream.
+- The selectins control the binding of white blood cells to the endothelial cells lining blood vessels, thereby enabling the blood cells to migrate out of the bloodstream into a tissue.
+- (之前也已经提到过了)
+
+Bone Marrow Contains Multipotent Hematopoietic Stem Cells
+- A hematopoietic stem cell is multipotent and can give rise to the complete range of blood cell types
+- The bone marrow contains the developing blood cells and their precursors.
+- Megakaryocytes remain in the bone marrow when mature and are extraordinarily large (diameter up  to 60 μm) with a highly polyploid nucleus. Megakaryocyte produces platelets.
+
+<img src="428.png" alt="" width="60%">
+
+The Hierarchical Hematopoietic Family Tree
+- Hematopoiesis, which typically takes place in the bone marrow (BM), is a tightly regulated and hierarchically structured process of blood production.
+- A single hematopoietic stem cell can give rise to a complete range of blood cell types.
+- The hematopoietic system is the most complex of the stem-cell systems in the mammalian body
+
+<img src="429.png" alt="" width="60%">
+
+Stem Cells Depend on Contact Signals From Stromal Cells
+- When they lose contact with their niche, the hematopoietic stem cells tend to lose their stem-cell potential.
+- Stem cell factor (SCF) is a cytokine that binds to the c-KIT receptor (CD117).
+- SCF can exist both as a transmembrane protein and a soluble protein.
+- SCF plays an important role in hematopoiesis, spermatogenesis, and melanogenesis.
+
+<img src="430.png" alt="" width="60%">
+
+Factors That Regulate Hematopoiesis
+- Hemopoietic growth factors: Chemical signals including erythropoietin, thrombopoietin, colony-stimulating factors, and interleukins that regulate the differentiation and proliferation of particular blood progenitor cells.
+- Colony-stimulating factors (CSFs) glycoproteins that trigger the proliferation and differentiation of blood progenitor cells in colony formation assay.
+
+<img src="431.png" alt="" width="60%">
+
+> Colony formation assay
+> - Colony formation assay（克隆形成实验）是一种检测细胞**长期存活和持续增殖能力**的实验。实验时先把细胞以很低密度接种，使单个细胞分散生长；如果这个细胞在处理后仍然存活并具有分裂能力，它就会经过多轮增殖，最终形成一个肉眼可见的细胞克隆。通常培养 1–3 周后，用结晶紫等染料染色并统计 colony 的数量或面积。相比 CCK8、MTT 这类短期细胞活性实验，colony formation assay 更关注细胞是否真正保留了长期增殖能力，因此常用于评估药物、辐射、基因敲除或热休克等处理对肿瘤细胞生存和恢复能力的影响。
+
+A Developing Red Blood Cell
+- Erythroblast is a developing red blood cell.
+- Erythrocyte is packed full of hemoglobin and contains hardly any of the usual cell organelles.
+- Erythrocyte has a limited life-span: about 120 days in human
+- The reticulocyte (immature erythrocyte) will lose its mitochondria and ribosomes within a day or two to become a mature erythrocyte.
+
+<img src="432.png" alt="" width="60%">
+
+Erythropoiesis Depends on the Hormone Erythropoietin
+- An Oxygen-sensitive Feedback Loop Regulates EPO Production
+
+<img src="433.png" alt="" width="60%">
+
+<img src="434.png" alt="" width="60%">
+
+
+### Regeneration and repair
+
+Bone Marrow Transplantation
+- Bone Marrow Transplantation: a treatment in which a donor’s healthy bone marrow—and its stem cells—replaces the faulty or damaged bone marrow of a patient
+
+<img src="435.png" alt="" width="60%">
+
+Neural Stem Cells Can Be Manipulated in Culture and Used to Repopulate the Central Nervous System
+- Stem cells can be used artificially to replace cells that are diseased or lost.
+
+<img src="436.png" alt="" width="60%">
+
+Tissue Renewal That Does Not Depend on Stem Cells
+- Some types of cells can divide even though fully differentiated, allowing for renewal and regeneration without the use of stem cells.
+- Hepatocytes in the Liver
+
+<img src="438.png" alt="" width="60%">
+
+- Insulin-Secreting Cells in the Pancreas
+
+<img src="437.png" alt="" width="60%">
+
+Some Tissues Lack Stem Cells and Are Not Renewable
+- In mammals, the auditory epithelium and the retinal epithelium lack stem cells, and their sensory receptor cells—the sensory hair cells in the ear, the photoreceptors in the retina—are irreplaceable.
+
+Some Vertebrates Can Regenerate Entire Organs
+- The new cells are restricted according to their origins.
+- wound healing, dedifferentiation of stump tissues, blastema formation, and redifferentiation
+
+> The Planarian Worm, Schmidtea Mediterranea
+> - Schmidtea mediterranea is a small freshwater flatworm, or planarian, just under a centimeter long when grown to full size.
+> - It has an epidermis, a gut, a brain, a pair of primitive eyes, a peripheral nervous system, musculature, and excretory and reproductive organs.
+> - A small tissue fragment taken from almost any part of the body will reorganize itself and grow to form a complete new animal.
+> - Planarian Contain SCs That Can Regenerate a Whole New Body
+> - The neoblasts are undifferentiated dividing cells that constitute about 20% of the cells in the body and are widely distributed within it.At least some neoblasts are totipotent (or at least highly pluripotent) stem cells.
+>
+> <img src="439.png" alt="" width="60%">
+> 
