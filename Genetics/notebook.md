@@ -2634,116 +2634,278 @@ Tryptophan acts as a co-repressor
 # Chapter 7 Genetic Analysisin Prokaryotes
 
 compared to prokaryotes, eukaryotes are much more complex in regulating gene expression
-(page 2)
+1. Eukaryotic genomes are larger than prokaryoticgenomes
+2. Chromatin structure in eukaryotes makes DNA unavailable to transcription machinery
+3. Additional RNA processing events occur in eukaryotes
+4. In eukaryotes, transcription takes place in the nucleus，and translation takes place in the cytoplasm
 
 Differences betweem prokaryotes and eukaryotes in gene expression
-原核细胞的转录和翻译是并行的，但是真核生物不是这样的因为有完整的细胞核
-page4
-转录过程其实也不太一样（page7）
+- In prokaryotes: No nucleus; No introns; No histone, DNA is naked.
+- Prokaryotes: Primary transcripts are the actual mRNAs; they have a triphosphate start at the 5’ end and no tail at the 3’ end.
+- Prokaryotes: Unique initiator tRNAcarries formylmethionine. mRNAs have multiple ribosome binding sites and can thus direct the synthesis of several different polypeptides. Small ribosomal subunit immediately binds to the mRNA’s ribosome binding site.
+- In eukaryotes: Nucleus separated from cytoplasm by a nuclearmembrane. Transcription takes place in the nucleus,while translation occurs in the cytoplasm. Genes have introns. Histones bound DNA to form nucleosome.
+- Eukaryotes: Primary transcripts undergo processing to produce mature mRNAs that have a methylated cap at the 5’ end and apoly-A tail at the 3’ end.
+- Eukaryotes: Initiator tRNA carries methionine. mRNAs have only one start site and can thus direct the synthesis of only one kind of polypeptide. Small ribosomal subunit binds first to the methylated cap at the 5’ end of the mature mRNA and then scans the mRNA from the 5’to 3’ end to find the translational start site.
+
+Three types of RNA polymerases for eukaryotic nuclear gene transcription
+- RNA pol I – transcribes rRNA genes
+- RNA pol II – transcribes all protein-coding genes(mRNAs) and micro-RNAs
+- RNA pol III – transcribes tRNA genes and some small regulatory RNAs
+
 - prokaryotes: not protected will
 - Eukaryotes: methylated
-> 5‘ capping of eukaryotic mRNAs prevent degradation and promote translation(page10)
+> 5‘ capping of eukaryotic mRNAs prevent degradation and promote translation
 > backward guanine: capping 过程叫 backward guanine，是因为加到 mRNA 5′ 端的那个鸟嘌呤核苷酸并不是像普通 RNA 延伸那样按正常方向连接，而是“反着”接上去的。普通 RNA 中相邻核苷酸通常通过 3′–5′ phosphodiester bond 连接，也就是前一个核苷酸的 3′-OH 连到下一个核苷酸的 5′ 磷酸；但在 mRNA capping 中，一个 GMP 会通过自己的 5′ 磷酸连接到 mRNA 第一个核苷酸的 5′ 磷酸上，形成特殊的 5′–5′ triphosphate linkage。因此这个 G 的连接方向和普通 RNA 链中的核苷酸方向相反，就像一个“倒着接上去的 guanine”，所以被称为 backward guanine。
-> page11,就是细胞生物学里讲的怎么加尾部的AAA
+>
+> <img src="168.png" alt="" width="480">
+> 
+> Poly-adenylation at the 3’ end of eukaryotic mRNAs prevent degradation and promote translation
 > 1. a ribonuclease recognizes AAUAAA and cleaves the transcript 11-30 nucleotides downstream to creat a new 3' end.
-> 2. poly....
-翻译过程其实也不太一样（page8）
-- eukaryotes更大，这个看一下细胞生物学笔记
+> 2. poly-A polymerasethen adds 100–200A’s onto this new 3’end.
+>
+> <img src="169.png" alt="" width="480">
+>
 
-Three types of RNA polymerases for wukaryotic nuclear gene transcription
-page6
 
 Eukaryotic mRNAs form a pseufocircular molecule during translation
 - elF4E: recognize the cap
 - PABP / poly(A)-binding protein: mRNA 3′ 端的 poly(A) tail
 - elF4G: bridge -> pseudocircular
 
-Overview of eukaryotic gene regulation:
-(page13，page14)
+<img src="170.png" alt="" width="480">
 
-RNA poll II(page15)
+Overview of eukaryotic gene regulation: 
 
-cis-acting elements: promoters and enhancers(page16)
-- promoters: TATA box
-  - page17
-- Enhancers:...(operator is kind of enhancers)
+**Eukaryotes use complex interactions**
+1. Regulated interactions of large networks of genes
+2. Each gene has multiple points of regulation
+**Themes of gene regulation in eukaryotes**
+1. Environmental adaptation in unicellular eukaryotes
+2. Homeostasis is the process by which biological systems maintain a stable internal environment despite changes in external conditions.
+3. Maintenance of homeostasis in multicellular eukaryotes
+4. Genes are turned on or off in the right place and time
+5. Differentiation and precise positioning of tissues and organs during embryonic development
+
+RNA poll II
+- Most RNA pol II transcripts undergo further processing to generate mature mRNA
+  - RNA splicing – removes introns
+  - Addition of 5' GTP cap – protects RNA from degradation
+  - Cleavage of 3' end and addition of 3’ polyA tail
+
+cis-acting elements(调控的作用对象是 同一条 DNA 上的基因): promoters and enhancers(page16)
+- promoters: usually directly adjacent to the gene, bind basal transcription factors; often have TATA box; allow basal level of transcription
+  - TATA box consists of roughly seven nucleotides ofthe sequence T–A–T–A–(A or T)–A–(A or T)
+  - TATA box attracts RNA polymerase, and allows alow, basal level of transcription.
+  - TATA box is located 31 to 26 nucleotides upstream the transcription start site
+  - ~24% of human genes contain a TATA box within the core promoter
+- Enhancers: can be far away from gene, bind activatorsor repressors, and activate or repress the basal level of transcription(operator is kind of enhancers)
 
 trans-acting factors interact with cis-acting elements to control transcription initiation
+- Direct effects of transcription factors: through binding toDNA
+- Indirect effect of transcription factors: through protein-protein interactions
 
 Basal factors bind to promoters of all protein-encoding genes:
 1. TBP binds to TATA box
-2. (page19)
+2. TAFs (TBP associatedfactors) bind to TBP
+3. RNA pol II binds to TAFs
+4. RNA pol II associates with basal complex and initiates basal level of transcription
+  
+<img src="171.png" alt="" width="480">
 
-binding of activators to enhancers increases transcriptional levels:
+binding of activators to enhancers increases transcriptional levels: Low level transcription occurs when only basal factors are bound to promoter
 > transcription genome: 2000~
-（page21）
+- When basal factors and activators are bound to DNA, rate of transcription increases
+- Activators increase levels of transcription by interacting directly or indirectly with basal factors at the promoter
+
+Mechanisms of activator effects on transcription
 1. stimulate recruitment of basal factors and RNA poll II to promoters
 2. stimulate activity of basal factors already assembled on promoter
 3. facilitate caanges in chromatin structure
 
-activators:
-1. DBD
-   1. page 24
-2. TAD
-3. SSD(page23)
+<img src="172.png" alt="" width="480">
+
+Functional Domains within activators: 
+1. A DNA-binding domain (DBD): Binds to enhancer
+   1. Interacts with major groove of DNA
+   2. Specific amino acids have high-affinity binding to specific nucleotide sequence
+   3. The three best-characterized motifs:
+      1. Helix-loop-helix (HLH)
+      2. Helix-turn-helix (HTH)
+      3. Zinc finger
+   
+  <img src="174.png" alt="" width="480">
+
+2. A transactivation domain (TAD): Interacts with other transcriptional regulatory proteins
+3. Signal-sensing domain (SSD): senses external signals and transmits these signals to the rest of the transcription complex. Not present for all activators
+  
+  <img src="173.png" alt="" width="480">
   
 steroid hormone receptors are activators only in the presence of specific hormones:
-就是实际上是receptor的coactivator(page25)
+- Steroid hormones don’t bind to DNA but are **coactivators** of steroid hormone receptors
+- In the absence of hormone, these receptors cannot bind to DNA and so cannot activate transcription
+- In the presence of hormone, these receptors bind to enhancers for specific genes and activate their expression
+- Allosteric protein
+
+<img src="175.png" alt="" width="480">
 
 repressor proteins suppress transcription initiation through different machanisms
-page 27
+
+**Suppress the action of activators**
+1. Compete with activator for the same enhancer
+2. Block access of activator to an enhancer
+**Eliminate virtually all basal transcription from a promoter**
+1. Block RNA pol II access to promoter
+2. Bind to sequences close to promoter or distant from promoter
+
+Repressor proteins suppress the actionof activators
 1. competition: repressor binds to the same enhancer sequence as the activator(page28)
 2. quenching(淬灭): bind to the activator but do not bind to DNAs
    1. blocks the DBD
    2. blocks the activation domain
 3. cytoplasmic sequestration(隔离): an actiator can be sequesteres in the cytoplasm when bound to an indirect repressor.
-4. heterodimerization(异源二聚)
+4. heterodimerization(异源二聚): formation of nonfunctional indirect repressor/activator heterodimers can prevent the formation of functional activator homodimers.
+
+Repressor proteins bind enhancers andrecruit corepressors to block transcription
+
+<img src="176.png" alt="" width="480">
 
 The Myc-Max mechanism can activate or repress transcription
-- c-Myc, N-Myc, L-Myc是为什么
-- （page34）
+- The Myc, Max, and Mad proteins are part of a network of transcription factors that play crucial roles inregulating cell growth, differentiation, and apoptosis.
+- c-Myc primarily regulates proliferation in many tissues, N-Myc is critical for neural and embryonic development, and L-Myc has more restricted roles in lung and hematopoietic tissues.
+- Overexpression or dysregulation of Myc is implicated in many cancers
+- Max is a transcription factor that forms heterodimer swith either Myc or Mad protein.
   
+Comparative structures of Myc and Max
+- Myc/Myc homodimers cannot form
+- Max/Max and Mad/Mad have low DNA binding affinity
+- Myc/Max and Mad/Max bind the same enhancer sequence with similar binding affinities
+- Myc/Max activates transcription while Mad/Max represses transcription
+- Max is expressed in all cells atall times
+- Mad is expressed in resting cells
+- Myc is not expressed in resting cells but starts to be expressed when cells are about to divide
+
+<img src="177.png" alt="" width="480">
+
 a single transcription factor can be both an activator and a repressor
-page35
+- The Drosophila Dorsal protein acts as an activator of gene 1.
+- At gene 2, another transcription factor (gray) bound to enhancer 2 causes Dorsal to act as a repressor by helping it recruit a corepressor called Groucho.
 - 当 Dorsal 进入细胞核后，它可以结合到某些 target gene 的 enhancer 上，招募 coactivator 和 transcription machinery，从而促进基因表达，例如激活腹侧命运相关基因的转录。但在另一些 enhancer 上，Dorsal 也可以和其他 repressor 协同作用，并招募 Groucho 这样的 corepressor，使染色质更紧密或阻碍转录起始，从而抑制某些基因的表达。
 
-page37
+Complex regulatory regions enable fine-tuning of gene expression
+Each gene can have many regulatory proteins
+- In humans, ~2000 genes encode transcriptional factors (TFs)
+- Each TF can regulate many genes
+- Each gene can have dozens of enhancers
+- Enhanceosome – multimeric complex of proteins andother small molecules that associate with an enhancer
+- Enhancers can be bound by activators and repressors with varying affinities
+- Different sets of cofactors and corepressors competefor binding to activators and repressors
+
+Early Drosophila development: From fertilization to cellular blastoderm
+- The zygotic nucleus undergoes 13 rapid mitotic divisions in a single syncytium
+- At the end of the thirteenth division cycle, cell membranes enclose the nuclei atthe cortex into separate cells toproduce a cellular blastoderm
 
 different enhancers for the string gene in drosophila are used in different cell type
-- different cell, string activation are different
+- different cell, string activation are different: Different activators for string are expressed at different times in different tissues
 - and the string gene product activates the 14th mitosis
+- Cells in different parts of Drosophila embryos go through the 14th mitosis at different times
+- String gene hasmany different enhancers
 
-mRNA splicing（page41）
-（page43）
-- splicing has different function(page44)
+### Regulation after transcription
+
+mRNA splicing
+- Splice donor site: Almost all introns begin GU at the 5’ end.
+- Splice acceptor site: Almost all introns end with AG at the 3' end.
+- Branch Point: An essential adenosine (A) nucleotide located 15–45 nucleotides upstream of the 3‘ splice acceptor site
+- The U1 small nuclear RNA (snRNA) pairs to the 5‘ splice site and the flanking sequences.
+- Splicing is two step of cleavage: 
+  1) Cleavage at the 5′ splice site
+  2) cleavage at the 3′ splice site, resulting in the removal of theintron and joining of exons.
+  
+<img src="178.png" alt="" width="480">
+
+- Spliceosome: Contains U1, U2, U4,U5, and U6 small nuclear RNA-protein complexes (snRNPs)
+  1) U1 binds the 5′ splice site.
+  2) U2 binds the nucleotidesacross the branch point except for the key adenosine.
+  3) U4, U5, and U6 join as a tri-snRNP complex.
+  4) Spliceosome becomes catalytically active after conformational changes.
+  5) U1 and U4 are released
+  6) U6 pairs with the 5′ splice site,and U5 pairs with both exon sequences, placing the splice sites in close proximity.
+  7) The first cut is at the splice-donor site, at the 5′ end of the intron.
+  8) After this first cut, the new 5′end of the intron attaches to the branching point, forming a lariat.
+  9) The second cut is at the splice acceptor site； this cut removes the intron and ligates the exons
+
+<img src="179.png" alt="" width="480">
+
+<img src="180.png" alt="" width="480">
+
+Alternative splicing produces different mRNAs from the same gene
 
 Alternative splicing of the Dscam gene mRNA in drosophila
-page45
 - Dscam 是神经系统发育中非常重要的细胞表面蛋白，参与神经元之间的识别、轴突导向和自我排斥。它的基因中有几组可变外显子，例如 exon 4、exon 6、exon 9 和 exon 17，每一组中只能选择其中一个外显子进入成熟 mRNA。不同选择组合起来后，可以产生非常多种 mRNA 变体（page45-46）
+- The Dscam gene encodes a protein that guides axon growth during development.
+- Over-expression of Dscam in fetal nerves causes Down syndrome.
+- The Dscam gene could encode 38,016 different versions of the DSCAM protein.
+- The diversity of isoforms from alternative splicing of the Dscam1 gene in D. melanogaster allows every neuron in the fly to display aunique set of Dscam proteins on its cell surface.
 
-page47
+The pre-mRNA transcript of the rat tropomyosin gene is alternatively spliced in different cell types
+- 这个基因的特点是可以通过 alternative splicing 产生多种不同的 tropomyosin isoforms，使同一个基因在不同细胞类型中发挥不同功能。大鼠 tropomyosin 基因常被用作可变剪接的经典例子，因为它能在平滑肌、成纤维细胞、脑等不同组织中产生不同的成熟 mRNA 和蛋白产物。
 
-page48
 alternative splicing of FGFR2 produces isoforms that bind different fibroblast grouth factors(FGF)
 - FGFR2 这个基因的 pre-mRNA 可以通过 alternative splicing 产生不同版本的 FGFR2 受体蛋白，而这些不同 isoforms 会结合不同类型的 FGF 配体。
 
-Drosophila life cycle:
+Drosophila life cycle: embryo-larvae-pupae-adults
 
-page52-53-54
+Sex-specific traits in Drosophila
+
+<img src="181.png" alt="" width="480">
+
+- The Y chromosome in Drosophila melanogaster is NOT involved insex determination
+- It is crucial for male fertility and the proper development of sperms
 
 Key factors of sex determination that regulate expression of the sex lethal(sxl) gene:
 1. key factors in the X chromosome:
-  - numerator elements--monitor the X:
+  - Numerator elements – monitor the X:A ratio through formation of homodimers or heterodimers
+  - sisA、sisB/Scute、sisC/Upd 和 Runt 是果蝇 X 染色体上的性别决定信号，用来“数”X 染色体数量，并通过激活 Sxl 推动雌性发育。
 2. Key factors in the autosomes:
-(page55-56)
+  - Denominator elements: 常染色体上的 denominator elements 提供 autosome 的剂量信息，用来抵消或平衡 X-linked numerator 的作用
+  - Deadpan 和 Extramacrochaetae（emc） 是代表性的 denominator genes。它们通常作为 Sxl 激活的抑制因子
+3. Only the homodimerof X-linked numeratorproteins activatetranscription of Sxl
+   
+   <img src="182.png" alt="" width="480">
+
+Sex lethal (Sxl) gene encodes a protein required for female-specific development
 
 sxl protein regulates alternative splicing of its own mRNA
-- sxl protein triggers a cascade of alternative splicing
-  page62
+- Later in development, Sxl gene is transcribed in both sexes
+  
+  <img src="183.png" alt="" width="480">
+
+sxl protein triggers a cascade of alternative splicing
+- Sxl protein regulates splicing of transformer mRNA
+  
+  <img src="184.png" alt="" width="480">
+
+- Transformer protein regulates splicing of dsx mRNA
+  
+  <img src="185.png" alt="" width="480">
 
 Dsx-F is a transcriptional activator and Dsx-M is a transcriptional repressor
 
-Fruitless(page64)
+  <img src="186.png" alt="" width="480">
+
+Fruitless is a TF required for development of anatomical structures necessary for courtship
+1. Fruitless is 150 kb in length.
+2. Only expressed in a few hundred neuron cells.
+3. Mutations of fruitless prevent male from mating properly:
+   1. Cannot distinguish females from males
+   2. Male flies will chase each other for mating
+
+The Tra protein regulates splicing of fruitless (fru) mRNA
+- In females, the Tra protein blocks the use of one exon
+- Fru-M has an extra 101 amino acids at its N terminus compared with Fru-F prote
+- Fru-M and Fru-F regulate different target genes.
+
+  <img src="187.png" alt="" width="480">
 
 # Chapter 8 Small RNAs and epigenetics
 
@@ -2751,18 +2913,21 @@ Small RNAs regulate mRNA Stability and Translation
 - micro-RNAs(miRNAs)
 - small interfering RNAs
 - piwi-interfering RNAs
-(page 2)
+
+<img src="188.png" alt="" width="480">
 
 ### micro-RNAs
 
-Most miRNAs are ....(page4)
+Most miRNAs are transcribed by RNA polymerase II from noncoding DNA regions that generate short dsRNA hairpins
 
-miRNA processing（page5）
+miRNA processing
 - Drosha excises stem-loop from primary miRNA to generate pre-miRNA of ~70nt(从长的 pri-miRNA 中切出发夹结构，生成大约 70 nt 的pre-miRNA)
 - Dicer processes pre-miRNA to a mature duplex miRNA(Dicer 会进一步切割 pre-miRNA 的 loop 部分，生成一段短的双链 RNA)
 - One strand is incorporated into miRNA-induced silencing complex that contains Argonaute protein(Argonaute / RISC：装配成沉默复合体)(AGO1)
 - They are not always 100% paired to each others
 > exportin-5: transport pre-miRNA from nucleus to cytoplasm
+
+<img src="189.png" alt="" width="480">
 
 miRNAs are produced from precursors with stable hairpin structures
 
@@ -2770,37 +2935,57 @@ Mechanisms of miRNA repression in metazoans
 1. inhibit translation ot degrade mRNAs of target genes
 2. **Seed**(2-8 of miRNA) paring in 3'UTR is crucial
 3. 1800 miRNA loci identified in human genomes, and 60% of human protein coding genes are regulated by miRNAs
-page7
 
-page8
+<img src="190.png" alt="" width="480">
+
+<img src="191.png" alt="" width="480">
+
+1. 活跃翻译（Active translation）：在正常条件下，mRNA通过eIF4E和eIF4G与多聚腺苷酸结合蛋白(PABP)形成闭环结构，核糖体在mRNA上顺利翻译蛋白质。
+2. 起始抑制（Inhibition of initiation）：miRNA通过与AGO蛋白结合阻止翻译起始复合物的组装，使核糖体无法结合或装配到mRNA上，从而抑制新蛋白生成。
+3. 起始后抑制（Post-initiation inhibition）：miRNA-AGO复合物使已经结合的核糖体提前从mRNA上脱落，导致新生蛋白质被降解，阻断翻译继续进行。
+4. mRNA降解（mRNA degradation）：miRNA复合物招募去帽酶(DCP1/DCP2)及GW182蛋白，引发mRNA去帽和去尾，最终导致mRNA被降解，从而降低其稳定性和蛋白产量。
 
 The first discoverd miRNA: *lin-4*
 - in-4 is the first discovered miRNA in C. elegans. It is a small non-coding RNA that regulates developmental timing by base-pairing with complementary sequences in the 3' UTR of lin-14 mRNA, thereby reducing LIN-14 protein expression. Its discovery revealed that small RNAs can regulate gene expression post-transcriptionally without encoding proteins.
-page 9
-- lin-4 loss-of-function mutants develop vertain....(page10)
+- in-14 loss-of-function mutants develop certain adult features precociously at larval stages, resulting in smaller,poorly formed adults.
+- During worm early larvae development, the expression level of of lin-4 is increased and lin-14 is decreased, so that wormscan develop into adults.
+- Mutation of lin-4 causes upregulation of lin-14, so the mutants lack many adult structures, and they are unable to lay eggs.
 
 ### small interfering RNA
 
 1. processing the dsRNA into 20-22nt fragments in **cytoplasm**
   siRNAs have a defined structure after processing by Dicer(两端不是完全平齐，而是有小突出的 3' overhang) 
+
+  <img src="192.png" alt="" width="480">
+
   compared to miRNA, siRNA are perfectly paried to each other
-2. the siRNAs duplex is loaded into RISC and unwind(AGO2)
+2. the siRNAs duplex is loaded into RISC and unwind(AGO2): The siRNA RISC also containsArgonaute (AGO) protein
 3. The antisense strand recognize target mRNA
 4. RISC cleave the mRNA in the middle, and the mRNA is degraded further(当 guide strand 与 target mRNA 完全或高度互补配对后，AGO2 会切割 target mRNA, 之后被切开的 mRNA 会进一步被细胞内的核酸酶降解。)
+   1. The siRNA RISC also contains Argonaute (AGO) protein
+   2. The mRNA is degraded further
 
-RNAi is used to inhibit transposable elements and viruses（page18）
+  <img src="193.png" alt="" width="480">
+
+RNAi is used to inhibit transposable elements and viruses
+- TE or viral RNA transcripts areconverted into double-strandedRNA (dsRNA) either by their own transcriptional properties or RNA-dependent RNA polymerases(RdRPs)
+- Dicer cleaves the dsRNA into small interfering RNAs (siRNAs)
+- siRNAs are loaded into RISC and bind to complementary TE RNA sequences, leading to their cleavage and degradation
 
 Practical aspects of RNAi:
 - biological research:
   - defining gene fuction
-  - ,,,,
-- (page 19)
+  - defining biochemical pathways
+- therapeutic treatment
+  - cancer
+  - viral infection
+  - parasitic infection
 
 > RNAi-based therapies for HIV treatment
 > - using RNAi to target HIV RNAs at different stages of infection
 
 Transposable elements(TEs) are deleterious to host organisms
-- TEs decrease fitness of D.melanigaster bby 0.4%-5% because
+- TEs decrease fitness of D.melanigaster by 0.4%-5% because
   - insertions disrupt genes
   - transcription and translation of TEs are costly(很多 TE 不是静止的 DNA，它们可能被转录，甚至有些 TE 会编码转座相关蛋白,这会消耗宿主细胞资源)
   - TEs mediate ectopic recombination(同源重组发生在“不应该配对的位置”之间) to cause deleterious chromosomal rearangement
@@ -2808,11 +2993,12 @@ Transposable elements(TEs) are deleterious to host organisms
 > Drosophila: pi-RNA
 
 The classic P-M hybrid dysgenesis:
+- P element is a DNA transposon, its length is 2.9 kb.
 - P element is polymorphic in the glocal population of Drosophila melanogaster
 - P strain(carries P element); M strain(doesn't carry M element)
 - when a sperm from a P strain fertilizes an egg from a M-strain, the P element transpos throughout the genome, which causes F1 to be sterile, leading to hybrid dysgenesis(P-M hybrid dysgenesis 是因为 父本提供 P element，而母本 M strain 的卵细胞没有提供抑制 P element 的母源因子，导致 F1 生殖系中 P element 大量转座，造成基因组损伤、性腺发育异常和不育。)
 
-(page23) 正反交结果不一样
+<img src="194.png" alt="" width="480">
 
 ### piRNAs
  
@@ -2830,7 +3016,7 @@ piRNAs are:
 3. In the embryos of P-female offsprings, there is piRNAs to repress P element.
 4. in the embryos of M-female offsprings, there's no piRNAs to repress P element.
   
-page27
+<img src="195.png" alt="" width="480">
 
 Origin and evolution of RNAi and miRNA pathways:
 - The RNAi pathway is most ancient. The last common ancestors of eukaryotes already possessed the miRNA pathway. Differences in miRNA pathways and miRNA repertoires among animal and plant lineages primarily arise from lineage-specific miRNA pathway innovations, losses of miRNA pathways, miRNA acquisition, and loss of miRNAs after they diverged from the last common ancestor of eukaryotes.
@@ -2838,7 +3024,7 @@ Origin and evolution of RNAi and miRNA pathways:
 ### Epigenetics
 
 - genetic: Sequence-information of a gene is fixed, not dependent on environment
-- Epigenetic: Stably inherited phenotype resulting from changes in a chromosome without changes in DNA sequences
+- Epigenetic: Stably inherited phenotype resulting from changes in a chromosome without changes in DNA sequences. An instruction for reading of the genetic information.
 > waddington
 
 1. Chromatin modifications
@@ -2848,57 +3034,91 @@ Origin and evolution of RNAi and miRNA pathways:
   
 Chromosomes have a versatile modular structure for packaging DNA
 - chromatin is ~1/3 DNA, 1/3 histones, 1/3 nonhistone, proteins
+- The total length of DNA is about 2m in a human cell
+- Diameter of a human nucleus: 10-15μM
+- DNA is compressed ~100,000 folds in human cells
+- DNA interacts with histones and non histone proteins to fit into a cell nucleus
 
 DNA is packaged into nucleosomes:
 1. nucleosome core is an octamer of two each of histones H2A,H2B,H3 and H4
 2. ~146bp of DNA wraps twice around a nucleosome core
 3. 40bp of linker DNA connects neighboring nucleosomes
-4. H(page32)
+4. Histone H1 associates with linker DNA and interlock the neck of the nucleosome
   
-(page34)
+The nucleosome is the fundamental unit of chromosomal packaging
+- The organization of nucleosome looks like a necklace, nucleosomes as beads and linker DNA as string
+  
+<img src="196.png" alt="" width="480">
+
+- Spacing and structure of nucleosomes affect genetic function
+  - Determines whether DNA between nucleosomesis accessible for proteins that initiate transcription,replication and further compaction
+  - Arrangement along chromatin is highly defined and transmitted from parent to daughter cellsduring DNA replication
 
 Histone proteins--small, positively-charged, and highly conserved
 - bind to and neutralize negatively charged DNA
-- (page35)
-- posttranslational modification of core histones:
+- Make up half of all chromatin protein by weight
+- Five types - H1, H2A, H2B, H3, and H4
+- Core histones (H2A, H2B, H3, and H4) make up the nucleosome
+- post translational modification of core histones:
   - methylation and scetylation of histone tails
   - affect chromatin structure and gene expression in specific chromosomal regions
 
-Nonhistone protein
+<img src="197.png" alt="" width="480">
 
-(page38)
+Nonhistone protein
+- Large variety of functions
+  - Structural role – chromosome scaffolds and pack DNA
+  - Chromosome replication – e.g. DNA polymerases
+  - Chromosome segregation – e.g. kinetochore proteins
+  - Active in transcription – e.g. RNA polymerase and transcription factors.
+
+Assembly of a nucleosome
+- The nucleosome assembly occurs in astepwise manner:
+  - Two H3–H4 dimers form a tetramer, and it is deposited on DNA first
+  - It is followed by deposition of two H2A–H2B dimers
 
 > DAvid Allis and histone code -> histone code
 
 Histone Code: histone modifiations have predictable effects on transcription
-1. covalent modifications occur on the histone tail domains
+1. covalent modifications(acetylation, phosphorylation, methylation, ubiquitylation) occur on the histone tail domains
 2. histone tail modications are induced by enzymes that are highly specific for particular amino acid positions.
 3. Distinct modifications of the histone tails would induce interaction affinities for chromatin-associated protein
-4. (page40)
+4. Modifications on the same or different histone tails may be interdependent and generate various combinations.
 
 Histone tail modifications:
 - The N-terminal tails of the core histone proteins extend outward from nucleosome
 - various amino acids in these tails are targets for modifications such as methylation and acetylation that can alter chromatin structure.
 - for each histone, different amino acid position has unique modification pattern
-- 。。。
+- These modification events will greatly affect chromatin packing patterns and thus affect gene expression.
 
 **Histone acetylation:**
 - usually occures on lysine
-- HAT enzyme/HDAC enzyme
-- linked to transcriptional activation and associateed with euchromatin(loose)
+- The HAT enzyme adds an acetyl group on the lysine, and the HDAC enzyme removes the acetyl group off
+- In general, histone acetylation is linked to transcriptional activation and associated with euchromatin
 
 **Histone methylation:**
-- Histone methyltransferase will ad  methy group on a lysine, and histone demethylase will remove the....
+- Histone methyltransferase will add methyl group on a lysine,and histone demethylase will remove the methyl group.
 
-page45
 Readers of histone modifications
+- acetylated: Bromodomain recognizes acetylated lysine residues
+- methylated: Chromodomain binds methylated histones
+
+<img src="198.png" alt="" width="480">
 
 HIstone modifications change chromatin structure
-1. remodeling proteins cause specific...(page 46)
+1. Remodeling proteins cause specific nucleosomes to unravel(解旋).
+2. Chromatin remodeling can expose the promoter region.
+3. Exposed promoter regions more readily bind basal transcription factors.
 
-Active (page47)
+Active vs Inactive Chromatin
+- Modification can cause the chromatin to be active or inactive.
+- Usually acetylation will cause active transcription while methylation will repress transcription.
 
-(page48)
+<img src="199.png" alt="" width="480">
+
+Histone code for gene expression status
+
+<img src="200.png" alt="" width="480">
 
 DNA methylation
 1. addition of methly group to cytosine base
@@ -2907,36 +3127,348 @@ DNA methylation
 4. Crucial role for cell differentiation and embryonic development
 5. repression of transposable elements
   
+DNA methylation occurs at C5 of cytosine in a CpG dinucleotide
+- DNA methylation adds methyl (CH3) group to the fifth carbonof the cytosine base in a CpG dinucleotide pair on one strandof the double helix
+
 Cytosine methylation is maintained during DNA replication
-  page 52
+- The pattern of cytosine methylation (blue circles) on the template strand is replicated on the newly synthesized strand of DNA (red).
+
+<img src="201.png" alt="" width="480">
 
 Generally, methylation blocks transcription:
 - DNA methylation inhibits transcription, either by preventing the binding of an activator protein, or by recruiting proteins that change the structure of chromatin that inhibits transcription.
 
 DNA methylation and CpG islands
-- page55-56
+- CpG islands are DNA sequences of a few hundred or a few thousand bp long, which has higher frequency of CpG dinucleotides than that of the rest of the genome.
+- CpG islands are often located near promoters.
+- Unlike the CpG dinucleotides in the rest of the mammaliangenome, the C residues in CpG islands are usually unmethylated.
+- The reason that CpG islands are usually unmethylated is that the proteins that activate transcription by binding to CpG islands prevent DNMTs from methylating these is lands.
+- These transcriptional activators will be found in many cell types if the target gene is a house- keeping gene expressedin most cells.
+- If the activators are absent, the CpG island becomes methylated.
+- methyl-CpG-binding proteins (MeCPs) bind to methylated CpG islands and close the chromatin structure.
+
+<img src="202.png" alt="" width="480">
 
 5-Methyl cytosine often mutates to thymine due to DNA replication errors
 - methylation of cytosine will from 5-methylcytosine, and spontaneous deamination of 5-methylcytosine converts it to thymine
+
+<img src="203.png" alt="" width="480">
 
 Derermining methylation state of DNA using two restriction enzymes:
 - HpaII and MspI have the same recognition sequence(CCGG), but different sensiticity to DNA methylation
 - HpaII doesn't out if 2nd C is methylated
 - but doesn't affect MspI
 
+<img src="204.png" alt="" width="480">
+
 Detecting CpG methylation with bisulfite sequencing:
-- treatment of DNA with bisulfite converts cytosine to uracil, but lleaves 5-methylcytosine residues unaffected
+- treatment of DNA with bisulfite converts cytosine to uracil, but leaves 5-methylcytosine residues unaffected
+
+<img src="205.png" alt="" width="480">
 
 Heterochromatin are highly condensed chromosome regions
-1. constitutive-condensed in all cells
-2. Facultative-condensed in only some cells and relaxed in other cells
-3. Euchromatin - relaced, usually active transcriptionally
+1. Constitutive – condensed in all cells (e.g. most of the Y chromosome and all pericentromeric regions)
+2. Facultative – condensed in only some cells and relaxed in other cells (e.g. position effect variegation, X chromosome in female mammals)
+3. Euchromatin – relaxed, usually active transcriptionally,lightly stained regions of chromosomes
 
 Position-effect variegation(PEV) in drosophila
 - white+ gene is normally located in euchromatin
 - chromosomal inversion can result in w+ gene being lovated adjacent to hetrochromatin
-page61
+
+<img src="206.png" alt="" width="480">
+
 > w+ gene is expressed in all cells
 > w+ gene is silenced in some cells but is expressed in other cells
 
-page62
+PEV in Drosophila
+- Gene silencing can be caused by spreading of heterochromatin into nearby genes
+- Spreading can occur over > 1000 kb of chromatin
+- Heterochromatin spreads further in some cells than inothers
+
+<img src="207.png" alt="" width="480">
+
+Heterochromatin formation inactivates an X chromosome in cells of female mammals
+
+<img src="208.png" alt="" width="480">
+
+X chromosome mosaicism:(page65)
+1. In very early embryo, both X chromosomes are active
+2. In humans, random X-inactivation occurs ~ 2 weeks after fertilization
+3. All cell descendants have the same inactive X
+4. Some cells have maternal X inactivated, other cells have paternal X inactivated
+5. Some cells of adult females have wild-type allele inactivated, and Some cells have mutant allele inactivated
+  
+X-chromosome inactivation in female mammals occurs through heterochromatin formation
+1. Dosage compensation in mammals so that X-linked genes in XX and XY individuals are expressed at same level
+2. Random inactivation of all except one X chromosome in XX
+3. Barr bodies – darkly stained heterochromatin masses observed in somatic cells at interphase
+   1. XX person has one Barr body
+   2. XXX person has two Barr bodies
+   3. XXY person has one Barr body
+
+X inactivation and Barr body: An example of heterochromatin decreasing gene activity
+- One X chromosome appears in interphase cells as a darkly stained heterochromatin mass
+- Inactivation of one X chromosome to control for dosage compensation in female mammals
+
+Lyon hypothesis
+- Barr body is an inactive X chromosome. The process of inactivation is called lyonization.
+- During early development, about the 100 cell stagein humans, one of the X chromosomes in a female gets inactivated and this is maintained in all descendant cells of the clone.
+- Inactivation of the two X-chromosome is random.
+- For some reason both X chromosomes remain active in female germ line cells.
+
+Mechanisms and procedures for X-inactivation
+1. Counting: two or more XIC (X inactivation center)must exist in the cell for X inactivation to occur
+2. Selection: How one X chromosome is chosen to be silenced is not well known
+3. Inactivation: XIST (X-inactivation specific transcript)is a non-coding RNA in XIC region.
+   1. It encodes a 17 kb, spliced, poly-A detailed RNA, but cannot be translated into proteins
+   2. XIST is transcribed from the inactive X chromosome and remains in the nucleus
+   3. XIST coats the inactive Xchromosome
+
+<img src="209.png" alt="" width="480">
+
+Xist coats the inactivated X chromosome
+- Xist is transcribed stably only from the XIC of the inactive X chromosome.
+- The Xist ncRNA binds to many sites on this chromosome
+- The Xist ncRNA then attracts histone-modifying proteins that silence the DNA.
+- Once X inactivation is established, the descendent cells inherit the status of X inactivation.
+
+Tsis expression prevents Xist ecpression from that X chromosome
+- Tsix is transcribed only from the X chromosome that will remain active.
+- Tsix overlaps Xist and is transcribed in the opposite direction
+- Tsix produces a long noncoding RNA and its sequence is antisense to that of Xist.
+- Tsix expression from the future active X prevents Xist expression from that X chromosome.
+
+page75宋老师讲过的不同的dosage competation的原则
+
+<img src="210.png" alt="" width="480">
+  
+Genomic imprinting results from transcriptional silencing
+- Genomic imprinting: expression of a gene depends on whether it's was inherited from the mother or father
+  - occurs with some genes of mammals
+  - Epigenetic effect (no change in DNA sequence)
+- paternally imprinted gene is transcriptionally silenced if it was transmitted from the father
+  - Maternal allele is expressed
+- Maternally imprinted gene is transcriptionally silenced if it was transmitted from the mother
+  - Paternal allele is expressed
+
+In mice, maternally-inherited Igf2 allele is silenced
+1. insulin-like growth factor 2 is a protein hrommone similar to insulin.
+2. mice inheriting deletion from the male were small
+3. Mice inheriting deletion from the demale were normal
+
+In mice, maternally-inherited Igf2 allele is silenced
+- Insulin-like growth factor 2 (IGF-2) is a protein hormone similar to insulin.
+- Mice inheriting deletion from the male were small.
+- Mice inheriting deletion from the female were normal.
+  
+<img src="211.png" alt="" width="480">
+  
+Insulators limit the chromatin region over which an enhancer can operate
+- Insulators are DNA elements that block the enhancer from activating transcription of a gene.
+
+<img src="212.png" alt="" width="480"> 
+
+How insulators work
+- Interactions between CTCF proteins (yellow) bound to different insulators facilitates the formation of a DNA loop in the region between the insulators.
+- Insulators organize genomic DNA into loops.
+- Enhancers activate transcription (A = activator) only from promoters within the same loop.
+
+<img src="213.png" alt="" width="480"> 
+
+Maternal imprinting of Igf2 is controlled by methylation of an insulator
+- On the maternal homolog, the insulator is unmethylatedand is therefore functional (it binds CTCF).
+- On the paternal homolog, the insulator is methylated anddoes not function.
+
+<img src="214.png" alt="" width="480"> 
+
+H19 and Igf2 locus are imprinting in opposite "directions"
+- Igf2 positively regulate body size
+- H19 negatively regulates body size
+- H19 is only transcribed from the maternally inherited allele
+- The paternal H19 allele is not expressed due to DNA methylation
+- Parental conflict
+
+<img src="215.png" alt="" width="480"> 
+
+Methylation of complementary strands of DNA in genomic imprinting
+- Imprinting state can be maintained across cell generation sthrough the action of DNA methylases
+- Sex-specific methylation of imprinted loci thus generally remains in the somatic cells throughout the life of the individual.
+
+The resetting of genomic imprints during meiosis:
+- Epigenetic imprints remain throughout the lifespan of the mammal in the somatic cells
+- In germ cells epigenetic imprints are reset ar each generation
+- During meiosis, imprints are earaed and new ones are set
+(de novo methylation?)
+(保证了下一代胚胎的印记模式与父母性别相匹配, 印记每代在生殖细胞中重设，是为了让下一代判断“这条染色体来自爸爸还是妈妈”，而不是保留更早祖辈留下的印记。)
+
+<img src="216.png" alt="" width="480"> 
+
+> Prader-willi syndrome PWS:
+> - Caused by a **maternally imprinted** gene with deletions in the q11-13 region of chromosome 15
+> - SNRPN
+
+> Angelman syndrome(AS)
+> - caused by a **paternally imprinted** gene with deletions in the q11-13 region of chromosome 15
+>
+
+- The PWS genes are maternally imprinted. When the deletionis inherited from the father, the child develops Prader-Willi syndrome
+- The AS genes are paternally imprinted. When the deletion isinherited from the mother, the child has Angelman syndrome.
+
+Both PWS and AS are caused by small deletions in the q11–13 of chr 15
+
+<img src="217.png" alt="" width="480"> 
+
+Deletions in 15q11-13 cause PWS and AS
+
+<img src="218.png" alt="" width="480"> 
+
+Paternal imprinting and human disease:
+- A pedigree for a disease associated with mutation of a paternally imprinted autosomal gene
+- Fathers can pass the deletion to their sons or daughters who are unaffected (dots in pedigree symbols indicate unaffected carriers of the deletion);
+- Mothers can pass the deletion and the disease (yellow shading) to their children.
+
+<img src="219.png" alt="" width="480"> 
+
+Maternal imprinting and human disease
+- A pedigree for a disease associated with mutation of a maternally imprinted autosomal gene
+- Mothers who can pass the deletion to their sons and daughters without effect (dots);
+- Fathers can pass the deletion and the disease to their sons and daughters who will be affected (purple).
+
+<img src="220.png" alt="" width="480"> 
+
+What genes are imprinted?
+1. Most are in clusters
+2. Most have CpG islands
+3. Clusters of direct repeats are common near orwithin the CpG islands
+4. Have differentially methylated regions (DMRs)
+   1. Some in all cells, others tissue-specific
+   2. Some have methylated DMR in active alleles.others in the inactive allele
+5. Often have differences in histone modifications，chromatin structure
+
+# Chapter 9 Human disease and genetics
+
+Gene, diseases and environmental factors:
+- R.A.Fisher
+  
+  <img src="221.png" alt="" width="480"> 
+
+Genetic classification of diseases:(page6)
+- Monogenic disease:
+  1. Caused by single gene mutation, family-based
+  2. In 2009, there were ~4300 single-gene traits known in humans
+- Polygenic disease:
+  1. Caused by interaction of many genes, environmental factors, and their interactions
+  2. Don’t show simple Mendelian inheritance patterns
+
+Some of the most common single-gene traits caused by recessive alleles in humans:
+
+| Disease | Chromosome | Effect | Incidence |
+|----------|----------|----------|----------|
+| Thalassemia | 16 or 11 | Reduced hemoglobin; anemia; bone and spleen enlargement | 1/10 in parts of Italy |
+| Sickle-cell anemia | 11 | Abnormal hemoglobin; sickle-shaped red blood cells; anemia; blocked circulation; increased resistance to malaria | 1/625 African-Americans |
+| Cystic fibrosis | 7 | Defective cell membrane protein; excessive mucus production; digestive and respiratory failure | 1/2000 Caucasians |
+| Huntington disease | 4 | Progressive mental and neurological damage; symptoms usually appear between ages 40–70 | 1/25,000 Caucasians |
+| Phenylketonuria (PKU) | 12 | Missing enzyme; mental deficiency | 1/10,000 Caucasians |
+
+但是亨廷顿不是隐性基因
+
+Forward genetics vs. reverse genetics
+- Pedigrees are orderly diagrams of a family’s relevant genetic features, a pedigree should include as many generations as possible (ideally, at least both sets of grandparents of an affected person)
+- Pedigrees can be analyzed using Mendel’s laws
+1. Forward genetics: determine the genetic basis responsible for a phenotype.
+2. Reverse genetics: study the function of a gene by mutating the gene and studying the phenotypic effects（类器官）
+3. Only forward genetics can be directly used to study human subjects to search disease-causing genes
+
+In human genetics, pedigrees can be used to study inheritance:
+1. Autosomal Dominant
+2. Autosomal recessive
+3. X-linked Dominant
+4. X-linked recessive
+  
+Strategies to look for a disease-causing gene:
+- Candidate geneapproach:
+  - An approach identify trait-associated genes bydirectly screening candidate genes that are those functionally associated with trait (disease)
+- Positional cloning
+  - An approach to identify DNA polymorphisms that are linked to disease genes
+
+Symbols used in pedigree analysis
+
+<img src="222.png" alt="" width="480"> 
+
+Autosomal Dominant
+- Expressed in individuals who have even one copy of the mutant allele.
+- Affected males and females have an equal probability of passing on the trait to offspring
+- Affected individual’s have one normal copy of the gene and one mutant copy of the gene, thus each offspring has a 50% chance on inheriting the mutant allele.
+
+> Huntington disease
+> - Progressive degeneration of the nervous system
+> - Normal until middle age
+> - No treatment
+> - Gene has been isolated(chromosome 4),genetic testing candiagnose
+
+HD gene mapped by positional cloning:
+- Huntington disease (HD) was the first human disease gene to be mapped by positional cloning.
+- Detection of linkage between the DNA marker G8 and the HD was the first step in the cloning of the HD gene.
+- The pedigree showing segregation of the G8 DNA marker (fouralleles: A, B, C, and D) in a pedigree affected with HD
+- The C allele of G8 is tightly associated with the disease.
+
+Positional cloning: From phrnotype to chromosomal location to guilty gene
+- using knowledge of a pecific chromosomal region to indntify genes responsible for disease phenotypes
+  - Linkage analysis with DNA markers
+  - Huntington disease locus was the first human disease gene to be succussfully mapped by positional cloning
+  
+  <img src="223.png" alt="" width="480"> 
+
+Genetic markers in positional cloning
+- To identify the mutations in the markers that is tightly linked with the disease-associated allele by linkage analysis
+
+  <img src="224.png" alt="" width="480"> 
+
+- Genotype all members of disease-carrying families with aseries of DNA markers
+- Locations of thousands of DNA markers in human genome are already known
+- Basically this is aseries of two-point crosses betweenthe trait and each marker
+- Identify candidate genes in the smallest genetically-defined area that must contain the disease locus
+- Compare structure and expression of candidate genes in many diseased vs.nondiseased individuals,and identify the causative mutation and disease gene
+- Functional validation
+
+Mutations at HD locus are caused by expansion of a triplet repeat microsatellite
+- The HD locus encodes Htt(Huntingtin) protein , which isneeded for the proper physiology of nerve cells.
+- Near the 5’ end of the coding region is a repeating triplet sequence that codes for a string of glutamines (Q).
+- Different alleles at the HD locus have different numbers of repeating units.
+- Fewer than 34 repeats gives a normal phenotype.
+- As the number of repeats increases beyond 42, the onset of the disease is earlier.
+
+Why the allele for Huntington disease is dominant
+- People who are HD HD or HD HD+ exhibit Huntington disease because the HD allele produces an abnormal Htt protein that damages nerve cells
+
+Odds ratio(发生比)
+- Odds = p/(1-p) = 0.2/0.8 = 0.25
+- Lod = log10(0.25) = -0.6
+
+Lod score: log of odds
+- Lod: logarithm of the odds, a statistical estimate of whether two loci are linked to each other on a chromosome.
+- Null Hypothesis (H0): The marker and the disease locusare not linked (independent assortment).
+- Alternative Hypothesis (𝐻1): The marker and the disease locus are linked with a recombination fraction r.
+
+<img src="225.png" alt="" width="480"> 
+
+> Suppose
+> - n: total number of individuals in a certain generation of a pedigree
+> - k: number of recombinant individuals
+> - r: recombination frequency
+>
+> <img src="226.png" alt="" width="480"> 
+>
+
+
+assume r in different value, using the recombination frequency that gives the highest lord score as it indicates the strongest evidence for linkage.
+
+Pedigree showing the inheritance ofneurofibromatosis in a family.
+- Neurofibromatosis (NF) is adominantly inherited autosomal disease thataffects more than 100,000Americans.
+- The disease causes nervous tissue to proliferate uncontrollably, formingbumps under the skin.
+
+- For a single pedigree, Lod scores can becalculated for any r value less than 50%. A Lodscore ≥3 indicates that the data obtained are compatible statistically with the particular distance (less than 50 m.u.) being tested.
+- Likelihood ratios are converted into Lod scores because Lod scores calculated for the same rvalue in different pedigrees may simply beadded to see whether a Lod of 3 can be obtained.
+
+Autosomal recessive:
+(page30)
