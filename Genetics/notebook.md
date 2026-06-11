@@ -3395,7 +3395,8 @@ Symbols used in pedigree analysis
 
 <img src="222.png" alt="" width="480"> 
 
-Autosomal Dominant
+### Autosomal Dominant
+
 - Expressed in individuals who have even one copy of the mutant allele.
 - Affected males and females have an equal probability of passing on the trait to offspring
 - Affected individual’s have one normal copy of the gene and one mutant copy of the gene, thus each offspring has a 50% chance on inheriting the mutant allele.
@@ -3470,5 +3471,443 @@ Pedigree showing the inheritance ofneurofibromatosis in a family.
 - For a single pedigree, Lod scores can becalculated for any r value less than 50%. A Lodscore ≥3 indicates that the data obtained are compatible statistically with the particular distance (less than 50 m.u.) being tested.
 - Likelihood ratios are converted into Lod scores because Lod scores calculated for the same rvalue in different pedigrees may simply beadded to see whether a Lod of 3 can be obtained.
 
-Autosomal recessive:
-(page30)
+### Autosomal recessive:
+
+> Examples:
+> - Cystic fibrosis
+> - Phenylketonuria (PKU)
+
+1. When just one copy of the mutant allele is present,an individual is a carrier of the mutation, but does not develop disease.
+2. Females and males are affected equally.
+3. When two carriers mate, each child has a 25% chance of being homozygous wild-type (unaffected); a 25% chance of being homozygous mutant (affected); or a 50% chance of being heterozygous (unaffected carrier).
+
+Cystic fibrosis
+- Most common lethal genetic disorder among Caucasians
+- Defective chloride ion transport protein
+- Thick mucus in lungs and pancreatic ducts
+
+Mutations in CFTR cause cystic fibrosis
+- A 3-bp deletion (delta F508) cause CFTR tofold incorrectly and the protein is degraded.
+- People who are homozygous for delta F508 mutation tend to have the most severe symptoms of cystic fibrosisdue to critical loss of chloride ion transport.
+- The CFTR (CF) protein forms a channel in the cell membranes that controls the flow of chloride ions through lung cells.
+- Disease alleles (CF) are recessive because CF/CF+ heterozygotes produce sufficient CFTR from the normal (CF+) allele for normal lung function
+- This causes cystic fibrosis, characterized by the buildup of thick mucus in the lungs.
+
+<img src="227.png" alt="" width="480"> 
+
+Phenylketonuria (PKU)
+1. PAH (Phenylalanine hydroxylase) enzyme converts phenylalanine in food into the amino acid tyrosine.
+2. When PAH is mutated, phenylalanine builds up in the body and is converted into phenylpyruvic acid (苯丙酮酸). 
+3. Phenylpyruvic acid interferes with the development of the nervous system, leading to mental retardation
+
+### X-linked Dominant
+
+1. There is no transmission from father to son.
+2. All daughters of an affected male will be affected since the father has only one X chromosome to transmit.
+3. Children of an affected woman have a 50% chance of inheriting the X chromosome with the mutant allele.
+
+Hypophosphatemic rickets (佝偻病)
+- The PHEX (Phosphate Regulating Endopeptidase X-Linked) encodes an enzyme that is active primarily in bones and teeth.
+- Mutations in PHEX cause hypophosphatemic rickets
+
+hypophosphatemia
+
+### X-linked recessive
+
+- Fully evident in males because they only have one copy of the X chromosome.
+- Women are affected when they have two copies of the mutant allele.
+- There is no father to son transmission.
+- There is father to daughter and mother to daughter and son transmission.
+
+How geneticists identified and cloned the hemophilia A gene: a candidate gene approach
+1. Blood vessels damaged.
+2. Plate lets form an initial plug，clotting cascades are activated.
+3. Fibrin is formed, the protein that crosslinks with itself to form a mesh that makes upthe final blood clot (凝块).
+4. The protein involved with hemophilia A is factor VIII(factor 8) and with hemophilia B is factor IX.
+
+1. The process of blood clotting involves 13 different proteins.
+2. Factor VIII protein is present in normal individuals but absent in hemophiliacs.
+
+> Based on knowledge of blood clotting process,factor VIII was tested as a candidate for causing hemophilia A
+> Reverse translation of purified factor VIII led to cloning of the factor VIII gene
+> Sequencing of the factor VIII gene from affected and unaffected people revealed the causative mutation
+
+How to recognize dominant traitsin pedigrees
+1. Affected children always have at least one affected parent
+2. As a result, dominant traits show a vertical pattern of inheritance
+3. Two affected parents can produce unaffected children, if both parents are heterozygotes
+
+How to recognize recessive traits in pedigrees
+1. Affected individuals can be the children of two unaffected carriers
+2. All the children of two affected parents should be affected
+3. Rare recessive traits show a horizontal pattern of inheritance
+4. Recessive traits may show a vertical pattern of inheritance if the trait is extremely common in the population
+
+Molecular Explanation-Dominance
+- Complete dominance: when the hybrid resembles one of the two pure-breeding parents.
+- Incomplete dominance: when the hybrid resembles neither parent; its novel phenotype is usually intermediate.
+  - heterozygote shows intermediate phenotype, representing a blending of traits.
+- Codominance occurs when the hybrid shows traits from both pure-breeding parents.
+ 
+<img src="228.png" alt="" width="480">
+
+> ABO blood type: co-dominant Traits
+> - The ABO blood groups are determined by three alleles of the ABO gene.
+> - Two alleles, IA and IB, result in different sugars sugar polymer on surface of red blood cells. The i allele lacks activities due to a mutation.
+> - IAIB individuals have both A and B sugars
+
+Penetrance and expressivity
+- Penetrance is the percentage of a population with a particular genotype that shows the expected phenotype. Can be complete (100%) or incomplete(e.g. penetrance of retinoblastoma is 75%).
+- Expressivity is the degree or intensity with which a particular genotype is expressed in a phenotype. Can be variable or unvarying.
+
+Penetrance of retinoblastoma is 75%
+- Retinoblastoma is the most aggressive form of eye cancer，and it arises from a dominant mutation in the RB1 gene.
+- The RB1 gene is a key tumor suppressor, and its normal function is to regulate the cell cycle and prevent uncontrolled cell proliferation.
+- About 75% of people who carry one RB1 mutant allele develop retinoblastoma.
+- With one defective RB1 allele, in most cases, the second wild-type RB1 allele also becomes inactivated, either through a second mutation or through epigenetic silencing.
+- This complete loss of RB1 function is a critical step in the development of retinoblastoma.
+
+Incomplete penetrance in the inheritance of breast cancer
+- The breast cancer genes BRCA1 and BRCA2 encode proteins that function in double-strand break repair via homologous recombination.
+- Mutation of either BRCA1 or BRCA2 is associated with a high risk of breast cancer or ovarian cancer in women.
+- The effects of both BRCA1 and BRCA2 mutations are autosomal dominant, and women heterozygous for eitherone of these mutations have a much higher than average risk of developing breast or ovarian cancer.
+
+Two-hit theory of cancer causation
+- The first hit involves the inactivation or loss of one allele of a tumor suppressor gene, it can be inherited (germline mutation) or acquired (somatic mutation).
+- The second hit involves the inactivation or loss of the remaining functional allele of the tumor suppressor gene, it is typically an acquired somatic mutation that occurs randomly or due to epigenetic effect.
+
+<img src="229.png" alt="" width="480">
+
+- Once both alleles of the tumor suppressor gene are inactivated, the cell loses the normal function of the gene,leading to uncontrolled cell division and the development of cancer.
+
+Reasons for incomplete penetrance
+1) modifier genes
+   - Mutant T allele causes abnormally short tail
+   - In some inbred strains, mice with T allele have tails that are 75% the length of normal tails
+   - In other inbred strains, mice with the same T mutation have tails that are 10% the length of normal tails
+   - Different inbred strains must carry alternative alleles of a modifier genefor the T mutant phenotype
+2) environmental factors
+  - Conditional lethal mutations are lethal only under some conditions
+  - Permissive conditions - mutant allele has wild-type functions
+  - Restrictive conditions - mutant allele has defective functions
+> Siamese cats are homozygous for a temperature sensitive allele of an enzyme that is involve in melanin production.
+> This allele becomes active only at the lower temperatures found in the cat’s extremities
+
+> - Phenocopy - phenotype arising from an environment alagent that mimics the effect of a mutant gene.
+> - Phocomelia is a congenital disorder characterized by theunder development of limbs, resulting in limbs that are extremely short or even absent.
+> - Thalidomide is a sedative drug. It disrupts the normal limbdevelopment in fetus, which produced a phenocopy o phocomelia
+3) random events
+
+Polygenic Inheritance
+- Polygenic (Quantitative) Traits
+- Governed by more than one gene pair
+- Several genes determine the phenotype
+- Produce bell-shaped curve
+
+- Haplotypes – unique combinations of common SNP alleles over extended regions of the genome
+  - Inheritance of blocks of DNA that remain intact over many generations
+  - Extended versions of alleles that cover regions containing multiple genes
+- A small number of “tag SNPs” can be used to obtain a nearly complete whole-genome profile of individuals
+
+Genome-wide association studies (GWAS)
+- Thousands of individuals make up a study group
+  - Each individual is observed or tested for expression of one or more traits of interest
+  - DNA microarrays are used to obtain whole-genome profiles for each member of the study population
+- Genotypes at each tag SNP are tested for association with each trait
+  - Only a small number of tag SNPs will show a significant association with a trait
+  - Reveals genomic regions that harbor alleles associated with the trait
+
+<img src="230.png" alt="" width="480">
+
+- Using lineage regression analysis to detect the association between genotype and quantitative trait
+> Manhattan plot for a GWAS study
+> - P values for all SNPs tested across all chromosomes
+> - Each dot represents a single SNP test
+> - Lowest P values are shown as the highest dots
+>
+> <img src="231.png" alt="" width="480">
+>
+
+# Chapter 10 Gene function and development
+
+Development: exposing genes to natural selection
+1. Development is the process through which an embryo becomes an adult organism and eventually dies.
+2. Through development, an organism’s genotype is expressed as a phenotype, exposing genes to the action of natural selection.
+
+The thrifty gene hypothesis
+- The thrifty gene hypothesis, proposed by James Neelin 1962, suggests that some genetic variants evolved to promote efficient energy storage during periods of food shortage.
+- Past advantage: In ancestral environments with frequent foodshortage, these “thrifty genes” helped individuals store fat during food abundance, improving survival and reproduction.
+- Modern mismatch: In today’s calorie-rich environment, the same energy-saving traits may increase susceptibility to obesity, insulin resistance and type 2 diabetes.
+
+Developmental genetics
+- Definition: using genetics to study how a fertilized egg becomes an adult.
+- Approach: By analyzing mutations that produce developmental abnormalities, to understand how normal genes control cell growth, cell communication, and the emergence of specialized cells, tissues, and organs.
+- Ethical and practical limitations on human developmental genetics:
+  - Cannot experimental manipulation of affected individuals.
+  - Mutations that disrupt the earliest stages of development almost always cause the spontaneous abortion of the affected embryo or fetus, often before the mother knows she is pregnant.
+
+Model organisms: prototypes for developmental genetics
+- Five model organisms:
+  - *Saccharomyces cerevisiae* (yeast)
+  - *Arabidopsis thaliana* (plant)
+  - *Drosophila melanogaster* (fruit fly)
+  - *Caenorhabditis elegans* (worm)
+  - *Mus musculus* (mouse)
+- Advantages for research:
+  - Easy to grow
+  - Rapid reproduction
+  - Genome sequencing
+  - Genetic resources
+
+All living forms are related
+- Cells of many eukaryotes have microscopic features in common – e.g. nuclei and mitochondria
+- Metabolic pathways are virtually identical in all organisms
+- Almost all cells use the same genetic code
+- Many homologous proteins have highly conserved amino acid sequences
+- Many developmental strategies are conserved in multicellular eukaryotes
+
+A transcription factor that is critical for eye development in Drosophila and mouse
+> Vertebrate Pax6, Drosophila eyeless and Drosophila twin of eyeless all belong to the conserved Pax6 gene family. In Drosophila, toy and ey are paralogs generated by duplication of a Pax6-like ancestral gene, with toy acting upstream of ey in eye development.
+- Pax6 （Paired Box Gene 6） is required for eye development, Both Paired Box domain and Homeodomain bind DNA sequences
+
+<img src="232.png" alt="" width="480">
+
+- Mutation in pax-6 cause abnormal eye development
+  - heterozygous: Aniridia (无虹膜)
+
+Ectopic expression of the eyeless gene produces ectopic eye tissue in Drosophila
+- Transgenic flies with eyeless gene under control of a heat-shock promoter
+- Ectopic expression of the eyeless gene produces ectopic eye tissue
+- Ectopic eyes also arise when the mouse or human Pax-6 gene is expressed in Drosophila
+
+**Loss-of-function mutations– usually recessive**
+- Can alter the amino acid sequence – results in diminished (or no) biochemical activity
+- Can interfere with gene expression (transcription, RNAprocessing, translation) – results in decreased (or no) expression of a normal protein
+- Null mutations – complete loss-of-function
+  - Gene is not expressed
+  - Protein is truncated
+- Hypomorphic mutations – partial loss-of-function
+  - Useful for understanding how one gene functions at multiple times in development
+- Conditional mutations – loss-of-function only under certain conditions
+- Loss-of-function mutations and dominance
+  - Haplosufficiency: in the heterozygote of mutant, one wild-type allele is sufficient to produce gene product so that development is normal. Wild-type is dominant and mutantis recessive.
+  - Haploinsufficiency: in the heterozygote of mutant, one wild-type allele is NOT sufficient to produce gene product so that development is abnormal. This is an example of incomplete dominance.
+
+Hypomorphic mutations
+- Many genes function at multiple times in development.
+- An animal homozygous for a null allele of gene will die during embryogenesis so that we cannot study its function in adult.
+- The wingless (wg) gene in Drosophila is needed in embryogenesis and formation of an adult wing.
+- Homozygotes of null alleles of wg is lethal in embryos.
+- Homozygous for a hypomorphic allele of the wg gene survive to adulthood, but they have no wings.
+
+Conditional mutations: temperature-sensitive mutation
+> ZYG-9 is required only in 15 minutes during worm development
+>
+> <img src="233.png" alt="" width="480">
+>
+> - Green dots indicate that the embryo ultimately survives and becomes a normal worm.
+> - Red dots represent animals with abnormal polarity that ultimately die.
+
+Using homologous recombination to generateLoss-of-Function Mutations in Mice
+1. Establishing Embryonic stem(ES) cell lines
+  - Use the blastocyst (胚泡, veryyoung embryos) of agoutimice to establish embryonicstem (ES) cell lines.
+  - Culture the ES cells to increase their number.
+  - The agouti mice has a mutant agouti allele and the coat color of the mouse is white.
+2. Create DNA constructs in which a specific gene is mutagenized by the insertion of the neomycin (neo) resistance gene, and then they add this DNA into culture medium in which the ES cells are growing.
+   
+  <img src="237.png" alt="" width="480">
+
+3. Select cells that have incorporated the exogenous DNA into their genomes survive and divide in the media that contain neo mycin.
+4. Identify and verify ES colony with knockout allele through homologous recombination; these cells are heterozygous for a loss-of-function mutation in the targeted gene.
+5. Produce blastocysts from black mice
+6. Inject targeted ES cells into blastocysts of black mice and put blastocysts into uterus of a foster mother
+7. Offspring will be chimeric and can transmit knockout allele to their offspring
+8. Screening offspring
+
+- The mice that are born by the foster mother are called chimeras, because they are made up of cells from two different organisms.
+- The cells have the disrupted target gene are from the agouti mice, while the cells that do not have the disrupted target gene are from the black mice.
+- Some knock-out stem cells by chance develop into germ cells. Geneticists mate the chimeric mice to wild-type mice to screening offspring that has the mutant allele of the targetgene.
+
+**Gain-of-function alleles are usually dominant**
+- Gain-of-function alleles either enhance a protein’s function, confer a new activity on a protein, or expressa protein at the wrong time or place .
+- A single gain-of-function allele can alter phenotype even in the presence of the normal protein
+- The gain-of-function alleles are almost always dominant to wildtype alleles.
+- The gain of function may give rise to hypermorphic, neomorphic, and antimorphic mutations
+
+Hypermorphic mutations
+- A hypermorphic mutation is one gain-of-function mutation that generates either more normal protein product than the wildtype allele,or a more efficient mutant protein
+- For hypermorphic mutation, the mutation results in an increase in gene activity, such as the expression of mRNA or protein, or increased biochemical activity, with respect tothe wild-type allele.
+
+> hypermorphic mutation in FGFR3 causes achondroplasia (软骨发育不全)
+> - The G480R hypermorphic mutation in FGFR3
+> - After binding of FGFR3 and FGF (fibroblast growth factors),the two FGFR3 subunits form a dimer and phosphorylate each other, which initiates a signal that ultimately stops bone growth.
+> - The G480R change causes the mutant protein to become activated even in the absence of FGF.
+>
+> <img src="234.png" alt="" width="480">
+>
+
+Neomorphic mutations
+- Neomorphic alleles produce mutant proteins with anew function, or cause ectopic expression of genes.
+  - The dominant Huntington disease allele (HD) is aneomorphic allele that makes a mutant Htt protein
+  
+  <img src="235.png" alt="" width="480">
+
+> The dominant neomorphic allele Antp^Ns causes antenna-to-leg transformation
+> - In Drosophila, the Antennapedia (Antp) gene encodes a protein that promotes leg development
+> - Flies that are Antp^Ns/Antp⁺ (or Antp^Ns/Antp^Ns) have legs on their heads in place of antennae
+> - The Antp^Ns mutant allele is dominant because the wildtype Antp⁺ allele does not prevent the ectopic expression of Antp protein in the cells that will develop into antennae.
+> - A mutation in the enhancer of Antp^Ns allele to be expressed in the antenna precursor cells.Therefore, the heterozygotes carrying the Antp^Ns allele have legs on their heads in place of antennae.
+
+Antimorphic mutations
+- Some dominant mutant alleles of genesencode proteins that not only fail to provide the activity of the wild type protein, but also prevent the normal protein from functioning. Such alleles are called dominant-negative, or antimorphic, alleles.
+- Antimorphs are dominant-negative mutations acting antagonistically to normal gene activity.The phenotypic severity of an antimorph is worse in heterozygous conditions.
+
+> The Kinky allele of Axin in mice is a dominant negative mutation
+> - The mouse Axin gene encodes an inhibitor of the Wnt signaling pathway that regulates embryonic development
+> - In the heterozygotes that carry the kinky allele, the tail is kinky because protein encoded by the mutant kinky allele forms complexes with the wild-type Axin1 protein or other proteins involved in the Wnt signaling pathway.
+
+Interactions of genes in a developmental pathway must be determined
+- Analysis of effects of one gene on expression of another gene: Does a mutation in one gene affect the level or distribution of mRNA or protein from another gene?
+- Analysis of double mutants – epistatic interactions: Do mutations in two different genes define successive steps in a pathway?
+
+Synthetic lethals
+- when two viable single mutants are intercrossed, the resulting double mutants are lethal.
+
+<img src="236.png" alt="" width="480">
+
+Bacteria Use CRISPR/Cas9 to defend Against Viruses
+
+<img src="238.png" alt="" width="480">
+
+- CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats. It is a region in many bacterial genomes that functions like an immune system to protect bacteria from viruses.
+- Within the CRISPR region, there are short repeated DNA sequences. These repeats are separated by unique DNA sequences called **spacers**.
+- These spacers are actually pieces of DNA from viruses that previously attacked the bacteria. The bacteria capture these viral DNA pieces and incorporate them into genome.
+- The CRISPR system relies on special enzymes called Cas proteins (CRISPR-associated proteins) that can cut DNA.
+- Small RNAs generated from the tracrRNA（Trans-acting CRISPR RNA）locus pairs with the repeat sequences in the precrRNA
+
+Steps of CRISPR Immunity
+1. Spacer Integration: When a virus infects a bacterium, the bacterium captures fragments of the viral DNA. These fragments are added as new spacers in the CRISPR region by two proteins, Cas1 and Cas2.
+2. Transcription and Processing: The CRISPR region is transcribed into a long RNA molecule called precrRNA; The tracrRNA (trans acting CRISPR RNA) pairs with the repeats equences in the precrRNA; An enzyme called RNAse III cuts the double stranded RNA to produce the crRNAs.
+3. Targeting Invading Viruses: When a virus infects the bacterium again, it injects its DNA into the host cell. The crRNA binds to the viral DNA at one end and to the tracrRNA at the other end, forming a complex. This complex brings Cas9 to the viral DNA, where Cas9 makes a cut, stopping the virus from infecting the cell. (The crRNA, tracrRNA, Cas9 work together to target and cut the viral DNA.)
+
+<img src="239.png" alt="" width="480">
+
+Important Features:
+- The crRNAs are always next to specific DNA sequences in the viral DNA called PAM sites (NGG).
+- In genetic engineering, scientists combine crRNA and tracrRNA into a single RNA molecule called sgRNA(single guide RNA).
+- This sgRNA can guide Cas9 to any DNA sequence of interest in the genome of a eukaryotic organism
+
+Gene editing by CRISPR/Cas9
+- The sgRNA sequence is designed to bring the Cas9 endo nucleaseto a specific target in the genome adjacent to a PAM site
+- Repair after Cas9 cleavage can result in a knockout; or a knockin if a DNA fragment suitable for homologous recombination is available
+
+<img src="240.png" alt="" width="480">
+
+RNA interference (RNAi) knock down expression of target genes without knocking out DNA of target genes
+- par-1 is involved in the formation of worm vulva
+- Deletion of par-1 is embryonic lethal
+- Using RNAi to knock down par-1 in adults causes abnormal development of vulva
+
+Ectopic expression of genes with UAS-Gal4 systems in Drosophila
+1. GAL4 are transcriptional activator proteins that bind to UAS elements in yeast
+2. UAS is an enhancer that is adjacent to TATA box
+3. After GAL4 binding with UAS, transcription is initiated
+
+- 会有two strains:
+  - Fly strains expresses GAL4 in various tissues driven by specific enhancers
+  - Fly strains that have transgenic target genes with UAS in the upstream region
+  
+  <img src="241.png" alt="" width="480">
+
+- generate tissue specific double strand RNA:
+  
+  <img src="242.png" alt="" width="480">
+
+Using RNAi and UAS-Gal4 systems to knock down genes in Drosophila
+1. injection of dsRNA into individual embryos
+2. expression of an inverted repeat RNA in vivo
+
+  <img src="243.png" alt="" width="480">
+
+Development requires sequential changes in gene expression
+- Cell fate is progressively refined
+  - Once a developmental fate is determined, the cell and its descendants follow a differentiation path that excludes an alternative fate
+- Transcriptional regulation plays a key role, Posttranscriptional gene regulation also is important
+- Earliest stages of development require both maternal and zygotic gene products
+
+Development exploits asymmetries
+- In some species, the egg is inherently asymmetrical:
+  - Drosophila egg has an anterior-to-posterior polarity because of connections to nurse cells at anteriorend
+- In other species, asymmetries occur after fertilization
+  - *C. elegans* – site at which sperm enters the egg
+  - Mammals – asymmetry doesn’t occur until after four rounds of mitosis (16 cell embryo)
+
+
+A Drosophila egg chamber
+- Female Drosophila have two ovaries(卵巢), each ovary contains around 16 ovarioles(卵巢小管).
+- The ovariole is a string of 6 or 7 sequentially developing egg chambers.
+- An egg chamber comprises 16 germ-line cells, including one oocyte(卵母细胞) and 15 nurse cells.
+- The nurse cells are polyploid and they synthesize nutrients and cytoplasmic components that are transported into the oocyte.
+- Bicoid mRNA(调控前-后轴形成的 母体效应基因) is transcribed in nurse cells, they are transported into oocyte, and associates with microtubules in oocyte.
+
+> Clearly defined segments are formed in the embryo and each segment forms a specific structure in the adult
+> - Early in development, the products of segmentation genes subdivide the body into an array of identical body segments
+> - Later in development, the products of **homeotic genes** assign a unique identity to each segment
+
+Early Drosophila development: From fertilization to cellular blastoderm
+- First 3 hours after fertilization:
+  - Syncytial blastoderm(合胞体胚盘) formed by 13 very rapid mitotic divisions without any cell division, about 6000 nuclei
+  - Cellular blastoderm(细胞胚盘) formed by cellularization that begins during interphase of 14th division
+- Gastrulation (原肠胚) begins immediately after cellularization
+  - Furrows (头沟) lead to establishment of three embryonic germ layers: mesoderm,ectoderm, endoderm
+- First visible signs of segmentation appear **40 min** after gastrulation begins
+- By 10 hours after fertilization, 14body segments are formed
+
+  <img src="244.png" alt="" width="480">
+
+Four classes of genes responsible for segment formation in Drosophila embryos
+- **Maternal genes** expressed bymother and the mRNAs depositedin egg, not translated until after fertilization.
+> The bicoid and nanos are two master regulators that establish the anterior and posterior axis of the embryo.
+- **Gap genes** –the first zygotic segmentation genes to be transcribed，including hunchback, kruppel, knirps, and giant
+  - Gap genes are expressed in broad, overlapping bands along the length of the embryo.
+  - Mutation of a particular gap gene results in the loss of segments corresponding to the zone of expression of that gap gene.
+- Pair-rule genes – seven zones of expression that are controlled by gap gene products. Including ftz, Eve
+  - Formation of Eve stripe 2 requires activation of eve transcription by the Bcd and Hb proteins, and the absence of repression by the Gt and Kr proteins.
+  - Mutation of a particular gap gene results in the loss of segments corresponding to the zone of expression of that gap gene.
+  
+  <img src="245.png" alt="" width="480">
+
+- Segment polarity genes – expressionin 14 segments is controlled by pair-rule gene products. Including hedgehog, wingless, engrailed
+
+Summary of segment number specification
+- The pattern of expression for members of each segmentation gene class is controlled either by genes higher in the hierarchy or by members of the same class, never by genes of a lower class.
+- The maternal genes control the gap and pair-rule genes
+- The gap genes control themselves and the pair-rule genes, and the pair-rule genes control themselves and the segment polarity genes.
+- The expression of genes in successively lower parts of the hierarchy is increasingly restricted spatially within the embryo.
+  
+  <img src="246.png" alt="" width="480">
+
+Segment identity is preserved throughout Drosophila development, Each embryonic segment defines a specific structure in the adult
+- 3 head segments
+- 3 thoracic segments
+- 8 abdominal segments
+
+Homeotic selector genes (hox) in Drosophila determining segment identity after gastrulation
+
+Homeodomain is a 60 amino acid DNA-binding domain found in homeotic genes (at ANT-C and BX-C), and some non-homeotic genes (bicoid and eyeless).
+
+<img src="247.png" alt="" width="480">
+
+Ubx specifies hindwing as haltere
+- Ubx represses genes involved in wing formation in T3
+
+Segment identity is established by homeotic genes
+- Transcription of homeotic genes is controlled by gap,pair-rule, and segment polarity genes
+- At the cellular blastoderm stage, each homeotic geneis expressed within a subset of body segments
+- Homeotic genes are master regulators that control transcription of many genes responsible for development of segment-specific structures
+- Homeotic mutations cause particular segments to develop as if they were located elsewhere in the body
+
+Homeodomain Proteins define the anterior-posterior body axes
+- Humans and other mammals have 38 Hox genes that are in four clusters in all organisms
+- Linear order of genes in each cluster reflect their anterior-to-posterior expression。
+- Deletion of limb bone elements by the deletion of paralogous Hox genes
