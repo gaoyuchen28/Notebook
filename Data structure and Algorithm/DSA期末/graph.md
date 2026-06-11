@@ -206,46 +206,27 @@ class Vertex_adj_mat:
 
 ```python
 class Graph_adj_mat:
-
-    def __init__(self, num_vertices=8): # 需事先设置节点数量
+    def __init__(self, num_vertices):
         self.vertList = {}
-        self.adj_matrix = [[0] * num_vertices for _ in range(num_vertices)] # 二维数据存储邻接矩阵
+        self.adj_matrix = [[0] * num_vertices for _ in range(num_vertices)]
         self.numVertices = num_vertices
 
     def addVertex(self, key):
-        self.numVertices = self.numVertices + 1
         newVertex = Vertex_adj_mat(key)
         self.vertList[key] = newVertex
         return newVertex
 
-    def getVertex(self, n):
-        if n in self.vertList:
-            return self.vertList[n]
-        else:
-            return None
-
-    def __contains__(self, n):
-        return n in self.vertList
-
     def addEdge(self, v1, v2, weight=1):
-        if 0 <= v1 < self.num_vertices and 0 <= v2 < self.num_vertices:
+        if 0 <= v1 < self.numVertices and 0 <= v2 < self.numVertices:
             self.adj_matrix[v1][v2] = weight
-            self.adj_matrix[v2][v1] = weight  # 无向图（有向图删掉这一行）
+            self.adj_matrix[v2][v1] = weight
 
     def get_neighbors(self, idx):
         neighbors = []
-
-        for j in range(self.num_vertices):
+        for j in range(self.numVertices):
             if self.adj_matrix[idx][j] != 0:
                 neighbors.append(j)
-
         return neighbors
-
-    def getVertices(self):
-        return self.vertList.keys()
-
-    def __iter__(self):
-        return iter(self.vertList.values())
 ```
 
 # 图的应用：词梯问题
@@ -372,44 +353,37 @@ def setDistance(self, distance):
 BFS算法：
 
 ```python
+from queue import Queue  # Python 自带队列模块
+
 def bfs(g, start):
     # 将起始顶点到自己的距离设置为 0
     start.setDistance(0)
-
     # 起始顶点没有前驱节点
     start.setPred(None)
-
     # 创建一个队列，用于 BFS 的“先进先出”遍历
     vertQueue = Queue()
-
     # 先把起始顶点放入队列
-    vertQueue.enqueue(start)
+    vertQueue.put(start)  # put() 相当于 enqueue
 
     # 只要队列不为空，就继续搜索
-    while vertQueue.size() > 0:
-
+    while not vertQueue.empty():
         # 取出队首顶点，作为当前正在访问的顶点
-        currentVert = vertQueue.dequeue()
+        currentVert = vertQueue.get()  # get() 相当于 dequeue
 
         # 遍历当前顶点的所有邻接点
         for nbr in currentVert.getConnections():
-
             # 如果邻接点还是 white，说明它还没有被访问过
             if nbr.getColor() == 'white':
-
                 # 将邻接点标记为 gray，表示已经发现，但还没有完全处理完
                 nbr.setColor('gray')
-
                 # 邻接点距离 = 当前顶点距离 + 1
                 # 因为 BFS 每走一条边，距离增加 1
                 nbr.setDistance(currentVert.getDistance() + 1)
-
                 # 记录邻接点的前驱节点
                 # 说明 nbr 是从 currentVert 访问到的
                 nbr.setPred(currentVert)
-
                 # 把这个邻接点加入队列，等待之后继续访问它的邻居
-                vertQueue.enqueue(nbr)
+                vertQueue.put(nbr)
 
         # 当前顶点的所有邻居都检查完后，将其标记为 black
         # black 表示这个顶点已经彻底处理完成
@@ -450,6 +424,8 @@ BFS算法主体是两个循环的嵌套:
 补充：邻接矩阵版本的广度优先搜索
 
 ```python
+from queue import Queue  # Python 自带队列模块
+
 def bfs_adj_mat(graph, start):
     # 把起点到自己的距离设为 0
     start.setDistance(0)
@@ -461,23 +437,20 @@ def bfs_adj_mat(graph, start):
     vertQueue = Queue()
 
     # 把起点加入队列
-    vertQueue.enqueue(start)
+    vertQueue.put(start)  # put() 相当于 enqueue
 
     # 只要队列不为空，就继续搜索
-    while vertQueue.size() > 0:
-
+    while not vertQueue.empty():
         # 取出队首顶点，作为当前正在处理的点
-        currentVert = vertQueue.dequeue()
+        currentVert = vertQueue.get()  # get() 相当于 dequeue
 
         # 根据邻接矩阵，找到 currentVert 的所有邻居编号
-        for neighbor_idx in graph.get_neighbors(currentVert.get_id()):
-
+        for neighbor_idx in graph.get_neighbors(currentVert.getId()):
             # 根据邻居编号，取出真正的 Vertex 对象
             nbr = graph.getVertex(neighbor_idx)
 
             # 如果这个邻居还没有被访问过
             if nbr.getColor() == 'white':
-
                 # 标记为 gray，表示已经发现但还没完全处理完
                 nbr.setColor('gray')
 
@@ -488,7 +461,7 @@ def bfs_adj_mat(graph, start):
                 nbr.setPred(currentVert)
 
                 # 把邻居加入队列，等待之后继续扩展
-                vertQueue.enqueue(nbr)
+                vertQueue.put(nbr)  # put() 相当于 enqueue
 
         # 当前节点的所有邻居都处理完了，标记为 black
         currentVert.setColor('black')

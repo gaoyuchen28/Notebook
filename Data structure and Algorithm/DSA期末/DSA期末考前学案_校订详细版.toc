@@ -1,0 +1,37 @@
+\contentsline {section}{校订说明}{3}{Doc-Start}%
+\contentsline {section}{\numberline {1}两个 md 文件实际覆盖了什么}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}tree.md 的真实内容}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}graph.md 的真实内容}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}总体薄弱点：按实际代码归纳}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}薄弱点一：模板和题目输入之间的转换}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}薄弱点二：相似题名下算法目标不同}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}薄弱点三：手写结构和库函数的对应关系}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}树类题逐题校订复盘}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}22 根据二叉树前中序序列建树}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}23 括号嵌套二叉树}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}24 二叉树}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}25 二叉搜索树的层次遍历}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}26 实现堆结构}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}27 树的转换}{7}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}28 Huffman 编码树}{7}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}49 二叉树的深度}{7}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}50 扩展二叉树}{8}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}53 根据二叉树中后序序列建树}{8}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}54 验证二叉搜索树}{8}{subsection.3.11}%
+\contentsline {section}{\numberline {4}图类题逐题校订复盘}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}1 单词序列}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}2 仙岛求药}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}3 变换的迷宫}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}1 拓扑排序}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}2 丛林中的路}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}3 A Walk Through the Forest}{10}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}4 打怪救公主}{11}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}5 兔子与樱花}{11}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}56 拯救行动}{12}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}57 连接所有点的最小费用}{12}{subsection.4.10}%
+\contentsline {section}{\numberline {5}横向对比：md 模板如何被你实际改动}{12}{section.5}%
+\contentsline {section}{\numberline {6}graph.md 中有具体代码的算法清单与题目映射}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}graph.md 中实际给出代码的算法/模板}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}作业题目与 graph.md 代码算法之间的映射}{14}{subsection.6.2}%
+\contentsline {section}{\numberline {7}考前落地检查表}{15}{section.7}%
+\contentsline {section}{\numberline {8}最该优先复习的错题组合}{15}{section.8}%

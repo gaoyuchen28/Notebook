@@ -1,0 +1,49 @@
+\contentsline {section}{使用说明}{3}{Doc-Start}%
+\contentsline {section}{\numberline {1}作业体现的知识点与个人薄弱点}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}总体知识地图}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}最明显的个人薄弱点}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}薄弱点一：模板能读懂，但题目一变就不知道状态该怎么改}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}薄弱点二：容易把“最短路、路线数、最小生成树”混在一起}{4}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}薄弱点三：树题容易过度建模}{4}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}薄弱点四：输入输出口径容易被忽略}{4}{subsubsection.1.2.4}%
+\contentsline {section}{\numberline {2}从 md 模板到实例代码的迁移方法}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}BFS 模板迁移：先问四个问题}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}普通 BFS}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}状态 BFS}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}最优值 BFS}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Dijkstra：当 BFS 不再成立}{6}{subsubsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.2}Dijkstra 模板迁移：不只是“从起点到终点”}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}网格 Dijkstra}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}反向 Dijkstra + DP}{6}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Floyd 模板迁移：距离矩阵之外还要路径矩阵}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}MST 模板迁移：Prim 和 Kruskal 的选择}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}树模板迁移：输入形式决定递归方式}{8}{subsection.2.5}%
+\contentsline {section}{\numberline {3}逐题详细复盘：作业与 md 的拓展关系}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}22 根据二叉树前中序序列建树}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}23 括号嵌套二叉树}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}24 二叉树}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}25 二叉搜索树的层次遍历}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}26 实现堆结构}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}27 树的转换}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}28 Huffman 编码树}{11}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}49 二叉树的深度}{11}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}50 扩展二叉树}{11}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}53 根据二叉树中后序序列建树}{11}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}54 验证二叉搜索树}{12}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}1 单词序列}{12}{subsection.3.12}%
+\contentsline {subsection}{\numberline {3.13}2 仙岛求药}{12}{subsection.3.13}%
+\contentsline {subsection}{\numberline {3.14}3 变换的迷宫}{12}{subsection.3.14}%
+\contentsline {subsection}{\numberline {3.15}1 拓扑排序}{13}{subsection.3.15}%
+\contentsline {subsection}{\numberline {3.16}2 丛林中的路}{13}{subsection.3.16}%
+\contentsline {subsection}{\numberline {3.17}3 A Walk Through the Forest}{13}{subsection.3.17}%
+\contentsline {subsection}{\numberline {3.18}4 打怪救公主}{13}{subsection.3.18}%
+\contentsline {subsection}{\numberline {3.19}5 兔子与樱花}{14}{subsection.3.19}%
+\contentsline {subsection}{\numberline {3.20}56 拯救行动}{14}{subsection.3.20}%
+\contentsline {subsection}{\numberline {3.21}57 连接所有点的最小费用}{14}{subsection.3.21}%
+\contentsline {section}{\numberline {4}考试时的算法选择决策表}{15}{section.4}%
+\contentsline {section}{\numberline {5}代码落地前的详细检查清单}{15}{section.5}%
+\contentsline {section}{\numberline {6}考前重点训练顺序}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}第一优先级：模板变形题}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}第二优先级：树输入解析题}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}第三优先级：MST 与堆}{16}{subsection.6.3}%
+\contentsline {section}{\numberline {7}最后的压缩记忆}{16}{section.7}%
