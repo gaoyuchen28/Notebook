@@ -158,6 +158,73 @@ signal I和signal II的**co-stimulatory signal**，二者必须共激活才能�
 
 # Adaptive immunity: B cells
 
+### B-cell receptor (BCR)
+
+BCR与TCR十分类似，BCR是异源四聚体其中两重两轻都会发生VDJ重排 
+- TCR的结构都是稳定的都是异源二聚体
+- 但是BCR比较多样的结构
+  - IgG是异源四聚体
+  - 羊驼完全由重链组成，整体蛋白非常小
+  - 更低等生物比如软骨鱼也有只有重链的BCR
+
+BCR can be separated into fragment ab (Fab) and fragment c (Fc)
+- Fab区和Fc区域
+- IgG可以被一些特殊的蛋白酶切割，切割完之后的上面的部分就是Fab，决定抗体与抗原结合的部位
+- 同时存在Fc区
+- Fab:Fc = 2:1
+
+BCR directly binds an epitope without MHCs
+- TCR本身不能结合抗原表位，但是BCR是可以的，不需要MHC分子，也正因为如此所以结合的是空间表位，在真实的二维序列上可能是不连续的
+
+BCR can interact with epitopes in diverse conformations
+- 抗原表位不仅仅是平坦的，他还有很多不同的形态
+
+V(D)J recombination of BCR
+- BCR的重链区由一个基因编码，轻链区由两个截然不同的序列编码
+- lanmda light chain是只有V和J，J区和后面的constant区是连续的，所以重排到了哪个J区自然而然就会衔接对应的constant区
+- kapa light chain是只有V和J：只有唯一一个kapa constant region
+- 重链是标准的VDJ重排
+- 因为Bcell是二倍体所以重链有两个基因位点轻链有四个基因位点，但是在此情况下重组会比较复杂，所以出现了等位排斥效应
+
+![](70.png)
+
+Recombination signal sequence (RSS) and the "12/23 rule"
+- 和TCR一样
+
+![](73.png)
+
+Nucleotide additions at the V(D)J joints further diversify BCR
+- 和TCR一样
+
+V(D)J recombination produces a diversity of BCR
+- BCR的diversity显著低于TCR
+
+![](74.png)
+
+Complementarity determining regions (CDRs) of BCR
+- 轻链和重链各有三个CDR
+- CDR的变异度最高，序列上不连续但是空间上是连续的
+- 轻链上的CDR1和CDR2是V区自己编码的，VJ结合和J区编码CDR3，重链轻链都差不多
+- 但是对于CDR1，CDR2和CDR3都不稳定，而且这三个点都是要直接结合抗原的，不像是Tcell的CDR3是结合抗原的
+
+![](75.png)
+
+BCR diversity in certain species primarily relies on gene conversion but not V(D)J recombination
+- VDJ重排严格局限于哺乳动物，比如说鸡中就没有重排
+- 但是鸡中有gene conversion，就是前面的pseudogene出现一些随机的断裂重排，一个一个的片段插入正确的VD中
+
+![](76.png)
+
+Different isotypes of BCR
+- BCR constant region是可变的
+- 第一个读出来的是IgM，后面就是IgG....
+- 正常VDJ重排完之后马上能读出来的constant region是IgM和IgD
+
+IgM and IgD are expressed as cell surface-attached BCR
+- IgM和IgG都有跨膜能力，产生的BCR都是锚定到细胞上
+- IgM位点本身具有特殊性，序列中含有两个polyA site，PAm就是可以被锚定的，但如果PAs就是可以分泌的，对应的抗原特异性一模一样
+- BCR本身特异性&抗体本身特异性，就是这个constant region的多样性与抗原结合特异性没有任何关系
+
 ### B-cell development
 
 在骨髓中发育，pro B-cell还会留在骨髓中
@@ -187,7 +254,10 @@ signal I和signal II的**co-stimulatory signal**，二者必须共激活才能�
       - 发生multivalent self melecule的时候B cell直接杀死
       - soluble self molecule：B cell也被直接杀死
       - 如果low-affinity non-cross-linking self molecule，B cell依然不会做出任何反应
-  **但是从骨髓到外周的原则是？？？**
+  
+![](79.png)
+
+![](80.png)
 
 ### B-cell activation
 
@@ -199,17 +269,26 @@ B-cell activation often depends on CD4+ T cells: Thymus-dependent antigens（TD�
 - 锚定在细胞膜上的BCR直接和抗原接触，然后内吞进细胞，B cell中同样通过MHC2又呈递到了细胞表面，如果TCR和MHCII接触，然后还有一些共刺激信号（看图），会在胞内产生signal2
 - 时间顺序： T cell首先被激活，然后B cell才能够被激活
 
-![](7.pngcc)
+![](7.png)
 
 B-cell activation often depends on CD4+ T cells: Linked recognition
 
 - 如果一个病毒有包被的话，有可能BCR识别的病毒包被上的表位和MHCII呈递的内容蛋白可能完全脱节，而且对于T cell获得的共刺激信号其实也是蓝色包被蛋白，抗原表位不对应，丧失了T cell提供signal2的意义
+
+![](81.png)
 
 Thymus-independent-1(TI-1) and TI-2 antigens(10%-20%)
 - TI-1: B cell自己表达了模式识别受体（比如说表达TLR来识别LPS），从而自己提供signal2
   - TI-1 antigens can trigger nonspecific or antigen-specific B-cell activation
   - 在此情况下会产生多克隆激活
 - TI-2: signal1和signal2合二为一，也就是BCR同时也是模式识别受体
+
+![](87.png)
+
+- TI-1 anitgen十分依赖于浓度，如果抗原浓度比较高，就会产生**polyclonal** antibody，但如果浓度比较低的话就会产生monoclonal antibody因为存在竞争
+
+
+- TI-2不会产生class switch而是直接产生IgM
 
 ![](8.png)
 
@@ -629,3 +708,142 @@ page23page24
 看似水、空气、阳光，其实是对神经递质过敏，因为这些刺激会导致局部产生神经递质（胆碱能过敏反应）
 
 ### Autoimmunity
+
+##### Allograft rejection
+
+Alloantigens(同种异体抗原): antigens that differ between members of the same species
+- 同一物种成员之间存在差异的抗原。
+- 从进化上不应该出现，因为会有Negative selection，但是因为人会进行“移植”，所以此时就会出现移植导致的排斥反应
+  
+Alloantigens产生最重要的来源————Major histocompatibility complex (MHC) are polygenic
+- histocompatibility: 不会发生排斥反应
+- 多基因本质上不会导致组织兼容与否，但是人的MHC分子在不同人之间有很强的多态性，是为了防止出现未知病毒，多态性可以保证整个种群层面能够存活
+- MHCI、MHCII个体层面上总有差别（除了同卵双胞胎），交换完了之后MHCI本身可能会被当作抗原，所以产生免疫反应
+
+  ![](60.png)
+
+Minor histocompatibility antigens: polymorphic cellular proteins
+- 哺乳动物中除了MHC之外还有很强烈多态性的蛋白
+- 这些蛋白被MHC呈递之后还是会呈递不一样的东西，会有对于抗原表位的轻微差别，然后产生比较强烈的排斥
+
+  ![](61.png)
+
+  ![](62.png)
+
+Direct pathway of allorecognition
+- 供体肾所有组织细胞内都自动带有树突状细胞，所以肾脏里面的树突状细胞会一起一直到受体中
+- 带着供体本身的抗原进入受体的淋巴结，触发了受体的免疫反应
+- 受体会攻击这个肾脏，肾脏会坏死
+
+  ![](63.png)
+
+Indirect pathway of allorecognition
+- 切除肾的时候难免会有组织损伤
+- 就是供体肾会带一些坏的细胞，然后被受体的树突状细胞吞掉，但这个时候MHC分子本身是不match的，会被降解掉然后被受体的树突状细胞呈递，激发受体的免疫反应
+
+  ![](64.png)
+
+以上讲到的绝大部分都是T cell介导的
+
+Negative selection of BCR and alloantibodies
+
+Alloantibodies(同种异体抗体): antibodies against nonself antigens of the same species
+- 由于同一个物种两个个体对于同一个蛋白识别的抗体的抗原表位有所差别
+
+Pre-existing alloantibodies against blood group antigens cause hyperacute rejection
+- 经过血液循环引发的免疫反应，超快排斥反应。
+- 机体与生俱来有对于血液不同血型的alloantibodies
+- 移植来的肾脏里有血液也有血细胞，同时会产生迅速的对于血型的抗体，直接识别，然后产生凝血反应，然后24-48小时就产生排斥了
+
+  ![](65.png)
+
+Alloantibodies contribute to chronic rejection
+- MHC: 两个星期
+- Minor: 几十天
+- 即使供体和受体之间的 MHC 以及 ABO 血型完全匹配，仍然可能存在 minor histocompatibility antigens（次要组织相容性抗原） 的差异，例如某些细胞表面蛋白的氨基酸序列不同，或蛋白翻译后修饰存在差异。受体免疫系统会逐渐识别这些微小差异，并诱导产生针对供体抗原的 alloantibodies（同种异体抗体）。这些抗体持续结合于移植物血管内皮细胞表面的供体抗原，激活补体系统并介导抗体依赖性细胞毒作用（ADCC），从而导致血管壁及其周围组织长期处于慢性炎症状态。随着时间推移，炎症反应会促进血管内膜增生、纤维化和血管狭窄，最终造成移植物功能逐渐下降，形成 chronic rejection（慢性排斥反应），然后血管周围就会持续出现炎症反应，最后供氧不足，逐渐死亡，几个月记
+
+Immunosuppressive drugs prevent graft rejection
+- 通过药理学手段阻碍免疫排斥
+- 抗 CD3 抗体通过阻断 TCR 信号或耗竭活化 T 细胞，直接抑制 T 细胞介导的移植排斥反应，从而提高移植成功率。（signal1）
+- 对共刺激信号进行阻断（signal2）
+- 阻断signal3，各种各样细胞因子、
+- 阻断signal下游的一些细胞机制，阻断Tcell的激活（环磷酰胺）
+
+  ![](66.png)
+
+Graft-versus-host disease
+- 供体杀死受体
+- 全部出现在造血系统中
+- 核心原因是移植进来的造血干细胞不是纯净的（技术做不到），使得造血干细胞中会混入一些其他细胞比如淋系的细胞，比如供体的T cell
+- 这些T cell本身会认为周围全都是病原体，然后迅速被激活，迅速大量增殖CD8，无差别进入到各个组织细胞中，然后产生这种disease
+> 全身表皮的剥落
+
+Fetomaternal tolerance: The fetus is an immunologically tolerated allograft
+- 母胎屏障
+- 事实上胚胎细胞会大量进入母体，1-10/10000
+- 除此之外还有角膜移植，因为角膜上具有免疫豁免机制，使得也不需要进行配型
+
+#####  Autoimmune diseases
+
+Immunologically privileged sites: foreign tissue grafts do not elicit immune responses (i.e., rejection)
+
+存在免疫豁免的四个位置
+（page24）
+- 眼前房
+- 中枢神经系统
+- 胚胎
+- 男性的睾丸
+
+物理性的损伤会破坏眼前房的免疫豁免，原本与免疫系统隔离的眼内抗原暴露出来，同时炎症细胞和免疫分子大量进入眼内。这不仅会削弱局部的免疫抑制环境，还会激活针对眼内抗原的免疫应答，从而打破免疫豁免状态，引发持续的炎症反应，严重时甚至可导致对自身眼组织的免疫攻击。
+
+单侧眼睛抗原表位暴露出来之后会有extension直到两个眼睛都被攻击，产生自免疫疾病
+
+Autoimmune response can amplify autoimmunity
+- 正循环过程，无法被有效控制，然后暴露出新的抗原表位，进而反复迭代
+
+  ![](67.png)
+
+- 组织内有Tcell筛选过程和一些免疫豁免，但是在损伤等其他原因下这些保护和筛选机制失效，产生了这种自加强过程，就是自免疫疾病
+
+Autoimmunity can be primarily mediated by T cells
+- T cell侵入到了免疫豁免位置
+> Experimental autoimmune encephalomyelitis: ⾃⾝免疫性脑脊髓炎
+> - T cell进入中枢神经位置
+> - 外周产生针对抗原的免疫反应 + 破坏了中枢系统的免疫屏障
+> - 促炎细胞因子，T cells 释放促炎细胞因子，招募巨噬细胞、单核细胞等炎症细胞进入 CNS
+> - 可以通过 adoptive transfer（过继转移） 的方式诱导：将已经被髓鞘抗原激活的自身反应性 T cells 转移到健康动物体内，使其发生 CNS 炎症
+
+Autoimmunity can be primarily mediated by B cells（95%左右的自免疫疾病）
+> - 空肠杆菌的糖基化修饰和髓鞘上的糖基化修饰一模一样，所以机体正常的对于外来的抗体也是针对外周神经系统的
+> Guillain-Barré syndrome吉兰-巴雷综合症
+
+Autoimmunity can involve both T and B cells
+> Myasthenia gravis 重症肌⽆⼒症
+> - 产生了针对肌肉上乙酰胆碱受体的T cell和B cell
+> - 通过流式分选找到Tcell Bcell，T cell可以直接识别骨骼肌上的乙酸胆碱受体（破坏肌肉细胞），也存在针对乙酰胆碱的抗体（阻断信号传播）
+
+Epitope spreading in autoimmunity: Linked recognition
+- Tcell的抗原捕获和抗原呈递会脱节，因为捕获捕获的是多种抗原
+- B cell一开始识别的抗原表位是核小体H1，然后吞到细胞里面去（细胞死掉的信号），进一步通过MHCII呈递出H1的表位，T cell通过识别这个抗原表位激活了B cell
+- 但是如果存在link recognition，如果B cell结合的是DNA，然后连着H1直接吞噬进去了，MHCII呈递的同样是H1表位，那么Tcell还是能够激活，只是激活以后这个就变成针对自身DNA的抗体了
+- 同理有核糖体和mRNA
+
+  ![](68.png)
+
+Examples of autoimmune diseases:
+1) Type I diabetes: 原因是由于未知原因，可能产生非常强烈的针对胰岛素的抗体，CD8细胞会把beta细胞当作被病毒侵染的cell，从而beta细胞死掉，没有胰岛素分泌了
+  - 免疫耐受普遍存在于机体的各个位置，在特殊的外界环境出发下会触发
+  - 如果机体稳定产生了一种病毒蛋白，他是会有免疫耐受的
+  - 但是这种免疫耐受不等于免疫豁免
+> 研究者首先构建了一个 LCMV 核蛋白（NP）基因与胰岛素启动子融合的杂交基因，仅在小鼠胰腺 β 细胞中表达 NP，从而生成转基因小鼠。单独在 β 细胞中表达 NP 时，并未引发自身反应性 T 细胞活化，说明这些 T 细胞在正常情况下对 β 细胞保持耐受。随后，将转基因小鼠感染 LCMV 病毒，外周免疫系统产生 NP‑特异性 CD8⁺ T 细胞，并被激活。这些活化的 T 细胞穿越血管壁迁移至胰岛，识别并杀伤表达 NP 的 β 细胞，引发 β 细胞破坏和胰岛功能丧失，最终导致糖尿病发生。
+> 该实验严格证明了：外周免疫激活可打破组织特异性耐受，使自身反应性 T 细胞攻击原本耐受的自体组织，从而诱发自体免疫性疾病，为理解 T 细胞介导的自体免疫机制提供了直接实验依据。
+>
+>   ![](69.png)
+>
+
+2) Rheumatoid arthritis: 机体内首先产生了对于软骨组织的破坏，触发自身抗原的释放激活T cell，后续激活B cell，然后进一步对软骨损伤
+  - 硫酸软骨素：最经典的抗原表位
+
+3) Psoriasis: 针对自身RNA、DNA产生的疫病，暴露出的自我的核酸（signal1和signal2），激活了天然免疫反应，然后TBcell反应，然后抗原表位暴露
+  - 在 psoriasis 中，自身 RNA/DNA 并不是“直接”同时作为两个完全相同的 signal，而是同一种自身核酸在不同层面发挥作用：一方面，暴露出来的自身核酸或核酸相关抗原可以被抗原递呈细胞处理并呈递，形成抗原特异性的 **signal 1**；另一方面，这些自身核酸还能被 TLR7、TLR9 等模式识别受体识别，激活天然免疫细胞，使其上调共刺激分子并分泌促炎细胞因子，从而提供 **signal 2** 和炎症环境。因此，自身核酸既可以作为被识别的自身抗原来源，又可以作为危险信号激活天然免疫反应，最终促进 T/B cell 反应和自身免疫性炎症。
+
