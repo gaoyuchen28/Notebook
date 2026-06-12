@@ -72,6 +72,408 @@ Adaptive immunity:
     *Janeway: immune system has evolved specificalty to recognize and respond to infectious microorganisms, and that this involves recognition not only of specific proteins, but also of certain **characteristics or patterns common** on infectious agents but absent from the host*
   - Pathogen-associated molecular patterns: 比如脊椎动物中糖链最末含有唾液酸残基
 
+# Innate immunity
+
+Innate immunity: 
+- genes directly inherited
+- no antigen-specificity
+
+Adaptive immunity:
+- involving gene rearrangements
+- antigen-specificity
+
+### complement system
+
+![](83.png){width=60%}
+
+1. lectin pathway 凝集素途径
+2. classical pathway 经典途径
+3. alternative pathway 替代途径
+
+补体系统组分完全由基因编码、可生殖系遗传、通常无抗原特异性。但经典途径是一个特殊例外——它由抗原-抗体复合物激活，因此具有抗原特异性，这是整个天然免疫概念中唯一的例外。
+
+The central component: C3 protein
+- 成熟 C3 由 𝛼 链和 𝛽 链组成，但二者由单一基因编码，翻译后通过二硫键共价连接。
+- C3 含有一个特殊的 TED 结构域，其中存在硫酯键（thioester bond）。
+- C3 被 C3 转化酶切割后产生 C3a 和 C3b；切割使得 TED 结构域中的硫酯键被活化。
+- 活化的硫酯键要么被水水解而失活，要么与周围物质（如病原体表面的氨基或巯基）发生共价连接，使 C3b 锚定在病原体表面。
+
+![](84.png){width=60%}
+
+### Pattern recognition receptors
+
+##### Toll-like receptors (TLRs)
+
+![](85.png){width=60%}
+
+- 通过适配蛋白向下游传递信号。两大核心适配蛋白为 MyD88 和 TRIF
+  - MyD88：几乎所有 TLR（除 TLR3 外）都依赖 MyD88 传递信号，是主导性适配蛋白。
+  - TRIF：仅 TLR3 单独依赖 TRIF；TLR4 特殊，可同时激活 MyD88 和 TRIF。
+  - MyD88 下游激活 NF-𝜅B 和 AP-1，主要驱动促炎细胞因子（TNF-𝛼、IL-1、IL-6）。
+  - TRIF 下游通过 K63 连接泛素化链激活 IRF3/IRF7，主要驱动 I 型干扰素（抗病毒反应）。
+
+Different subcellular localization of TLRs
+- **TLR定位**: 细胞膜(TLR2/1、TLR2/6、TLR4、TLR5、TLR11), 内体：TLR3、TLR7/8、TLR9、TLR13
+
+- **适配蛋白募集**
+  - TLR通过胞内的 **TIR结构域** 招募适配蛋白。
+  - 主要包括：
+    - **MyD88依赖通路**：多数TLR使用
+    - **TRIF依赖通路**：主要由TLR3和内吞后的TLR4使用
+
+- **早期信号事件**
+  - MyD88或TRIF招募IRAKs、TRAFs、TAK1等信号蛋白。
+  - **K63-linked ubiquitination** 主要作为信号平台，帮助招募和激活下游激酶。
+  - 与此不同，**K48-linked ubiquitination** 通常介导蛋白降解，在负反馈调控中具有重要意义。
+
+Pro-inflammatory cytokines induced by TLRs
+
+- TLR信号激活后，NF-κB、AP-1、IRF等转录因子促进炎症因子产生。
+- 其中 **IL-1β、IL-6、TNF-α** 是典型的促炎细胞因子，可以作用于多个组织。
+- **肝脏**
+  - 诱导急性期蛋白产生，例如C-reactive protein和mannose-binding lectin。
+  - 促进补体激活和调理作用，帮助病原体被吞噬细胞清除。
+- **骨髓和血管内皮**
+  - 促进中性粒细胞动员。
+  - 增强吞噬反应。
+- **下丘脑**
+  - 引起体温升高，即发热反应。
+  - 发热可以抑制部分病毒和细菌复制，并增强抗原处理和特异性免疫反应。
+- **脂肪和肌肉**
+  - 动员蛋白质和能量，为升高体温和炎症反应提供代谢支持。
+- **树突状细胞**
+  - TNF-α促进树突状细胞迁移至淋巴结并成熟。
+  - 成熟树突状细胞可以启动适应性免疫反应。
+
+IL-1 signaling
+- **IL-1R通路与TLR通路相似**
+  - IL-1R家族受体也含有TIR结构域。
+  - 因此IL-1R可以复用类似TLR的MyD88依赖信号机制。
+- **受体和配体**
+  - IL-1α或IL-1β结合IL-1R1。
+  - IL-1R1与IL-1RAcP形成受体复合物。
+  - IL-1RA可以竞争性抑制IL-1信号。
+- **下游信号**
+  - IL-1R复合物 → MyD88 → IRAKs → TRAF6 → TAK1/TAB1
+  - TAK1进一步激活NF-κB和MAPK通路。
+- **转录因子激活**
+  - IκBα被磷酸化后，NF-κB释放并进入细胞核。
+  - p38等MAPK通路激活AP-1。
+- **结果**
+  - 诱导IL-6、TNF-α、IFNα、IFNβ、TGFβ等基因表达。
+  - 因此IL-1R信号可以进一步放大炎症反应。
+
+![](86.png){width=60%}
+
+Pathogens' inhibition of TLRs signaling pathways
+
+- 病原体可以通过自身蛋白干扰TLR信号，从而逃避免疫识别和炎症反应。
+- **抑制受体或适配蛋白层面**
+  - 某些病毒蛋白可以阻断TLR与MyD88、MAL、TRIF、TRAM等适配蛋白的连接。
+  - 例如HCV NS5A、HCV NS3-4A、VACV A46R等可干扰TLR信号复合物形成。
+- **抑制IRAK/TRAF/TAK1层面**
+  - VACV A52R等蛋白可以干扰IRAK、TRAF6或TAK1相关信号。
+  - 这样会阻断K63泛素化信号平台和激酶级联。
+- **抑制转录因子激活**
+  - 如果NF-κB、IRF3、IRF7不能被有效激活，促炎细胞因子和I型干扰素表达就会下降。
+
+
+Viral infection
+- 病毒进入宿主细胞后，会释放病毒基因组。
+- RNA病毒复制时，会在细胞质中产生病毒RNA，例如未加帽RNA、5'-triphosphate RNA或dsRNA。
+- DNA病毒或逆转录病毒感染时，可能导致病毒DNA或逆转录DNA出现在细胞质中。
+- 这些异常核酸就是RLRs和cGAS-STING通路要识别的“危险信号”。
+
+
+CD8+ T cells and NK cells can kill virus-infected cells
+- 病毒感染细胞后，病毒蛋白可以被加工成肽段，并通过MHC class I展示在细胞表面。
+- CD8+ cytotoxic T cells识别“病毒肽-MHC I”复合物后，可以直接杀死感染细胞。
+- 病毒感染细胞可被细胞毒性T细胞识别并杀伤；杀伤过程中会激活caspase，最终导致感染细胞DNA断裂和死亡
+- NK细胞也可以杀伤病毒感染细胞，尤其是在感染导致MHC I表达下降或应激配体上调时。
+
+##### RIG-I-like receptors (RLRs)
+
+Viral RNAs in cytosol trigger RIG-I pathway
+- TLR3、TLR7、TLR9主要检测内体中的病毒核酸；而细胞内产生的病毒RNA则由RLRs识别。
+- RLRs主要包括：
+  - RIG-I
+  - MDA5
+  - LGP2
+
+- RIG-I和MDA5都有RNA helicase-like domain和CARD domains。
+- RIG-I主要识别带有未修饰5'-triphosphate的病毒RNA。
+- MDA5更偏向识别病毒dsRNA。
+- 病毒RNA结合RIG-I/MDA5后，RIG-I/MDA5构象改变，CARD结构域暴露。
+- CARD结构域进一步与线粒体外膜上的MAVS结合。
+- MAVS聚集后招募TRAFs，并促进K63-linked polyubiquitin scaffold形成。
+- 下游激活：
+  - TBK1 / IKKε → IRF3 / IRF7 → I型干扰素
+  - IKKα / IKKβ / NEMO → NF-κB → 促炎细胞因子
+
+![](87.png){width=60%}
+
+Viral RNAs in cytosol trigger RIG-I pathway: Self vs. non-self。
+- Janeway强调：RIG-I主要通过RNA 5'端结构区分宿主RNA和病毒RNA。
+- 宿主细胞中的不同RNA虽然也可能具有复杂二级结构，甚至在刚转录出来时带有 5'-triphosphate，但它们大多在细胞核内经过成熟加工后才进入细胞质。例如 mRNA 会获得 5' cap 和 poly(A) tail，并结合 PABP；snRNA会被加帽；rRNA会与核糖体蛋白结合；tRNA和miRNA也会经过剪切、修饰和蛋白复合物包装。因此，这些宿主RNA不会以“裸露、未修饰、病毒样”的形式暴露在细胞质中，所以通常不会被RIG-I识别。
+- 相反，病毒RNA常常在细胞质中复制，容易暴露出宿主RNA中少见的特征，比如未加帽的 **5'-triphosphate RNA**、病毒复制产生的 **dsRNA**，或者缺乏正常宿主RNA修饰的异常结构。RIG-I正是通过识别这些“非自身RNA特征”来判断病毒感染，并进一步激活MAVS通路，诱导I型干扰素和抗病毒反应。
+
+Viral inhibition of RIG-I pathway
+- Janeway举例：Influenza A virus的NS1蛋白可以抑制TRIM25。
+- TRIM25本来参与RIG-I激活所需的K63-linked ubiquitination。
+- 如果TRIM25被抑制，RIG-I无法有效通过MAVS激活下游信号。
+- 结果：
+  - IRF3/IRF7激活下降
+  - NF-κB激活下降
+  - I型干扰素和炎症因子产生减少
+- 这说明病毒不仅会被RLRs识别，也会进化出机制阻断RLRs信号。
+> 一些病毒蛋白可以遮蔽dsRNA或抑制RIG-I/MDA5识别，脊髓灰质炎病毒可促进MDA5降解，HAV 3ABC和HCV NS3-4A可切割IPS-1/MAVS，VACV N1L、Rabies virus P、VACV K7R等可抑制TBK1/IKKε-IRF3/7分支，VACV N1L和B14R还可抑制IKK-NF-κB分支。
+
+![](88.png)
+
+##### cGAS-STING
+
+- cGAS是细胞质DNA sensor。
+- 当病毒dsDNA进入细胞质后，cGAS直接结合dsDNA。
+- cGAS被激活后，以ATP和GTP为底物合成第二信使cGAMP。
+- cGAMP结合ER膜上的STING二聚体。
+- STING激活TBK1。
+- TBK1磷酸化IRF3。
+- IRF3进入细胞核，诱导type I interferon genes表达
+
+![](89.png)
+
+Viral DNAs in cytosol trigger cGAS pathway: Self vs. non-self
+- 宿主DNA正常情况下主要被限制在细胞核和线粒体中。
+- 如果DNA异常出现在细胞质中，就可能代表：
+  - DNA病毒感染
+  - 细菌DNA进入细胞质
+  - 逆转录病毒产生DNA中间体
+  - 线粒体损伤释放自身DNA
+  - 死细胞或基因组不稳定导致DNA暴露
+- 因此cGAS识别“非自身”的方式，不是靠DNA序列，而是靠DNA出现的位置异常。
+- 换句话说：**细胞质DNA本身就是危险信号**。
+> - cGAS 是细胞质DNA感受器。它结合DNA后，用 ATP和GTP 合成 cGAMP；cGAMP再激活内质网上的 STING，使其转运到ERGIC/Golgi并招募 TBK1 和 IKK。TBK1磷酸化 IRF3，使其进入细胞核诱导 IFN-β；IKK则激活 NF-κB p65/p50，促进炎症基因表达。最终结果是产生I型干扰素和炎症因子。
+> - CDN，如c-di-GMP、c-di-AMP，也可以直接激活STING，不一定需要cGAS。图中的 ENPP1 可以降解cGAMP，限制STING信号过强。总体来说，这页PPT说明：细胞质中的病毒DNA、细菌DNA、逆转录DNA或异常自身DNA，都可通过 cGAS-cGAMP-STING-TBK1/IKK 通路激活IRF3和NF-κB。
+
+![](90.png)
+
+Anti-viral innate immune pathways
+- RIG-I和MDA5识别病毒RNA，激活MAVS通路。
+- cGAS等DNA sensors识别细胞质DNA，激活STING通路。
+- 这些通路最终都诱导I型干扰素。
+- 三类抗病毒核酸识别通路可以这样对比：
+
+| 通路 | 识别位置 | 识别对象 | 接头蛋白 | 主要转录因子 |
+|---|---|---|---|---|
+| TLR3/7/9 | 内体 | dsRNA / ssRNA / CpG DNA | TRIF或MyD88 | IRF3/7, NF-κB |
+| RLRs | 细胞质 | 病毒RNA | MAVS | IRF3/7, NF-κB |
+| cGAS-STING | 细胞质 | 病毒DNA / 异常DNA | STING | IRF3, NF-κB |
+
+![](91.png)
+
+Interferons
+- RLRs和cGAS-STING通路激活后，重要结果之一是产生I型干扰素，干扰素可以阻断病毒向未感染细胞扩散。
+- IFN-α/β结合IFNAR后，通过JAK-STAT通路激活STAT1和STAT2。
+- STAT1/STAT2与IRF9形成ISGF3复合物。
+- ISGF3进入细胞核，诱导ISGs表达。
+- ISGs包括OAS、PKR、Mx、IFIT、IFITM等抗病毒分子。
+
+Interferon-Stimulated Genes (ISGs): OASs
+- OAS是interferon-stimulated gene产物之一。OAS可以把ATP聚合成2'-5'连接的寡腺苷酸，这些2'-5'寡腺苷酸可以激活一种内切核糖核酸酶。被激活的核酸酶降解病毒RNA。
+- 结果：
+  - 病毒RNA减少
+  - 病毒复制受阻
+  - 细胞进入抗病毒状态
+
+![](92.png)
+
+Interferon-Stimulated Genes (ISGs): PKR
+- PKR也是I型干扰素诱导的抗病毒蛋白。PKR是一种dsRNA-dependent protein kinase。PKR可以磷酸化eIF2α。eIF2α被磷酸化后，蛋白翻译起始受阻。
+- 结果：
+  - 病毒蛋白合成下降
+  - 病毒复制被抑制
+  - 但宿主细胞自身蛋白翻译也会受到影响
+
+![](93.png)
+
+Interferon-Stimulated Genes (ISGs): IFITs
+- 正常翻译起始需要：
+  - methionine tRNA
+  - 40S ribosomal subunit
+  - eIF2
+  - eIF3
+  - eIF4
+- 这些分子形成43S pre-initiation complex。
+- IFIT1和IFIT2可以结合eIF3的亚基，阻止43S pre-initiation complex形成。
+- IFITs还可以结合未加帽或异常加帽的病毒mRNA，阻止其翻译。
+- 结果：病毒RNA不能有效翻译成病毒蛋白。
+
+![](94.png)
+
+Interferon-Stimulated Genes (ISGs): ISG15
+- ISG15类似泛素，可以共价连接到靶蛋白上。
+- 过程包括：
+  - UBE1L：激活ISG15
+  - UBCH8：转运ISG15
+  - HERC5：连接ISG15到底物蛋白
+  - USP18：去除ISG15修饰
+- 生物学意义：
+  - 改变宿主或病毒蛋白功能
+  - 抑制病毒复制
+  - 调节干扰素信号强度
+
+Interferon-Stimulated Genes (ISGs): MxA
+- Mx proteins是I型干扰素诱导的抗病毒蛋白。人和野生小鼠有Mx1和Mx2，这些蛋白属于dynamin family GTPases。MxA可以寡聚化，并捕获病毒组分。
+- 结果：
+  - 病毒复制复合体或病毒衣壳相关结构被限制
+  - 病毒复制和装配受阻
+
+Anti-viral innate immunity
+- IFN-α和IFN-β的三类主要功能：
+  - 诱导未感染细胞进入抗病毒状态
+  - 增加MHC class I表达，提高病毒感染细胞被CD8 T细胞识别的概率
+  - 激活NK细胞，使其杀伤病毒感染细胞。
+
+- 感染细胞释放干扰素
+- 邻近未感染细胞降低RNA和蛋白合成，减少病毒扩增机会
+- 感染细胞更容易进入凋亡
+- 免疫细胞被激活，帮助清除感染细胞
+
+![](95.png)
+
+![](96.png)
+
+##### 真菌感染的常见病原类型
+
+- **Aspergillus genus**
+  - 常见种类包括 *Aspergillus flavus*、*Aspergillus fumigatus*、*Aspergillus niger*、*Aspergillus terreus* 等。
+  - *Aspergillus fumigatus* 是重要的机会性真菌病原体，尤其容易在免疫功能低下者中引起侵袭性感染。
+  - 曲霉通常以 **conidia** 或 **hyphae** 的形式参与感染。
+
+- **Mucorales order**
+  - Mucorales 是另一类重要丝状真菌。
+  - 其特点是形成大量菌丝和孢子囊结构。
+  - 在免疫缺陷、糖尿病酮症酸中毒等背景下，可引起严重的毛霉菌病。
+
+> Fungal infection
+> 常见真菌病原
+> - Aspergillus
+> - Mucorales
+> - Candida
+> - Cryptococcus
+> 真菌形态
+> - yeast
+> - hyphae
+> - pseudohyphae
+> - conidia
+> - capsule
+
+##### 真菌形态与免疫识别
+
+- 真菌不是单一形态的病原体，可以表现为多种 **morphotypes**：
+  - **yeast**
+  - **hyphae**
+  - **pseudohyphae**
+  - **conidia**
+  - **capsule**
+
+- 不同真菌形态会影响宿主免疫识别和吞噬。
+  - *Candida albicans* 可在 yeast、pseudohypha、hypha 等形态之间转换。
+  - *Aspergillus fumigatus* 可形成 conidia 和 hyphae。
+  - 树突状细胞、巨噬细胞和中性粒细胞可以吞噬不同 fungal morphotypes。
+
+- 病理图中可以看到真菌在组织中形成侵袭性病灶。
+  - 在免疫功能正常时，吞噬细胞可限制真菌扩散。
+  - 在吞噬细胞功能缺陷或免疫抑制状态下，真菌更容易侵入组织并造成严重损伤。
+
+##### C-type lectin receptors
+
+![](97.png)
+
+- **C-type lectin receptors, CLRs** 是一类主要识别糖类结构的模式识别受体。
+- 它们常表达于巨噬细胞、树突状细胞和中性粒细胞表面。
+- 常见 CLR 包括：
+  - **Dectin-1**
+  - **Dectin-2**
+  - **Mincle**
+  - **DC-SIGN**
+  - **mannose receptor**
+  - **Langerin**
+- CLRs 的共同特点是具有糖类识别结构域，例如：
+  - **CRD, carbohydrate recognition domain**
+  - **CTLD, C-type lectin-like domain**
+
+- 这些受体可以识别真菌细胞壁上的糖类结构，并诱导吞噬和炎症信号。
+
+C-type lectin receptors recognize polysaccharides
+- β-glucans:
+  
+  ![](97.png)
+
+- Mannan:
+
+  ![](98.png)
+
+Innate immune cells against fungal infection
+  
+![](100.png)
+
+- 巨噬细胞和中性粒细胞可以通过 PRRs 识别真菌。
+- 识别后发生以下过程：
+
+```text
+migration
+↓
+recognition
+↓
+engulfment
+↓
+phagosome formation
+↓
+phagosome maturation
+↓
+killing
+```
+
+- 吞噬后的真菌进入 **phagosome**。
+- phagosome 与 lysosome 融合形成 **phagolysosome**。
+- 在 phagolysosome 中，真菌可被以下机制杀伤：
+  - 酸性环境
+  - 溶酶体酶
+  - 抗菌肽
+  - ROS
+- 有些真菌可能逃逸或被非裂解性排出，说明真菌与吞噬细胞之间存在动态相互作用。
+
+NETosis: A unique process of innate immune response
+- **NETosis** 是中性粒细胞释放 **neutrophil extracellular traps, NETs** 的过程。
+- NETs 主要由以下成分组成：
+  - DNA / chromatin
+  - histones
+  - antimicrobial proteins
+  - neutrophil granule proteins
+
+- NETs 的作用：
+  - 捕获真菌或其他胞外病原体
+  - 限制病原体扩散
+  - 促进后续吞噬和清除
+
+- NETosis 可分为两类：
+
+  - **lytic NETosis / suicidal NETosis**
+    - 细胞膜破裂
+    - 中性粒细胞死亡
+    - NETs 较慢释放
+
+  - **vital NETosis**
+    - 细胞不立即裂解
+    - NETs 快速释放
+    - 中性粒细胞可能保留部分功能
+
+- NETs 形成与 ROS 有关。
+- 因此，吞噬细胞 ROS 生成缺陷会影响抗真菌防御。
+
+![](101.png)
+
 # Adaptive immunity: T cells
 
 适应性免疫涉及大范围的细胞迁移
@@ -331,6 +733,10 @@ Follicular dendritic cells provide antigens for affinity maturation in germinal 
 - 拉一个后就可以内吞然后进行MHC呈递，从而有了T cell的第二次激活和支持，否则就无法被支持 
 
   ![](12.png)
+
+> 在 germinal center 中，B cell 先在暗区快速增殖并发生 somatic hypermutation，再到明区通过 FDC 上的抗原和 Tfh cell 的帮助被选择，亲和力高的 B cell 可以继续循环或分化为浆细胞/记忆 B cell。
+> 
+> T cell 主要是 Tfh cell：它由 naive CD4⁺ T cell 分化而来，进入生发中心后通过 CD40L、IL-21、IL-4 等信号帮助并筛选 B cell，从而促进抗体亲和力成熟和 B cell 分化。
 
 Class switch of BCR
 - 由一些特殊的细胞因子决定的
@@ -847,3 +1253,93 @@ Examples of autoimmune diseases:
 3) Psoriasis: 针对自身RNA、DNA产生的疫病，暴露出的自我的核酸（signal1和signal2），激活了天然免疫反应，然后TBcell反应，然后抗原表位暴露
   - 在 psoriasis 中，自身 RNA/DNA 并不是“直接”同时作为两个完全相同的 signal，而是同一种自身核酸在不同层面发挥作用：一方面，暴露出来的自身核酸或核酸相关抗原可以被抗原递呈细胞处理并呈递，形成抗原特异性的 **signal 1**；另一方面，这些自身核酸还能被 TLR7、TLR9 等模式识别受体识别，激活天然免疫细胞，使其上调共刺激分子并分泌促炎细胞因子，从而提供 **signal 2** 和炎症环境。因此，自身核酸既可以作为被识别的自身抗原来源，又可以作为危险信号激活天然免疫反应，最终促进 T/B cell 反应和自身免疫性炎症。
 
+# Cancer immunity
+
+### Historical perspective
+
+不正常的肿瘤细胞和正常细胞，实际上和识别自我与非我是十分类似的
+
+Predawn of cancer immunology: 
+1) Coley's anti-tumor vaccines
+- 在骨肉瘤感染的疾病由于有创口溃烂，所以会有很严重的病发细菌感染，但如果出现非常严重的感染，反而可能会杀死肿瘤
+- william coley：人为激活了化脓链球菌，减轻了症状-> 激活免疫反应，就可以治疗肿瘤
+- 后来改成了灭活的菌的接种
+- Coley's Toxin：革兰氏阳性菌+革兰氏阴性菌灭活混合物
+
+2) Anti-tumor serum
+- 一战结束之后，对于免疫反应有了进一步的了解
+- 提出了Tumor immunity（1931年）
+- 左右后肢上接种一模一样的骨肉瘤，但是如果向其中一个后肢接种了抗血清打到左侧肿瘤，肿瘤被有力杀伤，右侧也同样（抗体引起的肿瘤死亡进一步激活了免疫反应）
+
+二战结束后21世纪肿瘤免疫才重新被人关注
+
+### Anti-tumor immunity and immune evasion
+
+Anti-tumor immunity exhibits antigen specificity
+- 肿瘤免疫具有抗原特异性
+
+Anti-tumor immunity is primarily mediated by CD8+ T cells
+- 新发抗原：新的因为突变产生的正常细胞里没有的蛋白质
+- 呈递的时候自我和新发抗原都会呈递，但如果MHC觉得是自己的蛋白就会不攻击，但是当他意识到为新发蛋白，就会直接杀死细胞，和细胞内存在的病毒的防御很像
+- 必须MHC呈递，必须有neoantigen，必须被CD8细胞识别
+- 全基因组测序、AI预测蛋白质，对于新的抗原表位的筛选和预测有了很大的帮助
+
+Anti-tumor immunity can also be enacted by NK cells
+- NKcell进行兜底，读取激活配体和抑制受体然后进行杀伤，其中MHC是典型的抑制受体
+- 当肿瘤为了避免CD8的杀伤从而将MHCI突变没，那么此时NK cell会发挥作用
+- 产生不同的突变鼠（裸鼠）
+  - 胸腺发育极度异常，CD8完全没有，但是NK细胞是正常的
+  
+  ![](102.png)
+
+Immune evasion of tumor cells
+- 肿瘤细胞有非常强烈的免疫逃逸的能力
+- 肿瘤细胞刚刚分裂的时候是一样的，但是有可能在分裂过程中产生新的突变，新产生的细胞产生新的抗原特异性，反复分裂过程中产生了严重的抑制性
+- 但是CD8的产生速度会偏低，所以就无法识别所有肿瘤，肿瘤就会生长扩散
+- 以上是典型方法之不断引入突变，但实际上还有很多其他的方法：
+  - 物理性方法：肿瘤生发在存在免疫豁免的位置，比如中枢神经系统，胰腺癌募集成纤维细胞，从而形成物理屏障，挡住了Tcell
+  - 假装自己是一个正常的细胞，比如和调节性Tcell发送信号证明自己是正常细胞，Trag就会释放免疫抑制因子，从而抑制Tcell的杀伤功能
+
+![](103.png)
+
+- 肿瘤细胞可以主动的改变免疫系统来保护自己
+- 肿瘤相关髓系细胞：
+  - 促进血管生长，促进肿瘤的更好生长迁移
+- 有以下三种因素
+  
+  ![](104.png)
+
+### Cancer immunotherapy
+
+Examples of cancer immunotherapy:
+1) Immune checkpoints of T cells
+- 共刺激信号作为signal2，不仅仅有激活信号还有抑制信号，Co-inhibitory and co-stimulatory signals
+- 免疫检查点
+- CTLA4 and PDL1/PD1：正常情况下CTLA4接受抑制性信号，即使有抗原也不激活免疫反应
+- CTLA4的作用位点是在CD4上，所以逻辑是先抑制CD4（树突状细胞高表达激活CTLA4），然后CD4无法被激活，进一步无法激活CD8
+- 但是PDL1/PD1本身就作用于CD8
+
+![](105.png)
+
+> 黑色素瘤被完全治愈
+
+2) Chimeric antigen receptor (CAR) T-cell therapy
+- 抛弃了MHC1抗原表位和TCR识别通路
+- 血液瘤细胞
+
+> Acute lymphoblastic leukemia 急性淋巴细胞⽩⾎病
+> - 当Bcell突变CD19和CD20对于肿瘤细胞存活必须，而且又没有突变
+
+- 直接通过抗体识别CD19，抗体下面连着T cell receptor的种种功能区，向胞内传播一个TCR活化的信号
+- 从病人体内外周血收取Tcell，然后从富集的CD8 Tcell用病毒转染到细胞中，表达一个嵌合受体，再重新传导到病人体内
+
+3) More strategies
+- 是否连CD8细胞都不需要了
+- 把针对肿瘤的抗体连毒素直接打到体内，特异性进入肿瘤，杀死肿瘤细胞
+
+![](106.png)
+
+> 乳腺癌，HER2高表达
+> - Antibody-drug conjugates (ADC)
+> - 在抗体后面连上了抗体上，在细胞实验中摄入五到十个分子就死了，但如果连在抗体上，因为有位阻所以无法正常发挥作用
+> - 肿瘤细胞内吞之后蛋白酶切断linker，然后直接就好了
