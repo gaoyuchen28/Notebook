@@ -474,6 +474,181 @@ NETosis: A unique process of innate immune response
 
 ![](101.png)
 
+##### Others
+
+(I) NOD-like receptors (NLRs)
+1. **NOD 样受体（NOD-like receptors, NLRs）是一类位于细胞质中的模式识别受体。**  
+   它们主要负责识别进入细胞内部的病原相关分子或细胞损伤相关信号，因此属于细胞内先天免疫识别系统的一部分。   
+2. **NLRs 的一般结构可以概括为：N 端功能结构域 + 中央 NACHT/NBD 结构域 + C 端配体感受结构域。**  ，NLRs 的 N 端结构域高度多样，这是 NLR 家族分类的重要依据，不同 NLR 亚家族的 N 端功能结构域不同，例如 CARD、PYD、BIR 等，这些结构域决定了它们后续招募下游蛋白、形成信号复合物或炎症小体的能力。NACHT 是核酸结合结构域，位于 NLR 蛋白中部，是 NLR 家族中唯一相对保守的结构域。 
+3. **NLR 家族可分为 NLRA、NLRB、NLRC 和 NLRP 等亚类。**  其中 NOD1 和 NOD2 属于 NLRC 家族，是 NLRC 家族的 founding members，因此 NLRC 家族也以它们命名。其中 NOD1 和 NLRC4 通常含有 CARD 结构域，NOD2 含有两个 CARD 结构域。  
+4. **NLRP 亚类通常以 PYD 结构域为特征。** 这与它们参与炎症小体形成密切相关。  
+  
+![](108.png)
+
+1. **NOD1 和 NOD2 识别的是细菌肽聚糖（PGN）来源的片段。** 这些肽聚糖片段来自革兰阴性菌或革兰阳性菌。  
+2. **NOD1 主要识别 iE-DAP。** iE-DAP 是细菌肽聚糖中的一种特征性片段。**NOD2 主要识别 MDP。**  MDP 可来源于革兰阳性菌和革兰阴性菌的肽聚糖，因此 NOD2 的识别范围相对更广。  
+3. 因此它们实际检测到的不是细胞外完整细菌，而是已经进入细胞内部的细菌或跨过细胞膜进入胞质的细菌片段。  
+4. **NOD1 和 NOD2 被细菌肽聚糖片段激活后，会通过 CARD-CARD 相互作用招募 RICK/RIPK2。**  
+5. **RICK/RIPK2 被招募后，可进一步引发 K63-linked ubiquitination。**  这种泛素化不是为了让蛋白被降解，而是作为信号平台，帮助激活下游通路。进而激活 IKK 复合体。然后让IκB降解掉，IκB 原本抑制 NF-κB，当 IκB 被降解后，NF-κB 中的 p50/p65 可以释放出来并进入细胞核。NF-κB 进入细胞核后，结合 NF-κB-binding motif，促进炎症相关基因转录。
+6. **NOD1/NOD2 还可以激活 MAPK 通路。**  MAPK activation 最终可影响 JUN，并通过 AP-1-binding site 促进炎症相关基因转录。  
+7.  NOD1/NOD2 的核心功能不是形成炎症小体，而是通过 RIPK2 激活 NF-κB 和 MAPK 通路，这些通路最终促进炎症细胞因子和趋化因子的表达。  
+
+![](109.png)
+
+- 炎症小体与 NLRP3
+
+1. **不是所有 NLR 都能形成炎症小体。**  只有部分 NLR 可以形成 inflammasome，主要包括 NLRP 家族成员和部分 NLRC 家族成员。  
+2. **NOD1 和 NOD2 本身不能形成炎症小体。**  NOD1/NOD2 的主要功能是通过 RIPK2 激活 NF-κB 信号通路，诱导炎症相关基因表达，而不是直接组装 inflammasome。  
+3. **NLRP3 是目前研究最多的炎症小体。**  它可以被多种刺激激活，是炎症小体部分最重要、最常考的代表。**NLRP3 可以被多种类型刺激激活。**  这些刺激包括热、机械损伤、颗粒物、病毒、细菌、真菌等。**NLRP3 识别的可能不是某一种特定分子，而是细胞内稳态的破坏。**  NLRP3 可能识别的是细胞内钾离子和钙离子浓度的异常波动，而不是直接识别 RNA、DNA 或蛋白质。  
+4. **炎症小体形成后会激活 caspase-1。** caspase-1 是炎症小体下游最核心的效应分子。**炎症小体也可以激活 caspase-4、caspase-11、caspase-12 等非凋亡相关 caspase。** 这些 caspase 参与炎症反应，而不是经典细胞凋亡。**炎症小体相关 caspase 不同于 apoptosis 中的 caspase。** 它们不同于细胞凋亡中的 caspase-9、caspase-3、caspase-8；它们不会主要导致细胞凋亡，而是触发炎症反应。 
+5. **caspase-1 激活后有两个核心功能。**  第一，切割 pro-IL-1β 和 pro-IL-18，使它们成熟并具有生物活性；第二，切割 GSDMD，使其在细胞膜上打孔。 **IL-1β 和 IL-18 需要被切割成熟后才能释放并发挥作用。** pro-IL-1β 和 pro-IL-18 是前体形式，经过 caspase-1 切割后变为成熟的 IL-1β 和 IL-18。**GSDMD 被切割后会在细胞膜上形成孔道。**这些孔道使成熟的 IL-1β 和 IL-18 能够从细胞质释放到细胞外。  
+6.  **如果 GSDMD 被大量激活，孔道过多，会导致细胞焦亡。**这种死亡方式叫 pyroptosis，即细胞焦亡；它不同于 apoptosis，是一种伴随炎症因子释放的炎症性细胞死亡。  
+
+![](110.png)
+
+(II) Soluble pattern recognition receptors
+- 可溶性模式识别分子是一类被分泌到体液中的 PRR。它们不同于膜结合型或胞质型 PRR，不能直接触发细胞内信号转导，而是通过结合病原体或损伤细胞，在细胞外发挥作用。**它们的主要作用是直接清除病原体或放大免疫反应。**常见方式包括直接杀菌、激活补体、促进调理吞噬，以及增强其他 PRR 的识别反应。
+
+Peptidoglycan recognition proteins
+- **PGRPs 是识别细菌肽聚糖的可溶性 PRR。** 肽聚糖是细菌细胞壁的重要成分，因此 PGRPs 主要参与抗细菌感染。
+- **部分 PGRPs 可以直接水解肽聚糖。** 这种作用会破坏细菌细胞壁，使细菌因渗透压失衡而死亡。PGLYRP-2 旁边的剪刀符号就表示这一过程。
+- **PGRPs 也可以与其他抗菌分子协同杀菌。** α/β defensin、PLA2、PGLYRP-1、PGLYRP-3、PGLYRP-4 等都与 bacterial killing 相连，说明它们可以共同增强抗菌效果。  
+- **PGRPs 处理肽聚糖后释放的片段，可以被 NOD1/NOD2 或 TLR 继续识别。**  因此 PGRPs 不仅直接杀菌，还可以间接增强炎症反应。  
+- **PGRPs 还可以与补体系统联系。**serum MBL 可激活 complement activation，进一步导致 opsonization，使病原体更容易被吞噬。
+
+![](111.png)
+
+C-reactive protein
+- **CRP 是由肝细胞分泌的可溶性模式识别分子。** 它在血浆中主要以五聚体形式存在，是临床常用的炎症检测指标。  
+- **细菌感染或组织损伤时，血清 CRP 水平会显著升高。**因为上游免疫细胞先通过其他 PRR 感知危险信号，然后分泌 IL-6 等细胞因子，刺激肝细胞合成 CRP。
+- **CRP 的合成受 IL-6 和 IL-1β 诱导。**infection or inflammation 后产生 IL-6、IL-1β，它们作用于肝细胞，并通过 NF-κB、C/EBPβ 等转录因子促进 CRP synthesis。  
+- **CRP 可以结合细菌表面结构并激活补体。**CRP 结合 bacterium 后招募 C1q，进一步产生 C3b/iC3b，促进补体介导的病原清除。
+- **CRP 可以促进吞噬作用。**C3b/iC3b 标记病原体后，可以被吞噬细胞表面的 complement receptor 识别，从而增强吞噬。
+- **CRP 也能识别损伤细胞或凋亡细胞表面的 LPC。**结合 LPC 后，CRP 可以促进这些异常细胞被吞噬或清除。  
+
+![](112.png)
+
+Damage-associated molecular patterns (DAMPs)
+- **DAMPs 指 damage-associated molecular patterns，即损伤相关分子模式。**它们不是来自病原体，而是机体自身细胞在损伤、坏死或应激时释放出来的分子。**DAMPs 与 PAMPs 的核心区别在于来源不同。**PAMPs 来自病原体，而 DAMPs 来自机体自身；所以 DAMPs 可以在没有感染的情况下触发免疫反应。
+- **DAMPs 触发的炎症常被称为无菌性炎症。**无菌性炎症指没有病原体存在时，由组织损伤诱发的炎症，例如心肌梗死、骨折后局部红肿、自身免疫病等。**DAMPs 的本质是“位置错误的自我分子”。** 正常情况下，细胞内或细胞核内的成分属于“自我”；但当细胞结构被破坏，这些分子被释放到细胞外或异常位置时，就会被 PRR 识别为危险信号。  
+
+- DAMPs 的来源与代表分子，组织受到外力损伤时，会释放 DAMPs。骨折、挤压伤、缺血等情况会导致细胞破裂，使正常位于细胞内的分子暴露到细胞外。
+  - ATP 是典型 DAMP，可以通过嘌呤受体触发炎症，ATP 主要通过 P2X7R 参与炎症激活。
+  - HMGB1 是典型 DAMP，可被多种受体识别: HMGB1 可激活 TLR9；图3中 HMGB1 还可以通过 RAGE、TIM-3 等受体作用于不同细胞，HMGB1 可以连接多种免疫反应，HMGB1 可作用于 DC、肿瘤细胞、巨噬细胞和中性粒细胞，说明同一个 DAMP 可以在不同细胞中产生不同效应。
+  - 尿酸也是一种 DAMP。尿酸可激活 TLR4；uric acid 与巨噬细胞、嗜中性粒细胞相关，提示它可参与炎症反应。  
+  - S100 蛋白、IL-1α、腺苷等也可以作为损伤相关信号。S100 可通过 RAGE 作用于免疫细胞，IL-1α 可通过 IL-1R1 作用于内皮细胞或巨噬细胞，腺苷则通过 A1、A2A、A3 等受体发挥作用。S100 蛋白主要通过 RAGE 参与免疫调节。S100 与 RAGE 相连，并作用于 MDSC、肿瘤细胞或巨噬细胞，提示它可参与炎症或免疫抑制过程。
+  - IL-1α 可以通过 IL-1R1 促进炎症相关反应。
+- DAMPs 可以诱导炎症反应，参与无菌性炎症。DAMPs 也可能导致免疫抑制。DAMPs 还可能促进血管生成和细胞增殖。
+
+![](113.png)
+
+Sterile inflammation
+- Sterile inflammation 指的是**没有病原体感染参与的炎症反应**。它通常由组织损伤、细胞坏死或代谢异常引起：当细胞受损后，原本应该待在细胞内或细胞核内的自身分子被释放到细胞外，这些“出现在错误位置的自我分子”就会成为 DAMPs，被 PRR 识别并触发先天免疫反应。因此，它和由细菌、病毒等 PAMPs 引起的感染性炎症不同，核心原因不是“外来病原体”，而是“自身组织损伤”。多种疾病都可以与无菌性炎症有关，例如阿尔茨海默病、帕金森病、中风、动脉粥样硬化、心肌梗死、2 型糖尿病、肥胖、关节炎、痛风、慢阻肺、矽肺等。这说明无菌性炎症并不局限于某一个器官，而是可以发生在脑、心血管、肺、代谢组织和关节等多个系统中。
+
+![](114.png)
+
+### NK cells
+
+- **NK 细胞是连接天然免疫和适应性免疫的关键细胞。** 在病毒感染早期，天然免疫反应虽然启动快，但干扰素本身不能直接杀死病毒；而 T 细胞彻底清除病毒需要更长时间。因此，在感染后 5–7 天的“空窗期”，NK 细胞可以先被激活，帮助压低病毒载量。
+- **NK 细胞属于 innate lymphoid cells, ILCs。** NK 细胞和 ILC 都属于天然淋巴细胞，和 T/B 细胞一样属于淋巴谱系，但它们没有经过重排的抗原特异性受体，因此反应更快、识别方式也更偏向模式化。  
+- **NK 细胞主要针对病毒感染细胞和胞内病原体感染细胞。**
+
+![](115.png)
+
+NK cells are activated by innate immune cytokines
+- 病毒感染早期，细胞会先产生 IFN-α、IFN-β、TNF-α 和 IL-12。这些天然免疫细胞因子可以激活 NK 细胞，使 NK 细胞在 T 细胞完全启动前发挥杀伤作用。  
+- NK 细胞介导的杀伤出现在 T 细胞杀伤之前.
+
+> 绿色曲线代表早期细胞因子产生，蓝色曲线代表 NK 细胞杀伤，红色曲线代表 T 细胞杀伤；说明 NK 细胞是早期控制病毒的重要中间环节。  
+
+- NK 细胞的作用不是完全清除病毒，而是防止病毒在适应性免疫启动前持续指数增长。NK 细胞更像是“早期压制者”，为后续 T 细胞彻底清除感染争取时间。
+
+![](116.png)
+
+NK cells: Self vs. non-self
+- NK 细胞的默认状态偏向“杀伤”。正常细胞表面的 MHC-I 会向 NK 细胞传递抑制性信号，使 NK 细胞不杀伤正常细胞。  
+- 正常细胞表达 MHC-I，可以被 NK 细胞的抑制性受体识别. 当抑制性信号足够强时，它会压过激活性信号，因此NK细胞不会杀伤正常细胞。  
+- 病毒感染细胞或肿瘤细胞常常下调 MHC-I。它们逃避免疫系统中的 T 细胞识别，但同时会让它们失去对 NK 细胞的抑制信号.
+- 当 MHC-I 缺失或降低时，NK 细胞会感受到“missing self”。如果靶细胞同时表达激活配体，NK 细胞就会被激活并杀伤靶细胞。  
+- NK 细胞是否杀伤靶细胞，取决于抑制性信号和激活性信号的整合。**  
+
+![](117.png)
+
+NK cells: Inhibitory receptors
+- 抑制性受体主要识别 MHC-I 等“自我”信号。抑制性受体胞内含有 ITIM。ITIM: immunoreceptor tyrosine-based inhibitory motif，识别 MHC-I 等信号后会抑制 NK 细胞活化。
+- 典型抑制性受体包括 KIR-2DL、KIR-3DL 和 CD94/NKG2A。这些受体通过胞内 ITIM 传递抑制信号，帮助 NK 细胞避免误伤正常自身细胞。
+
+![](118.png)
+
+NK cells: Activating receptors
+- 激活性受体主要识别感染、应激或肿瘤细胞表面的激活配体。当这些配体出现并且抑制信号不足时，NK 细胞会被激活.激活性受体胞内或连接的接头蛋白含有 ITAM: immunoreceptor tyrosine-based activation motif，识别应激配体后可以激活 NK 细胞。  
+- 典型激活性受体包括 KIR-2DS、KIR-3DS、NKG2C、NKp30、NKp44、NKp46 和 NKG2D。
+- 肿瘤细胞可能表达激活诱导配体，从而增强 NK 细胞激活。靶细胞表面的 MICA/B、ULBP1-6 等配体可被 NKG2D 等激活性受体识别。  
+
+![](119.png)
+
+Cytotoxicity of NK cells: Degranulation
+- 脱颗粒是 NK 细胞最重要的杀伤方式之一。 当 MHC-I 缺失导致抑制信号不足，同时激活受体信号占优时，NK 细胞会释放颗粒内容物，诱导靶细胞凋亡。
+- NK 细胞释放的主要颗粒成分是 perforin 和 granzyme B。Perforin 可以在靶细胞膜上打孔，使 granzyme B 更容易进入靶细胞。  
+  - Granzyme B 进入靶细胞后，可以激活 caspase 级联反应.granzyme B 可激活 caspase-8、caspase-3，也可以通过线粒体通路促进 cytochrome c 释放和 caspase-9 激活。  
+  - caspase 激活后会导致 DNA fragmentation 和细胞凋亡。activated caspase-3 可通过 CAD/ICAD 途径导致 DNA fragmentation，这是靶细胞凋亡的重要结果。  
+- 脱颗粒通路的逻辑是：perforin 打孔 → granzyme B 进入 → caspase 激活 → 靶细胞凋亡。
+
+![](120.png)
+
+Cytotoxicity of NK cells: TRAIL signal
+- NK 细胞表面可以表达 TRAIL。TRAIL 是 TNF family ligand，可以与靶细胞表面的死亡受体结合。  
+  - TRAIL 主要结合靶细胞表面的 DR4 或 DR5。当 TRAIL 与 DR4/DR5 结合后，会通过 FADD 招募并激活 pro-caspase-8。  
+  - caspase-8 激活后会启动外源性凋亡通路。
+  - TRAIL 通路还可以与线粒体凋亡通路相连接。caspase-8 可通过 tBID 影响 BAX/BAK，进一步引起线粒体释放 cytochrome c，激活 caspase-9 和 caspase-3/6/7。  
+  - TRAIL 信号在某些情况下也可能连接到 necroptosis。
+- TRAIL 通路的核心逻辑是：TRAIL 结合 DR4/DR5 → FADD 招募 → caspase-8 激活 → apoptosis；部分情况下也可能连接 necroptosis。
+
+![](121.png)
+
+### Innate lymphoid cells (ILCs)
+
+Innate lymphoid cells (ILCs)
+- 天然淋巴细胞（innate lymphoid cells, ILCs）属于淋巴谱系，但没有重排的抗原特异性受体。因此它们不像 T/B 细胞那样依赖抗原特异性识别和克隆扩增，而是可以快速响应局部细胞因子和 alarmins。ILCs 是天然免疫细胞，但功能上与适应性免疫中的 T 细胞高度对应。NK 细胞类似 CD8+ T 细胞，ILC1 类似 Th1，ILC2 类似 Th2，ILC3 类似 Th17。
+- ILC1、ILC2、ILC3 的命名与 Type 1、Type 2、Type 3 immunity 对应。ILCs 的关键价值在屏障组织。它们分布在皮肤、肺、肠道等屏障部位，可以在感染早期快速改变局部细胞因子环境，为后续适应性免疫提供方向。  
+
+![](122.png)
+
+Type 1 innate lymphoid cells (ILC1s)
+- LC1 主要参与抗病毒、抗胞内细菌和抗原虫反应。胞内细菌、病毒和原虫刺激组织后，树突状细胞等细胞产生 IL-12、IL-18，从而激活 NK/ILC1。ILC1/NK 被激活后主要产生 IFN-γ。IFN-γ 可以增强巨噬细胞的杀伤功能，使其产生 MMPs、NO、细胞因子等，帮助清除胞内病原体。  
+- ILC1 还可以帮助适应性免疫向 Th1/Tc1 方向发展。NK/ILC1 产生 IFN-γ，并与树突状细胞、初始 CD4⁺/CD8⁺ T 细胞共同促进 Th1 和 Tc1 反应。
+- ILC1 的核心逻辑是：胞内感染 -> IL-12/IL-18 -> ILC1/NK -> IFN-γ -> 激活巨噬细胞和细胞毒反应。  
+
+Type 2 innate lymphoid cells (ILC2s)
+- ILC2 主要参与抗寄生虫、抗真菌感染以及过敏反应，蠕虫刺激上皮和树突状细胞，使局部产生 IL-25、IL-33、TSLP，从而激活 ILC2。
+- ILC2 激活后主要产生 IL-5 和 IL-13，也可与 IL-4 相关反应协同。IL-5 促进嗜酸性粒细胞分化和活化，IL-13 促进杯状细胞增生和黏液分泌。
+- ILC2 可以促进肥大细胞、嗜碱性粒细胞和嗜酸性粒细胞参与反应。ILC2/Th2 产生的细胞因子可以促进这些细胞释放血管活性介质、细胞因子或毒性蛋白。  
+- ILC2 与 Th2 反应功能对应：两者都围绕 IL-4、IL-5、IL-13 展开，最终形成 Type 2 immunity，用于驱虫、促进黏液分泌和屏障防御。  
+- ILC2 的核心逻辑是：寄生虫/屏障刺激 → IL-25、IL-33、TSLP → ILC2 → IL-5、IL-13 → 嗜酸性粒细胞、黏液分泌和屏障修复。
+
+![](124.png)
+
+Type 3 innate lymphoid cells (ILC3s)
+- ILC3 主要参与抵御胞外细菌和真菌，尤其重要于肠道黏膜等屏障组织。胞外细菌和真菌刺激后，树突状细胞产生 IL-1β 和 IL-23，进一步激活 ILC3。  
+- ILC3 激活后主要产生 IL-17A、IL-17F 和 IL-22。这些细胞因子作用于上皮细胞、内皮细胞、成纤维细胞和巨噬细胞，增强局部抗菌防御。IL-22 促进上皮修复和再生。IL-17 可以促进中性粒细胞募集。
+- ILC3 与 Th17 反应功能对应。两者都以 IL-17、IL-22 为核心效应因子，主要负责胞外细菌、真菌防御和上皮屏障稳态。  
+- ILC3 的核心逻辑是：胞外细菌/真菌 -> IL-1β、IL-23 -> ILC3 -> IL-17、IL-22 -> 抗菌肽、屏障修复和中性粒细胞募集。 
+
+![](125.png)
+
+Innate and adaptive immunity
+
+![](123.png)
+
+Adaptive immunity depends on innate immunity
+- 适应性免疫依赖天然免疫提供早期控制和方向引导。如果缺少天然免疫成分，病原体会快速失控；如果只有天然免疫而缺少 T/B 细胞，病原体可以被部分控制但难以彻底清除。  
+- 正常个体依靠天然免疫和适应性免疫的配合清除感染
+- 屏障感染后，天然免疫先在局部发挥作用。
+- 树突状细胞把局部感染信息带到淋巴结，启动适应性免疫。
+- 适应性免疫最终通过抗体、T 细胞依赖的巨噬细胞活化和细胞毒 T 细胞清除感染。
+- 整体逻辑是：屏障感染 -> 天然免疫快速控制 -> 树突状细胞迁移至淋巴结 -> 适应性免疫启动 -> 特异性清除病原体。
+
+
 # Adaptive immunity: T cells
 
 适应性免疫涉及大范围的细胞迁移
