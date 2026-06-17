@@ -678,25 +678,32 @@ Adaptive immunity depends on innate immunity
 
 MHC存在的真实意义为呈递抗原
 呈递的必须是连续的线性的结构，which means如果是一段多肽需要先将蛋白质裂解
-（一张图片）
+
+![](126.png)
 
 从antigen到epitope：
 - epitope：能够被一个T/B cell所识别的表位（就是刚才说的多肽）
 
 MHC1 & MHC2
-（一张很重要的图）
+
+![](127.png)
+
 - 都是一元二聚体
 - MHC1: 跨膜蛋白大亚基，和不跨膜的小亚基（大亚基决定了抗原呈递位置）
 - MHC2: 几乎对等的两个跨膜亚基（共同组成抗原呈递表位）
 
 MHC1 所呈递的是intracellular components：
-（组装方式是一张图）
+
+![](128.png)
+
 - 肽的结合是纯随机状态，有结合的hotpot和coldpot，N端和C端分别有梳水的结构，形成稳定存在的热点区域，与N/C端距离固定，呈递的peptide大概就是8个氨基酸
 - CD8
 - 呈递病毒，代表着细胞已经被感染，需要的就是直接杀死，所以呈递对象是CD8，CD8的一个亚基可以直接结合MHC1蛋白
 
 MHC2 呈递extracellular components：细胞从外部环境捕获消化的产物
-（组合方式是一张图）
+
+![](129.png)
+
 - 在ER形成后必须转移到能够消化蛋白的西方，并带有一个invariant chain（CLIP），一方面作为信号分子转移，另一方面卡住，保证MHC2不会被loading出自身的肽；在溶酶体中信号分子chain被降解，然后CLIP还在；等到胞外进入溶酶体之后CLIP再离开
 - CD4
 - 呈递的东西很多样，N/C端比较的flexible，长短不一，但即使N/C不稳定，依然能找到保守性的位点，只是往N/C具体不固定，是可以滑动的
@@ -714,24 +721,277 @@ MHC2 呈递extracellular components：细胞从外部环境捕获消化的产物
 
 但是对一个确定序列的MHC分子，能呈递的肽段是保守的，稳定的
 结合的病毒可能不同，但是都是保守的motif
-（一张图）
 
 TCR受体（T-cell receptor）
 每个亚基有三个CDR（一共6个），可以非常清晰的感知MHC呈递的结构，有的是读肽段，有的是识别MHC分子
 
 进化上：单基因到多基因，多基因呈现出多态性
+Polygeny and polymorphism of MHC molecules ensure the efficiency of antigen presentation
+
+![](130.png)
 
 获得性免疫免疫没有区分自我和非我能力，这个部分是由天然免疫反应做到的
-（一张图）
 
-树突状细胞在静息状态下，被MARCH分子卡在了分泌过程中，当病毒侵染后，天然免疫反应激活了toll受体（eg），抑制了MARCH分子的表达，降解之后就开始呈递了
+![](131.png)
+
+Innate immunity enhances antigen presentation
+- 树突状细胞在静息状态下，被MARCH分子卡在了分泌过程中，当病毒侵染后，天然免疫反应激活了toll受体（eg），抑制了MARCH分子的表达，降解之后就开始呈递了
+
+![](132.png)
 
 获得性免疫遗传的激活必须需要天然免疫反应 -> 共刺激信号
-（一张图）
+
+![](133.png)
+
 局部的非我信息转化为树突状细胞可以表达的信息（膜上高表达共刺激信号，传递到淋巴结）-> signal II
+
 signal I和signal II的**co-stimulatory signal**，二者必须共激活才能产生反应
 
 同时是co-stimulation和co-inhibition信号
+
+![](134.png)
+
+### T cell-mediated responses
+
+T 细胞受体 TCR 通常指 αβ TCR，由 TCRα chain 和 TCRβ chain 组成，是一个异二聚体 heterodimer。
+每条链都包括可变区和恒定区：
+- TCRα chain:
+  - Vα: variable region，可变区
+  - Cα: constant region，恒定区
+- TCRβ chain:
+  - Vβ: variable region，可变区
+  - Cβ: constant region，恒定区
+
+其中 Vα 和 Vβ 位于 TCR 顶端，共同形成 antigen-binding site。
+
+![](135.png)
+
+TCR 的结构可以类比抗体的 Fab 区。
+抗体中：
+- VL 和 VH 共同形成 antigen-binding site
+- CL 和 CH 是 constant region
+- Fab 负责抗原结合
+- Fc 负责效应功能
+因此，TCR 可以理解为一种膜结合的、类似 antibody Fab 区的抗原识别受体。
+
+- 抗体/BCR 可以直接识别游离抗原，例如蛋白质、毒素或病毒表面结构。TCR 不能直接识别游离抗原，而是识别 peptide-MHC complex，即抗原肽-MHC 复合物。因此，TCR 的 antigen-binding site 更准确地说是 peptide-MHC recognition site。
+
+TCR 可变区中含有 CDRs，即 complementarity-determining regions: 一个 αβ TCR 一共有六个 CDR：
+- CDR1α、CDR2α、CDR3α
+- CDR1β、CDR2β、CDR3β
+
+- CDR1 和 CDR2:
+  - 主要由 V region 编码, 多样性相对有限, 主要接触 MHC 分子, 对 MHC 具有固有亲和力
+
+- CDR3:
+  - 位于 V(D)J junctional region, 多样性最高, 主要接触抗原肽 peptide, 是 TCR 抗原特异性的关键区域
+
+Gene organization of TCRα and TCRβ loci
+- 红色方块：V gene segments, TCRα 中是 Vα, TCRβ 中是 Vβ
+- 绿色方块：D gene segments, 只出现在 TCRβ locus 中, TCRα locus 中没有 D segment
+- 黄色方块：J gene segments, TCRα 中是 Jα, TCRβ 中是 Jβ
+- 蓝色方块：C region, TCRα 中是 Cα, TCRβ 中是 Cβ1 和 Cβ2
+- 白色方块 L：leader sequence，编码 signal peptide，帮助新合成的 TCR 多肽链进入内质网分泌途径，最终使 TCR 能够作为膜蛋白表达在 T 细胞表面
+
+- **α-chain locus** 
+
+```text
+多个 Vα gene segments → 多个 Jα gene segments → 一个 Cα region
+```
+- **β-chain locus**
+```text
+多个 Vβ gene segments → Dβ-Jβ-Cβ cluster → Dβ-Jβ-Cβ cluster
+```
+
+![](136.png)
+
+V(D)J recombination of TCRα and TCRβ loci
+
+![](137.png)
+
+- **germline DNA** 指的是还没有发生重排之前的原始基因排列状态。
+  - V gene segments、D gene segments、J gene segments 和 C region 是分开的；
+
+- TCRα locus 的重排方式：VJ recombination，**Vα1**被选中并连接到一个 **Jα** 片段上，重排完成后，原来分散的 Vα 和 Jα 被拼接到一起，然后这个重排后的 α 链基因再经过：transcription, splicing, translation形成最终的蛋白质
+
+- TCRβ locus 的重排方式：VDJ recombination，重排完成后，Vβ、Dβ、Jβ 被连接成一个连续的可变区编码序列，然后这个重排后的 β 链基因再经过：transcription，splicing，translation 最终产生TCRβ chain。
+```text
+Vβ + Dβ + Jβ → rearranged VDJβ
+```
+
+Recombination signal sequence (RSS) and the "12/23 rule"
+- RSS 全称是：是 V(D)J recombination 中被重组酶识别的 DNA 信号序列，RSS 通常由三部分组成：heptamer + spacer + nonamer
+  - heptamer：7 个核苷酸组成的保守序列，靠近 V、D、J coding segment；
+  - spacer：间隔区，可以是 12 bp 或 23 bp（12-RSS和23-RSS）
+  - nonamer：9 个核苷酸组成的保守序列。
+
+![](139.png)
+
+- 12/23 rule**：V(D)J recombination 中，只有一个 12-RSS 和一个 23-RSS 可以配对重排。这个规则保证了 V、D、J gene segments 按照正确顺序连接，而不会随便连接。避免同类 gene segment 之间错误连接。
+
+- V gene segment 在基因组中可以有不同方向，因此重排后 DNA 的结果也不同。V gene segment 相对于下游 J gene segment，可以是forward orientation或者reverse orientation
+  - forward-oriented V gene segment：删除型重排，当 V gene segment 和 J gene segment 方向相同的时候，中间 DNA 会形成一个环状结构。重排完成后，中间 loop 被从染色体上切除，形成一个带有 RSS 的环状 DNA。
+    - coding joint 留在染色体上；
+    - signal joint 位于被切除的环状 DNA 上；
+    - intervening DNA 被删除。
+  - reverse-oriented V gene segment：倒位型重排，a当 V gene segment 和 J gene segment 方向相反时，两个 RSS 对齐后，中间 DNA 不会简单形成可切除的环，而是形成一种盘绕结构。
+    - intervening DNA 仍然保留在染色体中；
+    - 但它的方向发生 inverted orientation；
+    - 这与删除型重排不同。
+
+![](140.png)
+
+The "12/23 rule" is enforced by RAG1 proteins
+- 两个 RAG1/RAG2 单元：RAG1 的 NBD 不是刚性固定的，而是通过柔性铰链连接到 RAG1 主体上，RAG1 的 NBD 通过 flexible hinge 具有一定空间可动性，使 RAG1 能够识别 RSS 中的 nonamer，并参与 RSS 配对。nRAG1 不是随便结合 DNA，而是通过 NBD 识别 RSS 中特定的 nonamer 区域。
+- 当一个 12-bp RSS 已经结合到一个 RAG1 上时，会促进另一个 RAG1 去结合 23-bp RSS。这就是12/23 rule 的结构基础。
+  - RAG1 的 NBD 主要靠近并识别 **nonamer**；
+  - **heptamer** 靠近真正要发生重排的 V/J 编码片段，标记 coding segment 和 RSS 的边界，让 RAG1/RAG2 在正确位置切割 DNA
+  - 12-bp spacer 和 23-bp spacer 的长度差异影响两个 RSS 能不能被 RAG 复合体正确装配。
+
+V(D)J recombination generates a diversity of TCRα and TCRβ
+
+Nucleotide additions at the V(D)J joints further diversify TCR
+- RAG1/RAG2 复合体先识别并结合 V、D、J 片段旁边的 RSS。两个合适的 RSS 被 RAG1/RAG2 复合体拉到一起，形成 synaptic complex。在这个复合体中，两个准备重排的 gene segments 被放到合适位置，RAG1/RAG2 在 coding segment 与 RSS 的交界处切割 DNA。会形成coding ends（来自 V、D、J 编码片段的一端）和signal ends（来自 RSS 的一端）。
+- RAG 切割后，coding ends 会形成：covalently closed DNA hairpin ends，这个 hairpin 不能直接连接，必须先被打开。Ku70/Ku80 是 DNA 修复相关蛋白，可以识别 DNA 断端，它们结合 coding ends 后，招募后续修复蛋白。DNA-PK 和 Artemis 复合体打开 coding ends 上的 DNA hairpin。**它不是一定在正中间对称打开，会产生短的回文序列** P-nucleotides
+- TdT 处理 DNA ends，加入 N-nucleotides，可以在没有模板的情况下，随机向 DNA 末端加入核苷酸。这些由 TdT 随机加入的核苷酸称为N-nucleotides，N-nucleotides 是非模板编码的随机核苷酸，最多可以加入约 20 个左右。
+- DNA ligase IV:XRCC4完成连接。
+- signal ends 是 5'-phosphorylated blunt ends，signal joint 的结果是 Precise signal joint，也就是 **精确连接**。
+
+![](142.png)
+
+![](143.png)
+
+Repeated recombination can rescue nonproductive VαJα rearrangement
+- 第一次 Vα-Jα 重排发生了，但是这个连接不是 functional 的，nonproductive rearrangement
+  - V-J junction 处核苷酸随机增加或删除；
+  - reading frame 被破坏；
+  - 出现 frameshift；
+  - 出现 premature stop codon；
+  - 最终不能产生 functional TCRα chain。
+- 后续的重排可以绕过之前失败的 VJ 连接，使用其他还没有被消耗的 Vα 和 Jα 片段。TCRα locus 中 Jα 片段数量很多，因此第一次失败后，细胞可以选择更靠后的 Jα 片段继续重排。TCRα locus 可以发生多轮重排，直到产生一个功能性 α 链。
+- 为什么 TCRα 链可以这样补救
+  1. TCRα locus 有很多 Jα gene segments：第一次失败后，后面仍然有其他 Jα 片段可用。
+  2. TCRα 是 VJ recombination：不需要 D segment，因此可以通过新的 Vα-Jα 组合继续尝试。
+  3. VJ 连接失败不一定立即终止所有可能性：只要还有可用的 Vα 和 Jα 片段，就可能继续重排。
+
+![](144.png)
+
+“Unconventional” TCR: TCRδ and TCRγ loci
+- Human TCR α, δ chain locus: 人类 TCRα 和 TCRδ 相关基因座位于 **14 号染色体**，整个区域约 **1000 kb**。TCRδ locus 位于 TCRα locus 相关区域之中。TCRδ locus 嵌在 TCRα locus 内, TCRδ 的基本结构可以概括为：TCRδ locus = Vδ + Dδ + Jδ + Cδ, TCRδ 不是简单的 VJ 型结构，而是含有 Dδ 片段的结构。
+- 有 5 个 Vδ gene segments 与 TCRα 共用；另外还有 1 个额外的 Vδ gene segment 只用于 TCRδ。
+  - 一部分 **Vδ gene segments** 可以与 **TCRα** 共用；
+  - 另外还有一个 **TCRδ 专属的 Vδ gene segment**。
+- 人类 TCRγ chain locus 位于 **7 号染色体**，整个区域约 **200 kb**。TCRγ locus 的基本结构是：Vγ gene segments —— Jγ gene segments —— Cγ regions，TCRγ 和 TCRα 类似，没有 D segment，属于 VJ 型结构。
+
+![](145.png)
+
+Unusual V(D)J recombination of TCRδ
+
+> **蓝色方块**：Vδ gene segments  
+> **红色方块**：Dδ gene segments  
+> **黄色方块**：Jδ gene segments  
+> **绿色方块**：C region  
+- D-J rearrangement: TCRδ 的 D-J 重排中，可以保留两个 Dδ segments。
+- V-D-J rearrangement: 一个 Vδ segment 再接到前面形成的 Dδ-Dδ-Jδ 结构上。
+- splicing 形成 TCRδ transcript
+- 因为多保留一个 Dδ segment，就意味着多了一个连接区 junction。这些连接区都可能发生核苷酸的随机加减，因此会进一步增加 TCRδ chain 的多样性。
+
+VαJα rearrangement deletes TCRδ locus
+- TCRα 链发生的是 **VJ recombination**：在这个过程中一部分DNA被切掉，其中包括：Vδ，Dδ × 3，Jδ × 4，Cδ，一旦这个 TCRα 重排发生，这个等位基因上的 TCRδ locus 就不能再用于产生 TCRδ chain，即TCRα 和 TCRδ 在同一个基因区域中存在结构性互斥。
+
+V(D)J recombination and Complementarity-determining regions (CDRs)
+- TCR 的抗原结合位点不是一个单独结构，而是由 α 链和 β 链上的多个 CDR loops 共同组成。**
+  - CDR1α：位于 Vα region
+  - CDR2α：位于 Vα region
+  - CDR3α：位于 Vα-Jα junction
+  - CDR3α：V-J junction 处会发生 P/N nucleotide additions，所以 CDR3α 多样性更高。
+  - CDR1β：位于 Vβ region
+  - CDR2β：位于 Vβ region
+  - CDR3β：位于 Vβ-Dβ-Jβ junction
+  - **CDR3β** 横跨 V-D-J junction：V-D 和 D-J junction 处会发生 P/N nucleotide additions，因此 CDR3β 多样性很高。
+
+Complementarity-determining regions, CDRs, recognize the complex of MHC-peptide
+- TCR 的 CDRs 不是单独识别 peptide，而是识别 MHC-peptide complex。
+  - TCR 的 CDR loops 需要同时接触两类结构：**MHC 分子的表面** + **MHC groove 中呈递的 peptide**
+  - CDR1/CDR2 主要负责接触 MHC 分子
+  - CDR3α 和 CDR3β 更靠近 MHC groove 中央，也就是 peptide 所在的位置。CDR3 主要负责接触 peptide，是 TCR 抗原肽特异性的关键区域。
+
+CDR1 and CDR2 of V-region genes have inherent affinity for MHC molecules
+- CDR1 和 CDR2 主要由 TCR 的 V region 编码，CDR1/CDR2 的结构主要由选择了哪个V gene segment决定。这和 CDR3 不同。CDR3 主要位于 V(D)J junction，受到 P/N nucleotide addition 和 junctional diversity 的强烈影响，因此多样性更高。TCR 不是完全随机地“撞上”MHC，而是 V region 编码的 CDR1/CDR2 已经在结构上适合接触 MHC 分子。
+
+![](146.png)
+
+T-cell development
+1. T-cell precursor 承诺进入 T-cell lineage: T 细胞前体在 Notch signaling 的作用下承诺进入 T-cell lineage，并开始 TCR 基因重排。
+  - 一个T-cell precursor和一个thymic stromal cell，二者之间有Notch signaling；
+  - T-cell precursor 内部已经开始出现 TCR gene rearrangement 的示意
+  - T 细胞发育的第一步是 lineage commitment，也就是前体细胞决定走向 T cell fate
+  - 同时，它开始进行：T-cell receptor gene rearrangements
+2. 未成熟 T 细胞接受 self MHC / self antigen 检验
+  - 能够识别 self MHC 的 immature T cells 会获得存活信号；但是如果它们与 self antigen 反应过强，就会被从 TCR repertoire 中清除。
+    - 完全不能识别 self MHC：无法获得存活信号；
+    - 能适度识别 self MHC：可以继续发育；
+    - 过强识别 self antigen：会被删除，避免自身免疫。
+3. 成熟 T 细胞进入外周淋巴器官并遇到 foreign antigen
+  - 成熟 T 细胞离开胸腺后，并不是马上发挥效应功能，而是要到外周淋巴器官中寻找由抗原呈递细胞呈递的外来抗原。
+4. 被激活的 T 细胞增殖并清除感染
+  - 激活后的 T cell 可以：激活 macrophage & 杀伤 infected cell
+
+Thymus structure and T-cell development environment
+- T 细胞虽然来源于骨髓相关前体细胞，但其发育和选择主要发生在 thymus 中
+  - cortex：皮质区（深紫色、细胞密集的区域对应 **cortex**）
+    - 胸腺皮质区含有大量正在发育的 thymocytes，并且这些 thymocytes 与 cortical epithelial cells 密切接触。
+  - medulla：髓质区（颜色较浅、细胞相对少一些的区域对应 **medulla**）
+    - medullary epithelial cell，dendritic cell，macrophage，thymocyte
+  - cortico-medullary junction：皮髓交界区
+  - dendritic cell 和 macrophage 都是：bone marrow origin
+  - Hassall's corpuscle：是胸腺髓质中的特征性结构。
+- T 细胞发育早期在胸腺中完成，胸腺提供了 TCR gene rearrangement、self MHC 识别、self antigen 筛选所需的特殊环境；成熟后，T 细胞离开胸腺，在外周淋巴器官遇到 foreign antigen 并发挥效应功能。
+
+T-cell development proceeds through different compartments of the thymus
+- DN（Double-negative）阶段：double-negative thymocytes，这个时期还是CD4− CD8−，也就是细胞表面还没有表达 CD4 和 CD8。
+- 会分成四个阶段，DN1 → DN2 → DN3 → DN4：这些阶段主要根据 CD44 和 CD25 的表达来区分。
+  - DN1 是较早进入胸腺发育程序的 thymocyte 阶段，cortico-medullary junction，也就是皮髓交界区附近。
+  - DN2 阶段：T cell precursor 进入更明确的 T-lineage 发育状态，并继续向胸腺皮质区域迁移。
+  - DN3 阶段：DN3 的关键特征是图中出现了pre-TCR，pre-TCR 的出现表示 β chain 重排已经产生了可以测试的产物。  
+  - DN4 阶段：CD44− CD25−，DN4 阶段细胞会发生增殖。DN4也位于皮质区域，靠近immature double-negative thymocytes的区域。
+- DP 阶段：double-positive thymocytes：DP 阶段显示细胞表面同时表达CD4，CD8，细胞开始表达完整 TCR，并进入后续识别和选择相关阶段。DP thymocytes 位于 cortex 中，
+- SP 阶段：single-positive thymocytes：两个 single-positive cell，一个保留 CD4，一个保留 CD8，细胞从双阳性状态分化成只表达 CD4 或只表达 CD8 的成熟 thymocyte。
+- T cell developmental stage 与 thymus compartment 是对应的。不是所有阶段都在同一个位置完成，而是随着发育推进，细胞在皮髓交界、皮质、包膜下区域和髓质之间迁移。
+- thymocyte 的发育发生在由多种 stromal / antigen-presenting cells 构成的胸腺微环境中
+
+![](147.png)
+
+T-cell development correlates with V(D)J recombination of TCR
+- T 细胞发育过程中，TCRβ 链先在 DN 阶段重排，TCRα 链后在 DP 阶段重排。早期 thymocyte 处于 double-negative（CD4⁻CD8⁻） 状态，并依次经历 DN1、DN2、DN3、DN4，其中 DN2/DN3 附近先发生 Dβ-Jβ 重排，随后发生 Vβ-DJβ 重排；如果 β 链成功表达，就在 DN3 阶段形成 pre-TCR，通过检查点后进入 DN4 并发生增殖。之后细胞进入 double-positive（CD4⁺CD8⁺） 阶段，在这一阶段进行 Vα-Jα 重排，形成完整的 αβ TCR。完成 TCR 表达并经过后续选择后，细胞最终分化为 single-positive（CD4⁺ 或 CD8⁺） T 细胞。
+
+![](148.png)
+
+Positive selection of TCR: Weak affinity to self MHC-peptide enables survival
+- Positive selection of TCR: MHC restriction
+  - 识别 MHC class I 的 TCR 会产生 CD8⁺ T cells：这个 transgenic TCR 被设定为识别 **MHC class I**，CD4⁺CD8⁺ double-positive T cells, DP thymocytes，识别 MHC class I 的 TCR 会让细胞走向 CD8⁺ T cell lineage。
+  - 识别 MHC class II 的 TCR 会产生 CD4⁺ T cells：这个 transgenic TCR 被设定为识别 **MHC class II**，识别 MHC class II 的 TCR 会让细胞走向 CD4⁺ T cell lineage。
+  
+  ![](149.png)
+
+  - Transgenic receptor restricted to MHCᵃ：这个 transgenic TCR 只能识别特定的 MHC allele，即 MHCᵃ。即使都是同一类 MHC，不同 MHC allele 也会影响正选择。
+
+  ![](150.png) 
+
+> - stroma expressing MHCᵃ → 有 single-positive CD8⁺ T cells mature，也就是胸腺基质细胞表达的是 MHC。当胸腺 stroma 表达的 MHC allele 与 TCR 的 MHC restriction 匹配时，T 细胞可以通过正选择并成熟。
+> - stroma expressing MHCᵇ → no single-positive T cells mature，也就是胸腺基质细胞表达的是 MHCᵇ。如果胸腺 stroma 表达的 MHC allele 与 TCR restriction 不匹配，DP thymocytes 不能通过正选择，最终没有 mature single-positive T cells 产生。
+
+![](151.png)
+
+Negative selection of TCR: Strong affinity to self MHC-peptide causes death
+- thymocyte 识别了 cortical epithelial cell 呈递的 self antigen：即使 self antigen 是由 cortical epithelial cell 呈递的，只要 TCR 信号过强，这个 thymocyte 也会死亡。
+- thymocyte 识别了 medullary epithelial cell 呈递的 self antigen：medullary epithelial cell 也可以呈递 self antigen，并诱导强自身反应性 thymocyte 死亡。
+- thymocyte 识别了胸腺中 bone marrow-derived cell 呈递的 self antigen：这些 bone marrow-derived cells 可以理解为胸腺中的骨髓来源抗原呈递细胞，例如 dendritic cell 或 macrophage。
+
+Positive and negative selection of TCR: Central tolerance
+- TCR 识别 self peptide:self MHC 太弱会死，适中会活，较强可能变 Treg，太强会被负选择删除
+
+![](152.png)
 
 # Adaptive immunity: B cells
 
