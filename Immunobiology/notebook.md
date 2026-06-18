@@ -993,6 +993,153 @@ Positive and negative selection of TCR: Central tolerance
 
 ![](152.png)
 
+### T-cell activation and functions
+
+T cell differentiation mainly occurs in secondary lymphoid organs
+- 淋巴结同时连接血液循环和淋巴循环
+- 血液循环：
+  - 成熟 naive T cells 从胸腺进入血液。
+  - 通过高内皮微静脉 high endothelial venules, HEVs 进入淋巴结。
+  - B cells 也可以通过血液进入淋巴结。
+- 淋巴循环：
+  - 外周组织中的 dendritic cells 捕获抗原后，通过输入淋巴管 afferent lymphatics 进入淋巴结。
+  - 淋巴液最后经输出淋巴管 efferent lymphatics 离开淋巴结。
+- 淋巴结中不同免疫细胞并不是随机分布：
+  - T cell zone：又称 paracortex。富集 T cells 和 dendritic cells。是 naive T cells 被 DC 激活的主要区域。
+  - B cell zone：主要是 B cell follicles。B cell 相关反应在之后课程中讨论。
+- 趋化因子引导 T cells 和 DCs 进入 T cell zone，淋巴结中的 stromal cells 会产生趋化因子，尤其是：CCL19、CCL21，这些趋化因子可以吸引表达相应受体的 T cells 和 activated DCs，使它们在 T cell zone 中富集。
+- 外周感染部位的抗原、病原体碎片以及携带抗原的 dendritic cells 通过 afferent lymphatics 进入引流淋巴结。进入淋巴结的 pathogens 或 antigen 可以被 lymphoid tissue 中的 macrophages 和 dendritic cells 捕获、吞噬和处理；migrating dendritic cells 会把外周组织中捕获到的 antigen 带到淋巴结的 T cell zone，在那里与从血液进入淋巴结的 naive T cells 相遇
+
+![](153.png)
+
+![](154.png)
+
+Dendritic cells and lymphocytes are recruited into lymph nodes by chemokines
+- 淋巴结中的 stromal cells 和 high endothelial venules, HEVs（高内皮微静脉，是 naive lymphocytes 从血液进入 lymph node 的重要通道） 可以分泌 CCL21。
+- Dendritic cells 表达能够识别 CCL21 的受体，因此可以沿着 CCL21 的趋化信号迁移进入 developing lymph node。
+- Dendritic cells 进入 lymph node 后，可以分泌 CCL19，而 CCL19 会吸引 T cells 进入 developing lymph node。
+- B cells 最初也可以被相同的 chemokines 吸引进入 developing lymph node，但是进入 lymph node 之后，B cells 不会一直和 T cells 混在一起，而是会逐渐聚集到 B-cell follicle 区域。
+- CXCL13：帮助形成 B-cell follicle， B cells 可以诱导 follicular dendritic cells, FDCs 的分化；FDCs 随后分泌 CXCL13，进一步吸引更多 B cells。
+CCL21 与 CXCL13 的分工
+
+T cells are retained and activated in lymph nodes
+- 成熟 naive T cells 从血液通过HEVs 进入淋巴结 cortex / T cell zone，在这里寻找是否有 dendritic cells 呈递其 TCR 能识别的特异性抗原；如果没有遇到对应抗原，T cells 会继续巡逻，并经 cortical sinuses离开淋巴结，回到循环中；如果 T cell 识别到 dendritic cell 呈递的 antigen，它会暂时被 retained / trapped 在淋巴结中，失去快速离开的能力，并在此完成 activation、proliferation 和 differentiation；等分化为 effector T cells 后，它们重新获得离开淋巴结的能力，进入淋巴和血液循环，最终到达外周感染组织发挥效应功能。
+
+![](156.png)
+
+Activated T cells leave lymph nodes via a sphingosine 1-phosphate (S1P) gradient
+- 成熟 naive T cell 会不断在血液和二级淋巴器官之间循环：血液 -> HEV -> 淋巴结 T cell zone -> 如果没有遇到特异性抗原，则通过输出淋巴管离开 -> 回到血液循环 -> 进入下一个淋巴结继续巡逻
+- S1P, sphingosine-1-phosphate，是一种重要的小分子脂质趋化信号，血液和淋巴液中 S1P 浓度较高，淋巴结内部 S1P 浓度相对较低。因此，如果 T cell 能响应 S1P，它就倾向于离开淋巴结，进入淋巴/血液循环。
+- 抗原识别早期，T cell 对 S1P 信号的响应下降，因此留在淋巴结中；完成终末分化后，T cell 对 S1P 信号的响应恢复或上升，从而离开淋巴结。
+
+> - 当 T cell 被 dendritic cell 激活后，会上调 CD69，而 CD69 会抑制 S1PR1 的表面表达，使 T cell 暂时不能响应 S1P，因此被 retained 在淋巴结中完成 activation、proliferation 和 differentiation。等 T cell 分化为 effector T cell 后，CD69 下降、S1PR1 重新升高，细胞就再次获得响应 S1P gradient 的能力
+> - FTY720 可以理解为一种干扰 S1PR1 功能的药物，它会使 lymphocytes 不能正常响应 S1P 信号，因此被困在淋巴结内，减少进入外周组织的 T cells。
+
+Dendritic cells activate T cells via MHC-peptide–TCR signaling
+- 外周组织中的 DC 通过 PRRs 识别 MAMPs，DC 可以通过多种 receptor 识别外周感染中的 pathogen 或 pathogen-derived molecules。其中，TLR signaling会推动 DC 进入 activated / mature state。
+- TLR signaling 诱导 CCR7，并增强抗原处理
+  - DC 上调 CCR7。CCR7 是一个趋化因子受体，它使 DC 能够响应 lymphoid tissue 中的趋化信号，从外周组织迁移进入 lymph node。
+  - DC 增强对 pathogen-derived antigens 的处理能力。即开始抗原呈递
+- CCR7 引导 DC 通过 lymphatics 迁移到 lymph node，DC 在外周被激活后，会通过 CCR7 介导的趋化迁移进入 lymphoid tissues，尤其是 draining lymph node
+- Activated DC 上调 MHC molecules 和 co-stimulatory molecules，这个时候是同时提供了signal1和signal2
+- Activated DC 在 T-cell zone 中 prime naive T cells，使其进入 activation、proliferation 和 differentiation。
+> - Signal 1：抗原特异性信号
+> - Signal 2：共刺激信号
+> - Signal 3：分化指令信号
+
+MHC-peptide - TCR signaling: Immunological synapses
+- 从 peptide-MHC 识别到细胞内反应
+  - 如果是 MHC class II：通常由 CD4+ T cell 识别 & CD4 co-receptor 与 MHC II 结合。
+  - 如果是 MHC class I：通常由 CD8+ T cell 识别 & CD8 co-receptor 与 MHC I 结合。
+- immunological synapse：一个 DC 在外周组织捕获的通常不是单一抗原表位，而是一个病原体或病原体碎片。一个病原体可能包含数百到数千个潜在抗原表位。因此，一个 DC 表面可能同时呈递许多不同 peptide-MHC complexes。问题是：它如何在与某一个 T cell 结合时，只向该 T cell 传递与其 TCR 匹配的特定抗原信息？答案是：形成 immunological synapse。
+  - immunological synapse 是 T cell 与 antigen-presenting cell 之间形成的稳定细胞接触结构。
+  - cSMAC, central supramolecular activation cluster：中央区。富集 TCR、peptide-MHC、co-receptor 和信号分子。主要负责抗原特异性信号传递。
+  - pSMAC, peripheral supramolecular activation cluster：外周区。富集黏附分子，如 LFA-1/ICAM-1。主要负责稳定细胞接触，并形成边界屏障。
+
+![](158.png)
+
+Co-stimulatory signals for T cell differentiation
+
+![](159.png)
+
+Different subsets of CD4+ T cells
+- CD4⁺ T cells 在接受 peptide–MHC class II 刺激后，可以根据 APC / 炎症环境提供的 Signal 3 分化成不同 helper T cell subsets
+
+![](160.png)
+
+Cytokines control CD4+ T cell differentiation via specific transcription factors
+
+![](161.png)
+
+Innate immunity designates differentiation of CD4+ T cells
+- macrophage、NK cell、epithelial cell、mast cell、immature DC 等细胞通过 PRRs 感知不同类型的 PAMPs 或组织来源信号，然后这些信息会改变 DC 的成熟状态、共刺激分子表达和 cytokine profile, DC用不同 cytokines 提供 Signal 3，从而决定 naive CD4+ T cell 的分化方向
+
+Each subset of CD4+ T cells produces cytokine(s) to inhibit differentiation of other subsets
+
+![](162.png)
+
+> Leishmania major真正有效的清除方式需要 Th1 response，但是 BALB/c 小鼠天然更容易偏向 Th2 response，感染后产生较强的 IL-4，IL-4 会推动 Th2 分化并抑制 Th1 反应，所以未处理的小鼠虽然产生了免疫反应，但反应类型错误，不能有效清除寄生虫，最终死亡。下方实验中，给另一组 BALB/c 小鼠注射 anti-IL-4 antibody 阻断 IL-4 后，Th2 偏向被解除，小鼠转而形成更有效的 Th1 response，因此能够清除 Leishmania major 并长期存活。
+> 
+> ![](163.png)
+> 
+
+CD4+-dependent activation of CD8+ T cells
+- CD8+ T cells 的功能是杀死表达相应 MHC I-peptide 的靶细胞。树突状细胞也可以通过 MHC I 呈递抗原给 naive CD8+ T cell。如果仅凭 MHC I-peptide 与 CD8 TCR 结合就能触发杀伤，那么 DC 在激活 CD8 T cell 时理论上会被 CD8 T cell 反杀。这显然不合理。
+- naive CD8+ T cell 在淋巴结中被激活时，也需要完整三信号：
+  - Signal 1：TCR + MHC I-peptide。
+  - Signal 2：co-stimulation。对 CD8 来说，充分的共刺激往往依赖 CD4+ T cell 对 DC 的 licensing。
+  - Signal 3：cytokines，例如 IL-2 等
+- cross-presentation 使同一 DC 同时激活 CD4 和 CD8
+  1. MHC II pathway：外源性抗原被 DC 处理后由 MHC II 呈递给 CD4+ T cell。
+  2. MHC I pathway via cross-presentation：同一抗原的一部分进入 MHC I pathway，由 MHC I 呈递给 CD8+ T cell。
+  3. 因此，一个 DC 可以同时：用 MHC II 激活 CD4+ T cell；用 MHC I 激活 CD8+ T cell。
+- CD4 help 的作用，CD4+ T cell 被同一 DC 激活后，可以：
+  - 向 DC 提供帮助，使 DC 上调或增强 CD8 priming 所需的 co-stimulatory signals。
+  - 分泌 cytokines，如 IL-2，支持 CD8+ T cell 的最终激活和扩增。
+- naive CD8+ T cell 在淋巴结中只有 Signal 1 不会成为 fully cytotoxic effector cell。
+  - 只有在 Signal 1、Signal 2、Signal 3 均满足后，CD8+ T cell 才完成 priming、增殖和终末分化。这个机制保证：DC 可以安全地呈递 MHC I-peptide 给 CD8+ T cell。CD8+ T cell 不会在初始 priming 阶段立即杀死 DC。只有离开淋巴结成为 effector CD8+ T cell 后，才在外周组织执行杀伤。
+
+![](164.png)
+
+Activated effector T cells enter infection sites
+- 如果 T cell 被激活后一直留在淋巴结，它无法清除外周感染。被激活的 T cells 必须离开淋巴结，进入外周组织。
+- 路径可以概括为：淋巴结-> 输出淋巴管-> 胸导管-> 血液循环-> 外周感染组织
+- T cells 在局部引流淋巴结中被激活，但离开淋巴结后进入血液循环，因此它们不是只精确回到最初感染部位，而是可以全身播散。
+  - 有利于在全身范围内寻找感染灶。
+  - 也解释了为什么 T cell-mediated immunity 具有系统性影响。
+
+![](165.png)
+
+Effector T cells do not need co-stimulatory signals
+- 外周 effector T cell 主要依赖Signal 1，即 TCR 识别相应 peptide-MHC。效应 T 细胞在外周执行功能时，只要遇到相应 MHC-peptide，就能迅速发挥效应作用。
+
+Cellular polarization of effector T cells specifically target antigen-bearing target cells
+- CD8+ effector T cell 的三要素：MHC class I + pathogen-derived peptide + TCR/CD8 complex
+- CD8+ T cell 不能随意释放毒性颗粒，否则会误伤周围正常细胞。因此它的 cytotoxic granule release 必须高度定向。
+  - CD8+ T cell 与 target cell 形成 immunological synapse；
+  - TCR 和 MHC I-peptide 在 synapse 中富集；
+  - cytotoxic granules 被极化运输到 synapse；
+- CD8+ T cell 释放的主要效应分子：perforin（在靶细胞膜上形成孔洞）；granzymes（进入靶细胞后切割和激活 caspases，触发 apoptosis）
+> 进入胞质后，granzyme B 一方面可以切割 BID，生成截短形式 tBID，tBID 会作用于线粒体外膜，使线粒体释放 cytochrome c，从而启动线粒体凋亡通路；另一方面，granzyme B 也可以直接作用于 pro-caspase 3，使其变成活化的 caspase 3。活化的 caspase 3 会切割 ICAD，ICAD 原本是抑制 CAD, caspase-activated DNase 的分子；ICAD 被切开后，CAD 被释放并进入细胞核切割 DNA，造成 DNA fragmentation。
+
+Immunological memory of adaptive immunity
+- 说明 adaptive immunity 的免疫记忆可以长期维持，但不同成分的维持时间不同。疫苗接种后，机体不仅产生短期效应免疫反应，还会留下长期免疫记忆；其中抗体水平可以长期保持，而 T cell memory 会随时间逐渐衰减，但仍可维持多年。
+
+![](166.png)
+
+Memory T cells express high levels of IL-7R
+- T cell 被激活后，不是所有细胞都长期存在。
+- memory T cells 可以通过两条路径产生：
+  - 部分 T cells 在淋巴结中被激活后，较早进入 memory fate，随后进入血液循环并全身播散。
+  - 部分 effector T cells 到达外周感染部位后，清除病原体；其中少数细胞在局部留下，转化为组织局部的 memory-like cells。
+- IL-7 receptor 是 memory T cell 的重要标记，IL-7R high 的 T cells 更倾向于具有 memory potential；IL-7R low 的 T cells 更倾向于短寿命 effector fate。
+
+![](167.png)
+
+> 先用 LCMV 感染带有特异性 TCR 的小鼠，使其产生 primary CD8 response；感染后，一部分 CD8⁺ effector T cells 表达高水平 IL-7Rα，另一部分表达低水平 IL-7Rα。把这两群细胞分别分选出来，再分别转移到没有接触过抗原的 naive mice 中，并给这些受体小鼠再次进行 antigen challenge。只有接受 IL-7Rα^hi CD8 T cells 的小鼠，在二次抗原刺激后出现大量 antigen-specific CD8 T cells expansion；而接受 IL-7Rα^lo CD8 T cells 的小鼠几乎没有明显扩增。
+
+> 先用 LCMV 感染小鼠，让小鼠产生 LCMV-specific CD8 memory T cells；然后把这些已经形成的 memory CD8⁺ T cells 分别转移到两类受体小鼠中：一类体内有 CD4⁺ T cells；另一类是 MHC class II 缺失小鼠，无法正常维持 CD4⁺ T cells，所以相当于缺乏 CD4 T cell help。最后观察转移后的 CD8 memory T cells 能不能长期维持。结果显示，在 wild-type mouse 中，CD8 memory T cells 的数量基本保持稳定；但在缺乏 CD4⁺ T cells 的 MHCII⁻/⁻ mouse 中，CD8 memory T cells 随时间明显下降。这个结果说明：CD8⁺ T cell memory 的形成可以在感染后出现，但它的长期存活和维持需要 CD4⁺ T cells 提供帮助。
+
 # Adaptive immunity: B cells
 
 ### B-cell receptor (BCR)
