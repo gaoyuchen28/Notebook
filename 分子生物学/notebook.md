@@ -666,6 +666,275 @@ RNA聚合酶存在多种通道，允许 DNA、RNA 和核糖核苷酸（rNTPs）�
 真核生物RNA聚合酶不能直接识别基因的启动子区，需要一些被称为转录调控因子的辅助蛋白质按特定顺序结合于启动子上
 - 形成前起始复合物PIC
 
+Assembly of the pre-initiation complex in presence of mediator, nucleosome modifiers and remodelers, and transcriptional activators
 
+RNA聚合酶在维持转录忠实性中的作用
+- 在核苷酸选择中的作用
+  1. 碱基配对: 利用“**分子卡尺**”结构（Trigger loop，NTP选择器），通过识别碱基对的几何构象识别新来的NTP
+  2. 诱导契合: 没有NTP结合时，RNAP处于开放构象，在正确底物结合的诱导下，RNAP转向封闭构象，防止NTP自发从酶上释放，并使活性位点的氨基酸残基正确定位，形成有效的催化
+- 校对功能
+  1. 焦磷酸解:
+    1. NTP掺入后，会释放焦磷酸(PPi)
+    2. 正确掺入时，反应容易向前进行, 错误掺入时，逆反应(焦磷酸攻击新形成的磷酸二酯键)更容易发生
+    3. 这使错误核苷酸可能被“回退”移除，称为**动力学校对**
+  2. RNA聚合酶内在的RNA剪切活性: 
+    1. 暂停延伸
+    2. 通过回退(backtracking)使RNA的3'端脱离活性中心
+    3. RNA聚合酶的剪切活性（需要2个Mg 2+参与）可以剪切单个NTP，也可以剪切寡聚核苷酸片段
+    4. 重新对齐并继续转录
+- 整体而言忠实性没有DNA复制过程中那么精确，保证了转录过程中准确性和灵活性的平衡
+
+|  | RNA pol | DNA pol |
+|---|---|---|
+| Template | dsDNA | dsDNA |
+| Require primer | No | Yes |
+| Initiation | promoter | origin |
+| elongation | 40 nt/ sec | 900 bp/sec |
+| Exonuclease activity | No | Yes |
+| terminator | Synthesized RNA | Template DNA |
 
 ### 启动子的特征
+
+Transcription start site的位置特征
+- 第一位都是嘌呤：在原核中90%为嘌呤，A或G；真核生物的起始密码子均为AUG；原核生物的起始密码子有三种：AUG、GUG和UUG，绝大多数情况下是AUG
+- 通常在起始核苷酸的两侧为C 和T (i.e. CGTor CAT)
+
+*定义：启动子是一段位于结构基因5’端上游区的保守的DNA序列，能活化RNA聚合酶，使之与模板DNA 准确地相结合并具有转录起始的特异性*
+
+在启动子中寻在一些确定的保守motif
+
+对于原核生物（以大肠杆菌为例），与启动子的相互作用包括：
+1. 启动子区的识别
+2. 酶与启动子的结合
+3. σ因子的结合与解离
+  
+> 一些基因利用一条DNA作为模板进行转录，而其他基因利用另一条DNA链
+> - 启动子本身是非对称的
+
+##### 原核生物的启动子
+
+> 1975年，Pribnow和Schaller将RNA 聚合酶全酶与模板DNA结合后，用DNaseI降解DNA，得到41～44个核苷酸对的DNA片段
+> - 和聚合酶结合的区域被保护无法被讲解
+
+在被保护区内有一个由5个核苷酸组成的保守序列，是聚合酶结合位点，称为**Pribnow 区**，其中央大约位于起点上游10bp 处，所以又称为–10区
+
+-10区
+- 它和转录起始位点I一般相距5bp
+- 其保守序列为TATAAT，A.T较丰富，易于解链
+- 功能: 1) RNA pol紧密结合; 2) 形成开放启动复合体；3) 使RNA pol定向转录
+
+> 下降突变(downmutation): 把Pribnow区从TATAAT变成AATAAT
+> 上升突变(up mutation): 增加Pribnow区的共同序列，将乳糖操纵子的启动子中的TATGTT变成TATATT
+
+> 提纯被保护的片段后却发现，RNA聚合酶并不能重新结合或并不能选择正确的起始点
+> - 表明在保护区外可能还存在与RNA聚合酶对启动子的识别有关的序列
+
+从噬菌体的左、右启动子PL及PR 和SV40启动子的–35bp附近找到了另一段共同序列：TTGACA
+
+-35区
+- 其保守序列为TTGACA
+- 与-10序列相隔16-19bp
+- 功能: 1) 为RNA pol的识别位点；2) RNA Pol的核心酶只能起到和模板结合和催化的功能，并不能识别-35序列，只有**σ亚基**才能识别-35序列，为转录选择模板链。
+
+σ因子的不同部分回分别结合-10以及-35区的一些基序
+
+最佳距离：
+- 最佳距离大约是16～19 bp
+- 是因为RNA Pol本身的大小和空间结构有关
+
+Summary：
+1) 结构典型，都含有识别(R, -35)，结合(B, -10)和起始(I, transcription start site)三个位点;
+2) 序列保守，如-35序列，-10序列结构都十分保守,位置和距离都比较恒定;
+3) 直接和多聚酶相结合;
+4) 常和操纵子相邻;
+5) 都在其控制基因的5′端;
+6) 决定转录的启动和方向。
+
+##### 真核生物的启动子
+
+Pol II识别真核生物启动子
+
+1. 核心元件:
+   1. Hogness等发现类似Pribnow区的Hogness区，在转录起始点上游–25～–30bp处，保守序列为TATAAA，也称TATA区
+   2. 启始子(initiator，Inr)：转录起始位点附近
+
+2. 上游启动子元件（UPE）:
+   1. 在起始位点上游–70～–78 bp处还有另一段共同序列CCAAT，称为CAAT区（CAAT box）
+   2. GC box:–80～–110含有GCCACACCC或GGGCGGG序列。
+
+*上游启动子元件: 将TATA区上游的保守序列称为上游启动子元件或称上游激活序列（upstream activating sequence，UAS）*
+
+TATA区
+- 使转录**精确地**起始
+
+CAAT区和GC区
+- 主要控制**转录起始频率**
+
+> deletion而非mutation的实验
+
+*增强子(enhancer): 称这种能强化转录起始的序列为增强子或强化子（enhancer）*
+- 具有远距离效应：常在上游-200bp处, 但位置非常不确定
+- 无方向性：有的甚至可能在start point的下游
+- 可能通过影响染色质DNA－蛋白质结构或改变超螺旋的密度而改变模板的整体结构，从而使得RNA 聚合酶更容易与模板DNA相结合
+- 顺式调节
+- 无物种和基因的特异性
+- 具有组织的特异性
+- 有相位性: 其作用和DNA的构象有关
+- 有的增强子可以对外部信号产生反应
+
+Summary：
+1) 有多种元件：TATA框，GC框，CATT框，OCT等；
+2) 结构不恒定
+3) 它们的位置、序列、距离和方向都不完全相同
+4) 有的有远距离的调控元件存在，如增强子
+5) 这些元件常常起到控制转录效率和选择起始位点的作用
+6) 不直接和RNA pol结合。转录时先和其它转录激活因子结合，再和聚合酶结合
+
+### 原核生物与真核生物mRNA的比较
+
+![](34.png)
+
+*单顺反子mRNA (monocistronic mRNA):只编码一个蛋白质的mRNA*
+
+*多顺反子mRNA(polycistronic mRNA):编码多个蛋白质的mRNA。*
+
+##### 原核生物mRNA的特征
+
+半衰期短(3分钟)
+- 0分钟，开始转录->0.5分钟，核糖体开始翻译->1.5分钟，5’端开始降解->2.0分钟，RNA聚合酶在3’端开始终止->3.0分钟，降解继续，核糖体完成翻译
+- 主要原因是：转录和翻译是在同一个细胞空间里同步进行
+
+许多原核生物mRNA以多顺反子的形式存在
+- 原核细胞的mRNA(包括病毒)有时可以同时编码几个多肽
+
+原核生物mRNA的5’端无帽子结构，3’端没有或只有较短的多聚（A）结构
+- 原核生物起始密码子AUG上游有一被称为Ribosome Binding Site(RBS)或SD序列（Shine –Dalgarno sequence）的保守区，因为该序列与16S-rRNA 3’端反向互补，所以被认为在核糖体-mRNA的结合过程中起作用
+
+原核生物常以AUG（有时GUG，甚至UUG）作为起始密码子
+
+##### 真核生物mRNA的特征
+
+![](35.png)
+
+- 单顺反子形式存在
+- 5’端存在“帽子”结构
+- 绝大多数具有多聚(A)尾巴
+
+***"基因”的分子生物学定义：产生一条功能性多肽或RNA分子所必需的全部核苷酸序列！***
+
+半衰期：范围是4～24小时，在动物细胞中，mRNA的表达需转录、修饰、加工、核质转运和翻译
+
+![](36.png)
+
+**真核生物**RNA聚合酶C末端尾部在RNA的加工中具有重要的调控作用
+- RNA加工酶是由聚合酶的尾巴募集的（包括加帽，加polyA，splicing等）
+- 尾部磷酸化的RNA聚合酶II允许RNA加工蛋白聚集到其尾部
+  - RNA聚合酶C末端尾部是细菌的酶没有的
+  - 真核细胞中启动子逃离是由CTD尾巴的磷酸化状态调节的
+
+![](37.png)
+
+- 加帽蛋白首先结合到RNA聚合酶尾部，这一结合发生在转录起始过程后期、当七肽重复序列中的**Ser5**被磷酸化时
+  - 当转录出25bp左右后，RNA序列会在空间上和C tail比较近，进而酶可以直接发挥作用
+- 其尾部**Ser2**位点被广泛磷酸化，由此把剪接蛋白和3'端加工蛋白吸引到正在移动的聚合酶上，使它们处于合适位置，随时对新合成并刚从RNA聚合酶中伸出的RNA进行加工。
+- 当RNA聚合酶II完成一个基因的转录后，即从DNA上释放
+- 此时，可溶性磷酸酶会去除其尾部（CTD）上的磷酸基团，使其得以重新启动转录。只有处于完全去磷酸化状态的RNA聚合酶II，才具备在启动子处起始RNA合成的能力
+
+5’ Capping
+- 通过 5′→ 5′磷酸二酯键在原初mRNA的5’端倒扣一个“G”
+- 三个连续的酶促反应
+- 5′末端加上鸟苷是由鸟苷转移酶催化的
+- mRNA的帽子结构常常被甲基化
+- 分为很多不同种类的帽子
+
+1) 有助于mRNA前体的剪接，帽子结合复合物（CBC）参与剪接体的形成，促进第一个内含子的剪接；
+2) 有助于mRNA越过核膜，进入胞质
+3) 保护5′不被核酶降解
+4) 翻译时供IFⅢ（起始因子）和核糖体识别，是翻译所必需的
+  
+>
+> ![](38.png)
+>
+
+多聚(A)尾巴
+- 除组蛋白基因外，真核生物mRNA的3’末端都有多聚(A)序列，其长度为40-200个左右
+- 由多聚(A)聚合酶催化的
+- 它是在转录后加上的
+- Poly(A)被特异的蛋白质PABP结合
+- 在高等生物中(酵母除外)在poly(A)上游11-30nt处有
+- 特殊序列AAUAAA(上游)，GU rich(下游，先切掉再加尾)这一序列是高度保守的，对于初级转录产物的准确切割及加多聚(A)是必需的
+> 1. CPSF (cleavage andpolyadenylation specificity factor切割和聚腺苷酸环化特异性因子) & CstF (cleavage stimulation factor切割刺激因子) bind to the poly-A signal, leading to the RNA cleavage.
+> 2. Poly-A polymerase (PAP) adds ~ 200 As at the 3’ end ofthe RNA, using ATP as a substrate.
+
+1) 是mRNA由细胞核进入细胞质所必需的形式
+2) 它大大提高了mRNA在细胞质中的稳定性：mRNA刚从细胞核进入细胞质时，其多聚(A)尾巴一般比较长，随着mRNA在细胞质内逗留时间延长，多聚(A)逐渐变短消失，mRNA进入降解过程
+3) 它可促进核糖体的有效循环
+4) 在实验中方便分离mRNA，但对于没有polyA尾巴和环化RNA没有用
+
+尽管大部分真核mRNA有poly (A)尾巴，细胞中仍有多大1/3没有poly (A)的mRNA，将其称为Poly (A) –约1/3的Poly (A)– mRNA编码了不同形式的组蛋白
+
+内含子的剪接、编辑及化学修饰
+- 真核基因大多是断裂的：由多个内含子和外显子间隔排列而成，内含子在真核基因中所占的比例很高
+- *Exons (外显子): the coding sequences*
+- *Introns (内含子) : the intervening sequences*
+- 真核基因平均含有8-10个内含子，前体分子一般比成熟mRNA大4-10倍
+
+剪接 (Splicing)
+- *RNA splicing: removal of introns and joining of exons.*
+- spliceosome: 由RNA和蛋白质组成
+- 内含子剪接异常引起疾病
+
+![](39.png)
+
+GU-AG法则
+- 内含子的两个末端并不存在同源或互补(5'GU-3'AG)
+- 连接点具有很短的保守序列,亦称边界序列，左边的剪接位点称供体(donor)位点，右边的剪接位点称受体(acceptor)位点
+- 中间还有一个branch site A(具有分枝点序列，位于内含子3’端上游18-50nt处)，具有2’-OH
+- 内含子5′端有一保守序列(5′GUAAGUA3’)可以和U1 snRNA的5’端的保守序列3’CAUUUCAU5’互补
+- GU-AG法则（GU-AG rule）不适用于线粒体、叶绿体的内含子，也不适用于酵母的tRNA基因 
+
+核mRNA的剪接
+- 转录产生的核内mRNA前体分子与蛋白质结合，形成RNA和蛋白质组成的snRNP复合物
+- 随着RNA链的延伸，每个内含子5’和3’两端的复合物成对联结，产生60S的颗粒—剪接体（spliceosome），进行RNA前体分子的剪接
+
+> - 细胞核中的小分子RNA称为细胞核小RNA（smallnuclear RNA, snRNA）
+> - 位于细胞质中的称为细胞质小RNA (small cytoplasmicRNA, scRNA)
+> - 在自然状态下，它们以核糖核蛋白颗粒（SnRNP和scRNP）的形式存在，俗称snurps和scyrps
+> - 在核仁中也存在着一类小的RNA，称为核仁小RNA(small nucleolar RNA, snoRNA),它们在rRNA的加工中起作用
+> - snRNA参与剪接过程，并与其它蛋白一起构成一个大的颗粒复合体,称为剪接体(splicesome)
+
+Spliceosome (剪接体)
+- Recognizing the 5’ splice site and the branch site
+- Bringing those sites together
+- Catalyzing (or helping to catalyze) the RNA cleavage
+
+- The lariat (套索) is an intermediate in RNA splicing in which a circular structure with a tail is created by a 5 ’ -2 ’ bond.
+- The branch site (分支点) is a short sequence just before the end of an intron at which the lariat intermediate is formed in splicing by joining the 5’ nucleotide of the intron to the 2 ’ position of an Adenosine.
+  
+真核生物mRNA前体中内含子剪接过程
+- 一共需要两个cut
+- 由U1 snRNA以碱基互补的方式识别mRNA前体5’剪接点，由结合在3’剪接点上游富嘧啶区的U2AF（U2 auxiliary factor）识别3’剪接点并引导U2 snRNP与分支点相结合，形成**剪接前体（pre-spliceosome）**
+- 剪接前体进一步与U4、U5、U6 snRNP三聚体相结合，形成剪接体。
+
+![](40.png)
+
+![](41.png)
+
+- 哺乳动物细胞中mRNA前体上的snRNP是从5’向下游“扫描”，选择在分支点**富嘧啶区3’下游的第一个AG**作为剪接的3’受点
+- AG前一位核苷酸可以影响剪接效率，一般说来，CAG=UAG>AAG>GAG
+- 如果mRNA前体上同时存在几个AG，可能发生剪接竞争
+
+![](42.png)
+
+内含子的变位剪接（可变剪接）Alternative Splicing
+- *Alternative splicing (可变剪接): some pre-mRNAs can be spliced in more than one way, generating alternative mRNAs.*
+
+> α-原肌球蛋白基因可以以不同方式剪接
+> - 产生不同肌蛋白类型
+
+![](43.png)
+
+可变剪接受激活因子和抑制因子调控
+
+![](44.png)
+
