@@ -938,3 +938,263 @@ Spliceosome (剪接体)
 
 ![](44.png)
 
+Self-splicing introns -I、II类内含子
+- 带有这些内含子的RNA本身具有催化活性，能进行内含子的自我剪接。
+- *Autosplicing (Self-splicing,自我剪接) describes the ability of an intron to excise itself from an RNA by a catalytic action that depends only on the sequence of RNA in the intron.*
+- I 类内含子(group I intron)的结构特点
+  1. 其边界序列为5’U-G 3’
+  2. 中部核心结构，可以发挥酶的催化结构(Central core structure: contains a guanine binding pocket and internal guide sequence)
+  3. 低等生物常见的细胞器，比如四膜虫
+  4. 自我剪接过程，两次的自由3'-OH作为亲核基团攻击磷酸二酯键
+   
+    ![](45.png)
+
+  5. 可以转变为真正的核酶: 1)具有保守的二级结构，可以容纳鸟苷或者鸟苷酸; 2)有内在指导序列，与5’剪接位点的序列配对，确定鸟苷的攻击位置
+- Ⅱ类内含子(group II intron)
+  1. 分布在较多的线粒体DNA中
+  2. 剪接无需鸟苷的辅助，但需要镁离子的存在
+  3. 自我剪接过程: 分枝点腺苷酸的2’-OH作为亲核基团攻击5‘磷酸二酯键，剪切下来的也是一个套索结构，和mRNA非常相似
+   
+    ![](46.png)
+
+| 比较项目 | 酵母 tRNA | I 类内含子 | II 类内含子 | 核 mRNA 前体 |
+| --- | --- | --- | --- | --- |
+| 边界顺序 | 无 | 5′ U↓-G↓ 3′ | 5′ ↓GU-AG↓ 3′ | 5′ ↓GU-AG↓ 3′ |
+| 特殊顺序 | C 茎上—G（环上） | 内部引导顺序 | 分支点序列 | 分支点序列 |
+| 二级结构 | 茎环构象 | 核心结构 | 5、6 功能区 | 连接体 |
+| 基因外的成分 | 内切酶，连接酶 | 自由鸟苷，镁离子 | 镁离子 | U1、U2、U4、U5、U6 |
+| 能量要求 | ATP | 不 | 不 | ATP |
+| 中间型分子 | 半分子 tRNA | 环状 L-19 IVS | 套索 | 套索 |
+  
+三类剪接反应都是通过两次连续的转酯反应进行的
+- 第一次转酯反应中，由一个游离的2’-羟基提供，发动对5’外显子-内含子连接点的攻击
+- 第二次转酯反应中，已经释放的外显子末端的游离3’-羟基接着攻击3’内含子-外显子的连接点。
+  
+tRNA由较长的前体加工而来
+1. tRNA的切割和连接是独立的反应, 内含子的剪接由tRNA内切核酸酶和RNA连接酶完成
+2. 3’端添加CCA是在tRNA核苷酸转移酶的催化下进行的
+3. 有较多的核苷酸修饰
+
+rRNA的产生需要切割反应
+- 大小rRNA都通过从**共同的RNA前体**切割下来而释放的
+- 5‘端核酶切割产生，而3’端切割后会再进行一些3’-5’修整反应
+
+
+*编辑（editing）是指转录后的RNA在编码区发生碱基的加入，丢失或转换等现象。*
+- RNA的编辑(RNA editing)是某些RNA，特别是mRNA的一种加工方式，可以在RNA转录后改变其序列，导致了DNA所编码的遗传信息的改变
+
+RNA的编辑(RNA editing)
+- 位点特异性脱氨基作用(酶促碱基修饰）
+- 引导RNA指导的尿嘧啶插入或删除
+- A-to-I; C-to-U; 插入/删除编辑; 碱基修饰编辑
+- C-to-U: by the deaminase
+- A-to-I: 由ADAR（Adenosine Deaminase Acting on RNA）酶家族催化
+- 尿苷酸的缺失和添加: 
+  - 在guide RNA的指导之下: 和mRNA分子被编辑的部分发生非常规的互补，G-U配对
+  - gRNA: anchor区，引导到编辑区域；editing region区，决定U具体插入到哪里；poly-U stretch区
+
+> 哺乳动物载脂蛋白基因转录产物的编辑
+> - 在小肠中，通过C-to-U的突变产生终止密码子提前，得到更短的ApoB，参与运输饮食中的脂肪到各组织中
+> - 长的载脂蛋白在肝脏中参与内源合成的胆固醇和甘油三酯的转运
+>
+> ![](47.png)
+>
+
+RNA编辑的生物学意义
+- 校正作用
+- 调控翻译: 通过编辑可以构建或去除起始密码子和终止密码子
+- 扩充遗传信息
+
+![](48.png)
+
+RNA由细胞核内的工厂生产
+- RNA聚合酶与RNA加工蛋白形成松散的分子聚集体，称为细胞内凝聚物（intracellular cellular condensates），可作为合成RNA的“工厂”
+- rRNA: 生产的RNA占细胞总RNA的80%以上，核仁是rRNA加工的巨大工厂
+- mRNA、tRNA、snRNA的加工在核仁之外的地方，核仁外 2000–3000 个固定点，直径约 50–100 nm
+
+一组特殊的RNA结合蛋白标示mRNA已成熟,可以运送到细胞质中--外显子连接复合物
+- 出核之后所有的蛋白离开重新回到核内
+
+mRNA Transport
+
+mRNA分子最终被细胞降解
+- mRNA分子的寿命有明显的差异---取决于mRNA的核苷酸序列（3’UTR）以及产生该种mRNA的细胞类型
+- mRNA的不同寿命协助细胞决定每种蛋白质的合成水平
+  - 合成水平较高的蛋白质是由较长寿命的mRNA翻译而来的
+  - 低水平表达的蛋白质或其表达水平随信号而快速改变的蛋白质，往往是由寿命较短的mRNA合成的
+
+```mermaid
+flowchart TB
+    A["pre-mRNA<br/>mRNA 前体"]
+
+    subgraph PROCESS["RNA Processing · RNA 加工"]
+        direction LR
+        B["5′ Capping<br/>5′ 端加帽"]
+        C["RNA Splicing<br/>RNA 剪接"]
+        D["3′ Polyadenylation<br/>3′ 端加 Poly(A) 尾"]
+    end
+
+    E["Mature mRNA<br/>5′ UTR · ORF · 3′ UTR"]
+    F["Nuclear Export<br/>核输出"]
+    G["Translation<br/>蛋白质翻译"]
+
+    A --> B
+    A --> C
+    A --> D
+
+    B --> E
+    C --> E
+    D --> E
+
+    E --> F --> G
+
+    classDef main fill:#FFFFFF,stroke:#64748B,color:#1E293B,stroke-width:1.5px
+    classDef step fill:#EAF3F8,stroke:#90B9CE,color:#254D65,stroke-width:1px
+    classDef result fill:#EAF5EF,stroke:#80B49B,color:#205C43,stroke-width:1.5px
+
+    class A main
+    class B,C,D step
+    class E,F,G result
+
+    style PROCESS fill:#FAFCFD,stroke:#CBD5E1,stroke-dasharray:4 4,color:#64748B
+
+    linkStyle default stroke:#94A3B8,stroke-width:1.2px
+```
+
+核酶（ribozyme）
+- 核酶是指一类具有催化功能的RNA分子，通过催化靶位点RNA链中磷酸二酯键的断裂，特异性地剪切底物RNA分子，从而阻断基因的表达。
+- 其催化能力与其特定的一些结构紧密相关，比如核酶的锤头结构，三个茎环区，其间有一个11-13个保守核苷酸构成的催
+化中心，同时也可以进行自我切割
+- 核酶的分类
+  1. 剪切型核酶，只剪但不接
+  2. 剪接型核酶，又剪又接
+- 核酶的生物学意义
+  - 继逆转录现象之后对中心法则的又一个重要添加，说明RNA既是遗传物质又是酶
+  - 核酶的发现为生命起源的研究提供了新思路，也许曾经存在以RNA为基础的原始生命。照这么说，蛋白质世界也可能（仅仅是可能）起源于RNA世界
+
+## 从mRNA到蛋白质
+
+蛋白质是生物信息通路上的终产物，一个活细胞的任何发育阶段都需要数千种不同的蛋白质，活细胞内时刻进行着各种蛋白质的合成、修饰以及降解反应。
+
+*翻译：将mRNA链上的核苷酸从一个特定的起始位点开始，按每三个核苷酸代表一个氨基酸的原则，依次合成一条多肽链的过程*
+
+蛋白质的生物合成
+- 场所：核糖体
+- 模板：mRNA
+- tRNA是模版与氨基酸之间的接合体
+- 蛋白质合成需要多种蛋白质，酶和其他生物大分子
+- 非常耗能，能量消耗大概占80-90% of the cell’s energy
+
+编码蛋白质的RNA的比例非常低
+
+遗传密码——三联子
+- 贮存在DNA上的遗传信息通过mRNA传递到蛋白质上，mRNA与蛋白质之间的联系是通过遗传密码的破译来实现的
+- *遗传密码：mRNA上每3个核苷酸翻译成多肽链上的一个氨基酸，这3个核苷酸称为一个密码子（三联子密码）。*
+
+**Codon** is a triplet of nucleotides that represents an amino acid or a termination signal.Genetic code is the correspondence between triplets in DNA (or RNA) and amino acids in protein.
+
+**Initiation codon** is a special codon (usually AUG) used to start synthesis of a protein.
+
+**ORF** is an open reading frame; presumed likely to code for a protein.
+
+**Reading frame** is one of three possible ways of reading a nucleotide sequence as a series of triplets.
+
+**Termination codon** is one of three (UAG, UAA, UGA) that causes protein synthesis to terminat
+
+- start codon：AUG
+
+一个RNA分子可以以三种可能的阅读框进行翻译，但是实际上只有一种阅读框编码实际信息
+
+三联子密码及其破译
+- 为什么是三联体？
+  - 如果1个碱基编码1个氨基酸 → 只有4种可能，不够
+  - 如果2个碱基编码1个氨基酸 → 4²=16种，仍不够
+  - 如果3个碱基编码1个氨基酸 → 4³=64种，足够
+- Gamow提出Diamond Code，认为密码子是重叠的，后续通过移码突变发现并非
+
+> 用核苷酸的插入或删除实验证明mRNA模板上每三个核苷酸组成一个密码子。
+> - 当插入1个或者2个氨基酸的时候，蛋白质的功能都发生改变/不能正常表达
+> - 插入三个之后有时候就仍会出现有功能的蛋白质
+
+- 制备E.coli无细胞合成体系
+
+> - 细胞裂解，添加DNA酶防止新的DNA的生成
+> - Add homopolymeric synthetic mRNAs [poly(U)] + 19 cold (non-labeled) and one labeled aminoacids
+> - 多核苷酸磷酸化酶: 在没有模版的情况下将核苷酸连接起来
+> - 无细胞体系中Mg2+的浓度很高: 不需要起始密码子就能指导多肽的生物合成
+
+- 核糖体结合技术: 诱捕核苷酸
+
+> - 以人工合成的三核苷酸如UUU、UCU、UGU等为模板，在含核糖体、同位素标记的AA-tRNA的适当离子强度的反应液中保温后通过硝酸纤维素滤膜。
+> - 游离的AA-tRNA因相对分子质量小能自由过膜，与14C标记模板对应的AA-tRNA能与核糖体结合，体积超过膜上的微孔17 而被滞留。
+>
+> ![](49.png)
+>
+
+遗传密码的性质
+1. 密码的连续性(commaless)
+  - 三个核苷酸编码一个氨基酸
+  - 三联体是不重叠的和连续的
+2. 密码的简并性(degeneracy)
+  - 4种核苷酸可组成64个密码子: 61个是编码氨基酸的密码子；3个即UAA、UGA和UAG是终止密码子
+  - *由一种以上密码子编码同一个氨基酸的现象称为简并（degeneracy）*
+  - *同义密码子(synonymous codon)：对应于同一氨基酸的密码子*
+  - 第三个氨基酸的简并性，突变、颠换第三位氨基酸造成的不一样最少
+  - 但第一位都会有明显的影响
+  > - AUG→甲硫氨酸及起始密码子
+  > - GUG→缬氨酸及起始密码子
+  > - UAA→终止密码子(Ochre 赭石)
+  > - UAG→终止密码子(Amber 琥珀)
+  > - UGA→终止密码子(Opal 欧泊)
+3. 密码的普遍性(universality)
+  - 生物界基本共用同一套遗传密码。
+4. 密码的特殊性(specificity)
+  
+  ![](50.png)
+
+5. 密码子与反密码子的相互作用 
+  - tRNA的反密码子在核糖体内是通过碱基的反向配对(3'&5')与mRNA上的密码子相互作用的。
+  - Wobble hypothesis: 前两对严格遵守碱基配对原则，第三对碱基有一定的自由度，可以“摆动”，因而使某些tRNA可以识别1个以上的密码子
+  - **一个tRNA究竟能识别多少个密码子是由反密码子的第一位碱基的性质决定的**
+
+### tRNA
+- 为每个三联密码子翻译成氨基酸提供了接合体
+- 为准确无误地将所需氨基酸运送到核糖体上提供了运送载体->第二遗传密码
+
+tRNA一级结构(primary structure)
+- 长度: 60-95 nt (commonly 76)
+- 残基: 15 个invariant (恒定) 和 8个 semi-invariant (半恒定). invariant 和 semi-variant 核苷的位置在二级结构和三级结构中起着重要的作用。
+- 含有修饰碱基(Modified bases): 有时一个tRNA分子的 20% 的碱基是经过修饰的，四种碱基都可以被修饰
+
+tRNA二级结构(secondary structure)
+- 不同tRNA在结构上存在大量的共性，由小片段碱基互补配对形成三叶草形分子结构：4条手臂和三个环
+- 受体臂（acceptor arm）由链两端序列配对形成的杆状结构和3’端未配对的3～4个碱基所组成。
+  - 其3’ 端的最后3个碱基序列永远是CCA，最后一个碱基的3’或2’自由羟基(-OH)可以被氨酰化（携带氨基酸）
+- D-arm and D-loop：D臂中存在多至3个可变核苷酸位点
+- Anticodon loop：由5 bp的臂和7个核苷的环组成。在环中有与密码子互补的由3个核苷组成的反密码子
+- Variable arm and T-arm：根据3个核苷酸命名的，其中ψ表示拟尿嘧啶；由5bp臂和含有GTΨC的环组成。
+- Extra arm：是由3到21个核苷组成，可能会形成多达7bp的臂。
+
+![](51.png)
+
+tRNA的L-形三级结构
+
+![](52.png)
+
+- tRNA三级结构主要由在二级结构中未配对碱基间形成的9个氢键而引发的。
+- 大部分恒定或半恒定核苷酸都参与氢键的形成。
+
+tRNA的功能
+- 只有tRNA上的反密码子能与mRNA上的密码子相互识别并配对
+- 氨基酸本身不能识别密码子，只有结合到tRNA上生成AA-tRNA,才能被带到mRNA-核糖体复合物上,插入到正在合成的多肽链的适当位置上。
+
+tRNA的种类
+- 起始tRNA和延伸tRNA
+  - *起始tRNA: 能特异性识别mRNA模板上起始密码子的tRNA*;
+  - *延伸tRNA:其他tRNA统称为延伸tRNA*
+  - 真核生物起始tRNA携带甲硫氨酸(Met)，
+  - 原核生物起始tRNA携带甲酰甲硫氨酸(fMet)，所以要先被甲酰化
+- 同工tRNA
+  - 同工tRNA：代表相同氨基酸的不同tRNA
+- 校正tRNA
+  - 校正tRNA通过改变反密码子区校正无义突变和错义突变，即校正 tRNA 通过改变反密码子，识别原本错误的密码子（终止密码子、错义密码子或移码位点），并插入合适氨基酸，从而在翻译水平上部分纠正基因突变的影响
