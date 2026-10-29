@@ -1582,15 +1582,76 @@ SRP
 ![](73.png)
 
 去泛素化
-- 酶DUBs
 
-1. 通过蛋白酶体的泛素化修饰降解
-2. 溶酶体自噬
+去泛素化酶（DUBs）是一类蛋白酶（proteases），具有以下功能：
+1. 加工泛素或泛素样蛋白（Ubiquitin-like proteins）：对泛素或泛素样基因产物进行蛋白水解加工，使其成熟。
+2. 逆转蛋白质的泛素化修饰：移除连接在靶蛋白上的单个泛素或泛素样蛋白，从而逆转相应修饰。
+3. 重塑多聚泛素链（Polyubiquitin chains）：对靶蛋白上的多聚泛素链或泛素样蛋白链进行剪切和重塑，改变其结构。
+  
+| 家族 | 英文名称 | 缩写 |
+|---|---|---|
+| 泛素 C 末端水解酶 | Ubiquitin C-terminal hydrolases | UCHs |
+| 泛素特异性蛋白酶 | Ubiquitin-specific proteases | USPs |
+| 卵巢肿瘤蛋白酶 | Ovarian tumor proteases | OTUs |
+| 马查多–约瑟夫病蛋白酶 | Machado–Joseph disease proteases | MJD |
+| JAB1/MPN/MOV34 金属酶 | JAB1/MPN/MOV34 metalloenzymes | JAMMs |
+
+- UCH、USP、OTU、MJD：半胱氨酸蛋白酶（Cysteine proteases）。
+- JAMM：金属蛋白酶（Metalloproteases），通常依赖 Zn²⁺ 催化。
+
+泛素（Ubiquitin, Ub）含有 7 个 Lys 位点（K6、K11、K27、K29、K33、K48、K63）以及 N 端 Met1（M1），可以形成不同连接类型的多聚泛素链。
+- 不同的泛素链连接方式（Ubiquitin chain linkages）决定不同的细胞命运和生物学功能。
+
+主要泛素化类型的功能区别
+- K48-linked polyubiquitination
+  - 经典的蛋白质降解信号。
+  - 引导靶蛋白进入 26S 蛋白酶体降解。
+- K63-linked polyubiquitination
+  - 主要参与非降解性调控。
+  - 参与信号转导、DNA 修复、膜蛋白运输及内吞等过程。
+- Monoubiquitination
+  - 在靶蛋白上连接单个泛素。
+  - 主要参与内吞、膜蛋白运输、组蛋白修饰和转录调控等。
+
+泛素化广泛参与细胞生命活动，包括：
+- 蛋白质降解与蛋白质稳态维持
+- 细胞周期与细胞分裂
+- DNA 转录、修复及染色质调控
+- 细胞信号转导与受体内吞
+- 细胞凋亡（Apoptosis）
+- 免疫应答与炎症反应
+- 细胞分化与发育
+- 应激反应（Stress response）
+- 病毒感染及宿主防御
+
+降解存在两种pathway:
+1. 通过蛋白酶体的泛素化修饰降解80-90%
+  1. 泛素标记（Conjugation）
+     - 在 E1、E2、E3 酶的参与下，将多个泛素分子共价连接到靶蛋白上。
+     - 经典的降解信号是 K48-linked polyubiquitin chain。
+  2. 蛋白质降解（Degradation）
+     - 被多聚泛素链标记的蛋白质由 26S 蛋白酶体识别并降解。
+     - 靶蛋白被水解为短肽，而泛素通常被回收利用。
+2. 溶酶体自噬10-20%
 
 蛋白酶体：超级大复合物，总共26S
 - 20S的core主要降解
-- 盖子：19S regulatory particle
+- 19S 调节颗粒：主要负责识别、去泛素化和解折叠
 - 4个泛素化标签才可以
+
+1. 底物识别（Substrate recognition）
+   - 经典情况下，至少 4 个泛素分子构成的多聚泛素链可以形成有效的蛋白酶体识别信号。
+   - 多聚泛素化的底物可以通过两种方式结合蛋白酶体： 直接结合 19S 调节颗粒中的泛素受体（Ub receptors）；通过接头蛋白（Adaptor proteins）间接结合蛋白酶体。
+2. 去泛素化（Deubiquitination）
+   - 19S 调节颗粒中的 DUBs 移除底物上的泛素链。
+   - 泛素分子被释放并循环利用。
+3. 解折叠与转运（Unfolding and translocation）
+   - 19S 中的 Rpt ATPase 利用 ATP 水解提供能量。
+   - 将靶蛋白解折叠，并转运进入 20S 核心颗粒。
+4. 蛋白质水解（Proteolysis）
+   - 靶蛋白在 20S 核心颗粒的 β 环催化位点被水解为短肽。
+   - 短肽释放后可进一步被其他肽酶降解。
+
 > p53
 >
 > ![](74.png)
@@ -1612,7 +1673,7 @@ SRP
 - NEDD8局部浓度高于泛素之后，可能会继续用泛素相关分子来引导通路
 - 一种可逆的修饰过程，分别在类泛素化E3链接酶和去Neddylation酶的作用下完成
 
-(figure)
+![](99.png)
 
 - Neddylation最初被发现认为的功能就是激活泛素E3的活性
 - 并不是会让蛋白质降解，而是作为一种活化信号
@@ -1623,9 +1684,7 @@ SRP
 
 成熟蛋白N端第一个氨基酸在蛋白质的降解中有举足轻重的影响：
 - 当某个蛋白质的N端是甘氨酸，丙氨酸，丝氨酸，苏氨酸，缬氨酸，较稳定
-- 
-
-（补充ppt）
+- 其N端为赖氨酸、精氨酸时，表现最不稳定，平均2-3分钟就被降解了
 
 # 分子生物学技术
 
